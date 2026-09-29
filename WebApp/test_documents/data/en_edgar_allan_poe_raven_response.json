@@ -1,0 +1,552 @@
+{
+  "document_id": "453e4561-181b-2213-a456-426624174002",
+  "words": [
+    {
+      "paragraph_id": "653e4561-181b-2213-a356-426614174013",
+      "index": 10,
+      "content": "door",
+      "sentence_blanked": "Ever yet was blessed with seeing bird above his chamber <<BLANK>>.",
+      "sentence_index": 1,
+      "predictions": [
+        {
+          "word": "window",
+          "probability": -0.9362444281578064
+        },
+        {
+          "word": "tower",
+          "probability": -1.1698812246322632
+        },
+        {
+          "word": "",
+          "probability": -1.2008730173110962
+        },
+        {
+          "word": "ceiling",
+          "probability": -1.2576165199279785
+        },
+        {
+          "word": "door",
+          "probability": -1.377883791923523
+        },
+        {
+          "word": "floor",
+          "probability": -1.461065649986267
+        },
+        {
+          "word": "once",
+          "probability": -1.469530463218689
+        },
+        {
+          "word": "wall",
+          "probability": -1.474156379699707
+        },
+        {
+          "word": "s",
+          "probability": -1.6010265350341797
+        },
+        {
+          "word": "wings",
+          "probability": -1.612389326095581
+        },
+        {
+          "word": ".",
+          "probability": -1.6194566488265991
+        },
+        {
+          "word": "roof",
+          "probability": -1.6799538135528564
+        },
+        {
+          "word": "windows",
+          "probability": -1.6848077774047852
+        },
+        {
+          "word": "chambers",
+          "probability": -1.6864423751831055
+        },
+        {
+          "word": "doors",
+          "probability": -1.710770606994629
+        },
+        {
+          "word": "ceilings",
+          "probability": -1.7134225368499756
+        },
+        {
+          "word": "wing",
+          "probability": -1.7143728733062744
+        },
+        {
+          "word": "s earlier",
+          "probability": -1.7290024757385254
+        },
+        {
+          "word": "sky",
+          "probability": -1.7328490018844604
+        },
+        {
+          "word": "s once",
+          "probability": -1.7399276494979858
+        },
+        {
+          "word": "chamber",
+          "probability": -1.745975375175476
+        },
+        {
+          "word": "bed",
+          "probability": -1.7570551633834839
+        },
+        {
+          "word": "table",
+          "probability": -1.7810735702514648
+        },
+        {
+          "word": "s wheneverever",
+          "probability": -1.7882927656173706
+        },
+        {
+          "word": "again",
+          "probability": -1.790673851966858
+        },
+        {
+          "word": "walls",
+          "probability": -1.7908028364181519
+        },
+        {
+          "word": "wheneverever",
+          "probability": -1.7961941957473755
+        },
+        {
+          "word": "s tower",
+          "probability": -1.8136556148529053
+        },
+        {
+          "word": "shelf",
+          "probability": -1.8204642534255981
+        },
+        {
+          "word": "heaven",
+          "probability": -1.8274258375167847
+        },
+        {
+          "word": "s chambers",
+          "probability": -1.8409829139709473
+        },
+        {
+          "word": "s.",
+          "probability": -1.8627243041992188
+        },
+        {
+          "word": "shrine",
+          "probability": -1.870544195175171
+        },
+        {
+          "word": "floors",
+          "probability": -1.8789727687835693
+        },
+        {
+          "word": "s whenevereverever",
+          "probability": -1.9009332656860352
+        },
+        {
+          "word": "rising",
+          "probability": -1.9152898788452148
+        },
+        {
+          "word": "s ceiling",
+          "probability": -1.9206966161727905
+        },
+        {
+          "word": "whenevereverever",
+          "probability": -1.9215490818023682
+        },
+        {
+          "word": "s wings",
+          "probability": -1.9269357919692993
+        },
+        {
+          "word": "garden",
+          "probability": -1.9419145584106445
+        },
+        {
+          "word": "s rising",
+          "probability": -1.9523460865020752
+        }
+      ],
+      "category": "unigrams_NOUN",
+      "additional_info": ""
+    },
+    {
+      "paragraph_id": "753e4561-181b-2213-a456-426614174014",
+      "index": 9,
+      "content": "chamber",
+      "sentence_blanked": "On the pallid bust of Pallas just above my <<BLANK>> door; And his eyes have all the seeming of a demon’s that is dreaming, And the lamp-light o’er him streaming throws his shadow on the floor; And my soul from out that shadow that lies floating on the floor.",
+      "sentence_index": 1,
+      "predictions": [
+        {
+          "word": "front",
+          "probability": -0.4404219090938568
+        },
+        {
+          "word": "bedroom",
+          "probability": -0.9901976585388184
+        },
+        {
+          "word": "back",
+          "probability": -1.1142768859863281
+        },
+        {
+          "word": "heavenly",
+          "probability": -1.2462348937988281
+        },
+        {
+          "word": "entrance",
+          "probability": -1.253487467765808
+        },
+        {
+          "word": "locked",
+          "probability": -1.2768768072128296
+        },
+        {
+          "word": "own",
+          "probability": -1.3013118505477905
+        },
+        {
+          "word": "room",
+          "probability": -1.3053745031356812
+        },
+        {
+          "word": "narrow",
+          "probability": -1.3706269264221191
+        },
+        {
+          "word": "sliding",
+          "probability": -1.4633595943450928
+        },
+        {
+          "word": "main",
+          "probability": -1.4995794296264648
+        },
+        {
+          "word": "living",
+          "probability": -1.513001799583435
+        },
+        {
+          "word": "side",
+          "probability": -1.5170401334762573
+        },
+        {
+          "word": "bedside",
+          "probability": -1.5171104669570923
+        },
+        {
+          "word": "’s",
+          "probability": -1.5216578245162964
+        },
+        {
+          "word": "tiny",
+          "probability": -1.5227717161178589
+        },
+        {
+          "word": "house",
+          "probability": -1.535887360572815
+        },
+        {
+          "word": "empty",
+          "probability": -1.5515680313110352
+        },
+        {
+          "word": "balcony",
+          "probability": -1.553183674812317
+        },
+        {
+          "word": "upper",
+          "probability": -1.5578277111053467
+        },
+        {
+          "word": "home",
+          "probability": -1.5767284631729126
+        },
+        {
+          "word": "sanctuary",
+          "probability": -1.5843874216079712
+        },
+        {
+          "word": "closed",
+          "probability": -1.5850144624710083
+        },
+        {
+          "word": "winged",
+          "probability": -1.6023874282836914
+        },
+        {
+          "word": "lower",
+          "probability": -1.6231088638305664
+        },
+        {
+          "word": "open",
+          "probability": -1.6316858530044556
+        },
+        {
+          "word": "broken",
+          "probability": -1.6648999452590942
+        },
+        {
+          "word": "labyrinth",
+          "probability": -1.6667932271957397
+        },
+        {
+          "word": "sleeping",
+          "probability": -1.6740933656692505
+        },
+        {
+          "word": "stained",
+          "probability": -1.6998828649520874
+        },
+        {
+          "word": "’er",
+          "probability": -1.7229222059249878
+        },
+        {
+          "word": "chamber",
+          "probability": -1.7557685375213623
+        },
+        {
+          "word": "dining",
+          "probability": -1.765987515449524
+        },
+        {
+          "word": "dressing",
+          "probability": -1.77315092086792
+        },
+        {
+          "word": "very",
+          "probability": -1.7813385725021362
+        },
+        {
+          "word": "shrine",
+          "probability": -1.7881171703338623
+        },
+        {
+          "word": "roomy",
+          "probability": -1.8165161609649658
+        },
+        {
+          "word": "kitchen",
+          "probability": -1.8287615776062012
+        },
+        {
+          "word": "third",
+          "probability": -1.8344582319259644
+        },
+        {
+          "word": "lonely",
+          "probability": -1.8344738483428955
+        },
+        {
+          "word": "castle",
+          "probability": -1.8407691717147827
+        }
+      ],
+      "category": "unigrams_NOUN",
+      "additional_info": ""
+    },
+    {
+      "paragraph_id": "553e4561-181b-2213-a256-426614174010",
+      "index": 59,
+      "content": "name",
+      "sentence_blanked": "Then this ebony bird beguiling my sad fancy into smiling, By the grave and stern decorum of the countenance it wore, “Though thy crest be shorn and shaven, thou,” I said, “art sure no craven, Ghastly grim and ancient Raven wandering from the Nightly shore— Tell me what thy lordly <<BLANK>> is on the Night’s Plutonian shore!",
+      "sentence_index": 0,
+      "predictions": [
+        {
+          "word": "presence",
+          "probability": -1.1765446662902832
+        },
+        {
+          "word": "sanctuary",
+          "probability": -1.2604480981826782
+        },
+        {
+          "word": "hide",
+          "probability": -1.2865829467773438
+        },
+        {
+          "word": "majesty",
+          "probability": -1.3312920331954956
+        },
+        {
+          "word": "land",
+          "probability": -1.4098124504089355
+        },
+        {
+          "word": "abode",
+          "probability": -1.4135596752166748
+        },
+        {
+          "word": "shadow",
+          "probability": -1.4567432403564453
+        },
+        {
+          "word": "Majesty",
+          "probability": -1.4691768884658813
+        },
+        {
+          "word": "belonging",
+          "probability": -1.4818295240402222
+        },
+        {
+          "word": "destiny",
+          "probability": -1.5026873350143433
+        },
+        {
+          "word": "shrine",
+          "probability": -1.530517816543579
+        },
+        {
+          "word": "name",
+          "probability": -1.54392671585083
+        },
+        {
+          "word": "sceptre",
+          "probability": -1.5488362312316895
+        },
+        {
+          "word": "deed",
+          "probability": -1.558557152748108
+        },
+        {
+          "word": "sight",
+          "probability": -1.5631077289581299
+        },
+        {
+          "word": "crown",
+          "probability": -1.5643833875656128
+        },
+        {
+          "word": "flock",
+          "probability": -1.5908831357955933
+        },
+        {
+          "word": "brow",
+          "probability": -1.6074477434158325
+        },
+        {
+          "word": "beauty",
+          "probability": -1.6076933145523071
+        },
+        {
+          "word": "shelter",
+          "probability": -1.6125333309173584
+        },
+        {
+          "word": "pleasure",
+          "probability": -1.6154417991638184
+        },
+        {
+          "word": "ascent",
+          "probability": -1.6197916269302368
+        },
+        {
+          "word": "heritage",
+          "probability": -1.622155785560608
+        },
+        {
+          "word": "treasure",
+          "probability": -1.626668930053711
+        },
+        {
+          "word": "fate",
+          "probability": -1.6269330978393555
+        },
+        {
+          "word": "Raven",
+          "probability": -1.6325716972351074
+        },
+        {
+          "word": "throne",
+          "probability": -1.6492924690246582
+        },
+        {
+          "word": "residence",
+          "probability": -1.6507768630981445
+        },
+        {
+          "word": "raven",
+          "probability": -1.6618130207061768
+        },
+        {
+          "word": "journey",
+          "probability": -1.6619715690612793
+        },
+        {
+          "word": "desire",
+          "probability": -1.6709949970245361
+        },
+        {
+          "word": "remains",
+          "probability": -1.679656982421875
+        },
+        {
+          "word": "appearance",
+          "probability": -1.6895521879196167
+        },
+        {
+          "word": "sea",
+          "probability": -1.6918551921844482
+        },
+        {
+          "word": "craven",
+          "probability": -1.6934200525283813
+        },
+        {
+          "word": "home",
+          "probability": -1.698024868965149
+        },
+        {
+          "word": "feather",
+          "probability": -1.6994377374649048
+        },
+        {
+          "word": "existence",
+          "probability": -1.7019377946853638
+        },
+        {
+          "word": "shore",
+          "probability": -1.7054914236068726
+        },
+        {
+          "word": "lodge",
+          "probability": -1.7059534788131714
+        },
+        {
+          "word": "breed",
+          "probability": -1.7124024629592896
+        }
+      ],
+      "category": "unigrams_NOUN",
+      "additional_info": ""
+    },
+    {
+      "paragraph_id": "653e4561-181b-2213-a356-426614174013",
+      "index": 5,
+      "content": "fowl",
+      "sentence_blanked": "Much I marvelled this ungainly <<BLANK>> to hear discourse so plainly, Though its answer little meaning—little relevancy bore; For we cannot help agreeing that no living human being.",
+      "sentence_index": 0,
+      "predictions": null,
+      "category": "random",
+      "additional_info": "",
+      "origin_category": "unigrams_NOUN"
+    },
+    {
+      "paragraph_id": "753e4561-181b-2213-a456-426614174014",
+      "index": 2,
+      "content": "Raven",
+      "sentence_blanked": "And the <<BLANK>>, never flitting, still is sitting, still is sitting.",
+      "sentence_index": 0,
+      "predictions": null,
+      "category": "random",
+      "additional_info": "",
+      "origin_category": "unigrams_NOUN"
+    }
+  ]
+}

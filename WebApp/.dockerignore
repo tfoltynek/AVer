@@ -1,0 +1,29 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+.git
+.gitlab*
+media/
+static-collected/
+node_modules/
+.DS_Store
+*.swp
+*.swo
+*.bak
+*.log
+*.pid
+
+# Ignore test and local config files
+test_documents/
+*.local
+*.dev
+
+# Ignore editor and OS files
+.vscode/
+.idea/
+*.iml
+
+.venv

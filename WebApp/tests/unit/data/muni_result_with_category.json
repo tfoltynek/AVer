@@ -1,0 +1,61 @@
+{
+  "document_id": "1d2dbe95-fe35-4e1e-beeb-68d15806d50f",
+  "words": [
+    {
+      "paragraph_id": "3b7b4c2f-bed2-4eba-b455-089ff0053d33",
+      "index": 17,
+      "content": "Duch",
+      "sentence_blanked": "Země pak byla pustá a prázdná, nad propastí byla tma a nad vodami se vznášel Boží <<BLANK>>.",
+      "sentence_index": 1,
+      "predictions": [
+        {
+          "word": "oheň",
+          "probability": -0.7002980709075928
+        },
+        {
+          "word": "světlo",
+          "probability": -0.7384219765663147
+        },
+        {
+          "word": "stín",
+          "probability": -0.8873736262321472
+        }
+      ],
+      "category": "unigrams_NOUN",
+      "additional_info": ""
+    },
+    {
+      "paragraph_id": "9030c78e-8f26-479f-a128-1b24e316f80a",
+      "index": 2,
+      "content": "oblohu",
+      "sentence_blanked": "Bůh nazval <<BLANK>> „nebe“ a byl večer a bylo ráno, den druhý.",
+      "sentence_index": 1,
+      "predictions": null,
+      "category": "random",
+      "additional_info": "",
+      "origin_category": "unigrams_NOUN"
+    },
+    {
+      "paragraph_id": "3b7b4c2f-bed2-4eba-b455-089ff0053d33",
+      "index": 2,
+      "content": "světlo",
+      "sentence_blanked": "Bůh nazval <<BLANK>> „den“ a tmu nazval „noc“.",
+      "sentence_index": 4,
+      "predictions": null,
+      "category": "random",
+      "additional_info": "",
+      "origin_category": "unigrams_NOUN"
+    },
+    {
+      "paragraph_id": "3b7b4c2f-bed2-4eba-b455-089ff0053d33",
+      "index": 6,
+      "content": "dobré",
+      "sentence_blanked": "Bůh viděl, že světlo je <<BLANK>>, a Bůh oddělil světlo od tmy.",
+      "sentence_index": 3,
+      "predictions": null,
+      "category": "random",
+      "additional_info": "",
+      "origin_category": "unigrams_ADJ"
+    }
+  ]
+}

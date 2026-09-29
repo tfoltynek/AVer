@@ -1,0 +1,27 @@
+{% load i18n %}
+{% load lucide %}
+<div id="document-list" class="DocumentCardList">
+  <a class="CreateCard" href="{% url 'document-upload' %}">
+    <span class="CreateCard-iconWrap">{% lucide 'file-plus' size='24' %}</span>
+    <span class="CreateCard-label">{% translate "Add document" %}</span>
+  </a>
+  {% for document in object_list %}
+    <article class="Card DocumentCard">
+      {% include "core/partials/document-card-body.html" %}
+      <div class="DocumentCard-actions">
+        {% if document.analysis_state == 'completed' %}
+          <a href="{% url 'create-document-test' document.pk %}"
+             class="Button Button--primary DocumentCard-action">{% lucide 'play' size='16' %} {% translate "Start test" %}</a>
+        {% elif document.analysis_state == 'failed' %}
+          <button class="Button Button--danger DocumentCard-action"
+                  hx-get="{% url 'document-delete' document.pk %}"
+                  hx-swap="afterbegin"
+                  hx-target="body"
+                  hx-on::after-request="handleDialog()">
+            {% lucide 'trash' size='16' %} {% translate "Delete document" %}
+          </button>
+        {% endif %}
+      </div>
+    </article>
+  {% endfor %}
+</div>

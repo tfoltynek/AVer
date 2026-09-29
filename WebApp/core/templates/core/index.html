@@ -1,0 +1,60 @@
+{% extends "core/layouts/layout_no_sidebar.html" %}
+{% load static %}
+{% load i18n %}
+{% load lucide %}
+{% block content %}
+  <section class="AppInfo">
+    <article class="AppInfo-content">
+      <hgroup class="AppInfo-heading">
+        <h1 class="AppInfo-title">
+          AVer <span class="AppInfo-titleSub">/ˈeɪ vɜr/</span>
+        </h1>
+        <p class="AppInfo-description">
+          {% translate "generates a test from a document you wrote yourself. Fill in the missing words and see how well the answers match your own writing." %}
+        </p>
+        <p class="AppInfo-callToAction">{% translate "Upload your document and test how well you know your own writing!" %}</p>
+      </hgroup>
+      <div class="AppInfo-actions">
+        <a class="Button Button--accent Button--full" href="{% url 'sign-up' %}">{% translate "Sign up" %}</a>
+        <p>
+          {% translate "Already have an account?" %} <a class="AppInfo-loginLink" href="{% url 'log-in' %}">{% translate "Log in" %}</a>
+        </p>
+      </div>
+    </article>
+    <div id="demo">
+      <p>
+        To by zdražilo výrobu. Propánička krásná dámo, vždyť
+        my to
+        <input type="text"
+               class="answer-result answer-result__demo"
+               readonly
+               size="6"
+               id="demo-input-1"
+               data-answer="děláme">
+        tak lacino! Sto dvacet dolarů ošacený kus, a před
+        patnácti lety stál deset tisíc! Před pěti lety jsme pro ně kupovali
+        šaty; dnes máme vlastní tkalcovny, a ještě expedujeme látečky
+        pětkrát laciněji než jiné továrny. Prosím vás, slečno Gloryová, co
+        platíte metr plátna? Můj ty Tondo, a pak chcete zakládat Ligu humanity! Stojí
+        už jen třetinu, slečno; všechny ceny jsou dnes na třetině a ještě
+        půjdou níž níž níž, až – takhle. He?
+      </p>
+      <p>
+        Haha, to se rozumí! Ale my, boží dobroto, my
+        <input type="text"
+               class="answer-result answer-result__demo"
+               readonly
+               size="6"
+               id="demo-input-2"
+               data-answer="jsme">
+        zatím
+        vrhli pět set tisíc tropických Robotů na argentinské pampy, aby
+        pěstili pšenici. Buďte tak dobrá, co stojí u vás libra chleba?
+      </p>
+      {% lucide "check" id="success-check" class="demo-successCheck demo-successCheck--hidden" %}
+    </div>
+  </section>
+{% endblock content %}
+{% block scripts %}
+  <script src="{% static 'core/js/demo.js' %}"></script>
+{% endblock scripts %}

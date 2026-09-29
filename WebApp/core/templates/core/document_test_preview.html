@@ -1,0 +1,30 @@
+{% extends "core/layouts/layout_with_sidebar.html" %}
+{% load i18n %}
+{% load lucide %}
+{% block content %}
+  {% load cloze_extras %}
+  <section id="test" class="Test">
+    <hgroup class="Test-header">
+      <div class="Test-headerContent">
+        <h2 class="Test-title">{{ test.document.title }}</h2>
+        {% if test.document.author %}<p>{{ test.document.author }}</p>{% endif %}
+      </div>
+      <div class="Test-progress">
+        <h3 class="Test-progressCount">{% translate "preview" %}</h3>
+      </div>
+    </hgroup>
+    <ul role="list" class="answers-preview">
+      {% for paragraph in paragraph_list %}
+        <li role="listitem" class="{{ paragraph.validate_answer }}">
+          <p>{{ paragraph.word | blank_to_preview | safe }}</p>
+        </li>
+      {% endfor %}
+    </ul>
+    <div class="Test-controls">
+      <div></div>
+      <button hx-post="{% url "test-preview" test.pk %}"
+              class="Button Button--accent Test-nextButton"
+              tabindex="0">{% translate "Next" %}</button>
+    </div>
+  </section>
+{% endblock content %}

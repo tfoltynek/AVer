@@ -1,0 +1,57 @@
+{
+  "cs_bozena_nemcova_babicka_request.json": {
+    "title": "Babička",
+    "author": "Božena Němcová",
+    "year": "1855"
+  },
+  "cs_karel_capek_jak_se_co_dela_request.json": {
+    "title": "Jak se co dělá",
+    "author": "Karel Čapek",
+    "year": "1938"
+  },
+  "cs_ustava_request.json": {
+    "title": "Ústava České republiky",
+    "author": "Český stát",
+    "year": "1993"
+  },
+  "en_bible_request.json": {
+    "title": "Bible",
+    "author": "Various authors",
+    "year": "400 BCE – 100 CE"
+  },
+  "en_charles_dickens_the_tale_of_two_cities_request.json": {
+    "title": "A Tale of Two Cities",
+    "author": "Charles Dickens",
+    "year": "1859"
+  },
+  "en_declaration_of_independence_request.json": {
+    "title": "Declaration of Independence",
+    "author": "Thomas Jefferson et al.",
+    "year": "1776"
+  },
+  "en_edgar_allan_poe_raven_request.json": {
+    "title": "The Raven",
+    "author": "Edgar Allan Poe",
+    "year": "1845"
+  },
+  "en_william_shakespeare_hamlet_request.json": {
+    "title": "Hamlet",
+    "author": "William Shakespeare",
+    "year": "1600"
+  },
+  "sk_kohutik_jarabi_request.json": {
+    "title": "Kohútik jarabý",
+    "author": "Ľudová pieseň",
+    "year": "Neznáme"
+  },
+  "sk_samo_chalupka_mor_ho_request.json": {
+    "title": "Mor ho!",
+    "author": "Samo Chalupka",
+    "year": "1864"
+  },
+  "sk_ustava_request.json": {
+    "title": "Ústava Slovenskej republiky",
+    "author": "Slovenský štát",
+    "year": "1992"
+  }
+}

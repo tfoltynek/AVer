@@ -1,0 +1,14 @@
+{% load i18n %}
+{% load lucide %}
+<form class="form "
+      hx-post="{% url 'user-languages' %}"
+      hx-target="#user-languages"
+      hx-swap="outerHTML">
+  {{ form.non_field_errors }}
+  <div class="form__field-group UserLanguageList-newCard">
+    <h3>{% translate "Add language" %}</h3>
+    <div class="field-group__item">{{ form.language.as_field_group }}</div>
+    <div class="field-group__item">{{ form.proficiency.as_field_group }}</div>
+    <button class="Button Button--accent" type="submit">{% translate "Add" %}</button>
+  </div>
+</form>

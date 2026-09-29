@@ -1,0 +1,42 @@
+.UserLanguageList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(24ch, 32ch));
+  grid-auto-rows: 1fr;
+  gap: var(--space-4);
+  width: 100%;
+}
+
+.UserLanguageList-newCard {
+  background-color: var(--neutral-background);
+}
+
+.UserLanguage-actions {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-2);
+  margin-top: auto;
+}
+
+.UserLanguage-cancelButton {
+  grid-column: 1 / -1;
+}
+
+.UserLanguage-codeIcon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 4rem;
+  height: 4rem;
+  padding: var(--space-4);
+  font-size: var(--font-size-5);
+  font-weight: 800;
+  color: var(--primary);
+  text-transform: uppercase;
+  background-color: var(--primary-background);
+  border-radius: var(--radius-pill);
+}
+
+.UserLanguage-proficiency {
+  font-size: var(--font-size-3) !important;
+  color: var(--text) !important;
+}

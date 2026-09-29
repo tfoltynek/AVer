@@ -1,0 +1,37 @@
+{% extends "core/layouts/layout_with_sidebar.html" %}
+{% load i18n %}
+{% load lucide %}
+{% load static %}
+{% block content %}
+  <section>
+    <header class="SectionHeader SectionHeader--center">
+      <h1 class="test-score__title">{% translate "Your academic fields" %}</h1>
+    </header>
+    <form class="SuccessEstimateForm"
+          method="post"
+          action="{% url 'update-academic-fields' %}">
+      {% csrf_token %}
+      <div class="form__field-group">
+        <div class="field-group__item multiselect">
+          {{ form.academic_fields.label_tag }}
+          {{ form.academic_fields.errors }}
+          <div class="multiselect-list">
+            <input class="multiselect-list__search"
+                   type="text"
+                   placeholder="{% translate 'Search' %}" />
+            {{ form.academic_fields }}
+          </div>
+        </div>
+      </div>
+      <div class="ButtonGroup">
+        <a class="Button Button--ghost"
+           href="{% url 'settings' %}"
+           type="submit">{% translate "Back" %}</a>
+        <button class="Button Button--accent" type="submit">{% translate "Update" %}</button>
+      </div>
+    </form>
+  </section>
+{% endblock content %}
+{% block scripts %}
+  <script src="{% static 'core/js/multiselect-search.js' %}"></script>
+{% endblock scripts %}

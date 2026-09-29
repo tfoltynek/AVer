@@ -1,0 +1,19 @@
+Digital preservation differs from ordinary backup in one decisive respect. A backup protects against loss of the medium, while preservation protects against loss of meaning. A file that survives intact but can no longer be opened is, for practical purposes, gone.
+
+The institution studied here holds roughly four hundred terabytes of research data. About a third originates from instruments that are no longer manufactured. Their proprietary formats are readable today only through software that itself needs an obsolete operating system.
+
+Format migration is the most common response. Files are converted to open, well documented formats at regular intervals, and each conversion is verified against the original. The approach works well for text and images, less well for complex scientific datasets.
+
+Emulation offers an alternative. Instead of changing the file, the environment that reads it is recreated. This preserves the original bits exactly, but transfers the maintenance burden onto the emulator, which must itself be preserved.
+
+Fixity checking underpins both strategies. Checksums computed at ingest are recalculated on a rolling schedule, and any mismatch triggers restoration from another copy. Over the observed period, silent corruption affected fewer than one file in two million per year.
+
+Storage geography matters more than storage technology. Three copies in one building offer weaker protection than two copies in separate regions. The institution consequently maintains copies on two continents, with different vendors and different media.
+
+Metadata proves to be the most fragile component. Technical metadata can be regenerated from the files themselves, but descriptive context, who created the data and why, exists only if someone recorded it. Once the originating researcher leaves, that context is rarely recoverable.
+
+Cost modelling shows a counterintuitive pattern. Storage hardware accounts for less than a quarter of the total, while staff time for appraisal, description and quality control dominates. Automation reduces the former far more readily than the latter.
+
+Appraisal is therefore unavoidable. Keeping everything indefinitely is neither affordable nor useful, and selection decisions made early are far cheaper than those postponed. Clear retention schedules agreed with depositors reduce later disputes.
+
+The conclusion is unsurprising but worth restating. Preservation is a continuous process rather than a completed project, and its main input is sustained institutional attention rather than technology.

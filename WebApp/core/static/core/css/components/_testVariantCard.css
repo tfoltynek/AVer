@@ -1,0 +1,15 @@
+.TestVariantList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10ch, 30ch));
+  grid-auto-rows: 1fr;
+  gap: var(--space-6);
+  justify-content: center;
+}
+
+.TestVariantCard {
+  /* base styling provided by .Card */
+}
+
+.TestVariantCard-button {
+  margin-top: auto;
+}

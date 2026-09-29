@@ -1,0 +1,23 @@
+.MessageList {
+  margin-bottom: var(--space-6);
+  text-align: center;
+  list-style: none;
+}
+
+.Message {
+  padding: var(--space-3) var(--space-4);
+  border-radius: var(--radius-md);
+  font-weight: 500;
+}
+
+.Message--error {
+  color: var(--incorrect);
+  background-color: var(--incorrect-background);
+  border: 1px solid var(--incorrect-border);
+}
+
+.Message--success {
+  color: var(--correct);
+  background-color: var(--correct-background);
+  border: 1px solid var(--correct-border);
+}

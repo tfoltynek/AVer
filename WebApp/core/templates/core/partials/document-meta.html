@@ -1,0 +1,45 @@
+{% load i18n %}
+{% load lucide %}
+{% load datetime_extras %}
+<dl class="DocumentCard-meta">
+  <div class="DocumentCard-metaItem">
+    {% lucide 'calendar' size='16' %}
+    <div class="DocumentCard-metaText">
+      <dt class="DocumentCard-metaLabel">{% translate "Uploaded" %}</dt>
+      <dd class="DocumentCard-metaValue">
+        {% local_datetime document.uploaded_at %}
+      </dd>
+    </div>
+  </div>
+  {% if document.publication_date %}
+    <div class="DocumentCard-metaItem">
+      {% lucide 'book-open' size='16' %}
+      <div class="DocumentCard-metaText">
+        <dt class="DocumentCard-metaLabel">{% translate "Published" %}</dt>
+        <dd class="DocumentCard-metaValue">
+          {{ document.publication_date|date:"Y" }}
+        </dd>
+      </div>
+    </div>
+  {% endif %}
+  {% with fields=document.academic_fields.all %}
+    {% if fields %}
+      <div class="DocumentCard-metaItem">
+        {% lucide 'tag' size='16' %}
+        <div class="DocumentCard-metaText">
+          <dt class="DocumentCard-metaLabel">{% translate "Fields" %}</dt>
+          <dd class="DocumentCard-metaValue"
+              title="{% for f in fields %}{{ f.name|capfirst }}{% if not forloop.last %}, {% endif %}{% endfor %}">
+            {% for f in fields|slice:":2" %}
+              {{ f.name|capfirst }}
+              {% if not forloop.last %},{% endif %}
+            {% endfor %}
+            {% if fields|length > 2 %}
+              <span class="DocumentCard-metaMore">+{{ fields|length|add:"-2" }} {% translate "more" %}</span>
+            {% endif %}
+          </dd>
+        </div>
+      </div>
+    {% endif %}
+  {% endwith %}
+</dl>

@@ -1,0 +1,20 @@
+{% extends "core/layouts/layout_with_sidebar.html" %}
+{% load static %}
+{% load i18n %}
+{% load lucide %}
+{% block content %}
+  <section class="LanguageProficiencySection">
+    <header class="SectionHeader SectionHeader--center">
+      <hgroup>
+        <h1>{% translate "Your language skills" %}</h1>
+        <p>
+          {% translate "Please, add at least <strong>one language as your native</strong>." %}
+        </p>
+      </hgroup>
+    </header>
+    {% include "core/partials/language-proficiency-list.html" %}
+    <div class="LanguageProficiencySection-actions">
+      <a href="{% url "dashboard" %}" class="Button Button--accent">{% translate "Continue" %} {% lucide "arrow-right" size='16' %}</a>
+    </div>
+  </section>
+{% endblock content %}

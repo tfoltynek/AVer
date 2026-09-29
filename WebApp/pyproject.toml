@@ -1,0 +1,115 @@
+[project]
+name = "aver"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "celery>=5.6.3",
+    "chardet>=5.2.0",
+    "django-cors-headers>=4.9.0",
+    "django-debug-toolbar>=6.3.0",
+    "django-environ>=0.13.0",
+    "django>=6.0.5",
+    "gunicorn>=23.0.0",
+    "lingua-language-detector>=2.2.0",
+    "lucide[django]>=1.1.3",
+    "magika>=1.0.3",
+    "pip>=24.3.1",
+    "pymupdf>=1.27.2.3",
+    "python-docx>=1.2.0",
+    "redis>=7.4.0",
+    "regex>=2024.11.6",
+    "requests>=2.32.3",
+    "sentence-transformers>=3.2.0",
+    "optimum[onnxruntime]>=1.20.0",
+    "spacy>=3.8.14",
+    "stanza>=1.12.0",
+    "torch>=2.12.0",
+    # spaCy's multilingual sentence segmenter, loaded by name in
+    # `core/utils/nlp.py`. Declared here rather than left to a
+    # `spacy download` step: it is an import-time runtime requirement, and an
+    # undeclared package is removed again by the next `uv sync`.
+    "xx-sent-ud-sm",
+]
+
+# Force CPU-only torch. The default PyPI torch wheel drags in the entire CUDA
+# stack (cublas/cudnn/nccl + torch itself ~= several GB), which fills the CI
+# runner's /tmp and fails `uv sync`. We run inference on CPU, so pull torch
+# from PyTorch's CPU index instead.
+[tool.uv.sources]
+torch = { index = "pytorch-cpu" }
+
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true
+
+# spaCy models are not on PyPI; they ship as release assets.
+[tool.uv.sources.xx-sent-ud-sm]
+url = "https://github.com/explosion/spacy-models/releases/download/xx_sent_ud_sm-3.8.0/xx_sent_ud_sm-3.8.0-py3-none-any.whl"
+
+[dependency-groups]
+dev = [
+    "djlint>=1.36.4",
+    "ruff>=0.9.3",
+    "pytest>=8.3.0",
+    "pytest-django>=4.9.0",
+    "pytest-playwright>=0.7.0",
+    "pytest-env>=1.1.5",
+    "pytest-cov>=5.0.0",
+    # Pinned, not floated: playwright refuses any browser build whose revision
+    # is not the exact one in its browsers.json, and on NixOS the browsers come
+    # from nixpkgs (PLAYWRIGHT_BROWSERS_PATH) rather than `playwright install`,
+    # because downloaded builds are not patched for the nix loader. 1.61.0 is
+    # the release whose revisions (chromium 1228, firefox 1532, webkit 2311)
+    # match nixpkgs' playwright-driver 1.61.1. Bump both together.
+    "playwright==1.61.0",
+    "watchdog>=4.0",
+]
+
+[tool.ruff]
+target-version = "py312"
+line-length = 120
+exclude = [".venv", "static-collected", "media", "*/migrations/*"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP"]
+ignore = ["E501"]
+
+[tool.ruff.format]
+quote-style = "double"
+
+# djlint: keep 2-space indent to match the templates the team already wrote;
+# anything else explodes every PR with cosmetic-only churn. `--check` runs in
+# pre-commit; use `uv run djlint . --reformat` to apply.
+[tool.djlint]
+indent = 2
+profile = "django"
+ignore = "H006,H013,H030,H031"
+
+# Coverage config. Opt-in: run `pytest --cov` to collect; default test runs
+# stay fast. Excludes the things coverage shouldn't care about (migrations,
+# settings, vendored).
+[tool.coverage.run]
+source = ["core", "aver"]
+omit = [
+    "*/migrations/*",
+    "*/management/*",
+    "*/__pycache__/*",
+    "*/tests/e2e/*",
+    "aver/asgi.py",
+    "aver/wsgi.py",
+    "manage.py",
+]
+branch = true
+
+[tool.coverage.report]
+skip_covered = false
+show_missing = true
+exclude_also = [
+    "raise NotImplementedError",
+    "if TYPE_CHECKING:",
+    "if __name__ == .__main__.:",
+    "pragma: no cover",
+]

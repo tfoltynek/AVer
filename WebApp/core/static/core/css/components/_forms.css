@@ -1,0 +1,202 @@
+.sign-up-wrapper {
+  width: 100%;
+  max-width: 50ch;
+
+  & > h2 {
+    margin-bottom: var(--space-4);
+  }
+}
+
+section > h2:first-child {
+  margin-bottom: var(--space-4);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.DocumentUploadForm {
+  max-width: 60ch;
+  padding: var(--space-8);
+  margin-inline: auto;
+  background-color: var(--surface-1);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+}
+
+.DocumentUploadForm-metadataFields {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  gap: var(--space-5);
+  width: 100%;
+}
+
+.form__field-group {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  gap: var(--space-5);
+  padding: var(--space-6);
+  background-color: var(--surface-1);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+}
+
+.field-group__item {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.field-group__item > label,
+.field-group__item > fieldset > legend {
+  font-size: var(--font-size-3);
+  font-weight: 500;
+  color: var(--text);
+}
+
+.field-group__item > p,
+.helptext {
+  font-size: var(--font-size-2);
+  color: var(--neutral-border);
+}
+
+.field-group__item:has(.errorlist) input,
+.field-group__item:has(.errorlist) select,
+.field-group__item:has(.errorlist) textarea,
+.multiselect-list > div {
+  border: 1px solid var(--incorrect-border);
+}
+
+.field-group__item:has(.errorlist) input,
+.field-group__item:has(.errorlist) select,
+.field-group__item:has(.errorlist) textarea {
+  background-color: var(--incorrect-background);
+}
+
+.Form-percentageField {
+  display: flex;
+  gap: var(--space-4);
+  accent-color: var(--accent);
+}
+
+.Form-percentageField-slider {
+  display: flex;
+  flex-grow: 1;
+  gap: var(--space-2);
+  align-items: center;
+}
+
+.Form-percentageField-slider input {
+  width: 100%;
+}
+
+.Form-percentageField-slider span {
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+
+.Form-percentageField-value {
+  width: 5rem;
+  padding: var(--space-2) var(--space-3);
+  background-color: var(--surface-1);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  font-variant-numeric: tabular-nums;
+  text-align: right;
+}
+
+.form input:not([type="range"]),
+.form select,
+.form textarea,
+select {
+  padding: var(--space-2) var(--space-3);
+  color: var(--text);
+  background-color: var(--surface-1);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  transition:
+    border-color var(--duration-base) var(--ease-out),
+    box-shadow var(--duration-base) var(--ease-out),
+    background-color var(--duration-base) var(--ease-out);
+}
+
+.form select {
+  appearance: none;
+  background-image: var(--select-arrow);
+  background-repeat: no-repeat;
+  background-position-x: 100%;
+  background-position-y: 4px;
+}
+
+.form fieldset {
+  padding: 0;
+  border: none;
+}
+
+.errorlist {
+  margin: 0;
+  padding-left: 1.25em;
+  font-size: var(--font-size-2);
+  color: var(--incorrect);
+  list-style: inside;
+}
+
+.multiselect-list__search {
+  margin-bottom: var(--space-2);
+  margin-left: auto;
+}
+
+.multiselect-list label {
+  display: inline-block;
+  width: 100%;
+  padding: var(--space-4);
+}
+
+.multiselect-list > div {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  height: 320px;
+  padding: 0;
+  overflow-y: scroll;
+  overscroll-behavior: contain;
+  text-transform: capitalize;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+
+  & > div {
+    transition: background-color var(--duration-base) var(--ease-out);
+
+    &:hover {
+      background-color: var(--primary-background);
+    }
+
+    &:has(input[type="checkbox"]:checked) {
+      color: var(--primary);
+      background-color: var(--primary-background);
+    }
+
+    & label {
+      display: flex;
+      gap: var(--space-2);
+      align-items: center;
+    }
+  }
+}
+
+.account-callout {
+  text-align: center;
+
+  & > a {
+    color: var(--primary);
+  }
+}
+
+.SuccessEstimateForm {
+  max-width: 50ch;
+  margin-inline: auto;
+}

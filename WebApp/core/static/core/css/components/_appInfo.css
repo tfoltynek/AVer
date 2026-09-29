@@ -1,0 +1,61 @@
+.AppInfo {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-7);
+  align-items: center;
+  justify-content: center;
+  padding-bottom: var(--space-9);
+}
+
+@media (width >= 1024px) {
+  .AppInfo {
+    flex-direction: row;
+    gap: var(--space-9);
+    padding-top: var(--space-6);
+  }
+}
+
+/* Heading and Description */
+.AppInfo-heading {
+  max-width: 50ch;
+  margin-bottom: var(--space-4);
+}
+
+.AppInfo-title {
+  display: inline;
+  font-size: var(--font-size-9);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+/* IPA pronunciation — phonetic transcriptions are conventionally italic,
+   set in a lighter weight so it reads as auxiliary information. */
+.AppInfo-titleSub {
+  font-family: var(--font-sans);
+  font-size: var(--font-size-5);
+  font-weight: 400;
+  font-style: italic;
+  letter-spacing: 0;
+  color: var(--neutral);
+}
+
+.AppInfo-description {
+  display: inline;
+}
+
+.AppInfo-description,
+.AppInfo-callToAction {
+  margin-top: var(--space-4);
+}
+
+/* Button Group */
+.AppInfo-actions {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  text-align: center;
+}
+
+.AppInfo-loginLink {
+  color: var(--primary);
+}

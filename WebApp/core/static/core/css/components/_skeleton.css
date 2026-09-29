@@ -1,0 +1,95 @@
+@keyframes Skeleton-shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+.Skeleton {
+  display: block;
+  background:
+    linear-gradient(
+      90deg,
+      var(--surface-2) 0%,
+      color-mix(in srgb, var(--surface-2), var(--text) 4%) 50%,
+      var(--surface-2) 100%
+    );
+  background-size: 200% 100%;
+  animation: Skeleton-shimmer 1.6s ease-in-out infinite;
+  border-radius: var(--radius-sm);
+  min-height: 1em;
+}
+
+.Skeleton--line {
+  height: 1em;
+  margin-block: var(--space-1);
+}
+
+.Skeleton--heading {
+  height: 1.75em;
+  width: 60%;
+}
+
+.Skeleton--card {
+  height: 12rem;
+  border-radius: var(--radius-md);
+}
+
+.Skeleton--badge {
+  display: inline-block;
+  height: 1.5em;
+  width: 5rem;
+  border-radius: var(--radius-pill);
+}
+
+.Skeleton--dot {
+  width: 0.625rem;
+  height: 0.625rem;
+  border-radius: 50%;
+}
+
+.Skeleton--lineShort { width: 8rem; }
+.Skeleton--lineMid { width: 12rem; }
+.Skeleton--lineLong { width: 14rem; }
+
+.SkeletonStack {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.SkeletonGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-4);
+}
+
+@media (width >= 1024px) {
+  .SkeletonGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (width >= 1280px) {
+  .SkeletonGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* htmx-indicator base — keep hidden until htmx-request, then show */
+.htmx-indicator {
+  display: none;
+}
+
+.htmx-request .htmx-indicator,
+.htmx-indicator.htmx-request {
+  display: block;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .Skeleton {
+    animation: none;
+  }
+}

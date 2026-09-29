@@ -1,0 +1,143 @@
+/* === Card base === */
+.Card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  padding: var(--space-6);
+  background-color: var(--surface-1);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  transition:
+    transform var(--duration-base) var(--ease-out),
+    border-color var(--duration-base) var(--ease-out);
+}
+
+.Card--interactive {
+  cursor: pointer;
+}
+
+.Card--interactive:hover {
+  transform: translateY(-2px);
+  border-color: color-mix(in srgb, var(--border), var(--text) 20%);
+}
+
+.Card--withHeader {
+  padding: 0;
+  overflow: hidden;
+}
+
+.Card--withHeader > .Card-header {
+  padding: var(--space-4) var(--space-5);
+  background-color: var(--surface-2);
+  border-bottom: 1px solid var(--border);
+}
+
+.Card--withHeader > .Card-content {
+  padding: var(--space-5);
+}
+
+/* === CreateCard — first-tile call-to-action in a card grid ===
+ * Sits as the first item in TestCardList / DocumentCardList. Solid-filled
+ * in the primary tint with a clear icon + label so it reads as a primary
+ * action button — not a dashed drop zone. */
+.CreateCard {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  align-items: center;
+  justify-content: center;
+  min-height: 200px;
+  padding: var(--space-6);
+  text-align: center;
+  text-decoration: none;
+  color: var(--primary);
+  background-color: var(--surface-1);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  transition:
+    background-color var(--duration-base) var(--ease-out),
+    border-color var(--duration-base) var(--ease-out);
+}
+
+.CreateCard:hover,
+.CreateCard:focus-visible {
+  background-color: color-mix(in srgb, var(--primary) 6%, var(--surface-1));
+  border-color: color-mix(in srgb, var(--primary) 40%, var(--border));
+}
+
+.CreateCard-iconWrap {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background-color: color-mix(in srgb, currentColor 14%, transparent);
+}
+
+.CreateCard-label {
+  font-size: var(--font-size-4);
+  font-weight: 600;
+}
+
+/* === Badge base === */
+.Badge {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-1);
+  padding: var(--space-1) var(--space-3);
+  font-size: var(--font-size-2);
+  font-weight: 500;
+  line-height: var(--leading-tight);
+  white-space: nowrap;
+  border: 1px solid transparent;
+  border-radius: var(--radius-pill);
+}
+
+.Badge--success {
+  color: var(--correct);
+  background-color: var(--correct-background);
+  border-color: var(--correct-border);
+}
+
+.Badge--warning {
+  color: var(--secondary);
+  background-color: var(--secondary-background);
+  border-color: var(--secondary-border);
+}
+
+.Badge--danger {
+  color: var(--incorrect);
+  background-color: var(--incorrect-background);
+  border-color: var(--incorrect-border);
+}
+
+.Badge--accent {
+  color: var(--accent);
+  background-color: var(--accent-background);
+  border-color: var(--accent-border);
+}
+
+.Badge--primary {
+  color: var(--primary);
+  background-color: var(--primary-background);
+  border-color: var(--primary-border);
+}
+
+.Badge--neutral {
+  color: var(--neutral);
+  background-color: var(--neutral-background);
+  border-color: var(--neutral-border);
+}
+
+.Badge--square {
+  border-radius: var(--radius-sm);
+}
+
+.Badge-dot {
+  width: 0.5rem;
+  height: 0.5rem;
+  background-color: currentColor;
+  border-radius: 50%;
+  flex-shrink: 0;
+}

@@ -1,0 +1,727 @@
+{
+  "document_id": "253e4567-e89b-12d3-a456-426624174002",
+  "words": [
+    {
+      "paragraph_id": "153e4567-e89b-12d3-a256-426614174010",
+      "index": 7,
+      "content": "babička",
+      "sentence_blanked": "„Drobty patří ohníčku,“ říkala <<BLANK>>, když smítala ze stolu drobečky a do ohně je házela.",
+      "sentence_index": 3,
+      "predictions": [
+        {
+          "word": "si",
+          "probability": -0.8079614043235779
+        },
+        {
+          "word": "babička",
+          "probability": -0.9499297142028809
+        },
+        {
+          "word": "vždycky",
+          "probability": -1.0375334024429321
+        },
+        {
+          "word": "vždy",
+          "probability": -1.1240088939666748
+        },
+        {
+          "word": "dívka",
+          "probability": -1.2889093160629272
+        },
+        {
+          "word": "sestřenka",
+          "probability": -1.2989528179168701
+        },
+        {
+          "word": "děvčata",
+          "probability": -1.313615083694458
+        },
+        {
+          "word": "paní",
+          "probability": -1.3160728216171265
+        },
+        {
+          "word": "kamarádka",
+          "probability": -1.371611475944519
+        },
+        {
+          "word": "žena",
+          "probability": -1.3743231296539307
+        },
+        {
+          "word": "učitelka",
+          "probability": -1.377596139907837
+        },
+        {
+          "word": "nahlas",
+          "probability": -1.4035778045654297
+        },
+        {
+          "word": "děti",
+          "probability": -1.4071900844573975
+        },
+        {
+          "word": "Helena",
+          "probability": -1.4119726419448853
+        },
+        {
+          "word": "Babička",
+          "probability": -1.4185268878936768
+        },
+        {
+          "word": "naposledy",
+          "probability": -1.4229958057403564
+        },
+        {
+          "word": "většinou",
+          "probability": -1.442546010017395
+        },
+        {
+          "word": "maminka",
+          "probability": -1.4661684036254883
+        },
+        {
+          "word": "skříňka",
+          "probability": -1.4702574014663696
+        },
+        {
+          "word": "známá",
+          "probability": -1.4925580024719238
+        },
+        {
+          "word": "jsem",
+          "probability": -1.5060944557189941
+        },
+        {
+          "word": "kdysi",
+          "probability": -1.5239346027374268
+        },
+        {
+          "word": "dětstvím",
+          "probability": -1.5326294898986816
+        },
+        {
+          "word": "smíchy",
+          "probability": -1.540292739868164
+        },
+        {
+          "word": "Lenka",
+          "probability": -1.5485608577728271
+        },
+        {
+          "word": "ženská",
+          "probability": -1.5673549175262451
+        },
+        {
+          "word": "sestra",
+          "probability": -1.5841193199157715
+        },
+        {
+          "word": "Olga",
+          "probability": -1.5908604860305786
+        },
+        {
+          "word": "dětství",
+          "probability": -1.5963462591171265
+        },
+        {
+          "word": "manželka",
+          "probability": -1.61616051197052
+        },
+        {
+          "word": "dětem",
+          "probability": -1.6197580099105835
+        },
+        {
+          "word": "mamka",
+          "probability": -1.62973952293396
+        },
+        {
+          "word": "teta",
+          "probability": -1.638530969619751
+        },
+        {
+          "word": "slečinka",
+          "probability": -1.6604455709457397
+        },
+        {
+          "word": "větu",
+          "probability": -1.6609700918197632
+        },
+        {
+          "word": "matka",
+          "probability": -1.6919738054275513
+        },
+        {
+          "word": "sestřenice",
+          "probability": -1.6926195621490479
+        },
+        {
+          "word": "svědomitě",
+          "probability": -1.6931356191635132
+        },
+        {
+          "word": "věta",
+          "probability": -1.6959056854248047
+        },
+        {
+          "word": "dívenka",
+          "probability": -1.7140687704086304
+        },
+        {
+          "word": "Monika",
+          "probability": -1.727553367614746
+        }
+      ],
+      "category": "unigrams_NOUN",
+      "additional_info": ""
+    },
+    {
+      "paragraph_id": "153e4567-e89b-12d3-a256-426614174010",
+      "index": 10,
+      "content": "jablky",
+      "sentence_blanked": "Pokaždé dostaly poplamenici a po malém bochánku, švestkami neb <<BLANK>> plněném, což se jim dříve nestávalo.",
+      "sentence_index": 1,
+      "predictions": [
+        {
+          "word": "česnekem",
+          "probability": -0.7475043535232544
+        },
+        {
+          "word": "chlebem",
+          "probability": -0.8425289988517761
+        },
+        {
+          "word": "smetanou",
+          "probability": -0.8777854442596436
+        },
+        {
+          "word": "máslem",
+          "probability": -0.9134917259216309
+        },
+        {
+          "word": "kakaem",
+          "probability": -0.9355624318122864
+        },
+        {
+          "word": "zelím",
+          "probability": -0.9505152702331543
+        },
+        {
+          "word": "mlékem",
+          "probability": -0.9521247148513794
+        },
+        {
+          "word": "hořčicí",
+          "probability": -0.9841156601905823
+        },
+        {
+          "word": "ořechy",
+          "probability": -1.0040251016616821
+        },
+        {
+          "word": "šunkou",
+          "probability": -1.006571650505066
+        },
+        {
+          "word": "bramborem",
+          "probability": -1.0133397579193115
+        },
+        {
+          "word": "čokoládou",
+          "probability": -1.0572601556777954
+        },
+        {
+          "word": "vajíčkem",
+          "probability": -1.0655152797698975
+        },
+        {
+          "word": "žampiony",
+          "probability": -1.0866121053695679
+        },
+        {
+          "word": "jablky",
+          "probability": -1.1116764545440674
+        },
+        {
+          "word": "ovocem",
+          "probability": -1.1124045848846436
+        },
+        {
+          "word": "sušenkou",
+          "probability": -1.135227918624878
+        },
+        {
+          "word": "šlehačkou",
+          "probability": -1.1509997844696045
+        },
+        {
+          "word": "olejem",
+          "probability": -1.15485417842865
+        },
+        {
+          "word": "jogurtem",
+          "probability": -1.1619558334350586
+        },
+        {
+          "word": "sušenkami",
+          "probability": -1.1634401082992554
+        },
+        {
+          "word": "krkovicí",
+          "probability": -1.1983692646026611
+        },
+        {
+          "word": "slaninou",
+          "probability": -1.2011359930038452
+        },
+        {
+          "word": "pažitkou",
+          "probability": -1.2209850549697876
+        },
+        {
+          "word": "kapustkami",
+          "probability": -1.2229256629943848
+        },
+        {
+          "word": "jablkem",
+          "probability": -1.2243788242340088
+        },
+        {
+          "word": "rajčaty",
+          "probability": -1.2308543920516968
+        },
+        {
+          "word": "kapustičkami",
+          "probability": -1.2340431213378906
+        },
+        {
+          "word": "rýží",
+          "probability": -1.253119945526123
+        },
+        {
+          "word": "zelí",
+          "probability": -1.254177212715149
+        },
+        {
+          "word": "okurkou",
+          "probability": -1.2553354501724243
+        },
+        {
+          "word": "ůhým chlebem",
+          "probability": -1.3029015064239502
+        },
+        {
+          "word": "žampionem",
+          "probability": -1.3323978185653687
+        },
+        {
+          "word": "semínky",
+          "probability": -1.3325154781341553
+        },
+        {
+          "word": "pažitkami",
+          "probability": -1.3574559688568115
+        },
+        {
+          "word": "citronem",
+          "probability": -1.3667852878570557
+        },
+        {
+          "word": "ůhým mlékem",
+          "probability": -1.3676120042800903
+        },
+        {
+          "word": "šlehačem",
+          "probability": -1.3687292337417603
+        },
+        {
+          "word": "vejcem",
+          "probability": -1.3854410648345947
+        },
+        {
+          "word": "sůlkou",
+          "probability": -1.3966352939605713
+        },
+        {
+          "word": "ořechem",
+          "probability": -1.40399968624115
+        }
+      ],
+      "category": "unigrams_NOUN",
+      "additional_info": ""
+    },
+    {
+      "paragraph_id": "453e4567-e89b-12d3-a356-426614174013",
+      "index": 31,
+      "content": "duše",
+      "sentence_blanked": "Když ale některý z dětí udrobil chleba na zem a babička to zhlédla, hned mu kázala drobečky sebrat a říkala: „Po drobečkách se šlapat nesmí, to prý <<BLANK>> v očistci pláčou.“ Také se mrzela vidouc, že se chléb při krájení nerovná: „Kdo se nesrovnává s chlebem, nesrovnává se s lidmi,“ říkala.",
+      "sentence_index": 0,
+      "predictions": [
+        {
+          "word": "děti",
+          "probability": -0.7950462698936462
+        },
+        {
+          "word": "drobečky",
+          "probability": -0.9394779801368713
+        },
+        {
+          "word": "všichni",
+          "probability": -0.965207576751709
+        },
+        {
+          "word": "lidé",
+          "probability": -0.9805698394775391
+        },
+        {
+          "word": "mrtví",
+          "probability": -1.0751334428787231
+        },
+        {
+          "word": "čerti",
+          "probability": -1.0946717262268066
+        },
+        {
+          "word": "lidi",
+          "probability": -1.1320176124572754
+        },
+        {
+          "word": "někteří",
+          "probability": -1.1921693086624146
+        },
+        {
+          "word": "mrtvoly",
+          "probability": -1.2100696563720703
+        },
+        {
+          "word": "zlé",
+          "probability": -1.2684744596481323
+        },
+        {
+          "word": "ženy",
+          "probability": -1.3069041967391968
+        },
+        {
+          "word": "nebesa",
+          "probability": -1.3320177793502808
+        },
+        {
+          "word": "i",
+          "probability": -1.3393986225128174
+        },
+        {
+          "word": "ať",
+          "probability": -1.3978824615478516
+        },
+        {
+          "word": "prachy",
+          "probability": -1.4191540479660034
+        },
+        {
+          "word": "děcka",
+          "probability": -1.4201489686965942
+        },
+        {
+          "word": "ovce",
+          "probability": -1.430422067642212
+        },
+        {
+          "word": "ráno",
+          "probability": -1.4470733404159546
+        },
+        {
+          "word": "mrtvi",
+          "probability": -1.4517568349838257
+        },
+        {
+          "word": "rány",
+          "probability": -1.4718639850616455
+        },
+        {
+          "word": "slepí",
+          "probability": -1.5056723356246948
+        },
+        {
+          "word": "potom",
+          "probability": -1.5071324110031128
+        },
+        {
+          "word": "očistníci",
+          "probability": -1.507845401763916
+        },
+        {
+          "word": "duše",
+          "probability": -1.5234777927398682
+        },
+        {
+          "word": "kluci",
+          "probability": -1.5288537740707397
+        },
+        {
+          "word": "všechny",
+          "probability": -1.5308951139450073
+        },
+        {
+          "word": "už",
+          "probability": -1.5595437288284302
+        },
+        {
+          "word": "ještě",
+          "probability": -1.5613714456558228
+        },
+        {
+          "word": "ruce",
+          "probability": -1.568805456161499
+        },
+        {
+          "word": "uvnitř",
+          "probability": -1.5705738067626953
+        },
+        {
+          "word": "sloupy",
+          "probability": -1.5845527648925781
+        },
+        {
+          "word": "ubožáci",
+          "probability": -1.5948141813278198
+        },
+        {
+          "word": "rána",
+          "probability": -1.5985771417617798
+        },
+        {
+          "word": "upíry",
+          "probability": -1.5995880365371704
+        },
+        {
+          "word": "taky",
+          "probability": -1.6004300117492676
+        },
+        {
+          "word": "očisty",
+          "probability": -1.612898826599121
+        },
+        {
+          "word": "srnky",
+          "probability": -1.6136544942855835
+        },
+        {
+          "word": "někde",
+          "probability": -1.6181367635726929
+        },
+        {
+          "word": "až",
+          "probability": -1.6332173347473145
+        },
+        {
+          "word": "také",
+          "probability": -1.6382160186767578
+        },
+        {
+          "word": "svědci",
+          "probability": -1.6625336408615112
+        }
+      ],
+      "category": "unigrams_NOUN",
+      "additional_info": ""
+    },
+    {
+      "paragraph_id": "453e4567-e89b-12d3-a455-426614174015",
+      "index": 23,
+      "content": "vody",
+      "sentence_blanked": "Kde jaký kousek chleba ležet zůstal, i kůrky, co děti nedojedly, strčila babička do kapsáře; trefilo-li se jít okolo <<BLANK>>, hodila rybám, rozdrobila mravencům, když šla s dětmi, nebo ptákům v lese, zkrátka ona nezmařila jediného sousta a vždy napomínala: „Važte si božího daru, bez něho je zle, a kdo si ho neváží, toho Bůh těžce tresce.“ Jestli dítě chléb z ruky upustilo, muselo jej pak políbit, jako za odprošení; tak i kdyby kde zrnko hrachu bylo leželo, zvedla je babička a vyznamenaný na něm kalíšek s úctou políbila.",
+      "sentence_index": 0,
+      "predictions": [
+        {
+          "word": "rybníka",
+          "probability": -0.8059307336807251
+        },
+        {
+          "word": "něj",
+          "probability": -0.8503509759902954
+        },
+        {
+          "word": "lesa",
+          "probability": -0.9610519409179688
+        },
+        {
+          "word": "mravenců",
+          "probability": -1.0214478969573975
+        },
+        {
+          "word": "řeky",
+          "probability": -1.0370814800262451
+        },
+        {
+          "word": "vody",
+          "probability": -1.0521349906921387
+        },
+        {
+          "word": "něho",
+          "probability": -1.0717517137527466
+        },
+        {
+          "word": "ní",
+          "probability": -1.1120822429656982
+        },
+        {
+          "word": "cesty",
+          "probability": -1.171566367149353
+        },
+        {
+          "word": "hřbetu",
+          "probability": -1.2068240642547607
+        },
+        {
+          "word": "domu",
+          "probability": -1.2443114519119263
+        },
+        {
+          "word": "chleba",
+          "probability": -1.2445309162139893
+        },
+        {
+          "word": "kopce",
+          "probability": -1.247188925743103
+        },
+        {
+          "word": "jídla",
+          "probability": -1.2805708646774292
+        },
+        {
+          "word": "hrachu",
+          "probability": -1.2840160131454468
+        },
+        {
+          "word": "břehu",
+          "probability": -1.2862125635147095
+        },
+        {
+          "word": "toho",
+          "probability": -1.2933619022369385
+        },
+        {
+          "word": "rybníku",
+          "probability": -1.3044310808181763
+        },
+        {
+          "word": "hnízda",
+          "probability": -1.3169260025024414
+        },
+        {
+          "word": "hřbitova",
+          "probability": -1.3174363374710083
+        },
+        {
+          "word": "moře",
+          "probability": -1.3255493640899658
+        },
+        {
+          "word": "nich",
+          "probability": -1.3749176263809204
+        },
+        {
+          "word": "ohně",
+          "probability": -1.3767836093902588
+        },
+        {
+          "word": "dítěte",
+          "probability": -1.3984856605529785
+        },
+        {
+          "word": "potoka",
+          "probability": -1.401005744934082
+        },
+        {
+          "word": "mravence",
+          "probability": -1.4314309358596802
+        },
+        {
+          "word": "kapra",
+          "probability": -1.4406274557113647
+        },
+        {
+          "word": "jezera",
+          "probability": -1.4432389736175537
+        },
+        {
+          "word": "mravencům",
+          "probability": -1.4506770372390747
+        },
+        {
+          "word": "krbu",
+          "probability": -1.4763466119766235
+        },
+        {
+          "word": "ryby",
+          "probability": -1.4908466339111328
+        },
+        {
+          "word": "země",
+          "probability": -1.510366439819336
+        },
+        {
+          "word": "stromu",
+          "probability": -1.5130418539047241
+        },
+        {
+          "word": "hladu",
+          "probability": -1.5225093364715576
+        },
+        {
+          "word": "koní",
+          "probability": -1.5341808795928955
+        },
+        {
+          "word": "svého",
+          "probability": -1.535740613937378
+        },
+        {
+          "word": "rybníků",
+          "probability": -1.5420312881469727
+        },
+        {
+          "word": "hřibů",
+          "probability": -1.5436922311782837
+        },
+        {
+          "word": "plotu",
+          "probability": -1.588710904121399
+        },
+        {
+          "word": "ryb",
+          "probability": -1.5913909673690796
+        },
+        {
+          "word": "mrtvoly",
+          "probability": -1.5979317426681519
+        }
+      ],
+      "category": "unigrams_NOUN",
+      "additional_info": ""
+    },
+    {
+      "paragraph_id": "453e4567-e89b-42d3-a456-426614174014",
+      "index": 39,
+      "content": "paty",
+      "sentence_blanked": "Jednou prosil Jeník, aby mu babička zakrojila po straně do kůrky, že on to rád jí; babička to ale neudělala řkouc: „Neslyšel jsi, když se zakrojuje do chleba, že se ukrajujou Pánubohu <<BLANK>>?",
+      "sentence_index": 0,
+      "predictions": null,
+      "category": "random",
+      "additional_info": "",
+      "origin_category": "unigrams_NOUN"
+    },
+    {
+      "paragraph_id": "453e4567-e89b-42d3-a456-426614174014",
+      "index": 10,
+      "content": "jídle",
+      "sentence_blanked": "Nechť je jak je, ty se neuč vymýšlet v <<BLANK>>,“ a pan Jeníček musel si nechat laskominky zajít.",
+      "sentence_index": 1,
+      "predictions": null,
+      "category": "random",
+      "additional_info": "",
+      "origin_category": "unigrams_NOUN"
+    }
+  ]
+}

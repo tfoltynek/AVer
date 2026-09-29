@@ -1,0 +1,214 @@
+/* Document Card List — fixed responsive 3/2/1 grid, left-aligned.
+   Mirrors TestCardList. */
+.DocumentCardList {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: var(--space-5);
+  margin: var(--space-6) 0;
+}
+
+@media (max-width: 1100px) {
+  .DocumentCardList {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 640px) {
+  .DocumentCardList {
+    grid-template-columns: 1fr;
+    gap: var(--space-4);
+  }
+}
+
+/* DocumentCard — file-as-artifact card. Distinct from TestCard:
+ *   - No surface-2 header bar; the whole card sits on one surface.
+ *   - File-type badge is a prominent visual anchor in the top-left.
+ *   - Title in display font (editorial feel).
+ *   - Full-width primary CTA at the bottom.
+ *
+ * Shares the spacing scale with TestCard:
+ *   --space-1 (4)   tightest pair  (label ↔ value)
+ *   --space-2 (8)   inline icon ↔ text
+ *   --space-3 (12)  related siblings
+ *   --space-4 (16)  distinct groups
+ *   --space-5 (24)  outer padding */
+
+.DocumentCard {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  padding: var(--space-5);
+}
+
+.DocumentCard-titleBlock {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.DocumentCard-titleRow {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--space-3);
+}
+
+.DocumentCard-status {
+  flex-shrink: 0;
+}
+
+.DocumentCard-title {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: var(--font-size-6);
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--text);
+  word-break: break-word;
+  flex: 1;
+  min-width: 0;
+}
+
+.DocumentCard-subtitle {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-2);
+  margin: 0;
+  font-size: var(--font-size-2);
+  color: var(--neutral);
+
+  svg {
+    color: var(--neutral);
+    flex-shrink: 0;
+  }
+}
+
+.DocumentCard-sep {
+  color: var(--border);
+}
+
+.DocumentCard-meta {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: var(--space-3) var(--space-4);
+  padding: var(--space-4) 0;
+  margin: 0;
+  border-top: 1px dashed var(--border);
+  border-bottom: 1px dashed var(--border);
+}
+
+/* When the meta strip is the last child of the card (no action buttons follow,
+   e.g. the dashboard's uploaded-document card), drop the bottom divider — it
+   has nothing left to separate from. */
+.DocumentCard-meta:last-child {
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+.DocumentCard-metaItem {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-3);
+
+  svg {
+    color: var(--primary);
+    flex-shrink: 0;
+  }
+}
+
+.DocumentCard-metaText {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+  line-height: 1.2;
+}
+
+.DocumentCard-metaLabel {
+  margin: 0;
+  font-size: var(--font-size-1);
+  font-weight: 500;
+  color: var(--neutral);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.DocumentCard-metaValue {
+  margin: 0;
+  font-size: var(--font-size-2);
+  font-weight: 500;
+  color: var(--text);
+  font-variant-numeric: tabular-nums;
+}
+
+.DocumentCard-metaMore {
+  font-weight: 500;
+  color: var(--neutral);
+}
+
+/* When the value is truncated with "+N more", hint that hovering reveals
+   the full list (via the native title-attribute tooltip on the <dd>). */
+.DocumentCard-metaValue:has(.DocumentCard-metaMore) {
+  cursor: help;
+}
+
+.DocumentCard-actions {
+  display: flex;
+  gap: var(--space-3);
+  margin-top: auto;
+}
+
+.DocumentCard-action {
+  width: 100%;
+  justify-content: center;
+}
+
+/* DocumentTypeIcon — compact file-type pill that lives inline in the
+   subtitle. Color-coded so users can still skim by file type. */
+.DocumentTypeIcon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  padding: 0 var(--space-2);
+  height: 1.25rem;
+  font-size: var(--font-size-1);
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  border-radius: var(--radius-sm);
+  border: 1px solid;
+}
+
+.DocumentTypeIcon--pdf {
+  color: var(--incorrect-border);
+  background-color: var(--incorrect-background);
+  border-color: var(--incorrect-border);
+}
+
+.DocumentTypeIcon--txt,
+.DocumentTypeIcon--md,
+.DocumentTypeIcon--unknown {
+  color: var(--neutral-border);
+  background-color: var(--neutral-background);
+  border-color: var(--neutral-border);
+}
+
+.DocumentTypeIcon--docx {
+  color: var(--primary-border);
+  background-color: var(--primary-background);
+  border-color: var(--primary-border);
+}
+
+/* Status indicators (shared with analysis-status-tag partial) */
+.DocumentCard-statusWrapper {
+  display: inline-flex;
+  flex-direction: column;
+  gap: var(--space-1);
+  align-items: flex-end;
+}
+
+.DocumentCard-analysisBadge {
+  font-size: var(--font-size-1);
+  color: var(--neutral);
+}

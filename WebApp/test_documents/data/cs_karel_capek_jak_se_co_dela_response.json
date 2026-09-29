@@ -1,0 +1,1755 @@
+{
+  "document_id": "223e4567-289b-12d3-a456-426624174002",
+  "words": [
+    {
+      "paragraph_id": "423e4567-e89b-4253-a456-426614174014",
+      "index": 2,
+      "content": "člověk",
+      "sentence_blanked": "Novinářem se <<BLANK>> zpravidla stává tak, že z mladistvé nezkušenosti napíše něco do novin; k jeho nemalému úžasu to v novinách vyjde, a když přijde s něčím podruhé, řekne mu v redakci pán v bílém chalátě něco jako „napište nám zas něco“.",
+      "sentence_index": 0,
+      "predictions": [
+        {
+          "word": "to",
+          "probability": -0.20636379718780518
+        },
+        {
+          "word": "tomu",
+          "probability": -1.0772327184677124
+        },
+        {
+          "word": "pak",
+          "probability": -1.1248308420181274
+        },
+        {
+          "word": "však",
+          "probability": -1.1688060760498047
+        },
+        {
+          "word": "tedy",
+          "probability": -1.2118338346481323
+        },
+        {
+          "word": "potom",
+          "probability": -1.272212028503418
+        },
+        {
+          "word": "člověku",
+          "probability": -1.2911863327026367
+        },
+        {
+          "word": "mládeži",
+          "probability": -1.2948232889175415
+        },
+        {
+          "word": "většinou",
+          "probability": -1.322716474533081
+        },
+        {
+          "word": "ovšem",
+          "probability": -1.324716567993164
+        },
+        {
+          "word": "totiž",
+          "probability": -1.3452435731887817
+        },
+        {
+          "word": "ale",
+          "probability": -1.3540271520614624
+        },
+        {
+          "word": "mu",
+          "probability": -1.3853445053100586
+        },
+        {
+          "word": "někdy",
+          "probability": -1.392547607421875
+        },
+        {
+          "word": "mládežníkovi",
+          "probability": -1.3946254253387451
+        },
+        {
+          "word": "taky",
+          "probability": -1.4100267887115479
+        },
+        {
+          "word": "mládežníkům",
+          "probability": -1.4282678365707397
+        },
+        {
+          "word": "také",
+          "probability": -1.4393080472946167
+        },
+        {
+          "word": "navíc",
+          "probability": -1.5068844556808472
+        },
+        {
+          "word": "prý",
+          "probability": -1.5334702730178833
+        },
+        {
+          "word": "tak",
+          "probability": -1.533803105354309
+        },
+        {
+          "word": "mi",
+          "probability": -1.5355595350265503
+        },
+        {
+          "word": "vlastně",
+          "probability": -1.5364010334014893
+        },
+        {
+          "word": "mládežník",
+          "probability": -1.5377365350723267
+        },
+        {
+          "word": "tehdy",
+          "probability": -1.5787638425827026
+        },
+        {
+          "word": "přitom",
+          "probability": -1.5828447341918945
+        },
+        {
+          "word": "dnes",
+          "probability": -1.5982738733291626
+        },
+        {
+          "word": "teď",
+          "probability": -1.6098241806030273
+        },
+        {
+          "word": "prostě",
+          "probability": -1.6582190990447998
+        },
+        {
+          "word": "mládežně",
+          "probability": -1.6628183126449585
+        },
+        {
+          "word": "naopak",
+          "probability": -1.679129719734192
+        },
+        {
+          "word": "občas",
+          "probability": -1.7021421194076538
+        },
+        {
+          "word": "již",
+          "probability": -1.7212657928466797
+        },
+        {
+          "word": "člověk",
+          "probability": -1.7313146591186523
+        },
+        {
+          "word": "mládenci",
+          "probability": -1.7358530759811401
+        },
+        {
+          "word": "mládežničtám",
+          "probability": -1.7642408609390259
+        },
+        {
+          "word": "mládež",
+          "probability": -1.7749245166778564
+        },
+        {
+          "word": "mládežníku",
+          "probability": -1.776136875152588
+        },
+        {
+          "word": "toho",
+          "probability": -1.7864850759506226
+        },
+        {
+          "word": "mládežničtům",
+          "probability": -1.7995262145996094
+        },
+        {
+          "word": "mládencům",
+          "probability": -1.7998625040054321
+        }
+      ],
+      "category": "unigrams_NOUN",
+      "additional_info": ""
+    },
+    {
+      "paragraph_id": "423e4567-e89b-1293-a455-426614174015",
+      "index": 1,
+      "content": "novináři",
+      "sentence_blanked": "Prostě <<BLANK>>, podobně jako herci a politikové, se rekrutují z osob nejrůznějšího povolání, které se jaksi dostanou na scestí.",
+      "sentence_index": 1,
+      "predictions": [
+        {
+          "word": "podnikatelé",
+          "probability": -0.8399651646614075
+        },
+        {
+          "word": "spisovatelé",
+          "probability": -0.8478943705558777
+        },
+        {
+          "word": "oni",
+          "probability": -0.8815330266952515
+        },
+        {
+          "word": "lékaři",
+          "probability": -0.9462855458259583
+        },
+        {
+          "word": "hudebníci",
+          "probability": -0.9876929521560669
+        },
+        {
+          "word": "umělci",
+          "probability": -0.9991772174835205
+        },
+        {
+          "word": "novináři",
+          "probability": -1.0392282009124756
+        },
+        {
+          "word": "herci",
+          "probability": -1.0778439044952393
+        },
+        {
+          "word": "učitelé",
+          "probability": -1.1447741985321045
+        },
+        {
+          "word": "obchodníci",
+          "probability": -1.1670749187469482
+        },
+        {
+          "word": "celebrity",
+          "probability": -1.237851858139038
+        },
+        {
+          "word": "hokejisté",
+          "probability": -1.2539613246917725
+        },
+        {
+          "word": "všichni",
+          "probability": -1.2703349590301514
+        },
+        {
+          "word": "dělníci",
+          "probability": -1.2940709590911865
+        },
+        {
+          "word": "lidé",
+          "probability": -1.3129174709320068
+        },
+        {
+          "word": "herečky",
+          "probability": -1.320115089416504
+        },
+        {
+          "word": "hvězdy",
+          "probability": -1.3359205722808838
+        },
+        {
+          "word": "právníci",
+          "probability": -1.3386399745941162
+        },
+        {
+          "word": "zaměstnanci",
+          "probability": -1.3432146310806274
+        },
+        {
+          "word": "kluci",
+          "probability": -1.3975486755371094
+        },
+        {
+          "word": "upírové",
+          "probability": -1.4100546836853027
+        },
+        {
+          "word": "autoři",
+          "probability": -1.4468640089035034
+        },
+        {
+          "word": "celebritové",
+          "probability": -1.4757969379425049
+        },
+        {
+          "word": "muzikanti",
+          "probability": -1.480034589767456
+        },
+        {
+          "word": "umění",
+          "probability": -1.4920936822891235
+        },
+        {
+          "word": "spisovatelové",
+          "probability": -1.4932606220245361
+        },
+        {
+          "word": "diváci",
+          "probability": -1.4967561960220337
+        },
+        {
+          "word": "jenom",
+          "probability": -1.5182369947433472
+        },
+        {
+          "word": "herečci",
+          "probability": -1.5323805809020996
+        },
+        {
+          "word": "muzikálové",
+          "probability": -1.5328363180160522
+        },
+        {
+          "word": "totiž",
+          "probability": -1.5635159015655518
+        },
+        {
+          "word": "uživatelé",
+          "probability": -1.586588740348816
+        },
+        {
+          "word": "takové",
+          "probability": -1.6355555057525635
+        },
+        {
+          "word": "výrobci",
+          "probability": -1.6583161354064941
+        },
+        {
+          "word": "všechno",
+          "probability": -1.6611213684082031
+        },
+        {
+          "word": "prostě",
+          "probability": -1.6625045537948608
+        },
+        {
+          "word": "hvězdičkáři",
+          "probability": -1.6703603267669678
+        },
+        {
+          "word": "politici",
+          "probability": -1.674459457397461
+        },
+        {
+          "word": "hvězdičkové",
+          "probability": -1.67513906955719
+        },
+        {
+          "word": "podnikatele",
+          "probability": -1.7065656185150146
+        },
+        {
+          "word": "teď",
+          "probability": -1.7084686756134033
+        }
+      ],
+      "category": "unigrams_NOUN",
+      "additional_info": ""
+    },
+    {
+      "paragraph_id": "123e4567-e89b-32d3-a256-426614174010",
+      "index": 34,
+      "content": "hodnost",
+      "sentence_blanked": "Redakční štáb není žádný velitelský sbor, nýbrž prostě souhrn všech aktivních členů redakce; někteří z nich mají na sobě bílé pracovní hazuky, podobné plášťům holičským, ale ty neoznačují žádnou zvláštní <<BLANK>> nebo šarži.",
+      "sentence_index": 0,
+      "predictions": [
+        {
+          "word": "uniformu",
+          "probability": -0.5923445820808411
+        },
+        {
+          "word": "barvu",
+          "probability": -0.6009309887886047
+        },
+        {
+          "word": "třídu",
+          "probability": -0.9091066122055054
+        },
+        {
+          "word": "skupinu",
+          "probability": -0.9596167206764221
+        },
+        {
+          "word": "složku",
+          "probability": -1.0171595811843872
+        },
+        {
+          "word": "vůli",
+          "probability": -1.0638874769210815
+        },
+        {
+          "word": "řadu",
+          "probability": -1.0646424293518066
+        },
+        {
+          "word": "odrůdu",
+          "probability": -1.0869028568267822
+        },
+        {
+          "word": "zbraň",
+          "probability": -1.0908561944961548
+        },
+        {
+          "word": "službu",
+          "probability": -1.112272024154663
+        },
+        {
+          "word": "příslušnost",
+          "probability": -1.1755717992782593
+        },
+        {
+          "word": "značku",
+          "probability": -1.1761780977249146
+        },
+        {
+          "word": "armádu",
+          "probability": -1.1813530921936035
+        },
+        {
+          "word": "úroveň",
+          "probability": -1.2101393938064575
+        },
+        {
+          "word": "linii",
+          "probability": -1.2142950296401978
+        },
+        {
+          "word": "podobu",
+          "probability": -1.2307482957839966
+        },
+        {
+          "word": "tvář",
+          "probability": -1.2399195432662964
+        },
+        {
+          "word": "roli",
+          "probability": -1.247835397720337
+        },
+        {
+          "word": "hodnost",
+          "probability": -1.2529560327529907
+        },
+        {
+          "word": "postavu",
+          "probability": -1.2580543756484985
+        },
+        {
+          "word": "sbírku",
+          "probability": -1.287222981452942
+        },
+        {
+          "word": "úlohu",
+          "probability": -1.296742558479309
+        },
+        {
+          "word": "činnost",
+          "probability": -1.303680658340454
+        },
+        {
+          "word": "uniforme",
+          "probability": -1.3281809091567993
+        },
+        {
+          "word": "vrstvu",
+          "probability": -1.3330302238464355
+        },
+        {
+          "word": "řádnost",
+          "probability": -1.3539903163909912
+        },
+        {
+          "word": "sílu",
+          "probability": -1.3790435791015625
+        },
+        {
+          "word": "výzbroj",
+          "probability": -1.3931387662887573
+        },
+        {
+          "word": "dobu",
+          "probability": -1.3934576511383057
+        },
+        {
+          "word": "vlnu",
+          "probability": -1.3960648775100708
+        },
+        {
+          "word": "velikost",
+          "probability": -1.401810884475708
+        },
+        {
+          "word": "siluetu",
+          "probability": -1.4032435417175293
+        },
+        {
+          "word": "funkci",
+          "probability": -1.405416488647461
+        },
+        {
+          "word": "postavení",
+          "probability": -1.4094030857086182
+        },
+        {
+          "word": "stranu",
+          "probability": -1.416886806488037
+        },
+        {
+          "word": "pozici",
+          "probability": -1.41746187210083
+        },
+        {
+          "word": "vlkodlačku",
+          "probability": -1.4327220916748047
+        },
+        {
+          "word": "polohu",
+          "probability": -1.4478609561920166
+        },
+        {
+          "word": "věc",
+          "probability": -1.4649007320404053
+        },
+        {
+          "word": "disciplínu",
+          "probability": -1.4670161008834839
+        },
+        {
+          "word": "vlastnost",
+          "probability": -1.4760584831237793
+        }
+      ],
+      "category": "unigrams_NOUN",
+      "additional_info": ""
+    },
+    {
+      "paragraph_id": "123e4567-e89b-32d3-a256-426614174010",
+      "index": 28,
+      "content": "schůze",
+      "sentence_blanked": "Nosí je hlavně ti redaktoři, kteří vedou sedavý život u redakčního stolu; ti však, kteří pobíhají po městě, docházejí do sněmovny nebo navštěvují různé <<BLANK>> a porady, vystupují v obyčejném civilu; nejvýš ukrývají pod klopou kabátu novinářský odznak, se kterým se vytasí jenom tehdy, když je strážník někam nechce pustit.",
+      "sentence_index": 1,
+      "predictions": [
+        {
+          "word": "schůzky",
+          "probability": -0.485816091299057
+        },
+        {
+          "word": "schůze",
+          "probability": -0.5826320052146912
+        },
+        {
+          "word": "besedy",
+          "probability": -0.6058728694915771
+        },
+        {
+          "word": "semináře",
+          "probability": -0.6385859251022339
+        },
+        {
+          "word": "srazy",
+          "probability": -0.708968460559845
+        },
+        {
+          "word": "jednání",
+          "probability": -0.7158128023147583
+        },
+        {
+          "word": "setkání",
+          "probability": -0.7324478030204773
+        },
+        {
+          "word": "shromáždění",
+          "probability": -0.7850478887557983
+        },
+        {
+          "word": "konference",
+          "probability": -0.862196147441864
+        },
+        {
+          "word": "kluby",
+          "probability": -0.8711487650871277
+        },
+        {
+          "word": "shromážděnky",
+          "probability": -0.8927546143531799
+        },
+        {
+          "word": "sjezdy",
+          "probability": -0.9453760981559753
+        },
+        {
+          "word": "akce",
+          "probability": -0.9493236541748047
+        },
+        {
+          "word": "setkávání",
+          "probability": -0.9994394183158875
+        },
+        {
+          "word": "zasedání",
+          "probability": -1.0455944538116455
+        },
+        {
+          "word": "přednášky",
+          "probability": -1.046807050704956
+        },
+        {
+          "word": "večírky",
+          "probability": -1.069089651107788
+        },
+        {
+          "word": "školy",
+          "probability": -1.0832087993621826
+        },
+        {
+          "word": "předsednictví",
+          "probability": -1.1038283109664917
+        },
+        {
+          "word": "kongresy",
+          "probability": -1.1191598176956177
+        },
+        {
+          "word": "shromádky",
+          "probability": -1.1197644472122192
+        },
+        {
+          "word": "předsednictva",
+          "probability": -1.1587450504302979
+        },
+        {
+          "word": "spolky",
+          "probability": -1.1807441711425781
+        },
+        {
+          "word": "odbory",
+          "probability": -1.2169859409332275
+        },
+        {
+          "word": "schůzy",
+          "probability": -1.2498366832733154
+        },
+        {
+          "word": "diskuse",
+          "probability": -1.2658898830413818
+        },
+        {
+          "word": "výstavy",
+          "probability": -1.2713510990142822
+        },
+        {
+          "word": "shromážděnosti",
+          "probability": -1.2727781534194946
+        },
+        {
+          "word": "předsednictvá",
+          "probability": -1.2794110774993896
+        },
+        {
+          "word": "kurzy",
+          "probability": -1.2858119010925293
+        },
+        {
+          "word": "komise",
+          "probability": -1.2899154424667358
+        },
+        {
+          "word": "výbory",
+          "probability": -1.298924207687378
+        },
+        {
+          "word": "setkárny",
+          "probability": -1.3114310503005981
+        },
+        {
+          "word": "konferencí",
+          "probability": -1.315592885017395
+        },
+        {
+          "word": "předsedlárny",
+          "probability": -1.3198823928833008
+        },
+        {
+          "word": "diskuze",
+          "probability": -1.3373842239379883
+        },
+        {
+          "word": "školení",
+          "probability": -1.353857398033142
+        },
+        {
+          "word": "shromáždění",
+          "probability": -1.3703060150146484
+        },
+        {
+          "word": "shromážděčky",
+          "probability": -1.374638557434082
+        },
+        {
+          "word": "kavárny",
+          "probability": -1.3847559690475464
+        },
+        {
+          "word": "shromážděnia",
+          "probability": -1.4181511402130127
+        }
+      ],
+      "category": "unigrams_NOUN",
+      "additional_info": ""
+    },
+    {
+      "paragraph_id": "423e4567-e89b-1243-a356-426614174013",
+      "index": 22,
+      "content": "každý",
+      "sentence_blanked": "Je sice novinářská škola, ale ještě jsem nepotkal novináře, který by z ní vyšel; zato jsem shledal, že <<BLANK>> novinář býval kdysi medikem, inženýrem, právníkem, literátem, úředníkem Exportního ústavu nebo čím jiným, a že toho z nějakých důvodů nechal.",
+      "sentence_index": 1,
+      "predictions": [
+        {
+          "word": "nějaký",
+          "probability": -0.376190185546875
+        },
+        {
+          "word": "některý",
+          "probability": -0.5818817615509033
+        },
+        {
+          "word": "každý",
+          "probability": -0.6333656907081604
+        },
+        {
+          "word": "jakýkoli",
+          "probability": -0.925356388092041
+        },
+        {
+          "word": "bývalý",
+          "probability": -0.9816513061523438
+        },
+        {
+          "word": "jeden",
+          "probability": -0.9905271530151367
+        },
+        {
+          "word": "i",
+          "probability": -0.9935778379440308
+        },
+        {
+          "word": "většinou",
+          "probability": -1.018552303314209
+        },
+        {
+          "word": "jakýkoliv",
+          "probability": -1.0231506824493408
+        },
+        {
+          "word": "takový",
+          "probability": -1.0233980417251587
+        },
+        {
+          "word": "mnohý",
+          "probability": -1.0558462142944336
+        },
+        {
+          "word": "jakýsi",
+          "probability": -1.0647119283676147
+        },
+        {
+          "word": "tento",
+          "probability": -1.0925687551498413
+        },
+        {
+          "word": "určitý",
+          "probability": -1.115297555923462
+        },
+        {
+          "word": "mnohokrát",
+          "probability": -1.1168200969696045
+        },
+        {
+          "word": "řada",
+          "probability": -1.1328057050704956
+        },
+        {
+          "word": "nejeden",
+          "probability": -1.135421872138977
+        },
+        {
+          "word": "skutečný",
+          "probability": -1.1494284868240356
+        },
+        {
+          "word": "kdejaký",
+          "probability": -1.1665619611740112
+        },
+        {
+          "word": "jistý",
+          "probability": -1.2058600187301636
+        },
+        {
+          "word": "jiný",
+          "probability": -1.2141937017440796
+        },
+        {
+          "word": "známý",
+          "probability": -1.214750051498413
+        },
+        {
+          "word": "dobrý",
+          "probability": -1.2401896715164185
+        },
+        {
+          "word": "někdy",
+          "probability": -1.2417042255401611
+        },
+        {
+          "word": "řadový",
+          "probability": -1.270246982574463
+        },
+        {
+          "word": "většina",
+          "probability": -1.2766296863555908
+        },
+        {
+          "word": "kterýkoli",
+          "probability": -1.3084747791290283
+        },
+        {
+          "word": "někdejší",
+          "probability": -1.3302559852600098
+        },
+        {
+          "word": "větší",
+          "probability": -1.347395420074463
+        },
+        {
+          "word": "kdejaký",
+          "probability": -1.3622184991836548
+        },
+        {
+          "word": "několikátý",
+          "probability": -1.378525733947754
+        },
+        {
+          "word": "kdysi",
+          "probability": -1.380934476852417
+        },
+        {
+          "word": "náš",
+          "probability": -1.3815267086029053
+        },
+        {
+          "word": "většinový",
+          "probability": -1.3860316276550293
+        },
+        {
+          "word": "onen",
+          "probability": -1.4417680501937866
+        },
+        {
+          "word": "nějaký",
+          "probability": -1.449281096458435
+        },
+        {
+          "word": "by",
+          "probability": -1.455133080482483
+        },
+        {
+          "word": "někteří",
+          "probability": -1.4567888975143433
+        },
+        {
+          "word": "mnohdy",
+          "probability": -1.4707019329071045
+        },
+        {
+          "word": "někdo",
+          "probability": -1.4736897945404053
+        },
+        {
+          "word": "většinový",
+          "probability": -1.4809355735778809
+        }
+      ],
+      "category": "unigrams_ADJ",
+      "additional_info": ""
+    },
+    {
+      "paragraph_id": "423e4567-e89b-1243-a356-426614174013",
+      "index": 61,
+      "content": "celý",
+      "sentence_blanked": "Někdy to bývají, abych tak řekl, jaksi ztracené existence, které se „uchytí“ jako žurnalisté; neříká se o nikom, že se „uchytil“ jako poslanec nebo bankovní ředitel; ale novinář se obyčejně „uchytí“, a to téměř doslovně, podle přísloví, že „jen drápek uvíz, a chycen je <<BLANK>> ptáček“.",
+      "sentence_index": 2,
+      "predictions": [
+        {
+          "word": "jako",
+          "probability": -0.1886831670999527
+        },
+        {
+          "word": "i",
+          "probability": -0.5617258548736572
+        },
+        {
+          "word": "jak",
+          "probability": -0.9238214492797852
+        },
+        {
+          "word": "sám",
+          "probability": -1.4027042388916016
+        },
+        {
+          "word": "také",
+          "probability": -1.434033989906311
+        },
+        {
+          "word": "nějaký",
+          "probability": -1.4750006198883057
+        },
+        {
+          "word": "ten",
+          "probability": -1.476511001586914
+        },
+        {
+          "word": "až",
+          "probability": -1.489680290222168
+        },
+        {
+          "word": "vždycky",
+          "probability": -1.533287525177002
+        },
+        {
+          "word": "jen",
+          "probability": -1.557768702507019
+        },
+        {
+          "word": "vždy",
+          "probability": -1.5806725025177002
+        },
+        {
+          "word": "každý",
+          "probability": -1.587557315826416
+        },
+        {
+          "word": "jménem",
+          "probability": -1.634255290031433
+        },
+        {
+          "word": "jiný",
+          "probability": -1.658456802368164
+        },
+        {
+          "word": "mrtvý",
+          "probability": -1.6629279851913452
+        },
+        {
+          "word": "ještě",
+          "probability": -1.7229337692260742
+        },
+        {
+          "word": "ště jako",
+          "probability": -1.7335182428359985
+        },
+        {
+          "word": "taky",
+          "probability": -1.7428237199783325
+        },
+        {
+          "word": "a",
+          "probability": -1.7608368396759033
+        },
+        {
+          "word": "jméno",
+          "probability": -1.7682018280029297
+        },
+        {
+          "word": "oštěpaný",
+          "probability": -1.7797317504882812
+        },
+        {
+          "word": "třeba",
+          "probability": -1.7878042459487915
+        },
+        {
+          "word": "tvůj",
+          "probability": -1.7982064485549927
+        },
+        {
+          "word": "ště i",
+          "probability": -1.8061294555664062
+        },
+        {
+          "word": "další",
+          "probability": -1.8130980730056763
+        },
+        {
+          "word": "celý",
+          "probability": -1.824219822883606
+        },
+        {
+          "word": "oštěpný",
+          "probability": -1.843037486076355
+        },
+        {
+          "word": "druhý",
+          "probability": -1.846976399421692
+        },
+        {
+          "word": "jenom",
+          "probability": -1.879240870475769
+        },
+        {
+          "word": "ště bývá",
+          "probability": -1.8818062543869019
+        },
+        {
+          "word": "již",
+          "probability": -1.8942369222640991
+        },
+        {
+          "word": "jakýsi",
+          "probability": -1.8993040323257446
+        },
+        {
+          "word": "ozbrojený",
+          "probability": -1.8999239206314087
+        },
+        {
+          "word": "ště nějaký",
+          "probability": -1.9143892526626587
+        },
+        {
+          "word": "takový",
+          "probability": -1.941578984260559
+        },
+        {
+          "word": "některý",
+          "probability": -1.943216323852539
+        },
+        {
+          "word": "vždyť",
+          "probability": -1.9467593431472778
+        },
+        {
+          "word": "oštěpový",
+          "probability": -1.9480148553848267
+        },
+        {
+          "word": "třeboňský",
+          "probability": -1.951586127281189
+        },
+        {
+          "word": "oštěpařský",
+          "probability": -1.9597088098526
+        },
+        {
+          "word": "uvnitř",
+          "probability": -1.9631938934326172
+        }
+      ],
+      "category": "unigrams_ADJ",
+      "additional_info": ""
+    },
+    {
+      "paragraph_id": "423e4567-e89b-1293-a455-426614174015",
+      "index": 21,
+      "content": "nevyhnutelnou",
+      "sentence_blanked": "Někdy se člověk dá k novinám, protože o sobě věří, že má dobré pero; ale ani to není <<BLANK>> podmínkou.",
+      "sentence_index": 0,
+      "predictions": [
+        {
+          "word": "nutnou",
+          "probability": -0.596025824546814
+        },
+        {
+          "word": "žádnou",
+          "probability": -0.6836146116256714
+        },
+        {
+          "word": "nezbytnou",
+          "probability": -0.7828591465950012
+        },
+        {
+          "word": "naprostou",
+          "probability": -0.8004039525985718
+        },
+        {
+          "word": "úplnou",
+          "probability": -0.8326204419136047
+        },
+        {
+          "word": "zrovna",
+          "probability": -0.889488160610199
+        },
+        {
+          "word": "úplně",
+          "probability": -0.892872154712677
+        },
+        {
+          "word": "jeho",
+          "probability": -0.9429754018783569
+        },
+        {
+          "word": "další",
+          "probability": -0.9581831097602844
+        },
+        {
+          "word": "vždy",
+          "probability": -0.9771698117256165
+        },
+        {
+          "word": "zároveň",
+          "probability": -1.0221850872039795
+        },
+        {
+          "word": "vždycky",
+          "probability": -1.0425862073898315
+        },
+        {
+          "word": "hlavní",
+          "probability": -1.049593448638916
+        },
+        {
+          "word": "povinnou",
+          "probability": -1.0522199869155884
+        },
+        {
+          "word": "nejvyšší",
+          "probability": -1.0524988174438477
+        },
+        {
+          "word": "prvořadou",
+          "probability": -1.0850298404693604
+        },
+        {
+          "word": "nevyhnutelnou",
+          "probability": -1.0923458337783813
+        },
+        {
+          "word": "naprostou",
+          "probability": -1.0936081409454346
+        },
+        {
+          "word": "dostatečnou",
+          "probability": -1.1094812154769897
+        },
+        {
+          "word": "zcela",
+          "probability": -1.1158154010772705
+        },
+        {
+          "word": "zaručenou",
+          "probability": -1.1227831840515137
+        },
+        {
+          "word": "jedinou",
+          "probability": -1.1588683128356934
+        },
+        {
+          "word": "nutně",
+          "probability": -1.163596272468567
+        },
+        {
+          "word": "ideální",
+          "probability": -1.185754418373108
+        },
+        {
+          "word": "tou",
+          "probability": -1.225145936012268
+        },
+        {
+          "word": "samozřejmou",
+          "probability": -1.229170560836792
+        },
+        {
+          "word": "základní",
+          "probability": -1.2391847372055054
+        },
+        {
+          "word": "zákonitou",
+          "probability": -1.2413966655731201
+        },
+        {
+          "word": "životní",
+          "probability": -1.271198034286499
+        },
+        {
+          "word": "její",
+          "probability": -1.2916909456253052
+        },
+        {
+          "word": "dobrou",
+          "probability": -1.2939369678497314
+        },
+        {
+          "word": "nutné",
+          "probability": -1.3117480278015137
+        },
+        {
+          "word": "srozumitelnou",
+          "probability": -1.3475961685180664
+        },
+        {
+          "word": "skvělou",
+          "probability": -1.350730538368225
+        },
+        {
+          "word": "absolutní",
+          "probability": -1.3507417440414429
+        },
+        {
+          "word": "rozhodující",
+          "probability": -1.3604100942611694
+        },
+        {
+          "word": "potřebnou",
+          "probability": -1.3607467412948608
+        },
+        {
+          "word": "samozřejmě",
+          "probability": -1.369550108909607
+        },
+        {
+          "word": "konečnou",
+          "probability": -1.381410002708435
+        },
+        {
+          "word": "první",
+          "probability": -1.4068866968154907
+        },
+        {
+          "word": "splněnou",
+          "probability": -1.4087024927139282
+        }
+      ],
+      "category": "unigrams_ADJ",
+      "additional_info": ""
+    },
+    {
+      "paragraph_id": "423e4567-e89b-1243-a356-426614174013",
+      "index": 11,
+      "content": "lidí",
+      "sentence_blanked": "Pokud vím, nikdo se dosud nepokusil vyzkoumat, z jakých <<BLANK>> se dělají novináři.",
+      "sentence_index": 0,
+      "predictions": [
+        {
+          "word": "zdrojů",
+          "probability": -0.4462665021419525
+        },
+        {
+          "word": "médií",
+          "probability": -0.528923749923706
+        },
+        {
+          "word": "materiálů",
+          "probability": -0.7291208505630493
+        },
+        {
+          "word": "článků",
+          "probability": -0.8612602353096008
+        },
+        {
+          "word": "profesí",
+          "probability": -0.9235088229179382
+        },
+        {
+          "word": "důvodů",
+          "probability": -0.9596823453903198
+        },
+        {
+          "word": "prostředků",
+          "probability": -1.028173565864563
+        },
+        {
+          "word": "úmyslů",
+          "probability": -1.0679041147232056
+        },
+        {
+          "word": "pramenů",
+          "probability": -1.1155470609664917
+        },
+        {
+          "word": "novinek",
+          "probability": -1.1345055103302002
+        },
+        {
+          "word": "činností",
+          "probability": -1.228690266609192
+        },
+        {
+          "word": "novin",
+          "probability": -1.2299281358718872
+        },
+        {
+          "word": "zpráv",
+          "probability": -1.246717095375061
+        },
+        {
+          "word": "oborů",
+          "probability": -1.2543100118637085
+        },
+        {
+          "word": "poměrů",
+          "probability": -1.261519193649292
+        },
+        {
+          "word": "věcí",
+          "probability": -1.3001785278320312
+        },
+        {
+          "word": "úkolů",
+          "probability": -1.3039804697036743
+        },
+        {
+          "word": "svršků",
+          "probability": -1.3415298461914062
+        },
+        {
+          "word": "firem",
+          "probability": -1.3568394184112549
+        },
+        {
+          "word": "podniků",
+          "probability": -1.3577324151992798
+        },
+        {
+          "word": "peněz",
+          "probability": -1.3608694076538086
+        },
+        {
+          "word": "úřadů",
+          "probability": -1.363499641418457
+        },
+        {
+          "word": "informací",
+          "probability": -1.394760251045227
+        },
+        {
+          "word": "sborů",
+          "probability": -1.401182770729065
+        },
+        {
+          "word": "příčin",
+          "probability": -1.410019040107727
+        },
+        {
+          "word": "prací",
+          "probability": -1.441340446472168
+        },
+        {
+          "word": "pracovišť",
+          "probability": -1.4449248313903809
+        },
+        {
+          "word": "okolností",
+          "probability": -1.4534382820129395
+        },
+        {
+          "word": "lidí",
+          "probability": -1.4605897665023804
+        },
+        {
+          "word": "odborů",
+          "probability": -1.472070336341858
+        },
+        {
+          "word": "sbírek",
+          "probability": -1.4796510934829712
+        },
+        {
+          "word": "stránek",
+          "probability": -1.484932780265808
+        },
+        {
+          "word": "institucí",
+          "probability": -1.4863513708114624
+        },
+        {
+          "word": "živlů",
+          "probability": -1.5001482963562012
+        },
+        {
+          "word": "úspěchů",
+          "probability": -1.502210259437561
+        },
+        {
+          "word": "úkrytů",
+          "probability": -1.512255072593689
+        },
+        {
+          "word": "příjmů",
+          "probability": -1.5126781463623047
+        },
+        {
+          "word": "sborníků",
+          "probability": -1.5216354131698608
+        },
+        {
+          "word": "skutečností",
+          "probability": -1.5324482917785645
+        },
+        {
+          "word": "čísel",
+          "probability": -1.5448219776153564
+        },
+        {
+          "word": "potravin",
+          "probability": -1.547552227973938
+        }
+      ],
+      "category": "unigrams_NOUN",
+      "additional_info": ""
+    },
+    {
+      "paragraph_id": "423e4567-e89b-4253-a456-426614174014",
+      "index": 7,
+      "content": "následkem",
+      "sentence_blanked": "Ve většině případů se člověk stává novinářem <<BLANK>> svedení; nevím o nikom, kdo by od dětství horoval jen o tom, že jednou bude žurnalistou.",
+      "sentence_index": 1,
+      "predictions": [
+        {
+          "word": "po",
+          "probability": -0.731499969959259
+        },
+        {
+          "word": "na",
+          "probability": -0.8001635670661926
+        },
+        {
+          "word": "ze",
+          "probability": -1.0371159315109253
+        },
+        {
+          "word": "kvůli",
+          "probability": -1.0945427417755127
+        },
+        {
+          "word": "bez",
+          "probability": -1.1708104610443115
+        },
+        {
+          "word": "navzdory",
+          "probability": -1.1757736206054688
+        },
+        {
+          "word": "přirozeným",
+          "probability": -1.198754906654358
+        },
+        {
+          "word": "pouhým",
+          "probability": -1.199515700340271
+        },
+        {
+          "word": "podle",
+          "probability": -1.2134325504302979
+        },
+        {
+          "word": "přirozeného",
+          "probability": -1.3541349172592163
+        },
+        {
+          "word": "díky",
+          "probability": -1.4458075761795044
+        },
+        {
+          "word": "skrze",
+          "probability": -1.4511399269104004
+        },
+        {
+          "word": "vlastním",
+          "probability": -1.4551057815551758
+        },
+        {
+          "word": "beze",
+          "probability": -1.4955544471740723
+        },
+        {
+          "word": "instinktem",
+          "probability": -1.5009381771087646
+        },
+        {
+          "word": "přirozenému",
+          "probability": -1.5405641794204712
+        },
+        {
+          "word": "během",
+          "probability": -1.5485113859176636
+        },
+        {
+          "word": "následkem",
+          "probability": -1.56316077709198
+        },
+        {
+          "word": "instinktivním",
+          "probability": -1.616629958152771
+        },
+        {
+          "word": "amatérského",
+          "probability": -1.6430178880691528
+        },
+        {
+          "word": "dětským",
+          "probability": -1.6492817401885986
+        },
+        {
+          "word": "přes",
+          "probability": -1.7093267440795898
+        },
+        {
+          "word": "při",
+          "probability": -1.7289167642593384
+        },
+        {
+          "word": "ve",
+          "probability": -1.742637038230896
+        },
+        {
+          "word": "svědomitým",
+          "probability": -1.7474100589752197
+        },
+        {
+          "word": "pomocí",
+          "probability": -1.7509862184524536
+        },
+        {
+          "word": "trochou",
+          "probability": -1.763024926185608
+        },
+        {
+          "word": "svého",
+          "probability": -1.8034082651138306
+        },
+        {
+          "word": "pouhého",
+          "probability": -1.8098478317260742
+        },
+        {
+          "word": "jako",
+          "probability": -1.8210283517837524
+        },
+        {
+          "word": "svědomitého",
+          "probability": -1.8217709064483643
+        },
+        {
+          "word": "dobrovolným",
+          "probability": -1.8280099630355835
+        },
+        {
+          "word": "plný",
+          "probability": -1.8289159536361694
+        },
+        {
+          "word": "přirozeném",
+          "probability": -1.8457763195037842
+        },
+        {
+          "word": "dle",
+          "probability": -1.8779963254928589
+        },
+        {
+          "word": "pro",
+          "probability": -1.8887773752212524
+        },
+        {
+          "word": "svědomím",
+          "probability": -1.8918122053146362
+        },
+        {
+          "word": "ke",
+          "probability": -1.9004440307617188
+        },
+        {
+          "word": "od",
+          "probability": -1.9040379524230957
+        },
+        {
+          "word": "svým",
+          "probability": -1.9142065048217773
+        },
+        {
+          "word": "pouhými",
+          "probability": -1.919048547744751
+        }
+      ],
+      "category": "unigrams_NOUN",
+      "additional_info": ""
+    },
+    {
+      "paragraph_id": "423e4567-e89b-4253-a456-426614174014",
+      "index": 4,
+      "content": "majitelem",
+      "sentence_blanked": "Snad si přál být <<BLANK>> kolotoče, strojvůdcem nebo námořníkem; a hle, jakýmsi vyšinutím z dráhy svých snů se stal členem redakčního štábu.",
+      "sentence_index": 2,
+      "predictions": [
+        {
+          "word": "řidičem",
+          "probability": -0.43044528365135193
+        },
+        {
+          "word": "členem",
+          "probability": -0.7105761766433716
+        },
+        {
+          "word": "vedoucím",
+          "probability": -0.7298320531845093
+        },
+        {
+          "word": "jezdcem",
+          "probability": -0.8294144868850708
+        },
+        {
+          "word": "řidičem",
+          "probability": -0.9069296717643738
+        },
+        {
+          "word": "pilotem",
+          "probability": -0.9388237595558167
+        },
+        {
+          "word": "strojvůdcem",
+          "probability": -0.9711611270904541
+        },
+        {
+          "word": "velitelem",
+          "probability": -0.9844205379486084
+        },
+        {
+          "word": "vodičem",
+          "probability": -1.0368561744689941
+        },
+        {
+          "word": "stavitelem",
+          "probability": -1.0849014520645142
+        },
+        {
+          "word": "začátečníkem",
+          "probability": -1.0882889032363892
+        },
+        {
+          "word": "řídičem",
+          "probability": -1.0914956331253052
+        },
+        {
+          "word": "součástí",
+          "probability": -1.1111558675765991
+        },
+        {
+          "word": "lokomotivou",
+          "probability": -1.1161105632781982
+        },
+        {
+          "word": "hvězdou",
+          "probability": -1.1194026470184326
+        },
+        {
+          "word": "vozíkem",
+          "probability": -1.1372061967849731
+        },
+        {
+          "word": "vozem",
+          "probability": -1.162904977798462
+        },
+        {
+          "word": "řídicím",
+          "probability": -1.163286566734314
+        },
+        {
+          "word": "řidiči",
+          "probability": -1.1639026403427124
+        },
+        {
+          "word": "mechanizátorem",
+          "probability": -1.1810486316680908
+        },
+        {
+          "word": "strojířem",
+          "probability": -1.1812236309051514
+        },
+        {
+          "word": "provozovatelem",
+          "probability": -1.226325273513794
+        },
+        {
+          "word": "strážcem",
+          "probability": -1.2661834955215454
+        },
+        {
+          "word": "strojírenským",
+          "probability": -1.2717680931091309
+        },
+        {
+          "word": "hrdinou",
+          "probability": -1.2768230438232422
+        },
+        {
+          "word": "koňským",
+          "probability": -1.2849360704421997
+        },
+        {
+          "word": "řídíkem",
+          "probability": -1.2857328653335571
+        },
+        {
+          "word": "strojem",
+          "probability": -1.2896983623504639
+        },
+        {
+          "word": "strojičem",
+          "probability": -1.2940102815628052
+        },
+        {
+          "word": "držitelem",
+          "probability": -1.2941941022872925
+        },
+        {
+          "word": "řidič",
+          "probability": -1.294750690460205
+        },
+        {
+          "word": "konstruktem",
+          "probability": -1.3058055639266968
+        },
+        {
+          "word": "stvořitelem",
+          "probability": -1.316850185394287
+        },
+        {
+          "word": "řidíčkem",
+          "probability": -1.3406492471694946
+        },
+        {
+          "word": "u",
+          "probability": -1.3416118621826172
+        },
+        {
+          "word": "správcem",
+          "probability": -1.34817636013031
+        },
+        {
+          "word": "konstruktérem",
+          "probability": -1.3508967161178589
+        },
+        {
+          "word": "řidiče",
+          "probability": -1.3515052795410156
+        },
+        {
+          "word": "spouštěčem",
+          "probability": -1.3629893064498901
+        },
+        {
+          "word": "mistrem",
+          "probability": -1.365756869316101
+        },
+        {
+          "word": "majitelem",
+          "probability": -1.4179328680038452
+        }
+      ],
+      "category": "unigrams_NOUN",
+      "additional_info": ""
+    }
+  ]
+}

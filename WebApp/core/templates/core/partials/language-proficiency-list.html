@@ -1,0 +1,8 @@
+{% load i18n %}
+{% load lucide %}
+<div id="user-languages" class="UserLanguageList">
+  {% for lang in language_list %}
+    {% include "core/partials/language-proficiency-item.html" %}
+  {% endfor %}
+  {% include "core/partials/language-proficiency-form.html" %}
+</div>

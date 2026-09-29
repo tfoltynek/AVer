@@ -1,0 +1,54 @@
+{% extends "core/layouts/base_layout.html" %}
+{% load i18n %}
+{% load static %}
+{% load lucide %}
+{% block body %}
+  {% with request.resolver_match.url_name as url_name %}
+    <a class="SkipLink" href="#main-content">{% translate "Skip to content" %}</a>
+    <div class="AppLayout">
+      <button class="AppLayout-burger"
+              id="burgerMenuBtn"
+              aria-label="{% translate 'Open menu' %}">&#9776;</button>
+      <div class="AppLayout-overlay" id="sideMenuOverlay"></div>
+      <nav class="AppLayout-sideMenu" id="sideMenu">
+        <button class="AppLayout-closeMenu"
+                id="closeMenuBtn"
+                aria-label="{% translate 'Close menu' %}">&times;</button>
+        <a class="AppLayout-logo" href="{% url "landing-page" %}">
+          <h1>AVer</h1>
+        </a>
+        <ul class="AppLayout-nav">
+          <li class="AppLayout-navItem">
+            <a class="AppLayout-navLink {% if url_name == 'dashboard' %}AppLayout-navLink--active{% endif %}"
+               href="{% url 'dashboard' %}">{% lucide 'house' size='16' %} {% translate "Dashboard" %}</a>
+          </li>
+          <li class="AppLayout-navItem">
+            <a class="AppLayout-navLink {% if url_name == 'document-list' %}AppLayout-navLink--active{% endif %}"
+               href="{% url 'document-list' %}">{% lucide 'book-open' size='16' %} {% translate "My documents" %}</a>
+          </li>
+          <li class="AppLayout-navItem">
+            <a class="AppLayout-navLink {% if url_name == 'test-list' %}AppLayout-navLink--active{% endif %}"
+               href="{% url 'test-list' %}">{% lucide 'pencil' size='16' %} {% translate "My tests" %}</a>
+          </li>
+          <li class="AppLayout-navItem">
+            <a class="AppLayout-navLink {% if url_name == 'settings' %}AppLayout-navLink--active{% endif %}"
+               href="{% url 'settings' %}">{% lucide 'settings' size='16' %} {% translate "Settings" %}</a>
+          </li>
+        </ul>
+        <a class="Button Button--ghost AppLayout-logoutButton"
+           href="{% url 'log-out' %}">{% lucide 'log-out' size='16' %} {% translate "Log out" %}</a>
+        <div class="AppLayout-footerRow">
+          {% include "core/partials/language_select.html" %}
+          {% include "core/partials/theme-toggle.html" %}
+        </div>
+      </nav>
+      <main class="AppLayout-mainContent" id="main-content" tabindex="-1">
+        {% include "core/partials/background-wave.html" %}
+        <div class="AppLayout-mainScroll">
+          {% block content %}
+          {% endblock content %}
+        </div>
+      </main>
+    </div>
+  {% endwith %}
+{% endblock body %}

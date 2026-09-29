@@ -1,0 +1,10 @@
+{% extends "core/layouts/layout_with_sidebar.html" %}
+{% load i18n %}
+{% block content %}
+  <section>
+    <header class="SectionHeader SectionHeader--center">
+      <h1 class="test-score__title">{% translate "Your test result" %}</h1>
+    </header>
+    {% include "core/partials/score_pending.html" %}
+  </section>
+{% endblock content %}

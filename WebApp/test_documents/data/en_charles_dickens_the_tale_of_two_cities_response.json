@@ -1,0 +1,1055 @@
+{
+  "document_id": "453e4567-189b-12d3-a456-426624174002",
+  "words": [
+    {
+      "paragraph_id": "457e4567-189b-12d3-a455-426614174015",
+      "index": 1,
+      "content": "messages",
+      "sentence_blanked": "Mere <<BLANK>> in the earthly order of events had lately come to the English Crown and People, from a congress of British subjects in America: which, strange to relate, have proved more important to the human race than any communications yet received through any of the chickens of the Cock-lane brood.",
+      "sentence_index": 1,
+      "predictions": [
+        {
+          "word": "communications",
+          "probability": -0.906438946723938
+        },
+        {
+          "word": "announcements",
+          "probability": -1.0020129680633545
+        },
+        {
+          "word": "remarks",
+          "probability": -1.0127328634262085
+        },
+        {
+          "word": "changes",
+          "probability": -1.04685640335083
+        },
+        {
+          "word": "reflections",
+          "probability": -1.1729657649993896
+        },
+        {
+          "word": "notices",
+          "probability": -1.2071211338043213
+        },
+        {
+          "word": "mentions",
+          "probability": -1.2169651985168457
+        },
+        {
+          "word": "messages",
+          "probability": -1.242132544517517
+        },
+        {
+          "word": "facts",
+          "probability": -1.2529006004333496
+        },
+        {
+          "word": "letters",
+          "probability": -1.2581987380981445
+        },
+        {
+          "word": "thoughts",
+          "probability": -1.2790124416351318
+        },
+        {
+          "word": "signals",
+          "probability": -1.2905884981155396
+        },
+        {
+          "word": "matters",
+          "probability": -1.3073968887329102
+        },
+        {
+          "word": "telegrams",
+          "probability": -1.308357834815979
+        },
+        {
+          "word": "hints",
+          "probability": -1.3394176959991455
+        },
+        {
+          "word": "updates",
+          "probability": -1.364469289779663
+        },
+        {
+          "word": "reports",
+          "probability": -1.403638243675232
+        },
+        {
+          "word": "suggestions",
+          "probability": -1.459761619567871
+        },
+        {
+          "word": "passages",
+          "probability": -1.4937306642532349
+        },
+        {
+          "word": "adjustments",
+          "probability": -1.518778920173645
+        },
+        {
+          "word": "ly remarkable",
+          "probability": -1.5475660562515259
+        },
+        {
+          "word": "developments",
+          "probability": -1.5680603981018066
+        },
+        {
+          "word": "observations",
+          "probability": -1.5797526836395264
+        },
+        {
+          "word": "ly acknowledged",
+          "probability": -1.6067274808883667
+        },
+        {
+          "word": "s communications",
+          "probability": -1.6115541458129883
+        },
+        {
+          "word": "statements",
+          "probability": -1.6386765241622925
+        },
+        {
+          "word": "occasions",
+          "probability": -1.6508454084396362
+        },
+        {
+          "word": "ly adjustments",
+          "probability": -1.6736093759536743
+        },
+        {
+          "word": "echoes",
+          "probability": -1.702523112297058
+        },
+        {
+          "word": "exchanges",
+          "probability": -1.7059775590896606
+        },
+        {
+          "word": "events",
+          "probability": -1.7111459970474243
+        },
+        {
+          "word": "ly telegraphed",
+          "probability": -1.7117805480957031
+        },
+        {
+          "word": "opinions",
+          "probability": -1.722334623336792
+        },
+        {
+          "word": "s changes",
+          "probability": -1.7243764400482178
+        },
+        {
+          "word": "acknowledgment",
+          "probability": -1.7283354997634888
+        },
+        {
+          "word": "ly noticeable",
+          "probability": -1.744694709777832
+        },
+        {
+          "word": "Notes",
+          "probability": -1.770033597946167
+        },
+        {
+          "word": "acknowledgement",
+          "probability": -1.777452826499939
+        },
+        {
+          "word": "ly certainty",
+          "probability": -1.7866932153701782
+        },
+        {
+          "word": "remarkable",
+          "probability": -1.8026872873306274
+        },
+        {
+          "word": "ly certain",
+          "probability": -1.8099958896636963
+        }
+      ],
+      "category": "unigrams_NOUN",
+      "additional_info": ""
+    },
+    {
+      "paragraph_id": "653e4567-189b-12d3-a356-426614174013",
+      "index": 13,
+      "content": "plain",
+      "sentence_blanked": "There were a king with a large jaw and a queen with a <<BLANK>> face, on the throne of England; there were a king with a large jaw and a queen with a fair face, on the throne of France.",
+      "sentence_index": 0,
+      "predictions": [
+        {
+          "word": "fair",
+          "probability": -0.049657803028821945
+        },
+        {
+          "word": "fiery",
+          "probability": -1.4579930305480957
+        },
+        {
+          "word": "narrow",
+          "probability": -1.5082591772079468
+        },
+        {
+          "word": "slender",
+          "probability": -1.5299873352050781
+        },
+        {
+          "word": "pretty",
+          "probability": -1.584911584854126
+        },
+        {
+          "word": "gnarly",
+          "probability": -1.6022700071334839
+        },
+        {
+          "word": "stiff",
+          "probability": -1.628427505493164
+        },
+        {
+          "word": "bearded",
+          "probability": -1.6559005975723267
+        },
+        {
+          "word": "proud",
+          "probability": -1.6698602437973022
+        },
+        {
+          "word": "stout",
+          "probability": -1.6710169315338135
+        },
+        {
+          "word": "plain",
+          "probability": -1.6756800413131714
+        },
+        {
+          "word": "ravenous",
+          "probability": -1.6955516338348389
+        },
+        {
+          "word": "strange",
+          "probability": -1.724353551864624
+        },
+        {
+          "word": "smirk",
+          "probability": -1.7361760139465332
+        },
+        {
+          "word": "handsome",
+          "probability": -1.7362349033355713
+        },
+        {
+          "word": "fierce",
+          "probability": -1.7764023542404175
+        },
+        {
+          "word": "compassionate",
+          "probability": -1.7790995836257935
+        },
+        {
+          "word": "wide",
+          "probability": -1.781328558921814
+        },
+        {
+          "word": "slight",
+          "probability": -1.7820193767547607
+        },
+        {
+          "word": "good",
+          "probability": -1.8015284538269043
+        },
+        {
+          "word": "foxy",
+          "probability": -1.8097509145736694
+        },
+        {
+          "word": "gnarled",
+          "probability": -1.823098063468933
+        },
+        {
+          "word": "lovely",
+          "probability": -1.8398518562316895
+        },
+        {
+          "word": "gorgeous",
+          "probability": -1.8665214776992798
+        },
+        {
+          "word": "splendid",
+          "probability": -1.8732807636260986
+        },
+        {
+          "word": "small",
+          "probability": -1.8821219205856323
+        },
+        {
+          "word": "beautiful",
+          "probability": -1.8905943632125854
+        },
+        {
+          "word": "rough",
+          "probability": -1.8953559398651123
+        },
+        {
+          "word": "fine",
+          "probability": -1.9088019132614136
+        },
+        {
+          "word": "sorrowful",
+          "probability": -1.9194021224975586
+        },
+        {
+          "word": "smirkless",
+          "probability": -1.9328253269195557
+        },
+        {
+          "word": "sore",
+          "probability": -1.9333200454711914
+        },
+        {
+          "word": "great",
+          "probability": -1.9406975507736206
+        },
+        {
+          "word": "shallow",
+          "probability": -1.9566370248794556
+        },
+        {
+          "word": "buff",
+          "probability": -1.9615556001663208
+        },
+        {
+          "word": "gentle",
+          "probability": -1.962438702583313
+        },
+        {
+          "word": "noble",
+          "probability": -1.9673140048980713
+        },
+        {
+          "word": "foxing",
+          "probability": -1.9676910638809204
+        },
+        {
+          "word": "winking",
+          "probability": -1.9690223932266235
+        },
+        {
+          "word": "stern",
+          "probability": -1.9798436164855957
+        },
+        {
+          "word": "broad",
+          "probability": -1.987200140953064
+        }
+      ],
+      "category": "unigrams_NOUN",
+      "additional_info": ""
+    },
+    {
+      "paragraph_id": "653e4567-189b-12d3-a356-426614174013",
+      "index": 2,
+      "content": "countries",
+      "sentence_blanked": "In both <<BLANK>> it was clearer than crystal to the lords of the State preserves of loaves and fishes, that things in general were settled for ever.",
+      "sentence_index": 1,
+      "predictions": [
+        {
+          "word": "cases",
+          "probability": -0.20832562446594238
+        },
+        {
+          "word": "instances",
+          "probability": -0.9709362983703613
+        },
+        {
+          "word": "places",
+          "probability": -1.0666624307632446
+        },
+        {
+          "word": "respects",
+          "probability": -1.3130278587341309
+        },
+        {
+          "word": "ways",
+          "probability": -1.3297499418258667
+        },
+        {
+          "word": "regards",
+          "probability": -1.3657881021499634
+        },
+        {
+          "word": ",",
+          "probability": -1.3721472024917603
+        },
+        {
+          "word": "places",
+          "probability": -1.3867791891098022
+        },
+        {
+          "word": "districts",
+          "probability": -1.441659688949585
+        },
+        {
+          "word": "houses",
+          "probability": -1.4470670223236084
+        },
+        {
+          "word": "case",
+          "probability": -1.4725532531738281
+        },
+        {
+          "word": "provinces",
+          "probability": -1.4757893085479736
+        },
+        {
+          "word": "circumstances",
+          "probability": -1.5317246913909912
+        },
+        {
+          "word": "manners",
+          "probability": -1.569765329360962
+        },
+        {
+          "word": "courts",
+          "probability": -1.5872466564178467
+        },
+        {
+          "word": "directions",
+          "probability": -1.5960173606872559
+        },
+        {
+          "word": "matters",
+          "probability": -1.5972167253494263
+        },
+        {
+          "word": "quarters",
+          "probability": -1.6081335544586182
+        },
+        {
+          "word": "worlds",
+          "probability": -1.6151591539382935
+        },
+        {
+          "word": "parties",
+          "probability": -1.615363597869873
+        },
+        {
+          "word": "afternoons",
+          "probability": -1.616736888885498
+        },
+        {
+          "word": "senses",
+          "probability": -1.6288291215896606
+        },
+        {
+          "word": "towns",
+          "probability": -1.6462883949279785
+        },
+        {
+          "word": "subjects",
+          "probability": -1.6483020782470703
+        },
+        {
+          "word": "cities",
+          "probability": -1.6486995220184326
+        },
+        {
+          "word": "occasions",
+          "probability": -1.6584392786026
+        },
+        {
+          "word": "states",
+          "probability": -1.6759430170059204
+        },
+        {
+          "word": "hands",
+          "probability": -1.6934517621994019
+        },
+        {
+          "word": "Cases",
+          "probability": -1.720095157623291
+        },
+        {
+          "word": "counties",
+          "probability": -1.7493613958358765
+        },
+        {
+          "word": "States",
+          "probability": -1.785029411315918
+        },
+        {
+          "word": "nations",
+          "probability": -1.824010968208313
+        },
+        {
+          "word": "times",
+          "probability": -1.8471498489379883
+        },
+        {
+          "word": "aeons",
+          "probability": -1.8846725225448608
+        },
+        {
+          "word": "casess",
+          "probability": -1.9118897914886475
+        },
+        {
+          "word": "situations",
+          "probability": -1.9143505096435547
+        },
+        {
+          "word": "countries",
+          "probability": -1.9230303764343262
+        },
+        {
+          "word": "adjustments",
+          "probability": -1.929937481880188
+        },
+        {
+          "word": "agencies",
+          "probability": -1.9331328868865967
+        },
+        {
+          "word": "lands",
+          "probability": -1.9433950185775757
+        },
+        {
+          "word": "events",
+          "probability": -1.9544658660888672
+        }
+      ],
+      "category": "unigrams_NOUN",
+      "additional_info": ""
+    },
+    {
+      "paragraph_id": "753e4567-189b-42d3-a456-426614174014",
+      "index": 9,
+      "content": "period",
+      "sentence_blanked": "Spiritual revelations were conceded to England at that favoured <<BLANK>>, as at this.",
+      "sentence_index": 1,
+      "predictions": [
+        {
+          "word": "time",
+          "probability": -0.37932732701301575
+        },
+        {
+          "word": "day",
+          "probability": -0.9780302047729492
+        },
+        {
+          "word": "age",
+          "probability": -1.133515477180481
+        },
+        {
+          "word": "period",
+          "probability": -1.139872670173645
+        },
+        {
+          "word": "moment",
+          "probability": -1.2719155550003052
+        },
+        {
+          "word": "times",
+          "probability": -1.2880977392196655
+        },
+        {
+          "word": "manner",
+          "probability": -1.3115594387054443
+        },
+        {
+          "word": "epoch",
+          "probability": -1.3490862846374512
+        },
+        {
+          "word": "occasion",
+          "probability": -1.3907051086425781
+        },
+        {
+          "word": "date",
+          "probability": -1.4482545852661133
+        },
+        {
+          "word": "hour",
+          "probability": -1.4615470170974731
+        },
+        {
+          "word": "opportunity",
+          "probability": -1.4918166399002075
+        },
+        {
+          "word": "afternoon",
+          "probability": -1.5128252506256104
+        },
+        {
+          "word": "place",
+          "probability": -1.5888422727584839
+        },
+        {
+          "word": "occasions",
+          "probability": -1.5915968418121338
+        },
+        {
+          "word": "cause",
+          "probability": -1.5963566303253174
+        },
+        {
+          "word": "whence",
+          "probability": -1.627293586730957
+        },
+        {
+          "word": "authority",
+          "probability": -1.6941587924957275
+        },
+        {
+          "word": "year",
+          "probability": -1.7368664741516113
+        },
+        {
+          "word": "instance",
+          "probability": -1.7463061809539795
+        },
+        {
+          "word": "moments",
+          "probability": -1.7717927694320679
+        },
+        {
+          "word": "epochs",
+          "probability": -1.777829647064209
+        },
+        {
+          "word": "season",
+          "probability": -1.7956992387771606
+        },
+        {
+          "word": "evening",
+          "probability": -1.8065561056137085
+        },
+        {
+          "word": "deed",
+          "probability": -1.8246057033538818
+        },
+        {
+          "word": "Occasion",
+          "probability": -1.8327045440673828
+        },
+        {
+          "word": "aeon",
+          "probability": -1.836349368095398
+        },
+        {
+          "word": "instances",
+          "probability": -1.8586533069610596
+        },
+        {
+          "word": "settlement",
+          "probability": -1.8599607944488525
+        },
+        {
+          "word": "retreat",
+          "probability": -1.8638769388198853
+        },
+        {
+          "word": "dates",
+          "probability": -1.8647643327713013
+        },
+        {
+          "word": "deeds",
+          "probability": -1.8756895065307617
+        },
+        {
+          "word": "days",
+          "probability": -1.8776975870132446
+        },
+        {
+          "word": "ages",
+          "probability": -1.884382724761963
+        },
+        {
+          "word": "interval",
+          "probability": -1.8942484855651855
+        },
+        {
+          "word": "aeons",
+          "probability": -1.896519660949707
+        },
+        {
+          "word": "pleasure",
+          "probability": -1.9160329103469849
+        },
+        {
+          "word": "condition",
+          "probability": -1.9236483573913574
+        },
+        {
+          "word": "afternoons",
+          "probability": -1.9293618202209473
+        },
+        {
+          "word": "notice",
+          "probability": -1.9391367435455322
+        },
+        {
+          "word": "Day",
+          "probability": -1.9532274007797241
+        }
+      ],
+      "category": "unigrams_NOUN",
+      "additional_info": ""
+    },
+    {
+      "paragraph_id": "753e4567-189b-42d3-a456-426614174014",
+      "index": 8,
+      "content": "birthday",
+      "sentence_blanked": "Mrs. Southcott had recently attained her five-and-twentieth blessed <<BLANK>>, of whom a prophetic private in the Life Guards had heralded the sublime appearance by announcing that arrangements were made for the swallowing up of London and Westminster.",
+      "sentence_index": 2,
+      "predictions": [
+        {
+          "word": "age",
+          "probability": -0.5940749049186707
+        },
+        {
+          "word": "birthday",
+          "probability": -0.8747612833976746
+        },
+        {
+          "word": "birth",
+          "probability": -0.9356456398963928
+        },
+        {
+          "word": "anniversary",
+          "probability": -0.990483283996582
+        },
+        {
+          "word": "appearance",
+          "probability": -1.1964024305343628
+        },
+        {
+          "word": "son",
+          "probability": -1.3887715339660645
+        },
+        {
+          "word": "year",
+          "probability": -1.3914456367492676
+        },
+        {
+          "word": "aniversary",
+          "probability": -1.4249403476715088
+        },
+        {
+          "word": "innocence",
+          "probability": -1.487480878829956
+        },
+        {
+          "word": "wife",
+          "probability": -1.4898432493209839
+        },
+        {
+          "word": "anniversaries",
+          "probability": -1.4994456768035889
+        },
+        {
+          "word": "marriage",
+          "probability": -1.5080949068069458
+        },
+        {
+          "word": "ascension",
+          "probability": -1.5151841640472412
+        },
+        {
+          "word": "centenary",
+          "probability": -1.5982701778411865
+        },
+        {
+          "word": "jubilee",
+          "probability": -1.6238515377044678
+        },
+        {
+          "word": "incarnation",
+          "probability": -1.6282545328140259
+        },
+        {
+          "word": "child",
+          "probability": -1.6302236318588257
+        },
+        {
+          "word": "solemnity",
+          "probability": -1.6310831308364868
+        },
+        {
+          "word": "Jubilee",
+          "probability": -1.6357591152191162
+        },
+        {
+          "word": "life",
+          "probability": -1.6751480102539062
+        },
+        {
+          "word": "Anniversary",
+          "probability": -1.677210807800293
+        },
+        {
+          "word": "husband",
+          "probability": -1.7060251235961914
+        },
+        {
+          "word": "years",
+          "probability": -1.7158223390579224
+        },
+        {
+          "word": "height",
+          "probability": -1.77376127243042
+        },
+        {
+          "word": "conception",
+          "probability": -1.8108655214309692
+        },
+        {
+          "word": "passing",
+          "probability": -1.8135943412780762
+        },
+        {
+          "word": "widow",
+          "probability": -1.8265188932418823
+        },
+        {
+          "word": "stature",
+          "probability": -1.8329111337661743
+        },
+        {
+          "word": "degree",
+          "probability": -1.8451141119003296
+        },
+        {
+          "word": "ascent",
+          "probability": -1.8600095510482788
+        },
+        {
+          "word": "Birthday",
+          "probability": -1.8872026205062866
+        },
+        {
+          "word": "birthdate",
+          "probability": -1.888818383216858
+        },
+        {
+          "word": "father",
+          "probability": -1.914075255393982
+        },
+        {
+          "word": "pregnancy",
+          "probability": -1.928558588027954
+        },
+        {
+          "word": "aniverssary",
+          "probability": -1.943329095840454
+        },
+        {
+          "word": "rites",
+          "probability": -1.9720643758773804
+        },
+        {
+          "word": "death",
+          "probability": -2.0009427070617676
+        },
+        {
+          "word": "feast",
+          "probability": -2.0092978477478027
+        },
+        {
+          "word": "supper",
+          "probability": -2.0131850242614746
+        },
+        {
+          "word": "celebrations",
+          "probability": -2.037569522857666
+        },
+        {
+          "word": "-birth",
+          "probability": -2.042282819747925
+        }
+      ],
+      "category": "unigrams_NOUN",
+      "additional_info": ""
+    },
+    {
+      "paragraph_id": "457e4567-189b-12d3-a455-426614174015",
+      "index": 22,
+      "content": "spirits",
+      "sentence_blanked": "Even the Cock-lane ghost had been laid only a round dozen of years, after rapping out its messages, as the <<BLANK>> of this very year last past (supernaturally deficient in originality) rapped out theirs.",
+      "sentence_index": 0,
+      "predictions": [
+        {
+          "word": "ghosts",
+          "probability": -0.6460039019584656
+        },
+        {
+          "word": "messages",
+          "probability": -0.9529220461845398
+        },
+        {
+          "word": "messengers",
+          "probability": -1.0108402967453003
+        },
+        {
+          "word": "ones",
+          "probability": -1.1874845027923584
+        },
+        {
+          "word": "others",
+          "probability": -1.1956615447998047
+        },
+        {
+          "word": "prophets",
+          "probability": -1.2906553745269775
+        },
+        {
+          "word": "letters",
+          "probability": -1.346765160560608
+        },
+        {
+          "word": "skeletons",
+          "probability": -1.4870314598083496
+        },
+        {
+          "word": "lays",
+          "probability": -1.5354397296905518
+        },
+        {
+          "word": "remainder",
+          "probability": -1.5356857776641846
+        },
+        {
+          "word": "murderers",
+          "probability": -1.5370492935180664
+        },
+        {
+          "word": "residents",
+          "probability": -1.5413097143173218
+        },
+        {
+          "word": "Ghosts",
+          "probability": -1.5469372272491455
+        },
+        {
+          "word": "ghost",
+          "probability": -1.5506212711334229
+        },
+        {
+          "word": "angels",
+          "probability": -1.57963228225708
+        },
+        {
+          "word": "spirits",
+          "probability": -1.6108839511871338
+        },
+        {
+          "word": "latter",
+          "probability": -1.6311182975769043
+        },
+        {
+          "word": "y ghosts",
+          "probability": -1.6372164487838745
+        },
+        {
+          "word": "murders",
+          "probability": -1.6469602584838867
+        },
+        {
+          "word": "floods",
+          "probability": -1.650599479675293
+        },
+        {
+          "word": "prophetess",
+          "probability": -1.6592715978622437
+        },
+        {
+          "word": "Messages",
+          "probability": -1.6679140329360962
+        },
+        {
+          "word": "rest",
+          "probability": -1.7118864059448242
+        },
+        {
+          "word": "writers",
+          "probability": -1.727553129196167
+        },
+        {
+          "word": "people",
+          "probability": -1.7352982759475708
+        },
+        {
+          "word": "bodies",
+          "probability": -1.7422150373458862
+        },
+        {
+          "word": "remains",
+          "probability": -1.7584192752838135
+        },
+        {
+          "word": "gallows",
+          "probability": -1.7931327819824219
+        },
+        {
+          "word": "birds",
+          "probability": -1.7954574823379517
+        },
+        {
+          "word": "readers",
+          "probability": -1.8063037395477295
+        },
+        {
+          "word": "y had",
+          "probability": -1.8159103393554688
+        },
+        {
+          "word": "signs",
+          "probability": -1.825496792793274
+        },
+        {
+          "word": "events",
+          "probability": -1.8264840841293335
+        },
+        {
+          "word": "y those",
+          "probability": -1.8319190740585327
+        },
+        {
+          "word": "tales",
+          "probability": -1.8329919576644897
+        },
+        {
+          "word": "Lays",
+          "probability": -1.8560583591461182
+        },
+        {
+          "word": "goddess",
+          "probability": -1.8930838108062744
+        },
+        {
+          "word": "one",
+          "probability": -1.8989120721817017
+        },
+        {
+          "word": "lay",
+          "probability": -1.905764102935791
+        },
+        {
+          "word": "few",
+          "probability": -1.9062918424606323
+        },
+        {
+          "word": "ghostlies",
+          "probability": -1.9150279760360718
+        }
+      ],
+      "category": "unigrams_NOUN",
+      "additional_info": ""
+    }
+  ]
+}

@@ -1,0 +1,377 @@
+{
+  "document_id": "453e4561-181b-22d3-a456-426624174002",
+  "words": [
+    {
+      "paragraph_id": "553e4561-181b-22d3-a256-426614174010",
+      "index": 19,
+      "content": "mind",
+      "sentence_blanked": "To be, or not to be, that is the question: Whether 'tis nobler in the <<BLANK>> to suffer.",
+      "sentence_index": 0,
+      "predictions": [
+        {
+          "word": "world",
+          "probability": -0.8090367317199707
+        },
+        {
+          "word": "end",
+          "probability": -1.0403776168823242
+        },
+        {
+          "word": "matter",
+          "probability": -1.1268970966339111
+        },
+        {
+          "word": "least",
+          "probability": -1.2891560792922974
+        },
+        {
+          "word": "flesh",
+          "probability": -1.3764609098434448
+        },
+        {
+          "word": "question",
+          "probability": -1.4702401161193848
+        },
+        {
+          "word": "cause",
+          "probability": -1.479029655456543
+        },
+        {
+          "word": "sorrow",
+          "probability": -1.5065572261810303
+        },
+        {
+          "word": "day",
+          "probability": -1.5714144706726074
+        },
+        {
+          "word": "way",
+          "probability": -1.6300204992294312
+        },
+        {
+          "word": "darkness",
+          "probability": -1.6501247882843018
+        },
+        {
+          "word": "heavens",
+          "probability": -1.6928613185882568
+        },
+        {
+          "word": "afternoon",
+          "probability": -1.694986343383789
+        },
+        {
+          "word": "truth",
+          "probability": -1.7313861846923828
+        },
+        {
+          "word": "senses",
+          "probability": -1.7375248670578003
+        },
+        {
+          "word": "sight",
+          "probability": -1.7455002069473267
+        },
+        {
+          "word": "pleasure",
+          "probability": -1.7469924688339233
+        },
+        {
+          "word": "age",
+          "probability": -1.75900399684906
+        },
+        {
+          "word": "dust",
+          "probability": -1.7708733081817627
+        },
+        {
+          "word": "sadness",
+          "probability": -1.776868462562561
+        },
+        {
+          "word": "desire",
+          "probability": -1.7803127765655518
+        },
+        {
+          "word": "anxiety",
+          "probability": -1.8127721548080444
+        },
+        {
+          "word": "wise",
+          "probability": -1.8189376592636108
+        },
+        {
+          "word": "judgement",
+          "probability": -1.8241777420043945
+        },
+        {
+          "word": "mind",
+          "probability": -1.8415422439575195
+        },
+        {
+          "word": "sweltering",
+          "probability": -1.8440327644348145
+        },
+        {
+          "word": "latter",
+          "probability": -1.8538731336593628
+        },
+        {
+          "word": "sun",
+          "probability": -1.855920672416687
+        },
+        {
+          "word": "causes",
+          "probability": -1.8652527332305908
+        },
+        {
+          "word": "stomach",
+          "probability": -1.8720433712005615
+        },
+        {
+          "word": "eternal",
+          "probability": -1.8898046016693115
+        },
+        {
+          "word": "y earnest",
+          "probability": -1.897971272468567
+        },
+        {
+          "word": "morning",
+          "probability": -1.8994919061660767
+        },
+        {
+          "word": "afternoons",
+          "probability": -1.8999004364013672
+        },
+        {
+          "word": "e than",
+          "probability": -1.9105803966522217
+        },
+        {
+          "word": "manner",
+          "probability": -1.9180175065994263
+        },
+        {
+          "word": "hour",
+          "probability": -1.924409031867981
+        },
+        {
+          "word": "trials",
+          "probability": -1.934471607208252
+        },
+        {
+          "word": "land",
+          "probability": -1.9356745481491089
+        },
+        {
+          "word": "case",
+          "probability": -1.940543293952942
+        },
+        {
+          "word": "ear",
+          "probability": -1.9420521259307861
+        }
+      ],
+      "category": "unigrams_NOUN",
+      "additional_info": ""
+    },
+    {
+      "paragraph_id": "653e4561-181b-22d3-a356-426614174013",
+      "index": 5,
+      "content": "more",
+      "sentence_blanked": "To die—to sleep, No <<BLANK>>; and by a sleep to say we end.",
+      "sentence_index": 1,
+      "predictions": [
+        {
+          "word": "longer",
+          "probability": -1.3746211528778076
+        },
+        {
+          "word": "body knows",
+          "probability": -1.4565799236297607
+        },
+        {
+          "word": "body sleeps",
+          "probability": -1.4654163122177124
+        },
+        {
+          "word": "more",
+          "probability": -1.4727550745010376
+        },
+        {
+          "word": "body died",
+          "probability": -1.5354855060577393
+        },
+        {
+          "word": "ah says",
+          "probability": -1.5418617725372314
+        },
+        {
+          "word": "doubt",
+          "probability": -1.5697373151779175
+        },
+        {
+          "word": "where else",
+          "probability": -1.6390599012374878
+        },
+        {
+          "word": "body dies",
+          "probability": -1.6764219999313354
+        },
+        {
+          "word": "ah’s",
+          "probability": -1.6969537734985352
+        },
+        {
+          "word": "sleep",
+          "probability": -1.699783205986023
+        },
+        {
+          "word": ".1",
+          "probability": -1.7153838872909546
+        },
+        {
+          "word": "-sleep",
+          "probability": -1.750922441482544
+        },
+        {
+          "word": "slumber",
+          "probability": -1.773109793663025
+        },
+        {
+          "word": "Sleep",
+          "probability": -1.7809925079345703
+        },
+        {
+          "word": "body does",
+          "probability": -1.7843437194824219
+        },
+        {
+          "word": "sorrow",
+          "probability": -1.7937835454940796
+        },
+        {
+          "word": ".2",
+          "probability": -1.7956629991531372
+        },
+        {
+          "word": "ah's",
+          "probability": -1.819027304649353
+        },
+        {
+          "word": "die",
+          "probability": -1.832337498664856
+        },
+        {
+          "word": "body die",
+          "probability": -1.8376878499984741
+        },
+        {
+          "word": "!",
+          "probability": -1.8408288955688477
+        },
+        {
+          "word": "urishment asleep",
+          "probability": -1.8513643741607666
+        },
+        {
+          "word": "ah!",
+          "probability": -1.8970980644226074
+        },
+        {
+          "word": "ahs prayers",
+          "probability": -1.905945062637329
+        },
+        {
+          "word": "uns asleep",
+          "probability": -1.9074723720550537
+        },
+        {
+          "word": "less",
+          "probability": -1.9245120286941528
+        },
+        {
+          "word": ".",
+          "probability": -1.9260773658752441
+        },
+        {
+          "word": "uns die",
+          "probability": -1.9310413599014282
+        },
+        {
+          "word": "sleeping",
+          "probability": -1.9379832744598389
+        },
+        {
+          "word": "More",
+          "probability": -1.9390350580215454
+        },
+        {
+          "word": "body says",
+          "probability": -1.9437990188598633
+        },
+        {
+          "word": "urishment awaits",
+          "probability": -1.948844075202942
+        },
+        {
+          "word": "urishment—sleep",
+          "probability": -1.9558773040771484
+        },
+        {
+          "word": "ahs tears",
+          "probability": -1.959015130996704
+        },
+        {
+          "word": "ahs end",
+          "probability": -1.9671911001205444
+        },
+        {
+          "word": "body else",
+          "probability": -1.9708099365234375
+        },
+        {
+          "word": "sickness",
+          "probability": -1.9796708822250366
+        },
+        {
+          "word": "ahs prayer",
+          "probability": -1.981589674949646
+        },
+        {
+          "word": "urishments asleep",
+          "probability": -1.9826680421829224
+        },
+        {
+          "word": "ahs sorrow",
+          "probability": -1.9889247417449951
+        }
+      ],
+      "category": "unigrams_ADJ",
+      "additional_info": ""
+    },
+    {
+      "paragraph_id": "653e4561-181b-22d3-a356-426614174013",
+      "index": 9,
+      "content": "consummation",
+      "sentence_blanked": "That flesh is heir to: 'tis a <<BLANK>>.",
+      "sentence_index": 3,
+      "predictions": null,
+      "category": "random",
+      "additional_info": "",
+      "origin_category": "unigrams_NOUN"
+    },
+    {
+      "paragraph_id": "753e4561-181b-22d3-a456-426614174014",
+      "index": 38,
+      "content": "respect",
+      "sentence_blanked": "To sleep, perchance to dream—ay, there's the rub: For in that sleep of death what dreams may come, When we have shuffled off this mortal coil, Must give us pause—there's the <<BLANK>>.",
+      "sentence_index": 0,
+      "predictions": null,
+      "category": "random",
+      "additional_info": "",
+      "origin_category": "unigrams_NOUN"
+    }
+  ]
+}

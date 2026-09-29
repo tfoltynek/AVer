@@ -1,0 +1,171 @@
+/* Test Card List — fixed responsive 3/2/1 grid, left-aligned.
+   Mirrors DocumentCardList. */
+.TestCardList {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: var(--space-5);
+  margin: var(--space-6) 0;
+}
+
+@media (max-width: 1100px) {
+  .TestCardList {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 640px) {
+  .TestCardList {
+    grid-template-columns: 1fr;
+    gap: var(--space-4);
+  }
+}
+
+/* Test Card — composes .Card .Card--withHeader */
+.TestCard {
+  /* base styling provided by .Card .Card--withHeader */
+}
+
+/* Spacing system for TestCard:
+ *   --space-1 (4)   tightest pair (label ↔ value)
+ *   --space-2 (8)   inline icon ↔ text
+ *   --space-3 (12)  related siblings (title ↔ badge, icon ↔ stacked text,
+ *                   meta items vertically, buttons in a row)
+ *   --space-4 (16)  distinct groups inside a container (meta ↔ actions),
+ *                   container vertical padding
+ *   --space-5 (24)  meta items horizontally, container horizontal padding
+ * Containers use padding at the edge + gap inside. Children never set
+ * their own margins — the parent gap is the single source of truth. */
+
+.TestCard-header {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  padding: var(--space-4) var(--space-5);
+  background-color: var(--surface-2);
+  border-bottom: 1px solid var(--border);
+}
+
+.TestCard-titleGroup {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-3);
+  flex-wrap: wrap;
+}
+
+.TestCard-title {
+  margin: 0;
+  font-size: var(--font-size-4);
+  font-weight: 600;
+  color: var(--text);
+  flex: 1;
+  min-width: 0;
+  word-break: break-word;
+}
+
+.TestCard-subtitle {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-2);
+  margin: 0;
+  font-size: var(--font-size-2);
+  color: var(--neutral);
+
+  svg {
+    color: var(--neutral);
+  }
+}
+
+.TestCard-sep {
+  color: var(--border);
+}
+
+.TestCard-content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  flex: 1;
+  padding: var(--space-4) var(--space-5);
+}
+
+.TestCard-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3) var(--space-5);
+  margin: 0;
+}
+
+.TestCard-metaItem {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-3);
+
+  svg {
+    color: var(--primary);
+    flex-shrink: 0;
+  }
+}
+
+.TestCard-metaText {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+  line-height: 1.2;
+}
+
+.TestCard-metaLabel {
+  margin: 0;
+  font-size: var(--font-size-1);
+  font-weight: 500;
+  color: var(--neutral);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.TestCard-metaValue {
+  margin: 0;
+  font-size: var(--font-size-2);
+  font-weight: 500;
+  color: var(--text);
+  font-variant-numeric: tabular-nums;
+}
+
+.TestCard-metaMore {
+  font-weight: 500;
+  color: var(--neutral);
+}
+
+/* When the value is truncated with "+N more", hint that hovering reveals
+   the full list (via the native title-attribute tooltip on the <dd>). */
+.TestCard-metaValue:has(.TestCard-metaMore) {
+  cursor: help;
+}
+
+.TestCard-actions {
+  display: flex;
+  gap: var(--space-3);
+  margin-top: auto;
+}
+
+/* Responsive Design — per-card layout that should stack on small screens. */
+@media (max-width: 640px) {
+  .TestCard-titleGroup {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .TestCard-actions {
+    flex-direction: column;
+  }
+
+  .TestCard-actions .Button {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+/* Legacy table styles (kept for backward compatibility if needed) */
+.TestTableWrapper {
+  width: 100%;
+}

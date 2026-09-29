@@ -1,0 +1,32 @@
+# Pre-commit hooks: enable with `uv tool install pre-commit && pre-commit install`.
+# Hooks here mirror what we run in development so a commit can't ship with
+# obvious lint/format issues. Tests are NOT run here — they're slow and
+# expected to be run via `pytest` before pushing.
+
+repos:
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.9.3
+    hooks:
+      - id: ruff
+        args: [--fix]
+      - id: ruff-format
+
+  - repo: https://github.com/djlint/djLint
+    rev: v1.36.4
+    hooks:
+      - id: djlint-django
+
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v5.0.0
+    hooks:
+      - id: trailing-whitespace
+        exclude: ^(.*\.po|locale/.*)$
+      - id: end-of-file-fixer
+        exclude: ^(.*\.po|.*\.svg|locale/.*)$
+      - id: check-merge-conflict
+      - id: check-yaml
+      - id: check-toml
+      - id: check-added-large-files
+        args: [--maxkb=2000]
+        # Datasets published on the /data page are deliberately large.
+        exclude: ^core/static/core/data/

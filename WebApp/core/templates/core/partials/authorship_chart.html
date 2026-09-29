@@ -1,0 +1,91 @@
+{% load i18n %}
+{% comment %}
+Authorship-probability headline + Poisson-binomial distribution chart.
+Requires one context var: `report` (authorship.report()'s dict), which is
+also serialized verbatim for aver_chart.js — the script only draws.
+The prior slider is intentional: stakeholder-confirmed reversal (2026-07) of
+the fc38d46 anti-gaming removal. Do not delete it again without asking.
+{% endcomment %}
+{% if report.n > 0 %}
+  <div class="aver-detail">
+    <div class="aver-headline">
+      <p class="aver-headline__label">{% translate "Probability of authorship" %}</p>
+      <h2 class="aver-headline__value">
+        <span id="aver-headline-pct">{{ report.posterior_author_pct|floatformat:1 }}%</span>
+      </h2>
+      <p id="aver-verdict"
+         class="aver-verdict aver-verdict--{{ report.verdict }}">
+        {% if report.verdict == "strong-author" %}
+          {% translate "Strong evidence of authorship" %}
+        {% elif report.verdict == "probable-author" %}
+          {% translate "Probable author" %}
+        {% elif report.verdict == "probable-non-author" %}
+          {% translate "Probable non-author" %}
+        {% elif report.verdict == "strong-non-author" %}
+          {% translate "Strong evidence of non-authorship" %}
+        {% else %}
+          {% translate "Inconclusive" %}
+        {% endif %}
+      </p>
+      <p class="aver-headline__score">
+        {% blocktranslate with score=report.score n=report.n %}{{ score }} of {{ n }} answers correct{% endblocktranslate %}
+        {% if report.skipped %}
+          · {% blocktranslate count count=report.skipped %}{{ count }} skipped item counted as incorrect{% plural %}{{ count }} skipped items counted as incorrect{% endblocktranslate %}
+        {% endif %}
+      </p>
+    </div>
+    <div class="aver-chart">
+      <div class="aver-chart__controls">
+        <label class="aver-control">
+          <span class="aver-control__label">{% translate "Prior P(non-author)" %}</span>
+          <input type="range"
+                 id="aver-prior-slider"
+                 min="1"
+                 max="50"
+                 step="1"
+                 value="{{ report.prior_pct }}">
+          <span class="aver-control__value" id="aver-prior-out">{{ report.prior_pct }}%</span>
+        </label>
+        <label class="aver-control">
+          <span class="aver-control__label">{% translate "Reflect prior probability of authorship in chart" %}</span>
+          <span class="aver-toggle-group" id="aver-tg-prior">
+            <button type="button" class="is-active" data-val="yes">{% translate "yes" %}</button>
+            <button type="button" data-val="no">{% translate "no" %}</button>
+          </span>
+        </label>
+        <label class="aver-control">
+          <span class="aver-control__label">{% translate "Y-axis" %}</span>
+          <span class="aver-toggle-group" id="aver-tg-scale">
+            <button type="button" data-val="log">{% translate "log" %}</button>
+            <button type="button" class="is-active" data-val="linear">{% translate "linear" %}</button>
+          </span>
+        </label>
+      </div>
+      <div class="aver-chart__canvas">
+        <canvas id="aver-dist-chart"
+                aria-label="{% translate 'Probability distribution of test score under author and non-author hypotheses' %}"></canvas>
+      </div>
+    </div>
+  </div>
+  {{ report|json_script:"aver-data" }}
+  <script>
+    window.AVER_I18N = {
+      author: "{% translate 'author' %}",
+      nonAuthor: "{% translate 'non-author' %}",
+      xAxis: "{% translate 'score (items correct)' %}",
+      yAxis: "{% translate 'probability' %}",
+      yAxisLog: "{% translate 'probability (log)' %}",
+      scoreEq: "{% translate 'score = ' %}",
+      yourScore: "{% translate 'Your score' %}",
+      verdictStrongAuthor: "{% translate 'Strong evidence of authorship' %}",
+      verdictProbableAuthor: "{% translate 'Probable author' %}",
+      verdictInconclusive: "{% translate 'Inconclusive' %}",
+      verdictProbableNonAuthor: "{% translate 'Probable non-author' %}",
+      verdictStrongNonAuthor: "{% translate 'Strong evidence of non-authorship' %}"
+    };
+  </script>
+{% else %}
+  <div class="aver-headline aver-headline--empty">
+    <p>{% translate "Not enough answers to compute a result." %}</p>
+  </div>
+{% endif %}

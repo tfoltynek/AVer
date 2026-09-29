@@ -1,0 +1,191 @@
+/* Wizard / Steps component used on the dashboard.
+ *
+ * Layout per step: two columns — numbered chip in column 1, card content
+ * in column 2. A vertical connector line ties the chips together so the
+ * whole thing reads as a single guided path.
+ *
+ *   ① ─── ┌─────────────────────────┐
+ *   │     │ Step title              │
+ *   │     │ Description             │
+ *   │     │ [CTA]                   │
+ *   │     └─────────────────────────┘
+ *   │
+ *   ② ─── ┌─────────────────────────┐
+ *   │     │  ...                    │
+ *   │     └─────────────────────────┘
+ */
+
+.Steps {
+  counter-reset: step;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-5);
+  max-width: 52rem;
+  padding: 0;
+  margin: 0 auto var(--space-8);
+  list-style: none;
+}
+
+.Steps-progress {
+  max-width: 52rem;
+  margin: 0 auto var(--space-4);
+  font-size: var(--font-size-2);
+  font-weight: 500;
+  color: var(--neutral);
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.Steps-step {
+  position: relative;
+  display: grid;
+  grid-template-columns: 3rem 1fr;
+  gap: var(--space-5);
+  align-items: start;
+}
+
+/* Numbered chip — sits in column 1, aligned to the title line. */
+.Steps-step::before {
+  counter-increment: step;
+  content: counter(step);
+  grid-column: 1;
+  grid-row: 1;
+  z-index: 1;
+  display: grid;
+  place-items: center;
+  align-self: start;
+  width: 3rem;
+  height: 3rem;
+  margin-top: var(--space-5);
+  font-family: var(--font-display);
+  font-size: var(--font-size-6);
+  font-weight: 700;
+  font-variant-numeric: lining-nums;
+  color: var(--text);
+  background-color: var(--surface-1);
+  border: 2px solid var(--border);
+  border-radius: var(--radius-pill);
+  transition:
+    color var(--duration-base) var(--ease-out),
+    background-color var(--duration-base) var(--ease-out),
+    border-color var(--duration-base) var(--ease-out);
+}
+
+/* Connector line — drawn through column 1, from just below this chip
+   down to the next step's chip top. Hidden on the last step.
+   Bottom = -2 × --space-5 reaches across the between-steps gap (1 ×
+   --space-5) and the next chip's margin-top (1 × --space-5). */
+.Steps-step::after {
+  content: "";
+  position: absolute;
+  top: calc(var(--space-5) + 3rem);
+  bottom: calc(-2 * var(--space-5));
+  left: calc(1.5rem - 1px);
+  width: 2px;
+  background-color: var(--border);
+  z-index: 0;
+}
+
+.Steps-step:last-child::after {
+  display: none;
+}
+
+.Steps-step--active::before {
+  color: var(--accent);
+  background-color: var(--accent-background);
+  border-color: var(--accent-border);
+}
+
+.Steps-step--done::before {
+  color: var(--correct);
+  background-color: var(--correct-background);
+  border-color: var(--correct);
+}
+
+.Steps-step--done::after {
+  background-color: var(--correct);
+}
+
+.Steps-step--disabled {
+  opacity: 0.55;
+}
+
+.Steps-step--disabled::before {
+  color: var(--neutral);
+}
+
+.Steps-stepContent {
+  grid-column: 2;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  padding: var(--space-6);
+  background-color: var(--surface-1);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+}
+
+.Steps-stepTitle {
+  margin: 0;
+  font-size: var(--font-size-6);
+  color: var(--text);
+}
+
+.Steps-stepDescription {
+  margin: 0;
+  font-size: var(--font-size-3);
+  line-height: var(--leading-normal);
+}
+
+/* Small "Recently added" / "Finished tests: N" block.
+   Reads as data, not as a hero metric. */
+.Steps-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-1) var(--space-3);
+  align-items: baseline;
+  padding: var(--space-3) var(--space-4);
+  background-color: var(--surface-2);
+  border-radius: var(--radius-sm);
+  font-size: var(--font-size-2);
+}
+
+.Steps-metaLabel {
+  font-size: var(--font-size-1);
+  font-weight: 500;
+  color: var(--neutral);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.Steps-metaValue {
+  font-weight: 600;
+  color: var(--text);
+  font-variant-numeric: tabular-nums;
+}
+
+.Steps-button {
+  align-self: flex-start;
+}
+
+/* Responsive: shrink the chip column on small screens. */
+@media (max-width: 640px) {
+  .Steps-step {
+    grid-template-columns: 2.5rem 1fr;
+    gap: var(--space-3);
+  }
+
+  .Steps-step::before {
+    width: 2.5rem;
+    height: 2.5rem;
+    font-size: var(--font-size-5);
+    /* keep margin-top the same as desktop so the connector formula
+       (bottom = -2 × --space-5) still reaches the next chip exactly */
+  }
+
+  .Steps-step::after {
+    top: calc(var(--space-5) + 2.5rem);
+    left: calc(1.25rem - 1px);
+  }
+}
