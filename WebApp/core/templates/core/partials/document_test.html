@@ -1,0 +1,31 @@
+{% load i18n %}
+{% load lucide %}
+{% load cloze_extras %}
+<hgroup class="Test-header">
+  <div class="Test-headerContent">
+    <h2 class="Test-title">{{ test.document.title }}</h2>
+    {% if test.document.author %}<p>{{ test.document.author }}</p>{% endif %}
+  </div>
+  <div class="Test-progress">
+    <h3 class="Test-progressCount">{{ test.answered_paragraphs_count|add:"1" }} / {{ test.test_paragraphs_count }}</h3>
+    <p class="Test-progressLabel">{% translate "paragraphs" %}</p>
+  </div>
+</hgroup>
+<form id="cloze-test"
+      class="Test-form"
+      autocomplete="off"
+      hx-post="{% url 'document-test' test.pk %}"
+      hx-target="#test"
+      hx-swap="innerHTML">
+  <p class="Test-paragraph">{{ paragraph.word | blank_to_input | safe }}</p>
+  <div class="Test-controls">
+    <button class="Button Button--ghost Test-skipButton"
+            hx-post="{% url 'document-test-skip' test.pk %}"
+            hx-target="#test"
+            hx-swap="innerHTML"
+            type="button">{% translate "Skip" %} {% lucide "redo" %}</button>
+    <button class="Button Button--primary Test-nextButton"
+            tabindex="0"
+            type="submit">{% translate "Next" %}</button>
+  </div>
+</form>

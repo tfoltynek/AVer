@@ -1,0 +1,11 @@
+{% extends "core/layouts/layout_with_sidebar.html" %}
+{% load static %}
+{% load cloze_extras %}
+{% block content %}
+  <section id="test" class="Test">
+    {% include "core/partials/document_test.html" %}
+  </section>
+{% endblock content %}
+{% block scripts %}
+  <script src="{% static 'core/js/test-validation.js' %}"></script>
+{% endblock scripts %}

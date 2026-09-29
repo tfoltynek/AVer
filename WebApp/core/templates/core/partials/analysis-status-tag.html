@@ -1,0 +1,29 @@
+{% load i18n %}
+{% load lucide %}
+<div class="DocumentCard-statusWrapper">
+  {% if document.analysis_state == 'completed' %}
+    <span class="Badge Badge--success">
+      {% lucide 'check' size='14' %}
+      {% translate "Done" %}
+    </span>
+  {% elif document.analysis_state == 'pending' or document.analysis_state == 'running' %}
+    <span class="Badge Badge--warning">
+      {% lucide 'rotate-cw' size='14' class="animate-spin" %}
+      {% translate "In progress" %}
+    </span>
+    <span class="DocumentCard-analysisBadge">
+      {% translate "takes approx." %}
+      {% if time == 'short' %}
+        {% translate "2 min." %}
+      {% else %}
+        {% translate "5 min." %}
+      {% endif %}
+    </span>
+  {% elif document.analysis_state == 'failed' %}
+    <span class="Badge Badge--danger">
+      {% lucide 'x' size='14' %}
+      {% translate "Failed" %}
+    </span>
+    <span class="DocumentCard-analysisBadge">{% translate "Delete the document and try uploading it again." %}</span>
+  {% endif %}
+</div>

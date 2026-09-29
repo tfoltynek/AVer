@@ -1,0 +1,121 @@
+{% extends "core/layouts/layout_no_sidebar.html" %}
+{% load static %}
+{% load i18n %}
+{% load lucide %}
+{% block content %}
+  <section class="DataList">
+    <hgroup class="DataList-heading">
+      <h1 class="DataList-title">{% translate "Project related data" %}</h1>
+      <p class="DataList-subtitle">{% translate "TA ČR SIGMA DC3: Authorship Verifier" %}</p>
+    </hgroup>
+    <article class="Card Dataset">
+      <div class="Dataset-header">
+        <h2 class="Dataset-title">{% translate "Responses from user studies" %}</h2>
+        <ul class="Dataset-meta">
+          <li>CSV, UTF-8</li>
+          <li>{% translate "6,515 rows" %}</li>
+          <li>{% translate "492 tests" %}</li>
+          <li>{% translate "Czech, English and Slovak texts" %}</li>
+        </ul>
+      </div>
+      <p class="Dataset-description">
+        {% blocktranslate trimmed %}
+          Anonymized answers of respondents from the user studies run within the project.
+          The project's analyses were computed on this table, including the calibration of the
+          authorship verdict this application reports.
+        {% endblocktranslate %}
+      </p>
+      <p class="Dataset-description">
+        {% blocktranslate trimmed %}
+          Each row is one blank in a cloze test: the expression the respondent typed,
+          the original expression from the text, and how the two were scored.
+          The table contains no data identifying the respondents.
+        {% endblocktranslate %}
+      </p>
+      <details class="Dataset-columns">
+        <summary>{% translate "What the columns mean" %}</summary>
+        <table>
+          <tbody>
+            <tr>
+              <th scope="row">
+                <code>test_id</code>
+              </th>
+              <td>{% translate "Identifier of the test; all rows of one filled-in test share it." %}</td>
+            </tr>
+            <tr>
+              <th scope="row">
+                <code>test_type</code>
+              </th>
+              <td>{% translate "Variant of the test the respondent took (authorML, previewML, randomML, reviewML)." %}</td>
+            </tr>
+            <tr>
+              <th scope="row">
+                <code>word_types</code>
+              </th>
+              <td>{% translate "Part-of-speech pattern of the blanked expression, e.g. ADJ+NOUN." %}</td>
+            </tr>
+            <tr>
+              <th scope="row">
+                <code>similarity</code>
+              </th>
+              <td>
+                {% translate "Score of the answer against the original: 1 for an exact match, 0 for no match, and the cosine similarity of the word embeddings in between." %}
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">
+                <code>answered</code>
+              </th>
+              <td>{% translate "Expression the respondent typed into the blank." %}</td>
+            </tr>
+            <tr>
+              <th scope="row">
+                <code>content</code>
+              </th>
+              <td>{% translate "Original expression from the text." %}</td>
+            </tr>
+            <tr>
+              <th scope="row">
+                <code>sentence</code>
+              </th>
+              <td>
+                {# A translated string literal is marked safe, so without force_escape the browser would parse <<BLANK>> as a tag and show "<>". #}
+                {% filter force_escape %}
+                  {% translate "Sentence the blank comes from, with the blank marked as <<BLANK>>." %}
+                {% endfilter %}
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">
+                <code>selector</code>
+              </th>
+              <td>{% translate "How the blank was chosen: unigram, bigram, trigram, or ml for a language-model pick." %}</td>
+            </tr>
+            <tr>
+              <th scope="row">
+                <code>ml_pos</code>
+              </th>
+              <td>
+                {% translate "Rank of the original word among the language model's predictions for the blank; -1 when it was not among them." %}
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">
+                <code>prob</code>, <code>log_prob</code>
+              </th>
+              <td>{% translate "Probability the language model assigned to the original word, and its natural logarithm." %}</td>
+            </tr>
+            <tr>
+              <th scope="row">
+                <code>Language</code>, <code>lang_code</code>, <code>lang_code_2</code>
+              </th>
+              <td>
+                {% translate "Language of the text in three encodings: c/e/s, CZ/EN/SK, and CS/EN where Slovak texts are counted with Czech." %}
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </details>
+    </article>
+  </section>
+{% endblock content %}

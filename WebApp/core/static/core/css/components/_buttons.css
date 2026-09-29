@@ -1,0 +1,139 @@
+.Button {
+  display: inline-flex;
+  gap: var(--space-2);
+  align-items: center;
+  justify-content: center;
+  min-height: 40px;
+  padding: 0.5em 1em;
+  font-weight: 500;
+  color: var(--white);
+  text-decoration: none;
+  cursor: pointer;
+  background-color: var(--neutral);
+  border: 0;
+  border-radius: var(--radius-sm);
+  transition:
+    background-color var(--duration-base) var(--ease-out),
+    color var(--duration-base) var(--ease-out),
+    border-color var(--duration-base) var(--ease-out),
+    transform var(--duration-fast) var(--ease-out),
+    box-shadow var(--duration-base) var(--ease-out);
+}
+
+.Button:hover {
+  color: var(--white);
+  background-color: color-mix(in srgb, var(--neutral), black 10%);
+}
+
+.Button:active {
+  transform: translateY(1px);
+}
+
+.Button:disabled,
+.Button[aria-disabled="true"] {
+  cursor: not-allowed;
+  opacity: 0.55;
+}
+
+.Button--primary {
+  color: var(--white);
+  background: var(--primary);
+}
+
+.Button--primary:hover {
+  background-color: var(--primary-border);
+}
+
+.Button--accent {
+  color: var(--white);
+  background: var(--accent);
+}
+
+.Button--accent:hover {
+  background-color: var(--accent-border);
+}
+
+.Button--ghost {
+  color: var(--text);
+  background-color: transparent;
+  border: 1px solid var(--border);
+}
+
+.Button--ghost:hover {
+  color: var(--text);
+  background-color: var(--surface-2);
+  border-color: color-mix(in srgb, var(--border), var(--text) 20%);
+}
+
+.Button--danger {
+  color: var(--incorrect);
+  background-color: transparent;
+  border: 1px solid var(--incorrect-border);
+}
+
+.Button--danger:hover {
+  color: var(--white);
+  background-color: var(--incorrect-border);
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.Button.htmx-request {
+  position: relative;
+  color: var(--white);
+  pointer-events: none; /* Prevent clicks during loading */
+  background-color: var(
+    --neutral
+  ); /* A slightly lighter shade for visual feedback */
+}
+
+.Button.htmx-request::after {
+  position: absolute;
+  top: 25%;
+  left: 1rem;
+  width: 20px;
+  height: 20px;
+  content: "";
+  border: 3px solid var(--white);
+  border-top-color: transparent;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  animation: rotate 0.75s infinite linear; /* Continuous rotation without slowing down */
+}
+
+.Button--small {
+  min-height: 32px;
+  padding: 0.375em 0.75em;
+  font-size: var(--font-size-2);
+}
+
+.Button--full {
+  width: 100%;
+}
+
+.ButtonGroup {
+  display: flex;
+  justify-content: space-between;
+  margin-top: var(--space-4);
+  gap: var(--space-2);
+}
+
+/* Spinner utility — used on inline icons that should rotate while loading
+   (e.g., loader-circle in htmx-indicators). Honors prefers-reduced-motion
+   via the global rule in style.css. */
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+.animate-spin {
+  animation: spin 1s linear infinite;
+  transform-origin: center;
+}

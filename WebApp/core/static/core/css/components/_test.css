@@ -1,0 +1,78 @@
+.Test {
+  max-width: 70ch;
+  margin-inline: auto;
+}
+
+.Test-header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding-inline: var(--space-6);
+  margin-bottom: var(--space-4);
+}
+
+.Test-headerContent {
+  display: flex;
+  flex-direction: column;
+}
+
+/* The work being tested — h2 already inherits Playfair; just tune the
+   size for the reading-view context (sits above body, not as a page hero). */
+.Test-title {
+  margin-bottom: var(--space-1);
+  font-size: var(--font-size-7);
+  color: var(--text);
+}
+
+.Test-author {
+  color: var(--neutral);
+  font-style: italic;
+}
+
+.Test-progress {
+  text-align: right;
+}
+
+.Test-progressCount {
+  font-family: var(--font-numeric);
+  font-size: var(--font-size-7);
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.01em;
+  color: var(--text);
+}
+
+.Test-progressLabel {
+  color: var(--neutral);
+}
+
+/* Reading surface for the literary passage being tested. Sans here —
+   the cloze test is a close-reading task, so legibility wins over the
+   editorial flourish that suits headlines and the score splash. */
+.Test-paragraph {
+  width: 100%;
+  padding: var(--space-6) var(--space-7);
+  margin-bottom: var(--space-2);
+  font-family: var(--font-sans);
+  font-size: var(--font-size-4);
+  line-height: var(--leading-relaxed);
+  text-wrap: pretty;
+  hyphens: auto;
+  background-color: var(--surface-1);
+  border: solid 1px var(--border);
+  border-radius: var(--radius-md);
+
+  & input {
+    padding-inline: 0.5ch;
+    margin-inline: 0.3ch;
+    /* Keep inputs in the UI sans so they don't masquerade as prose. */
+    font-family: var(--font-sans);
+    font-size: var(--font-size-3);
+    text-align: center;
+  }
+}
+
+.Test-controls {
+  display: flex;
+  justify-content: space-between;
+}

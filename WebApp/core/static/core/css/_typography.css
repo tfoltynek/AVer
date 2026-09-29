@@ -1,0 +1,103 @@
+/* === Base typography ====================================================
+ *
+ * Strategy: split headings by *what they introduce*, not by HTML level.
+ *   h1–h3 introduce content → Playfair Display (editorial signal).
+ *   h4–h6 label UI density   → Inter (functional signal).
+ * Plus body text and form controls in Inter throughout. This mirrors how
+ * editorial design (NYT, New Yorker, etc.) uses serif for headlines and
+ * sans for chrome — Playfair earns its presence everywhere reading happens
+ * without smothering dense administrative panels.
+ *
+ * Escape hatches:
+ *   `.Display`     — opt a non-heading into the editorial face.
+ *   `.UI-heading`  — force a content heading (h1–h3) into the UI face.
+ *   `.Prose`       — set a readable measure + leading on body copy.
+ *   `.Numeric`     — tabular figures for counters and scores.
+ * ======================================================================= */
+
+html {
+  font-family: var(--font-sans);
+  font-feature-settings: var(--font-feature-sans);
+  scroll-behavior: smooth;
+  color: var(--text);
+  /* Sharper rendering for thin strokes (Inter at small sizes, Playfair
+     hairlines at display sizes). */
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* Reduce CLS when Inter swaps in by matching the fallback's x-height
+     ratio. Inter's is ~0.52; system fonts vary, this gets them closer. */
+  font-size-adjust: 0.52;
+}
+
+/* === Content headings: editorial face ===================================
+ * h1-h3 introduce *content* — page titles, section heads, sub-section
+ * heads. These get Playfair Display because that's the editorial signal:
+ * "what follows is something to read, not chrome." Apply .UI-heading to
+ * force sans on a content heading when needed.
+ * ======================================================================= */
+h1,
+h2,
+h3,
+.Display {
+  font-family: var(--font-display);
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  line-height: var(--leading-tight);
+  text-wrap: balance;
+}
+
+/* Fluid sizes: scale down on narrow screens so a long heading doesn't
+   blow out a phone viewport. `clamp(min, preferred, max)` reads "small
+   floor, ideal at desktop, never larger". */
+h1 { font-size: clamp(var(--font-size-8), 4vw + 1rem, var(--font-size-9)); }
+h2 { font-size: clamp(var(--font-size-7), 3vw + 1rem, var(--font-size-8)); }
+
+/* h3s sit closer to body copy; drop the weight to 600 so they read as
+   a step down from h2 rather than as another full-impact moment. */
+h3 {
+  font-size: var(--font-size-7);
+  font-weight: 600;
+}
+
+/* === UI headings: label face ===========================================
+ * h4-h6 label UI density — card headers, form fieldsets, small panel
+ * titles. Sans at heavier weight so they read as "title" without trying
+ * to be editorial.
+ * ======================================================================= */
+h4,
+h5,
+h6 {
+  font-family: var(--font-sans);
+  font-weight: 600;
+  letter-spacing: -0.005em;
+  line-height: var(--leading-snug);
+  text-wrap: balance;
+}
+
+h4 { font-size: var(--font-size-6); } /* 24px */
+h5 { font-size: var(--font-size-5); }
+h6 { font-size: var(--font-size-4); }
+
+/* Escape hatch: force sans on a content heading when the context is
+   actually UI (e.g. an h2 used as a column header inside a dense table). */
+.UI-heading {
+  font-family: var(--font-sans);
+  font-weight: 600;
+  letter-spacing: -0.005em;
+}
+
+/* Editorial body copy — used inside test reading view and result splash.
+   Slightly relaxed leading + balanced wrapping for readability. */
+.Prose {
+  max-width: 65ch;
+  line-height: var(--leading-relaxed);
+  text-wrap: pretty;
+}
+
+/* Numeric utility — opt into tabular figures for counters, scores, durations.
+   Pair with `.Display` for a "big editorial number" effect. */
+.Numeric {
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: "tnum", "lnum";
+}

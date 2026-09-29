@@ -1,0 +1,46 @@
+.language-select {
+  position: relative;
+  display: flex;
+  gap: var(--space-1);
+  align-items: center;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+
+  & img {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    user-select: none;
+    width: 18px;
+    height: auto;
+    pointer-events: none;
+  }
+
+  & svg {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    user-select: none;
+    width: 14px;
+    height: 14px;
+    pointer-events: none;
+  }
+
+  & select {
+    z-index: 10;
+    padding: var(--space-2) 1.75rem;
+    padding-right: var(--space-5);
+    font-weight: 500;
+    font-size: var(--font-size-2);
+    color: var(--text);
+    text-transform: capitalize;
+    appearance: none;
+    background-color: transparent;
+    border: 0;
+    width: 100%;
+    box-sizing: border-box;
+  }
+}

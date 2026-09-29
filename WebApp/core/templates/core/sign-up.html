@@ -1,0 +1,13 @@
+{% extends "core/layouts/layout_no_sidebar.html" %}
+{% load static %}
+{% load i18n %}
+{% load lucide %}
+{% block content %}
+  <section class="sign-up-wrapper">
+    <h2>{% translate "Sign up" %}</h2>
+    {% include "core/partials/sign-up-form.html" %}
+  </section>
+{% endblock content %}
+{% block scripts %}
+  <script src="{% static 'core/js/multiselect-search.js' %}"></script>
+{% endblock scripts %}

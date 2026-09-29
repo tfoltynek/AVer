@@ -1,0 +1,15 @@
+{% load i18n %}
+<form class="form"
+      hx-post="{% url 'log-in' %}"
+      hx-target="this"
+      hx-swap="outerHTML">
+  <div class="form__field-group">
+    <div class="field-group__item">{{ form.username.as_field_group }}</div>
+    <div class="field-group__item">{{ form.password.as_field_group }}</div>
+    {{ form.non_field_errors }}
+    <button class="Button Button--accent" type="submit">{% translate "Log in" %}</button>
+  </div>
+  <p class="account-callout">
+    {% translate "Don't have an account? " %} <a href="{% url 'sign-up' %}">{% translate "Sign up" %}</a>
+  </p>
+</form>

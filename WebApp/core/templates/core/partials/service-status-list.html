@@ -1,0 +1,34 @@
+{% load i18n %}
+{% load lucide %}
+{% if fatal_error %}
+  <p class="ServiceStatus-error">{{ fatal_error }}</p>
+{% elif not results %}
+  <p class="ServiceStatus-error">{% translate "No services configured." %}</p>
+{% else %}
+  <ul class="ServiceStatus-list">
+    {% for result in results %}
+      <li class="ServiceStatus-item">
+        <div class="ServiceStatus-info">
+          <span class="ServiceStatus-dot {% if result.is_up %}ServiceStatus-dot--up{% else %}ServiceStatus-dot--down{% endif %}"
+                aria-hidden="true"></span>
+          <div>
+            <p class="ServiceStatus-name">{{ result.name }}</p>
+            <p class="ServiceStatus-url">{{ result.url }}</p>
+          </div>
+        </div>
+        <div class="ServiceStatus-meta">
+          {% if result.is_up %}
+            <span class="Badge Badge--square Badge--success">{% lucide 'check' size='14' %} {% translate "Up" %}</span>
+          {% else %}
+            <span class="Badge Badge--square Badge--danger">{% lucide 'x' size='14' %} {% translate "Down" %}</span>
+          {% endif %}
+          {% if result.status_code %}<span class="ServiceStatus-detail">HTTP {{ result.status_code }}</span>{% endif %}
+          <span class="ServiceStatus-detail">{{ result.latency_ms }} ms</span>
+          {% if result.error %}
+            <span class="ServiceStatus-error" title="{{ result.error }}">{{ result.error|truncatechars:80 }}</span>
+          {% endif %}
+        </div>
+      </li>
+    {% endfor %}
+  </ul>
+{% endif %}

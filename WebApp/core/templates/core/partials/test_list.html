@@ -1,0 +1,94 @@
+{% load i18n %}
+{% load lucide %}
+<div id="test-list" class="TestCardList">
+  <a class="CreateCard" href="{% url 'test-select' %}">
+    <span class="CreateCard-iconWrap">{% lucide 'pencil-line' size='24' %}</span>
+    <span class="CreateCard-label">{% translate "Start new test" %}</span>
+  </a>
+  {% for test in object_list %}
+    <div class="Card Card--withHeader TestCard">
+      <div class="TestCard-header">
+        <div class="TestCard-titleGroup">
+          <h3 class="TestCard-title">{{ test.document }}</h3>
+          {% if test.submitted_at %}
+            <span class="Badge Badge--success">{% lucide 'check' size='16' %} {% translate "Done" %}</span>
+          {% else %}
+            <span class="Badge Badge--warning">{% lucide 'clock' size='16' %} {% translate "In progress" %}</span>
+          {% endif %}
+        </div>
+        {% if test.document.author or test.document.language %}
+          <p class="TestCard-subtitle">
+            {% if test.document.author %}
+              {% lucide 'user' size='14' %}<span>{{ test.document.author }}</span>
+            {% endif %}
+            {% if test.document.author and test.document.language %}
+              <span class="TestCard-sep" aria-hidden="true">·</span>
+            {% endif %}
+            {% if test.document.language %}
+              {% lucide 'languages' size='14' %}<span>{{ test.document.language.name }}</span>
+            {% endif %}
+          </p>
+        {% endif %}
+      </div>
+      <div class="TestCard-content">
+        <dl class="TestCard-meta">
+          <div class="TestCard-metaItem">
+            {% lucide 'calendar' size='16' %}
+            <div class="TestCard-metaText">
+              <dt class="TestCard-metaLabel">
+                {% if test.submitted_at %}
+                  {% translate "Taken on" %}
+                {% else %}
+                  {% translate "Started" %}
+                {% endif %}
+              </dt>
+              <dd class="TestCard-metaValue">
+                {{ test.submitted_at|default:test.created_at|date:"d.m.Y H:i" }}
+              </dd>
+            </div>
+          </div>
+          <div class="TestCard-metaItem">
+            {% lucide 'pencil-line' size='16' %}
+            <div class="TestCard-metaText">
+              <dt class="TestCard-metaLabel">{% translate "Test type" %}</dt>
+              <dd class="TestCard-metaValue">
+                {{ test.get_type_display }}
+              </dd>
+            </div>
+          </div>
+          {% with fields=test.document.academic_fields.all %}
+            {% if fields %}
+              <div class="TestCard-metaItem">
+                {% lucide 'tag' size='16' %}
+                <div class="TestCard-metaText">
+                  <dt class="TestCard-metaLabel">{% translate "Fields" %}</dt>
+                  <dd class="TestCard-metaValue"
+                      title="{% for f in fields %}{{ f.name|capfirst }}{% if not forloop.last %}, {% endif %}{% endfor %}">
+                    {% for f in fields|slice:":2" %}
+                      {{ f.name|capfirst }}
+                      {% if not forloop.last %},{% endif %}
+                    {% endfor %}
+                    {% if fields|length > 2 %}
+                      <span class="TestCard-metaMore">+{{ fields|length|add:"-2" }} {% translate "more" %}</span>
+                    {% endif %}
+                  </dd>
+                </div>
+              </div>
+            {% endif %}
+          {% endwith %}
+        </dl>
+        <div class="TestCard-actions">
+          {% if test.submitted_at %}
+            <a class="Button Button--ghost Button--small"
+               href="{% url 'document-test' test.pk %}">{% lucide 'eye' size='16' %} {% translate "View score" %}</a>
+          {% else %}
+            <a class="Button Button--accent Button--small"
+               href="{% url 'document-test' test.pk %}">
+              {% lucide 'arrow-right' size='16' %} {% translate "Enter test" %}
+            </a>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+</div>

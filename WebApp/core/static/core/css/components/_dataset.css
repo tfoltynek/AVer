@@ -1,0 +1,84 @@
+/* Dataset — one downloadable table on the public /data page.
+   Composes .Card. The surrounding .DataList centres its heading, so the
+   card resets to left-aligned prose. Spacing follows the TestCard scale:
+   parent gap is the single source of truth, children set no margins. */
+.Dataset {
+  text-align: left;
+}
+
+.Dataset-header {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.Dataset-title {
+  margin: 0;
+  font-size: var(--font-size-6);
+}
+
+.Dataset-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-1) var(--space-4);
+  padding: 0;
+  margin: 0;
+  font-size: var(--font-size-2);
+  color: color-mix(in srgb, var(--text), var(--surface-1) 35%);
+  list-style: none;
+}
+
+.Dataset-description {
+  margin: 0;
+}
+
+.Dataset-columns > summary {
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.Dataset-columns table {
+  width: 100%;
+  margin-top: var(--space-3);
+  font-size: var(--font-size-2);
+  border-collapse: collapse;
+}
+
+.Dataset-columns th,
+.Dataset-columns td {
+  padding: var(--space-2) var(--space-3);
+  text-align: left;
+  vertical-align: top;
+  border-top: 1px solid var(--border);
+}
+
+.Dataset-columns th {
+  font-weight: 500;
+}
+
+.Dataset-columns code {
+  font-size: 0.9em;
+  white-space: nowrap;
+}
+
+.Dataset-actions {
+  display: flex;
+}
+
+.Dataset-size {
+  font-weight: 400;
+  opacity: 0.8;
+}
+
+@media (max-width: 640px) {
+  .Dataset-columns th,
+  .Dataset-columns td {
+    display: block;
+    padding-inline: 0;
+  }
+
+  .Dataset-columns td {
+    padding-top: 0;
+    border-top: 0;
+  }
+}

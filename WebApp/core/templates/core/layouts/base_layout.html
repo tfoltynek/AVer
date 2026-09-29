@@ -1,0 +1,62 @@
+{% load i18n %}
+{% load static %}
+{% load lucide %}
+<!DOCTYPE html>
+<html lang="{{ request.LANGUAGE_CODE|default:'en' }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="AVer">
+    <meta name="keywords" content="AVer, AuthorshipVerifier">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon"
+          sizes="180x180"
+          href="{% static 'core/apple-touch-icon.png' %}">
+    <link rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="{% static 'core/favicon-32x32.png' %}">
+    <link rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="{% static 'core/favicon-16x16.png' %}">
+    <link rel="manifest" href="{% static 'core/site.webmanifest' %}">
+    <link rel="mask-icon"
+          href="{% static 'core/safari-pinned-tab.svg' %}"
+          color="#5bbad5">
+    <link rel="shortcut icon" href="{% static 'core/favicon.ico' %}">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config"
+          content="{% static 'core/browserconfig.xml' %}">
+    <meta name="theme-color" content="#fdfcf8">
+    <title>AVer | Authorship Verifier</title>
+    <script>
+      (function () {
+        var theme;
+        try {
+          var stored = localStorage.getItem('aver-theme');
+          theme = stored || (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+        } catch (e) { theme = 'light'; }
+        document.documentElement.setAttribute('data-theme', theme);
+      })();
+    </script>
+    <link rel="stylesheet"
+          type="text/css"
+          href="{% static 'core/css/main.css' %}"></link>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap"
+        rel="stylesheet">
+  <script src="{% static 'core/js/app_layout_responsive.js' %}" defer></script>
+</head>
+<body hx-headers='{"X-CSRFToken": "{{ csrf_token }}"}'
+      class="{% block body_class %}{% endblock body_class %}">
+  {% block body %}
+  {% endblock body %}
+  {% block scripts %}
+  {% endblock scripts %}
+  <script src="{% static 'core/js/htmx.min.js' %}"></script>
+  <script src="{% static 'core/js/localtime.js' %}"></script>
+  <script src="{% static 'core/js/language-change.js' %}"></script>
+  <script src="{% static 'core/js/theme-toggle.js' %}" defer></script>
+</body>
+</html>

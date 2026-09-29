@@ -13,6 +13,8 @@ Working prototype available at: https://aver.pef.mendelu.cz/
 
 Web application front-end, database, document processing and cloze-test administration.
 
+See [`WebApp/`](WebApp/) for the source code and setup instructions.
+
 ## Web API
 
 We service that finds suitable blanks in given document.

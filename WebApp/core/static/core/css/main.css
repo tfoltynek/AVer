@@ -1,0 +1,36 @@
+/*
+ * Cascade layers — order defines specificity precedence.
+ * Earlier layers are overridden by later ones.
+ * Un-layered styles have higher precedence than any layer,
+ * which lets you write quick overrides without bumping specificity.
+ */
+@layer reset, tokens, base, components, utilities;
+
+@import url("modern-normalize.css") layer(reset);
+
+@import url("_variables.css") layer(tokens);
+
+@import url("_typography.css") layer(base);
+@import url("style.css") layer(base);
+
+@import url("components/_card.css") layer(components);
+@import url("components/_skeleton.css") layer(components);
+@import url("components/_languageSelect.css") layer(components);
+@import url("components/_buttons.css") layer(components);
+@import url("components/_documentList.css") layer(components);
+@import url("components/_forms.css") layer(components);
+@import url("components/_appLayout.css") layer(components);
+@import url("components/_testScore.css") layer(components);
+@import url("components/_demo.css") layer(components);
+@import url("components/_appInfo.css") layer(components);
+@import url("components/_steps.css") layer(components);
+@import url("components/_test.css") layer(components);
+@import url("components/_documentCard.css") layer(components);
+@import url("components/_dialog.css") layer(components);
+@import url("components/_userLanguage.css") layer(components);
+@import url("components/_settings.css") layer(components);
+@import url("components/_tables.css") layer(components);
+@import url("components/_testVariantCard.css") layer(components);
+@import url("components/_messages.css") layer(components);
+@import url("components/_themeToggle.css") layer(components);
+@import url("components/_dataset.css") layer(components);

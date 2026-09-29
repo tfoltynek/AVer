@@ -1,0 +1,10 @@
+{% load i18n %}
+{% load lucide %}
+<button type="button"
+        class="ThemeToggle"
+        data-theme-toggle
+        aria-label="{% translate 'Toggle theme' %}"
+        title="{% translate 'Toggle theme' %}">
+  <span class="ThemeToggle-iconMoon" aria-hidden="true">{% lucide 'moon' size=16 %}</span>
+  <span class="ThemeToggle-iconSun" aria-hidden="true">{% lucide 'sun' size=16 %}</span>
+</button>

@@ -1,0 +1,61 @@
+{% extends "core/layouts/layout_with_sidebar.html" %}
+{% load i18n %}
+{% load lucide %}
+{% block content %}
+  <section>
+    <header class="SectionHeader SectionHeader--center">
+      <hgroup>
+        <h1>{% translate "Select test variant" %}</h1>
+        <p>
+          {% translate "Tests are generated from documents you uploaded yourself. Pick a document and the test variant you want." %}
+        </p>
+      </hgroup>
+    </header>
+    {% if messages %}
+      <ul class="MessageList">
+        {% for message in messages %}<li class="Message Message--{{ message.tags }}">{{ message }}</li>{% endfor %}
+      </ul>
+    {% endif %}
+    <form method="get">
+      <div class="field-group__item">
+        <label for="document-select">
+          {% if user.is_admin %}
+            {% translate "Generate from a specific document (admin only)" %}
+          {% else %}
+            {% translate "Select your document" %}
+          {% endif %}
+        </label>
+        <select id="document-select" name="document">
+          <option value="">{% translate "Automatic" %}</option>
+          {% for document in picker_documents %}
+            <option value="{{ document.pk }}">{{ document.title }} ({{ document.language.code }})</option>
+          {% endfor %}
+        </select>
+      </div>
+      <div class="TestVariantList">
+        <article class="Card TestVariantCard">
+          <hgroup>
+            {% lucide 'eye' size='32' %}
+            {% lucide 'arrow-right' size='32' %}
+            {% lucide 'pencil-line' size='32' %}
+            <h2>{% translate "Reviewer" %}</h2>
+          </hgroup>
+          <p>
+            {% translate "You will be shown full paragraphs from the document to read and prepare. Once you’re ready, you will start the cloze test." %}
+          </p>
+          <button class="Button Button--accent TestVariantCard-button"
+                  formaction="{% url 'test-create' 'previewML' %}">{% translate "Start test" %}</button>
+        </article>
+        <article class="Card TestVariantCard">
+          <hgroup>
+            {% lucide 'pencil-line' size='32' %}
+            <h2>{% translate "Tester" %}</h2>
+          </hgroup>
+          <p>{% translate "You will go straight into the cloze test without seeing the document paragraphs in advance." %}</p>
+          <button class="Button Button--accent TestVariantCard-button"
+                  formaction="{% url 'test-create' 'randomML' %}">{% translate "Start test" %}</button>
+        </article>
+      </div>
+    </form>
+  </section>
+{% endblock content %}

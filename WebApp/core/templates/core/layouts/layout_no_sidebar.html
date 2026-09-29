@@ -1,0 +1,87 @@
+{% extends "core/layouts/base_layout.html" %}
+{% load i18n %}
+{% load static %}
+{% load lucide %}
+{% block body %}
+  {% url 'landing-page' as landing_page_url %}
+  <a class="SkipLink" href="#main-content">{% translate "Skip to content" %}</a>
+  <div class="page-stack">
+    <header>
+      {% if request.path != landing_page_url %}
+        <a class="AppLayout-logo" href="{% url "landing-page" %}">
+          <h1>AVer</h1>
+        </a>
+      {% endif %}
+      <div class="AppLayout-headerActions">
+        {% include "core/partials/language_select.html" %}
+        {% include "core/partials/theme-toggle.html" %}
+      </div>
+    </header>
+    <main class="main-content-simple" id="main-content" tabindex="-1">
+      {% block content %}
+      {% endblock content %}
+    </main>
+    {% include "core/partials/background-wave.html" %}
+  </div>
+  <footer>
+    <div class="school-list">
+      <a href="https://starfos.tacr.cz/projekty/TQ01000110" target="_blank">
+        <img class="school-logo"
+             height="72"
+             width="auto"
+             src="{% static 'core/images/logos/tacr.png' %}"
+             alt="TAČR" />
+      </a>
+      <a href="https://pef.mendelu.cz" target="_blank">
+        <img class="school-logo school-logo--light"
+             height="72"
+             width="auto"
+             src="{% static 'core/images/logos/pef-mendelu-light.webp' %}"
+             alt="PEF MENDELU" />
+        <img class="school-logo school-logo--dark"
+             height="72"
+             width="auto"
+             src="{% static 'core/images/logos/pef-mendelu-dark.webp' %}"
+             alt="" />
+      </a>
+      <a href="https://fsv.cuni.cz" target="_blank">
+        <img class="school-logo school-logo--light"
+             height="72"
+             width="auto"
+             src="{% static 'core/images/logos/fsv-uk-light.svg' %}"
+             alt="FSV UK" />
+        <img class="school-logo school-logo--dark"
+             height="72"
+             width="auto"
+             src="{% static 'core/images/logos/fsv-uk-dark.svg' %}"
+             alt="" />
+      </a>
+      <a href="https://www.fi.muni.cz" target="_blank">
+        <img class="school-logo school-logo--light"
+             height="72"
+             width="auto"
+             src="{% static 'core/images/logos/fi-muni-light.webp' %}"
+             alt="FI MUNI" />
+        <img class="school-logo school-logo--dark"
+             height="72"
+             width="auto"
+             src="{% static 'core/images/logos/fi-muni-dark.webp' %}"
+             alt="" />
+      </a>
+    </div>
+    <hr>
+    <div class="project-info">
+      <p>
+        {% translate "This project is co-financed with state support from the Technology Agency of the Czech Republic under the SIGMA Programme." %}
+      </p>
+      <ul class="project-info-links">
+        <li>
+          <a href="https://nlp.fi.muni.cz/projekty/aver/" target="_blank">{% translate "Information about the project" %}{% lucide "external-link" size=16 %}</a>
+        </li>
+        <li>
+          <a href="{% url 'data-page' %}">{% translate "Project related data" %}{% lucide "external-link" size=16 %}</a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+{% endblock body %}

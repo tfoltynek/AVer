@@ -1,0 +1,347 @@
+html {
+  background-color: var(--surface-base);
+  height: 100%;
+  overflow: hidden;
+}
+
+a {
+  text-underline-offset: 2px;
+}
+
+/* Form controls don't inherit `color` from html by default — browsers set
+   their own. Without this reset, an input outside the .form scope (e.g.
+   .ExportForm-input) renders as system-black on the dark surface. */
+input,
+textarea,
+select,
+button {
+  color: inherit;
+}
+
+/* Honor users who request reduced motion: collapse transitions/animations
+   to near-instant, keep functionality. Scoped to elements that opt in
+   via transitions so we don't fight intentional :hover state changes. */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* === Skip link === */
+.SkipLink {
+  position: fixed;
+  top: var(--space-3);
+  left: var(--space-3);
+  z-index: 9999;
+  padding: var(--space-2) var(--space-4);
+  color: var(--white);
+  text-decoration: none;
+  background-color: var(--accent);
+  border-radius: var(--radius-sm);
+  transform: translateY(calc(-100% - var(--space-3)));
+  transition: transform var(--duration-base) var(--ease-out);
+}
+
+.SkipLink:focus-visible {
+  transform: translateY(0);
+}
+
+/* === Focus management === */
+:focus {
+  outline: none;
+}
+
+a:focus-visible,
+button:focus-visible,
+[role="button"]:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible,
+summary:focus-visible,
+[tabindex]:focus-visible {
+  outline: 2px solid var(--focus-color);
+  outline-offset: var(--focus-offset);
+  border-radius: var(--radius-sm);
+  transition: outline-offset var(--duration-base) var(--ease-out);
+}
+
+.form input:not([type="checkbox"]):not([type="radio"]):not([type="range"]):focus-visible,
+.form select:focus-visible,
+.form textarea:focus-visible,
+.ExportForm-input:focus-visible {
+  outline: none;
+  border-color: var(--focus-color);
+  box-shadow: var(--focus-ring);
+}
+
+.Button:focus-visible,
+.AppLayout-navLink:focus-visible {
+  outline-offset: 3px;
+}
+
+.AppLayout-navLink:focus-visible {
+  background-color: var(--primary-background);
+}
+
+input[type="range"]:focus-visible {
+  outline: 2px solid var(--focus-color);
+  outline-offset: 4px;
+  border-radius: var(--radius-pill);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* Top-level page header (no-sidebar layout): brand mark on the left,
+   language/theme controls anchored top-right. Scoped to `.page-stack > header`
+   so nested SectionHeader/Dialog-header elements aren't affected. */
+.page-stack > header {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  padding: var(--space-4);
+
+  @media (width >= 1024px) {
+    & {
+      padding-inline: var(--space-6);
+    }
+  }
+}
+
+/* Positioning container that holds header + main and is a sibling of footer.
+   The wave is anchored to this container's bottom-right — i.e. above the
+   footer but flush to the viewport's right edge regardless of any
+   max-width applied to the inner header/main column. */
+.page-stack {
+  position: relative;
+  isolation: isolate;
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  min-height: 0;
+}
+
+.full {
+  width: 100%;
+}
+
+footer {
+  margin-top: auto;
+  background-color: var(--white);
+  border-top: solid 1px var(--border);
+
+  & > hr {
+    max-width: 50%;
+    height: 1px;
+    margin-inline: auto;
+    background-color: var(--border);
+    border: 0;
+  }
+}
+
+.school-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-9);
+  justify-content: center;
+  max-width: 1200px;
+  padding: var(--space-6);
+  margin-inline: auto;
+
+  & img {
+    width: auto;
+    max-height: 72px;
+    object-fit: contain;
+  }
+}
+
+/* Show the variant that matches the current theme; hide the other.
+   TAČR has no variant (single `.school-logo` with no modifier) and
+   stays visible in both themes. */
+:root[data-theme="light"] .school-logo--dark,
+:root[data-theme="dark"] .school-logo--light {
+  display: none;
+}
+
+.project-info {
+  padding: var(--space-6);
+  text-align: center;
+
+  & a {
+    display: inline-flex;
+    gap: var(--space-2);
+    align-items: center;
+    color: var(--primary);
+    text-underline-offset: 3px;
+  }
+}
+
+.project-info-links {
+  margin-top: var(--space-2);
+  list-style: none;
+
+  & li {
+    margin-bottom: var(--space-1);
+  }
+}
+
+.main-content-simple {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  gap: var(--space-6);
+  align-items: center;
+  padding: var(--space-4) var(--space-4) var(--space-8);
+  overflow-x: hidden;
+  min-height: 0;
+
+  @media (width >= 1024px) {
+    & {
+      padding: var(--space-6);
+      padding-bottom: var(--space-9);
+    }
+  }
+}
+
+/* Wave is anchored to the page-stack's bottom-right — flush to the viewport's
+   right edge AND above the opaque footer, regardless of any max-width applied
+   to the inner header/main column. */
+.page-stack > .BackgroundWave {
+  position: absolute;
+}
+
+/* On auth pages (login / sign-up), narrow the header + main column to match
+   the footer hr's 50% width on large screens so the brand mark and the form
+   sit within the same centered reading column instead of the logo drifting
+   to the far edge. Scoped via :has() so other no-sidebar pages (landing,
+   data) keep their full-width layout. The .page-stack wrapper stays
+   full-width so the background wave still anchors to the viewport edge. */
+@media (width >= 1024px) {
+  body:has(.sign-up-wrapper) .page-stack > header,
+  body:has(.sign-up-wrapper) .page-stack > main.main-content-simple {
+    width: 100%;
+    max-width: 50%;
+    margin-inline: auto;
+  }
+}
+
+/* Decorative bottom-right backdrop (inline SVG, see partials/background-wave.html).
+   By default fixed to the viewport (landing/no-sidebar layout). When nested
+   inside a positioned/isolated container (the sidebar layout's content panel)
+   the host sets `position: absolute` instead so it clips to that panel. */
+.BackgroundWave {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: clamp(420px, 60vw, 919px);
+  height: auto;
+  z-index: -1;
+  pointer-events: none;
+  user-select: none;
+}
+
+.BackgroundWave-layer1 { fill: var(--wave-1); }
+.BackgroundWave-layer2 { fill: var(--wave-2); }
+.BackgroundWave-layer3 { fill: var(--wave-3); }
+
+input[type="range"] {
+  width: 100%;
+  margin: 0;
+  appearance: none;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 8px;
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+}
+
+input[type="range"]::-moz-range-track {
+  width: 100%;
+  height: 8px;
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  width: 16px;
+  height: 16px;
+  margin-top: -4px; /* Posunutí o polovinu výšky tracku */
+  appearance: none;
+  cursor: pointer;
+  background: var(--accent);
+  border-radius: 50%;
+}
+
+input[type="range"]::-moz-range-thumb {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+  background: var(--accent);
+  border-radius: 50%;
+}
+
+input[type="range"]:hover::-webkit-slider-thumb {
+  background: var(--accent);
+}
+
+input[type="range"]:focus::-webkit-slider-thumb {
+  background: var(--accent);
+  outline: none; /* Odstraní modrou obrysovou čáru ve WebKitu */
+}
+
+.LanguageProficiencySection .UserLanguageList {
+  justify-content: center;
+}
+
+.LanguageProficiencySection-actions {
+  display: none;
+}
+
+.LanguageProficiencySection:has(p[data-proficiency="native"])
+  .LanguageProficiencySection-actions {
+  display: flex;
+  justify-content: center;
+  margin-block: var(--space-6);
+}
+
+.DataList {
+  width: 100%;
+  max-width: 100ch;
+  text-align: center;
+}
+
+.DataList-heading {
+  padding-bottom: var(--space-4);
+  margin-bottom: var(--space-6);
+}
+
+.DataList-title {
+  margin-bottom: var(--space-4);
+}
+
+.DataList-subtitle {
+  font-size: var(--font-size-7);
+  text-wrap: balance;
+}
+
+.InProgress {
+  padding: var(--space-7);
+  font-size: var(--font-size-7);
+  color: var(--accent-border);
+  background-color: var(--accent-background);
+  border: 4px dashed var(--accent-border);
+  border-radius: var(--radius-md);
+}

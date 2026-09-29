@@ -1,0 +1,20 @@
+{% load i18n %}
+{% load lucide %}
+{% comment %}
+Polls the test page itself. When scoring is done the view returns an
+HX-Refresh response, which makes htmx reload the whole page into the
+real score view.
+{% endcomment %}
+<div class="test-score-pending"
+     hx-get="{% url 'document-test' test.pk %}"
+     hx-trigger="every 2s"
+     hx-swap="none"
+     hx-headers='{"X-Score-Poll": "1"}'>
+  <div class="test-score-pending__spinner" role="status" aria-live="polite">
+    {% lucide 'loader-circle' size='48' class="animate-spin" %}
+  </div>
+  <h2 class="test-score-pending__heading">{% translate "Evaluating your answers…" %}</h2>
+  <p class="test-score-pending__text">
+    {% blocktranslate %}We're comparing the meaning of your answers — not just the spelling — to the original text. This should only take a few seconds.{% endblocktranslate %}
+  </p>
+</div>

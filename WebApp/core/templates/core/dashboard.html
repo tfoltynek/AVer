@@ -1,0 +1,99 @@
+{% extends "core/layouts/layout_with_sidebar.html" %}
+{% load i18n %}
+{% load lucide %}
+{% block content %}
+  <section>
+    <header class="SectionHeader SectionHeader--center">
+      <hgroup>
+        <h2>{% translate "How AVer works" %}</h2>
+        <p>
+          {% translate "Upload your own document, generate a test from it and fill it in. AVer then shows how well the answers match your writing." %}
+        </p>
+      </hgroup>
+    </header>
+    {% if messages %}
+      <ul class="MessageList">
+        {% for message in messages %}<li class="Message Message--{{ message.tags }}">{{ message }}</li>{% endfor %}
+      </ul>
+    {% endif %}
+    <p class="Steps-progress">
+      {% blocktranslate with done=steps_done total=steps_total %}{{ done }} of {{ total }} steps completed{% endblocktranslate %}
+    </p>
+    <ol class="Steps">
+      <li class="Steps-step {% if document %}Steps-step--done{% else %}Steps-step--active{% endif %}">
+        <article class="Steps-stepContent">
+          <h3 class="Steps-stepTitle">{% translate "Upload your document" %}</h3>
+          <p class="Steps-stepDescription">
+            {% translate "Upload a text you wrote yourself. The analysis that prepares the test runs right after the upload." %}
+          </p>
+          {% if document %}
+            <article class="Card DocumentCard">{% include "core/partials/document-card-body.html" %}</article>
+            <a href="{% url 'document-upload' %}"
+               class="Button Button--ghost Steps-button">
+              {% lucide 'file-plus' size='16' %} {% translate "Add another document" %}
+            </a>
+          {% else %}
+            <a href="{% url 'document-upload' %}"
+               class="Button Button--primary Steps-button">
+              {% lucide 'file-plus' size='16' %} {% translate "Add document" %}
+            </a>
+          {% endif %}
+        </article>
+      </li>
+      <li class="Steps-step {% if generated_test_count %}Steps-step--done{% elif has_analyzed_document %}Steps-step--active{% else %}Steps-step--disabled{% endif %}">
+        <article class="Steps-stepContent">
+          <h3 class="Steps-stepTitle">{% translate "Generate a test" %}</h3>
+          {% if has_analyzed_document or generated_test_count %}
+            <p class="Steps-stepDescription">
+              {% translate "Pick one of your analyzed documents and the test variant you want." %}
+            </p>
+            {% if generated_test_count %}
+              <div class="Steps-meta">
+                <span class="Steps-metaLabel">{% translate "Generated tests" %}</span>
+                <span class="Steps-metaValue">{{ generated_test_count }}</span>
+              </div>
+              <a href="{% url 'test-select' %}"
+                 class="Button Button--ghost Steps-button">
+                {% lucide 'pencil-line' size='16' %} {% translate "Generate another test" %}
+              </a>
+            {% else %}
+              <a href="{% url 'test-select' %}"
+                 class="Button Button--primary Steps-button">
+                {% lucide 'pencil-line' size='16' %} {% translate "Generate test" %}
+              </a>
+            {% endif %}
+          {% else %}
+            <p class="Steps-stepDescription">
+              {% translate "Available once the analysis of one of your documents is finished." %}
+            </p>
+          {% endif %}
+        </article>
+      </li>
+      <li class="Steps-step {% if submitted_test_count %}Steps-step--done{% elif generated_test_count %}Steps-step--active{% else %}Steps-step--disabled{% endif %}">
+        <article class="Steps-stepContent">
+          <h3 class="Steps-stepTitle">{% translate "Fill in the test" %}</h3>
+          <p class="Steps-stepDescription">
+            {% translate "Fill in the missing words. Your results are waiting under My tests." %}
+          </p>
+          {% if submitted_test_count %}
+            <div class="Steps-meta">
+              <span class="Steps-metaLabel">{% translate "Finished tests" %}</span>
+              <span class="Steps-metaValue">{{ submitted_test_count }}</span>
+            </div>
+          {% endif %}
+          {% if pending_test %}
+            <a href="{% url 'document-test' pending_test.pk %}"
+               class="Button {% if submitted_test_count %}Button--ghost{% else %}Button--primary{% endif %} Steps-button">
+              {% lucide 'arrow-right' size='16' %} {% translate "Fill in test" %}
+            </a>
+          {% elif submitted_test_count %}
+            <a href="{% url 'test-list' %}"
+               class="Button Button--ghost Steps-button">
+              {% lucide 'arrow-right' size='16' %} {% translate "My tests" %}
+            </a>
+          {% endif %}
+        </article>
+      </li>
+    </ol>
+  </section>
+{% endblock content %}

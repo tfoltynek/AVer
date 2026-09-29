@@ -1,0 +1,82 @@
+{% load i18n %}
+{% load lucide %}
+{% comment %}
+Score-page header: tested document + metadata strip.
+Context: test (Test), test_total_items, test_duration_human, report.
+{% endcomment %}
+<header class="test-summary">
+  <p class="test-summary__eyebrow">{% translate "Test result" %}</p>
+  <h1 class="test-summary__title">{{ test.document.title }}</h1>
+  <p class="test-summary__document-meta">
+    {% if test.document.author %}
+      {% lucide 'user' size='14' %}<span>{{ test.document.author }}</span>
+    {% endif %}
+    {% if test.document.publication_date %}
+      <span class="test-summary__sep" aria-hidden="true">·</span>
+      {% lucide 'calendar' size='14' %}<span>{{ test.document.publication_date|date:"Y" }}</span>
+    {% endif %}
+    {% if test.document.language %}
+      <span class="test-summary__sep" aria-hidden="true">·</span>
+      {% lucide 'languages' size='14' %}<span>{{ test.document.language.name }}</span>
+    {% endif %}
+  </p>
+  {% if test.document.academic_fields.all %}
+    <ul class="test-summary__fields" role="list">
+      {% for field in test.document.academic_fields.all %}
+        <li>
+          <span class="Chip">{{ field.name|capfirst }}</span>
+        </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+  <dl class="test-summary__meta">
+    <div class="test-summary__meta-item">
+      {% lucide 'pencil-line' size='16' %}
+      <dt>{% translate "Test type" %}</dt>
+      <dd>
+        {{ test.get_type_display }}
+      </dd>
+    </div>
+    {% if test.submitted_at %}
+      <div class="test-summary__meta-item">
+        {% lucide 'calendar-check' size='16' %}
+        <dt>{% translate "Taken on" %}</dt>
+        <dd>
+          {{ test.submitted_at|date:"d.m.Y H:i" }}
+        </dd>
+      </div>
+    {% endif %}
+    {% if test_duration_human %}
+      <div class="test-summary__meta-item">
+        {% lucide 'timer' size='16' %}
+        <dt>{% translate "Duration" %}</dt>
+        <dd>
+          {{ test_duration_human }}
+        </dd>
+      </div>
+    {% endif %}
+    <div class="test-summary__meta-item">
+      {% lucide 'list-checks' size='16' %}
+      <dt>{% translate "Answered" %}</dt>
+      <dd>
+        {{ report.answered }} / {{ test_total_items }}
+      </dd>
+    </div>
+    <div class="test-summary__meta-item">
+      {% lucide 'circle-check' size='16' %}
+      <dt>{% translate "Correct" %}</dt>
+      <dd>
+        {{ report.score }} / {{ report.n }}
+      </dd>
+    </div>
+    {% if test.success_estimate is not None %}
+      <div class="test-summary__meta-item">
+        {% lucide 'target' size='16' %}
+        <dt>{% translate "Your estimate" %}</dt>
+        <dd>
+          {{ test.success_estimate }}%
+        </dd>
+      </div>
+    {% endif %}
+  </dl>
+</header>

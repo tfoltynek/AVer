@@ -1,0 +1,36 @@
+#demo {
+  position: relative;
+  width: 100%;
+  max-width: 42ch;
+  padding: var(--space-6);
+  background-color: var(--surface-1);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  /* intentional dramatic shadow + rotation — brand quirk, do not change */
+  box-shadow: 10px 10px 15px rgb(0 0 0 / 25%);
+  transform: rotateZ(5deg);
+}
+
+#demo p {
+  margin-bottom: var(--space-4);
+}
+
+.demo-successCheck {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 8rem;
+  height: 8rem;
+  padding: var(--space-4);
+  color: var(--white);
+  background-color: var(--correct);
+  border: 3px solid var(--correct-border);
+  border-radius: var(--radius-pill);
+  opacity: 1;
+  transition: opacity var(--duration-slow) var(--ease-in-out);
+  transform: translate(4rem, 4rem);
+}
+
+.demo-successCheck--hidden {
+  opacity: 0;
+}

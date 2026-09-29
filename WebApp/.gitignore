@@ -1,0 +1,37 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+# Runtime data
+/db/*
+!/db/.gitkeep
+/media/*
+!/media/.gitkeep
+*.sqlite3*
+*.db
+*.log
+/core/static/core/data/
+# Dependencies, models and generated files
+.venv/
+.uv-cache/
+.stanza_resources/
+__pycache__/
+*.py[cod]
+*.mo
+static-collected/
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.coverage*
+htmlcov/
+# Local tools
+.claude/
+.codex/
+.superpowers/
+.idea/
+.vscode/
+.DS_Store

@@ -1,0 +1,342 @@
+/* AppLayout Block */
+.AppLayout {
+  display: flex;
+  flex-grow: 1;
+  width: 100%;
+  max-width: 1536px;
+  height: 100vh;
+  max-height: 100vh;
+  padding: var(--space-4);
+  margin-inline: auto;
+  background-color: var(--surface-base);
+  overflow: hidden;
+}
+
+.AppLayout-sideMenu {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  align-items: stretch;
+  max-width: 200px;
+  height: 100%;
+  padding-block: var(--space-4);
+  padding-inline: var(--space-3);
+  user-select: none;
+  overflow-x: hidden;
+  overflow-y: auto;
+  width: 100%;
+  box-sizing: border-box;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Navigation list */
+.AppLayout-nav {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  width: 100%;
+  max-width: 100%;
+}
+
+.AppLayout-navItem {
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+/* Navigation item */
+.AppLayout-navLink {
+  display: flex;
+  gap: 0.5em;
+  align-items: center;
+  min-height: 36px;
+  padding: 0.5em 0.75em;
+  color: var(--text);
+  text-decoration: none;
+  white-space: nowrap;
+  cursor: pointer;
+  border: 2px solid transparent;
+  border-radius: var(--radius-sm);
+  transition:
+    background-color var(--duration-fast) var(--ease-out),
+    color var(--duration-fast) var(--ease-out),
+    border var(--duration-base) var(--ease-out);
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: var(--font-size-3);
+}
+
+.AppLayout-navLink svg {
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
+}
+
+/* Hover state for nav links */
+.AppLayout-navLink:hover {
+  background-color: var(--surface-2);
+}
+
+/* Active navigation link */
+.AppLayout-navLink--active {
+  font-weight: 700;
+  border-left: 2px solid var(--text);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+}
+
+.AppLayout-logoutButton {
+  margin-top: auto;
+  font-size: var(--font-size-2);
+  min-height: 36px;
+  padding: 0.5em 0.75em;
+}
+
+/* Sidebar footer row: language selector + theme toggle, sitting side by
+   side under the logout button. */
+.AppLayout-footerRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-3);
+}
+
+/* No-sidebar header right-side actions: language selector + theme toggle.
+   `margin-left: auto` anchors the controls to the top-right corner regardless
+   of whether the logo is present (landing page omits it). */
+.AppLayout-headerActions {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  margin-left: auto;
+}
+
+/* In the no-sidebar header context, the logo behaves like a brand mark
+   anchored to the top-left — not the full-width sidebar wordmark. */
+header > .AppLayout-logo {
+  width: auto;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+/* Brand mark in the header — sized between the sidebar wordmark and the
+   page-title h2 so the brand reads as present but not as the focal point. */
+header > .AppLayout-logo h1 {
+  font-size: var(--font-size-7);
+}
+
+/* Keep the language selector compact in the header — without a max-width
+   it stretches and gets truncated on narrow viewports. */
+.AppLayout-headerActions .language-select {
+  width: auto;
+}
+
+.AppLayout-logo {
+  color: var(--text);
+  text-align: left;
+  text-decoration: none;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  padding: var(--space-3);
+  margin-bottom: var(--space-3);
+}
+
+/* Sidebar wordmark — Playfair earns its keep here. Sized smaller than
+   a page h1 so it reads as brand mark, not heading. */
+.AppLayout-logo h1 {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: var(--font-size-7);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  line-height: var(--leading-tight);
+}
+
+/* The panel itself doesn't scroll — its inner .AppLayout-mainScroll does.
+   Splitting scroll into a child lets the wave sit as a sibling of the
+   scrolling content, anchored to the panel's visible bottom-right.
+   `isolation: isolate` keeps the wave's z-index: -1 inside main, otherwise
+   it paints behind main's own background and disappears. */
+.AppLayout-mainContent {
+  position: relative;
+  isolation: isolate;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: var(--surface-elevated);
+  border: solid 1px var(--border);
+  border-radius: var(--radius-md);
+}
+
+.AppLayout-mainScroll {
+  height: 100%;
+  padding: var(--space-6);
+  overflow: auto;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Wave is a sibling of the scroll wrapper — anchored to the panel, not the
+   scroll content, so it stays put as the user scrolls inside the panel. */
+.AppLayout-mainContent > .BackgroundWave {
+  position: absolute;
+}
+
+.SectionHeader {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-4);
+  align-items: end;
+  justify-content: space-between;
+  margin-bottom: var(--space-6);
+}
+
+.SectionHeader > h1,
+.SectionHeader > h2,
+.SectionHeader > h3,
+.SectionHeader hgroup > h1,
+.SectionHeader hgroup > h2,
+.SectionHeader hgroup > h3 {
+  margin-bottom: var(--space-2);
+}
+
+/* Centered section headers mark page-level intros (welcome, score splash,
+   upload, etc.). Headings already get Playfair from typography defaults;
+   here we only add the centered-narrative scaffolding (lede paragraph
+   width + neutral color) so intros read as page-leading copy. */
+.SectionHeader--center {
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 70ch;
+  margin-inline: auto;
+  margin-top: var(--space-7);
+  text-align: center;
+
+  & h1,
+  & h2,
+  & h3 {
+    margin-bottom: var(--space-2);
+  }
+
+  & > p,
+  & hgroup > p {
+    max-width: 60ch;
+    margin-inline: auto;
+    color: var(--neutral);
+    text-wrap: pretty;
+  }
+}
+
+/* Give the test reading view extra breathing room at the top so the
+   editorial paragraph isn't pressed against the chrome. */
+.AppLayout-mainContent:has(.Test) {
+  padding-top: var(--space-8);
+}
+
+/* Responsive side menu for AppLayout */
+@media (max-width: 768px) {
+  .AppLayout {
+    padding: 0;
+  }
+}
+
+.AppLayout-burger {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1001;
+  /* Extra padding on the bottom-right where the rounded corner is, so the
+     hit target compensates for the curve eating into the touch area. */
+  padding: var(--space-2) var(--space-3) var(--space-3) var(--space-2);
+  background: var(--white);
+  border: 0;
+  border-right: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  border-radius: 0 0 var(--radius-md) 0;
+  font-size: var(--font-size-6);
+  cursor: pointer;
+  transition: background-color var(--duration-base) var(--ease-out);
+  outline: none;
+  appearance: none;
+  -webkit-appearance: none;
+}
+.AppLayout-burger:active,
+.AppLayout-burger:focus {
+  background: var(--white);
+  outline: none;
+}
+
+/* Close button inside side menu */
+.AppLayout-closeMenu {
+  display: none;
+  position: absolute;
+  top: var(--space-4);
+  right: var(--space-4);
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: 50%;
+  font-size: var(--font-size-6);
+  width: 2.5rem;
+  height: 2.5rem;
+  cursor: pointer;
+  z-index: 1002;
+}
+@media (max-width: 768px) {
+  .AppLayout-closeMenu {
+    display: block;
+  }
+}
+
+@media (max-width: 768px) {
+  .AppLayout-sideMenu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 200px;
+    max-width: 200px;
+    background: var(--surface-1);
+    box-shadow: var(--shadow-lg);
+    transform: translateX(-100%);
+    transition: transform var(--duration-slow) var(--ease-out);
+    z-index: 1000;
+    overflow-y: auto;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+    padding-inline: var(--space-3);
+    box-sizing: border-box;
+  }
+  .AppLayout-sideMenu.open {
+    transform: translateX(0);
+  }
+  .AppLayout-burger {
+    display: block;
+  }
+  .AppLayout-mainContent {
+    margin-left: 0;
+  }
+}
+
+/* Optional: dark overlay when menu is open */
+.AppLayout-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: color-mix(in srgb, var(--text) 30%, transparent);
+  z-index: 999;
+}
+.AppLayout-overlay.open {
+  display: block;
+}
+
+/* Side menu scroll is handled in main definition above */
