@@ -1,0 +1,13 @@
+{ 
+  "language": "en",
+  "document_id": "223e4567-e89b-12d3-a456-426614174001",
+  "paragraphs": [ {
+    "id": "123e4567-e89b-12d3-a456-426614174000",
+    "content": "This is an example paragraph in an example document."
+    },
+    { 
+    "id": "423e4567-e89b-12d3-a456-426614174003",
+    "content": "This is another example paragraph in the same document. I guess." 
+    }
+    ]
+}

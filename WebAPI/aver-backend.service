@@ -1,0 +1,19 @@
+[Unit]
+Description=AVer Backend API (web tier)
+After=network.target
+
+[Service]
+Type=simple
+User=aver
+Group=aver
+WorkingDirectory=/app/AVer/WebAPI
+# All application config -- including AVER_API_KEY -- lives in WebAPI/.env
+# (see WebAPI/.env.example for every knob). start_api.sh sources that file
+# before it execs gunicorn, so putting Environment= lines here only invites
+# drift between the tracked unit and .env, and it is unsafe for the API key.
+ExecStart=/app/AVer/WebAPI/start_api.sh
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

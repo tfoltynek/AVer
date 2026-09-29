@@ -1,0 +1,18 @@
+{
+  "language": "en",
+  "document_id": "stopword-leak-repro-2026-09-22",
+  "paragraphs": [
+    {
+      "id": "p-molecular-graph",
+      "content": "Chemical structures are commonly represented as labeled graphs, where atoms are vertices and bonds are edges. The most general of these is the molecular graph [4, 5]. Many descriptors, such as connectivity indices and topological polar surface area, can be computed directly from this representation. Analysts often derive additional features from these labeled graphs to compare compounds across large datasets."
+    },
+    {
+      "id": "p-pdb-error",
+      "content": "The command line tool accepts a single positional argument, which must be a valid protein data bank file. If the path specified does not represent a PDB file, an error message is printed on screen. The user can then inspect the log to determine which residues could not be parsed correctly. The parser reports the offending line number so that the input file can be corrected quickly."
+    },
+    {
+      "id": "p-photosynthesis",
+      "content": "Photosynthesis converts atmospheric carbon dioxide into simple sugars using pigments such as chlorophyll. This transformation takes water and carbon dioxide, catalyzed by the sun's energy. The oxygen released as a byproduct sustains most heterotrophic life on this planet. The net reaction remains the same across different photosynthetic organisms even when the light harvesting pigments differ."
+    }
+  ]
+}

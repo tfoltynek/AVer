@@ -1,0 +1,25 @@
+[Unit]
+Description=AVer Inference Worker
+After=network.target
+
+[Service]
+Type=simple
+User=aver
+Group=aver
+WorkingDirectory=/app/AVer/WebAPI
+# All application config lives in WebAPI/.env (see WebAPI/.env.example for
+# every knob). start_worker.sh sources that file before it execs the Python
+# worker, so putting Environment= lines here only invites drift between the
+# tracked unit and .env. Keep them out.
+ExecStart=/app/AVer/WebAPI/start_worker.sh
+Restart=always
+RestartSec=5
+# A job on the CPU deployment routinely takes 2-3 hours. The worker handles
+# SIGTERM by finishing the current job and then exiting (see worker.py's
+# _handle_stop). We want `systemctl restart aver-worker.service` to wait
+# for that drain instead of hard-killing mid-job at the 90 s default, so
+# give systemd unlimited patience. Emergency stop is still 'systemctl kill'.
+TimeoutStopSec=infinity
+
+[Install]
+WantedBy=multi-user.target

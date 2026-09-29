@@ -1,0 +1,17 @@
+{ 
+  "language": "cs",
+  "document_id": "223e4567-e89b-12d3-a456-426614174001",
+  "paragraphs": [ {
+    "id": "123e4567-e89b-12d3-a456-426614174000",
+    "content": "Tohle je příkladová věta. Slouží jenom jako příklad fungovaní pro testovací účely."
+    },
+    { 
+    "id": "423e4567-e89b-12d3-a456-426614174003",
+    "content": "Tohle je jiná příkladová věta. Slouží jenom jako příklad fungovaní pro testovací účely. Systém využívá cloze test doplňování vynechaných slov na detekci autorství." 
+    },
+    {
+      "id": "823717367824",
+      "content": "Pan Novák stojí na nádraží a vyhlíží svůj vlak. „Už tu měl dávno být, asi má zpoždění,“ říká si. Dnes jede na pracovní schůzku do Brna. V Brně se mu líbí. Je to krásné město a stále se tam něco děje: výstavy, festivaly, koncerty, mají tam dobré restaurace a hezkou přírodu. Škoda jen, že se tam v centru špatně parkuje. Přesto jsme byli svědky puče v Rusku, fetování v Brně nebo vydání nové desky Marcuse Revolty."
+    }
+    ]
+}

@@ -1,0 +1,38 @@
+[project]
+name = "aver-webapi"
+version = "0.1.0"
+description = "AVer WebAPI: asynchronous cloze-analysis job queue and sentence-similarity REST API."
+requires-python = ">=3.10"
+dependencies = [
+    # Pinned to the versions the service was tested with (the MT5 generate code
+    # is sensitive to transformers/torch/numpy versions). Others float and are
+    # locked exactly in uv.lock.
+    "bottle==0.13.1",
+    "corpy==0.6.1",
+    "transformers==4.45.1",
+    "protobuf==5.28.2",
+    "sentencepiece==0.2.0",
+    "nltk==3.9.1",
+    "numpy==2.1.1",
+    "torch==2.4.1",
+    "accelerate==0.34.2",
+    "bitsandbytes==0.44.1",
+    "gunicorn",
+    "optimum-intel[openvino]",
+    "psutil",
+    "setuptools",
+    "sentence-transformers",
+]
+
+[tool.uv]
+# This is a deployable application, not a library: don't try to build/install it.
+package = false
+
+# Pull torch from the CPU-only PyTorch wheel index (no CUDA on the target VM).
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true
+
+[tool.uv.sources]
+torch = { index = "pytorch-cpu" }
