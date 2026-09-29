@@ -1,0 +1,342 @@
+/* === InfoBox: labelled-value container shown in settings/dashboard grids.
+ * Base = plain box. Add .Card .InfoBox--card to elevate it into a card. */
+.InfoBox {
+  display: inline-flex;
+  flex-direction: column;
+  padding: var(--space-5) var(--space-6);
+  background-color: var(--surface-1);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+}
+
+.InfoBox-title {
+  color: var(--neutral);
+}
+
+.InfoBox-content {
+  font-weight: 700;
+}
+
+.InfoBox-help {
+  font-size: var(--font-size-2);
+  font-weight: normal;
+  color: var(--neutral);
+  margin-top: var(--space-2);
+}
+
+.SettingsSection {
+  margin-bottom: var(--space-8);
+}
+
+.SettingsSection-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: var(--space-5);
+  align-items: stretch;
+}
+
+.InfoBox--card {
+  /* base styling provided by .Card */
+  gap: var(--space-3);
+  padding: var(--space-4) var(--space-5);
+  height: 100%;
+}
+
+.InfoBox--card .InfoBox-title {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  margin: 0;
+  font-size: var(--font-size-2);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--neutral);
+}
+
+.InfoBox--card .InfoBox-title svg {
+  color: var(--primary);
+}
+
+.InfoBox--card .InfoBox-content {
+  margin: 0;
+}
+
+.InfoBox-content--email {
+  font-size: var(--font-size-4);
+  font-weight: 600;
+  color: var(--text);
+  word-break: break-all;
+}
+
+.InfoBox-content--password {
+  font-size: var(--font-size-4);
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  color: var(--text);
+  margin: 0;
+}
+
+.InfoBox-success {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  margin: var(--space-2) 0 0;
+  font-size: var(--font-size-2);
+  font-weight: 500;
+  color: var(--correct);
+}
+
+.InfoBox-content--chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  flex: 1;
+}
+
+.InfoBox-empty {
+  color: var(--neutral);
+  font-style: italic;
+}
+
+.InfoBox-actions {
+  margin-top: auto;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.Chip {
+  display: inline-flex;
+  align-items: center;
+  padding: var(--space-1) var(--space-3);
+  font-size: var(--font-size-2);
+  font-weight: 500;
+  color: var(--accent);
+  background-color: var(--accent-background);
+  border: 1px solid var(--accent-border);
+  border-radius: var(--radius-sm);
+}
+
+/* Service Status */
+.ServiceStatus-results {
+  margin-top: var(--space-5);
+}
+
+.ServiceStatus-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.ServiceStatus-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-4);
+  padding: var(--space-3) var(--space-4);
+  background-color: var(--surface-1);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  flex-wrap: wrap;
+}
+
+.ServiceStatus-info {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  min-width: 0;
+}
+
+.ServiceStatus-dot {
+  width: 0.625rem;
+  height: 0.625rem;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.ServiceStatus-dot--up {
+  background-color: var(--correct);
+}
+
+.ServiceStatus-dot--down {
+  background-color: var(--incorrect);
+}
+
+.ServiceStatus-name {
+  margin: 0;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.ServiceStatus-url {
+  margin: 0;
+  font-size: var(--font-size-2);
+  color: var(--neutral);
+  word-break: break-all;
+}
+
+.ServiceStatus-meta {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  flex-wrap: wrap;
+  font-size: var(--font-size-2);
+  font-variant-numeric: tabular-nums;
+  color: var(--neutral);
+}
+
+.ServiceStatus-detail {
+  font-variant-numeric: tabular-nums;
+  font-size: var(--font-size-2);
+}
+
+.ServiceStatus-error {
+  color: var(--incorrect);
+  font-size: var(--font-size-2);
+}
+
+.ServiceStatus-indicator {
+  display: none;
+  align-items: center;
+  color: var(--neutral);
+  font-size: var(--font-size-2);
+}
+
+.ServiceStatus-indicator.htmx-request,
+.htmx-request .ServiceStatus-indicator {
+  display: inline-flex;
+  gap: var(--space-2);
+  align-items: center;
+}
+
+.ServiceStatus-skeletonText {
+  flex: 1;
+}
+
+/* Export Form */
+.ExportForm {
+  margin: var(--space-5) 0;
+}
+
+.ExportForm-fieldset {
+  border: none;
+  border-top: 1px solid var(--border);
+  border-radius: 0;
+  background-color: transparent;
+  margin-top: var(--space-5);
+  padding-top: var(--space-5);
+}
+
+.ExportForm-legend {
+  font-size: var(--font-size-3);
+  font-weight: 600;
+  padding: 0;
+  margin-bottom: var(--space-3);
+  color: var(--text);
+  background-color: transparent;
+}
+
+.ExportForm-help {
+  font-size: var(--font-size-2);
+  color: var(--neutral);
+  line-height: var(--leading-normal);
+  margin: 0;
+  margin-bottom: var(--space-4);
+}
+
+.ExportForm-dateRange {
+  display: flex;
+  gap: var(--space-4);
+  align-items: flex-end;
+  flex-wrap: wrap;
+  margin-top: var(--space-4);
+}
+
+.ExportForm-field {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  min-width: 160px;
+  flex: 1;
+}
+
+.ExportForm-label {
+  font-size: var(--font-size-2);
+  font-weight: 500;
+  color: var(--text);
+  margin: 0;
+}
+
+.ExportForm-optional {
+  font-size: var(--font-size-1);
+  color: var(--neutral-border);
+  font-style: italic;
+  font-weight: normal;
+  margin-left: var(--space-1);
+}
+
+.ExportForm-clearButton {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: var(--space-3) var(--space-4);
+  background-color: var(--surface-1);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  font-size: var(--font-size-2);
+  color: var(--neutral);
+  cursor: pointer;
+  transition:
+    background-color var(--duration-base) var(--ease-out),
+    border-color var(--duration-base) var(--ease-out),
+    color var(--duration-base) var(--ease-out);
+  height: fit-content;
+  white-space: nowrap;
+}
+
+.ExportForm-clearButton:hover {
+  background-color: var(--surface-2);
+  border-color: var(--neutral-border);
+  color: var(--text);
+}
+
+.ExportForm-input {
+  padding: var(--space-3);
+  background-color: var(--surface-1);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  font-size: var(--font-size-3);
+  transition:
+    border-color var(--duration-base) var(--ease-out),
+    box-shadow var(--duration-base) var(--ease-out);
+}
+
+.ExportForm-input:hover {
+  border-color: var(--neutral-border);
+}
+
+/* Button Groups */
+.ButtonGroup--spaced {
+  margin-top: var(--space-5);
+  gap: var(--space-3);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .ExportForm-dateRange {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .ExportForm-field {
+    min-width: 100%;
+  }
+
+  .ExportForm-clearButton {
+    width: 100%;
+    justify-content: center;
+  }
+}

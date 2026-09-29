@@ -1,0 +1,13 @@
+{% load i18n %}
+<dialog id="dialog" class="Dialog">
+  <p>{% translate "Are you sure you want to delete" %} "{{ object }}"?</p>
+  <div class="Dialog-actions">
+    <button type="button" class="Button Button--ghost" data-dialog-close>{% translate "Close" %}</button>
+    <button id="dialog-confirm"
+            class="Button Button--danger"
+            hx-post="{% url 'document-delete' object.pk %}"
+            hx-target="#document-list"
+            hx-swap="outerHTML"
+            hx-on::after-request="removeDialog()">{% translate "Delete" %}</button>
+  </div>
+</dialog>

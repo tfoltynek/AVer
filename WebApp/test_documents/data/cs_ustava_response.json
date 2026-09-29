@@ -1,0 +1,355 @@
+{
+  "document_id": "453e4567-e89b-12d3-a456-426624174002",
+  "words": [
+    {
+      "paragraph_id": "553e4567-e89b-12d3-a256-426614174019",
+      "index": 15,
+      "content": "čase",
+      "sentence_blanked": "My, občané České republiky v Čechách, na Moravě a ve Slezsku, v <<BLANK>> obnovy samostatného českého státu, věrni všem dobrým tradicím dávné státnosti zemí Koruny české i státnosti československé, odhodláni budovat, chránit a rozvíjet Českou republiku v duchu nedotknutelných hodnot lidské důstojnosti a svobody jako vlast rovnoprávných, svobodných občanů, kteří jsou si vědomi svých povinností vůči druhým a zodpovědnosti vůči celku, jako svobodný a demokratický stát, založený na úctě k lidským právům a na zásadách občanské společnosti, jako součást rodiny evropských a světových demokracií, odhodláni společně střežit a rozvíjet zděděné přírodní a kulturní, hmotné a duchovní bohatství, odhodláni řídit se všemi osvědčenými principy právního státu, prostřednictvím svých svobodně zvolených zástupců přijímáme tuto Ústavu České republiky.",
+      "sentence_index": 0,
+      "predictions": [
+        {
+          "word": "duchu",
+          "probability": -0.3133183717727661
+        },
+        {
+          "word": "období",
+          "probability": -0.7494702339172363
+        },
+        {
+          "word": "důsledku",
+          "probability": -0.9067276120185852
+        },
+        {
+          "word": "době",
+          "probability": -0.9093177318572998
+        },
+        {
+          "word": "rámci",
+          "probability": -1.0089585781097412
+        },
+        {
+          "word": "očekávání",
+          "probability": -1.0479587316513062
+        },
+        {
+          "word": "zájmu",
+          "probability": -1.0757148265838623
+        },
+        {
+          "word": "střícní vůli",
+          "probability": -1.1722041368484497
+        },
+        {
+          "word": "střícní svědky",
+          "probability": -1.178385853767395
+        },
+        {
+          "word": "šemohoucí účastníci",
+          "probability": -1.191230297088623
+        },
+        {
+          "word": "srdci",
+          "probability": -1.2064845561981201
+        },
+        {
+          "word": "střícní obětem",
+          "probability": -1.2112704515457153
+        },
+        {
+          "word": "střícní cílům",
+          "probability": -1.225582242012024
+        },
+        {
+          "word": "šemohoucí oběťmi",
+          "probability": -1.2343909740447998
+        },
+        {
+          "word": "počátcích",
+          "probability": -1.2435795068740845
+        },
+        {
+          "word": "střícní záměrům",
+          "probability": -1.2609800100326538
+        },
+        {
+          "word": "střícní účastníci",
+          "probability": -1.2621914148330688
+        },
+        {
+          "word": "ítězstvím demokratické",
+          "probability": -1.2676082849502563
+        },
+        {
+          "word": "šemohoucí obětí",
+          "probability": -1.2998844385147095
+        },
+        {
+          "word": "střícní záměru",
+          "probability": -1.3021165132522583
+        },
+        {
+          "word": "dobách",
+          "probability": -1.3258624076843262
+        },
+        {
+          "word": "šemohoucí naděje",
+          "probability": -1.3331178426742554
+        },
+        {
+          "word": "střícní příležitostem",
+          "probability": -1.3424131870269775
+        },
+        {
+          "word": "ítězové demokratické",
+          "probability": -1.3449877500534058
+        },
+        {
+          "word": "šemohoucí svědky",
+          "probability": -1.3541896343231201
+        },
+        {
+          "word": "střícní myšlenkám",
+          "probability": -1.3642263412475586
+        },
+        {
+          "word": "střícní účastníkům",
+          "probability": -1.3645814657211304
+        },
+        {
+          "word": "ítězství a",
+          "probability": -1.3728522062301636
+        },
+        {
+          "word": "střícní oslavenci",
+          "probability": -1.374063491821289
+        },
+        {
+          "word": "střícní oslavovatelé",
+          "probability": -1.3747988939285278
+        },
+        {
+          "word": "ítězové vítězství",
+          "probability": -1.3753478527069092
+        },
+        {
+          "word": "ítězstvím demokratického",
+          "probability": -1.375994086265564
+        },
+        {
+          "word": "ítězové listopadové",
+          "probability": -1.3812711238861084
+        },
+        {
+          "word": "naději",
+          "probability": -1.3852046728134155
+        },
+        {
+          "word": "čase",
+          "probability": -1.3868839740753174
+        },
+        {
+          "word": "ždy odhodláni",
+          "probability": -1.3895165920257568
+        },
+        {
+          "word": "ítězové vítězné",
+          "probability": -1.4060859680175781
+        },
+        {
+          "word": "ítězstvím osudu",
+          "probability": -1.4110854864120483
+        },
+        {
+          "word": "střícní myšlence",
+          "probability": -1.4141706228256226
+        },
+        {
+          "word": "ždy odhodlání",
+          "probability": -1.4247379302978516
+        },
+        {
+          "word": "ítězové osudu",
+          "probability": -1.445378303527832
+        }
+      ],
+      "category": "unigrams_NOUN",
+      "additional_info": ""
+    },
+    {
+      "paragraph_id": "553e4567-e89b-12d3-a256-426614174018",
+      "index": 10,
+      "content": "orgánů",
+      "sentence_blanked": "Lid je zdrojem veškeré státní moci; vykonává ji prostřednictvím <<BLANK>> moci zákonodárné, výkonné a soudní.",
+      "sentence_index": 0,
+      "predictions": [
+        {
+          "word": "své",
+          "probability": -0.4757719933986664
+        },
+        {
+          "word": "svých",
+          "probability": -0.7162061929702759
+        },
+        {
+          "word": "státní",
+          "probability": -0.7495185136795044
+        },
+        {
+          "word": "orgánů",
+          "probability": -0.7952807545661926
+        },
+        {
+          "word": "veškeré",
+          "probability": -0.9154432415962219
+        },
+        {
+          "word": "příslušníků",
+          "probability": -0.9677685499191284
+        },
+        {
+          "word": "složek",
+          "probability": -1.06354558467865
+        },
+        {
+          "word": "jejich",
+          "probability": -1.0829366445541382
+        },
+        {
+          "word": "jednotlivých",
+          "probability": -1.0833251476287842
+        },
+        {
+          "word": "třetí",
+          "probability": -1.1476430892944336
+        },
+        {
+          "word": "třetích",
+          "probability": -1.178910732269287
+        },
+        {
+          "word": "činitelů",
+          "probability": -1.2087088823318481
+        },
+        {
+          "word": "příslušných",
+          "probability": -1.2119780778884888
+        },
+        {
+          "word": "úřední",
+          "probability": -1.21378493309021
+        },
+        {
+          "word": "zastupitelské",
+          "probability": -1.2408381700515747
+        },
+        {
+          "word": "jeho",
+          "probability": -1.2609580755233765
+        },
+        {
+          "word": "samostatné",
+          "probability": -1.2656288146972656
+        },
+        {
+          "word": "institucí",
+          "probability": -1.2724335193634033
+        },
+        {
+          "word": "příslušné",
+          "probability": -1.2763570547103882
+        },
+        {
+          "word": "různých",
+          "probability": -1.3014904260635376
+        },
+        {
+          "word": "ozbrojené",
+          "probability": -1.3050206899642944
+        },
+        {
+          "word": "všech",
+          "probability": -1.3162505626678467
+        },
+        {
+          "word": "úředních",
+          "probability": -1.3286277055740356
+        },
+        {
+          "word": "svrchovatelů",
+          "probability": -1.3486205339431763
+        },
+        {
+          "word": "výkonu",
+          "probability": -1.3513883352279663
+        },
+        {
+          "word": "výkonné",
+          "probability": -1.3521918058395386
+        },
+        {
+          "word": "zastupitelských",
+          "probability": -1.3527783155441284
+        },
+        {
+          "word": "jednotlivé",
+          "probability": -1.3575780391693115
+        },
+        {
+          "word": "funkcí",
+          "probability": -1.3653589487075806
+        },
+        {
+          "word": "členů",
+          "probability": -1.3765438795089722
+        },
+        {
+          "word": "lidské",
+          "probability": -1.3813786506652832
+        },
+        {
+          "word": "třetiny",
+          "probability": -1.388511300086975
+        },
+        {
+          "word": "právních",
+          "probability": -1.3973857164382935
+        },
+        {
+          "word": "úkolů",
+          "probability": -1.4264302253723145
+        },
+        {
+          "word": "ústřední",
+          "probability": -1.4471536874771118
+        },
+        {
+          "word": "osvědčené",
+          "probability": -1.4624600410461426
+        },
+        {
+          "word": "právní",
+          "probability": -1.4719600677490234
+        },
+        {
+          "word": "služebních",
+          "probability": -1.4728848934173584
+        },
+        {
+          "word": "třetičlenů",
+          "probability": -1.4787074327468872
+        },
+        {
+          "word": "svrchovanosti",
+          "probability": -1.481951117515564
+        },
+        {
+          "word": "ozbrojených",
+          "probability": -1.4949793815612793
+        }
+      ],
+      "category": "unigrams_NOUN",
+      "additional_info": ""
+    }
+  ]
+}

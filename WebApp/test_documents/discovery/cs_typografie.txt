@@ -1,0 +1,19 @@
+Čitelnost odborného textu ovlivňuje mnohem víc než jen volba písma. Roli hraje délka řádku, velikost prokladu, kontrast a také to, jak autor člení myšlenky do odstavců. Tyto faktory spolu úzce souvisejí a nelze je posuzovat odděleně.
+
+Optimální délka řádku se obvykle uvádí mezi šedesáti a sedmdesáti znaky. Delší řádky nutí oko k namáhavému zpětnému skoku, kratší naopak text zbytečně trhají. Doporučení ovšem platí pro souvislou prózu, nikoli pro tabulky nebo poznámkový aparát.
+
+Proklad je třeba volit úměrně délce řádku. Čím delší řádek, tím větší mezera mezi řádky je potřeba, aby oko spolehlivě našlo začátek následujícího. Příliš velký proklad ale rozpadá odstavec na jednotlivé pruhy a ztrácí se dojem souvislého bloku.
+
+Patková a bezpatková písma se v čitelnosti tištěného textu liší méně, než se obvykle tvrdí. Rozhodující je spíše kvalita konkrétního řezu, vyváženost šířek a velikost střední výšky. Zavedená písma bývají v tomto ohledu spolehlivější než módní novinky.
+
+Na obrazovce vstupuje do hry rozlišení a způsob vyhlazování. Písma navržená pro tisk mohou v malých velikostech na displeji působit křehce. Proto vznikají samostatné obrazovkové varianty s robustnějšími tahy a otevřenějšími dutinkami.
+
+Vyznačování v textu má být střídmé. Kurziva postačuje pro názvy a cizí výrazy, tučný řez patří spíše do nadpisů a hesel. Podtržení je pozůstatek psacího stroje a v sazbě pro něj není důvod.
+
+Zvláštní pozornost si zaslouží zacházení s čísly. V souvislém textu se čísla do deseti obvykle vypisují slovy, vyšší hodnoty číslicemi. V tabulkách je naopak vhodné použít verzálkové číslice stejné šířky, aby sloupce lícovaly.
+
+České sazební zvyklosti mají několik pravidel, na která se často zapomíná. Jednopísmenné předložky nesmějí zůstat na konci řádku, uvozovky mají mít správný tvar a desetinné hodnoty se oddělují čárkou. Automatická kontrola tyto prohřešky zachytí jen zčásti.
+
+Struktura dokumentu má být zřejmá už z letmého pohledu. Hierarchie nadpisů, konzistentní odsazení a zdrženlivá barevnost fungují lépe než pestré grafické prvky. Čtenář odborného textu hledá orientaci, nikoli ozdoby.
+
+Dobrá sazba je nakonec neviditelná. Pokud si čtenář všímá písma místo obsahu, něco se nepovedlo. Cílem je text, který se čte plynule a bez zbytečného úsilí.

@@ -1,0 +1,15 @@
+{% extends "core/layouts/layout_with_sidebar.html" %}
+{% load i18n %}
+{% load static %}
+{% load lucide %}
+{% block content %}
+  <section>
+    <header class="SectionHeader">
+      <h2>{% translate "Tests" %}</h2>
+    </header>
+    {% include "core/partials/test_list.html" %}
+  </section>
+{% endblock content %}
+{% block scripts %}
+  <script src="{% static 'core/js/dialog.js' %}"></script>
+{% endblock scripts %}

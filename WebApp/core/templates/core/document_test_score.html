@@ -1,0 +1,39 @@
+{% extends "core/layouts/layout_with_sidebar.html" %}
+{% load i18n %}
+{% load lucide %}
+{% load static %}
+{% load cloze_extras %}
+{% block content %}
+  <section>
+    {% include "core/partials/test_summary.html" %}
+    {% include "core/partials/authorship_chart.html" %}
+    <ul role="list" class="answers-preview">
+      {% for paragraph in paragraph_list %}
+        <li role="listitem" class="{{ paragraph.validate_answer }}">
+          <div>
+            <div class="{{ paragraph.validate_answer }}">
+              <p>{% translate "Your answer" %}</p>
+              <p>
+                {% if paragraph.answered_word %}
+                  {{ paragraph.answered_word }}
+                {% else %}
+                  {% lucide "redo" %}
+                  {% translate "Skipped" %}
+                {% endif %}
+              </p>
+            </div>
+            <div>
+              <p>{% translate "Correct answer" %}</p>
+              <p>{{ paragraph.word.content }}</p>
+            </div>
+          </div>
+          <p>{{ paragraph|blank_to_answer|safe }}</p>
+        </li>
+      {% endfor %}
+    </ul>
+  </section>
+{% endblock content %}
+{% block scripts %}
+  <script src="{% static 'core/js/chart.umd.min.js' %}"></script>
+  <script src="{% static 'core/js/aver_chart.js' %}" defer></script>
+{% endblock scripts %}

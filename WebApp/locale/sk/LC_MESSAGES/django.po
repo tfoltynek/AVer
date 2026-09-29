@@ -1,0 +1,1193 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-27 09:27+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Slovak\n"
+"Language: sk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n == 1 ? 0 : n % 1 == 0 && n "
+">= 2 && n <= 4 ? 1 : n % 1 != 0 ? 2: 3);\n"
+
+#: aver/settings.py:163
+msgid "English"
+msgstr "Angličtina"
+
+#: aver/settings.py:164
+msgid "Čeština"
+msgstr "Čeština"
+
+#: aver/settings.py:165
+msgid "Slovenčina"
+msgstr "Slovenčina"
+
+#: core/admin.py:25 core/forms.py:61
+#: core/templates/core/partials/password-infobox.html:4
+msgid "Password"
+msgstr "Heslo"
+
+#: core/admin.py:27 core/forms.py:63
+msgid "Password confirmation"
+msgstr "Potvrdenie hesla"
+
+#: core/admin.py:39 core/forms.py:87 core/forms.py:197
+msgid "Passwords don't match"
+msgstr "Heslá sa nezhodujú"
+
+#: core/admin.py:66
+msgid "Personal info"
+msgstr "Osobné údaje"
+
+#: core/admin.py:67
+msgid "Permissions"
+msgstr "Oprávnenia"
+
+#: core/forms.py:20
+msgid "You must select at least one field of study."
+msgstr "Musíte vybrať aspoň jeden odbor štúdia."
+
+#: core/forms.py:66 core/forms.py:113 core/forms.py:151
+msgid "Academic fields (at least 1)"
+msgstr "Akademické odbory (aspoň 1)"
+
+#: core/forms.py:108
+msgid "Document file"
+msgstr "Súbor dokumentu"
+
+#: core/forms.py:109
+msgid "Upload a document in .txt, .docx, or .pdf format."
+msgstr "Nahrajte dokument vo formáte .txt, .docx alebo .pdf."
+
+#: core/forms.py:114
+msgid "Select the academic fields that best match the document."
+msgstr "Vyberte akademické odbory, ktoré najlepšie zodpovedajú dokumentu."
+
+#: core/forms.py:119
+msgid "Publication date"
+msgstr "Dátum publikácie"
+
+#: core/forms.py:120
+msgid "Select the date when the document was published or submitted"
+msgstr "Vyberte dátum, kedy bol dokument publikovaný alebo odovzdaný"
+
+#: core/forms.py:124
+msgid "Authorship percentage"
+msgstr "Percento autorstva"
+
+#: core/forms.py:125
+msgid "Indicate your percentage of contribution to the document."
+msgstr "Uveďte svoje percento príspevku k dokumentu."
+
+#: core/forms.py:131
+msgid "Number of authors"
+msgstr "Počet autorov"
+
+#: core/forms.py:134
+msgid "Specify how many authors worked on this document."
+msgstr "Uveďte, koľko autorov pracovalo na tomto dokumente."
+
+#: core/forms.py:140
+msgid "Success estimate"
+msgstr "Odhad úspechu"
+
+#: core/forms.py:141
+msgid "Estimate how well you think you performed on the test."
+msgstr "Odhadnite, ako dobre ste zvládli test."
+
+#: core/forms.py:166
+msgid "Current password"
+msgstr "Súčasné heslo"
+
+#: core/forms.py:168
+msgid "Enter your current password to confirm the change."
+msgstr "Zadajte svoje súčasné heslo na potvrdenie zmeny."
+
+#: core/forms.py:171
+msgid "New password"
+msgstr "Nové heslo"
+
+#: core/forms.py:173 core/templates/core/partials/sign-up-form.html:24
+msgid "Must have at least 10 characters."
+msgstr "Musí mať aspoň 10 znakov."
+
+#: core/forms.py:176
+msgid "Confirm new password"
+msgstr "Potvrďte nové heslo"
+
+#: core/forms.py:188
+msgid "Your current password is incorrect."
+msgstr "Vaše súčasné heslo je nesprávne."
+
+#: core/models.py:66
+msgid "Male"
+msgstr "Muž"
+
+#: core/models.py:67
+msgid "Female"
+msgstr "Žena"
+
+#: core/models.py:68
+msgid "Other"
+msgstr "Iné"
+
+#: core/models.py:71
+msgid "High School Graduation or Lower"
+msgstr "Stredoškolské vzdelanie alebo nižšie"
+
+#: core/models.py:72
+msgid "Bachelor's Degree"
+msgstr "Bakalársky titul"
+
+#: core/models.py:73
+msgid "Master's Degree"
+msgstr "Magisterský titul"
+
+#: core/models.py:74
+msgid "Doctorate Degree or Higher"
+msgstr "Doktorandský titul alebo vyšší"
+
+#: core/models.py:77 core/templates/core/settings.html:21
+msgid "E-mail"
+msgstr "E-mail"
+
+#: core/models.py:79
+msgid "Gender (optional)"
+msgstr "Pohlavie (voliteľné)"
+
+#: core/models.py:87
+msgid "Education"
+msgstr "Vzdelanie"
+
+#: core/models.py:125
+msgid "A1 (Beginner)"
+msgstr "A1 (Začiatočník)"
+
+#: core/models.py:126
+msgid "A2 (Elementary)"
+msgstr "A2 (Základná úroveň)"
+
+#: core/models.py:127
+msgid "B1 (Intermediate)"
+msgstr "B1 (Stredne pokročilý)"
+
+#: core/models.py:128
+msgid "B2 (Upper Intermediate)"
+msgstr "B2 (Vyššie stredne pokročilý)"
+
+#: core/models.py:129
+msgid "C1 (Advanced)"
+msgstr "C1 (Pokročilý)"
+
+#: core/models.py:130
+msgid "C2 (Proficient)"
+msgstr "C2 (Veľmi pokročilý)"
+
+#: core/models.py:131
+msgid "Native"
+msgstr "Rodný jazyk"
+
+#: core/models.py:137
+msgid "Language"
+msgstr "Jazyk"
+
+#: core/models.py:140
+#: core/templates/core/partials/language-proficiency-item.html:8
+msgid "Proficiency"
+msgstr "Úroveň"
+
+#: core/models.py:206
+msgid "MUNI API"
+msgstr "MUNI API"
+
+#: core/models.py:207
+msgid "Local analyzer"
+msgstr "Lokálny analyzátor"
+
+#: core/models.py:210
+msgid "Unigram"
+msgstr "Unigram"
+
+#: core/models.py:211
+msgid "Bigram"
+msgstr "Bigram"
+
+#: core/models.py:212
+msgid "Trigram"
+msgstr "Trigram"
+
+#: core/models.py:245
+msgid "Unigram nouns (ML)"
+msgstr "Podstatné mená – unigram (ML)"
+
+#: core/models.py:246
+msgid "Unigram adjectives (ML)"
+msgstr "Prídavné mená – unigram (ML)"
+
+#: core/models.py:247
+msgid "Bigram (any)"
+msgstr "Bigram (ľubovoľný)"
+
+#: core/models.py:248
+msgid "Trigrams w/ adjectives + adverbs"
+msgstr "Trigramy s prídavnými menami + príslovkami"
+
+#: core/models.py:249
+msgid "Trigrams w/ nouns + adjectives + adverbs"
+msgstr "Trigramy s podstatnými + prídavnými menami + príslovkami"
+
+#: core/models.py:250
+msgid "Trigrams w/ nouns + adjectives"
+msgstr "Trigramy s podstatnými + prídavnými menami"
+
+#: core/models.py:251
+msgid "Trigrams containing adjectives"
+msgstr "Trigramy obsahujúce prídavné mená"
+
+#: core/models.py:252
+msgid "most_used_content_word"
+msgstr "najčastejšie používané obsahové slovo"
+
+#: core/models.py:253
+msgid "least_used_content_word"
+msgstr "najmenej používané obsahové slovo"
+
+#: core/models.py:254
+msgid "random"
+msgstr "náhodne"
+
+#: core/models.py:301
+msgid "Author"
+msgstr "Autor"
+
+#: core/models.py:302 core/templates/core/test_select.html:41
+msgid "Reviewer"
+msgstr "Recenzent"
+
+#: core/models.py:303 core/templates/core/test_select.html:52
+msgid "Tester"
+msgstr "Tester"
+
+#: core/models.py:304
+msgid "Try"
+msgstr "Skúsiť"
+
+#: core/templates/core/change_password.html:7
+#: core/templates/core/partials/password-change-dialog.html:9
+msgid "Change password"
+msgstr "Zmeniť heslo"
+
+#: core/templates/core/dashboard.html:8
+msgid "How AVer works"
+msgstr "Ako AVer funguje"
+
+#: core/templates/core/dashboard.html:10
+msgid ""
+"Upload your own document, generate a test from it and fill it in. AVer then "
+"shows how well the answers match your writing."
+msgstr ""
+"Nahrajte svoj vlastný dokument, vygenerujte z neho test a vyplňte ho. AVer "
+"potom ukáže, ako dobre odpovede zodpovedajú vášmu písaniu."
+
+# --- Dashboard wizard ---
+#: core/templates/core/dashboard.html:20
+#, python-format
+msgid "%(done)s of %(total)s steps completed"
+msgstr "%(done)s z %(total)s krokov dokončených"
+
+#: core/templates/core/dashboard.html:25
+msgid "Upload your document"
+msgstr "Nahrajte svoj dokument"
+
+#: core/templates/core/dashboard.html:27
+msgid ""
+"Upload a text you wrote yourself. The analysis that prepares the test runs "
+"right after the upload."
+msgstr ""
+"Nahrajte text, ktorý ste sami napísali. Analýza, ktorá test pripraví, sa "
+"spustí hneď po nahratí."
+
+#: core/templates/core/dashboard.html:33
+msgid "Add another document"
+msgstr "Pridať ďalší dokument"
+
+#: core/templates/core/dashboard.html:38
+#: core/templates/core/document_upload.html:8
+#: core/templates/core/partials/document-upload-form.html:40
+#: core/templates/core/partials/document_list.html:6
+msgid "Add document"
+msgstr "Pridať dokument"
+
+#: core/templates/core/dashboard.html:45
+msgid "Generate a test"
+msgstr "Vygenerujte test"
+
+#: core/templates/core/dashboard.html:48
+msgid "Pick one of your analyzed documents and the test variant you want."
+msgstr "Vyberte jeden zo svojich zanalyzovaných dokumentov a variant testu."
+
+#: core/templates/core/dashboard.html:52
+msgid "Generated tests"
+msgstr "Vygenerované testy"
+
+#: core/templates/core/dashboard.html:57
+msgid "Generate another test"
+msgstr "Vygenerovať ďalší test"
+
+#: core/templates/core/dashboard.html:62
+msgid "Generate test"
+msgstr "Vygenerovať test"
+
+#: core/templates/core/dashboard.html:67
+msgid "Available once the analysis of one of your documents is finished."
+msgstr "Dostupné, hneď ako sa dokončí analýza niektorého z vašich dokumentov."
+
+#: core/templates/core/dashboard.html:74
+msgid "Fill in the test"
+msgstr "Vyplňte test"
+
+#: core/templates/core/dashboard.html:76
+msgid "Fill in the missing words. Your results are waiting under My tests."
+msgstr "Doplňte chýbajúce slová. Výsledky potom nájdete v sekcii Moje testy."
+
+#: core/templates/core/dashboard.html:80
+msgid "Finished tests"
+msgstr "Dokončené testy"
+
+#: core/templates/core/dashboard.html:87
+msgid "Fill in test"
+msgstr "Vyplniť test"
+
+#: core/templates/core/dashboard.html:92
+#: core/templates/core/layouts/layout_with_sidebar.html:31
+msgid "My tests"
+msgstr "Moje testy"
+
+#: core/templates/core/data.html:8
+#: core/templates/core/layouts/layout_no_sidebar.html:82
+msgid "Project related data"
+msgstr "Údaje súvisiace s projektom"
+
+#: core/templates/core/data.html:9
+msgid "TA ČR SIGMA DC3: Authorship Verifier"
+msgstr "TA ČR SIGMA DC3: Webová aplikácia na preukazovanie autorstva"
+
+#: core/templates/core/data.html:13
+msgid "Responses from user studies"
+msgstr "Odpovede respondentov z používateľských štúdií"
+
+#: core/templates/core/data.html:16
+msgid "6,515 rows"
+msgstr "6 515 riadkov"
+
+#: core/templates/core/data.html:17
+msgid "492 tests"
+msgstr "492 testov"
+
+#: core/templates/core/data.html:18
+msgid "Czech, English and Slovak texts"
+msgstr "České, anglické a slovenské texty"
+
+#: core/templates/core/data.html:22
+msgid ""
+"Anonymized answers of respondents from the user studies run within the "
+"project. The project's analyses were computed on this table, including the "
+"calibration of the authorship verdict this application reports."
+msgstr ""
+"Anonymizované odpovede respondentov z používateľských štúdií vykonaných v "
+"rámci projektu. Nad touto tabuľkou boli počítané analýzy projektu vrátane "
+"kalibrácie verdiktu o autorstve, ktorý táto aplikácia vracia."
+
+#: core/templates/core/data.html:29
+msgid ""
+"Each row is one blank in a cloze test: the expression the respondent typed, "
+"the original expression from the text, and how the two were scored. The "
+"table contains no data identifying the respondents."
+msgstr ""
+"Každý riadok je jedna medzera v doplňovacom teste: výraz, ktorý respondent "
+"doplnil, pôvodný výraz z textu a to, ako boli oba vyhodnotené. Tabuľka "
+"neobsahuje žiadne údaje identifikujúce respondentov."
+
+#: core/templates/core/data.html:36
+msgid "What the columns mean"
+msgstr "Význam stĺpcov"
+
+#: core/templates/core/data.html:43
+msgid "Identifier of the test; all rows of one filled-in test share it."
+msgstr ""
+"Identifikátor testu; zdieľajú ho všetky riadky jedného vyplneného testu."
+
+#: core/templates/core/data.html:49
+msgid ""
+"Variant of the test the respondent took (authorML, previewML, randomML, "
+"reviewML)."
+msgstr ""
+"Variant testu, ktorý respondent absolvoval (authorML, previewML, randomML, "
+"reviewML)."
+
+#: core/templates/core/data.html:55
+msgid "Part-of-speech pattern of the blanked expression, e.g. ADJ+NOUN."
+msgstr "Slovnodruhový vzor doplňovaného výrazu, napr. ADJ+NOUN."
+
+#: core/templates/core/data.html:62
+msgid ""
+"Score of the answer against the original: 1 for an exact match, 0 for no "
+"match, and the cosine similarity of the word embeddings in between."
+msgstr ""
+"Skóre odpovede voči originálu: 1 pri presnej zhode, 0 pri žiadnej zhode, "
+"medzi tým kosínusová podobnosť slovných vektorov."
+
+#: core/templates/core/data.html:69
+msgid "Expression the respondent typed into the blank."
+msgstr "Výraz, ktorý respondent do medzery doplnil."
+
+#: core/templates/core/data.html:75
+msgid "Original expression from the text."
+msgstr "Pôvodný výraz z textu."
+
+#: core/templates/core/data.html:84
+msgid "Sentence the blank comes from, with the blank marked as <<BLANK>>."
+msgstr "Veta, z ktorej medzera pochádza, s medzerou označenou ako <<BLANK>>."
+
+#: core/templates/core/data.html:92
+msgid ""
+"How the blank was chosen: unigram, bigram, trigram, or ml for a language-"
+"model pick."
+msgstr ""
+"Spôsob výberu medzery: unigram, bigram, trigram alebo ml pre výber jazykovým "
+"modelom."
+
+#: core/templates/core/data.html:99
+msgid ""
+"Rank of the original word among the language model's predictions for the "
+"blank; -1 when it was not among them."
+msgstr ""
+"Poradie pôvodného slova medzi predikciami jazykového modelu pre danú "
+"medzeru; -1, ak medzi nimi nebolo."
+
+#: core/templates/core/data.html:106
+msgid ""
+"Probability the language model assigned to the original word, and its "
+"natural logarithm."
+msgstr ""
+"Pravdepodobnosť, ktorú jazykový model priradil pôvodnému slovu, a jej "
+"prirodzený logaritmus."
+
+#: core/templates/core/data.html:113
+msgid ""
+"Language of the text in three encodings: c/e/s, CZ/EN/SK, and CS/EN where "
+"Slovak texts are counted with Czech."
+msgstr ""
+"Jazyk textu v troch kódovaniach: c/e/s, CZ/EN/SK a CS/EN, kde sú slovenské "
+"texty počítané k českým."
+
+#: core/templates/core/data.html:124 core/templates/core/settings.html:137
+msgid "Download CSV"
+msgstr "Stiahnuť CSV"
+
+#: core/templates/core/document_confirm_delete.html:3
+msgid "Are you sure you want to delete"
+msgstr "Ste si istí, že chcete zmazať"
+
+#: core/templates/core/document_confirm_delete.html:5
+msgid "Close"
+msgstr "Zavrieť"
+
+#: core/templates/core/document_confirm_delete.html:11
+msgid "Delete"
+msgstr "Zmazať"
+
+#: core/templates/core/document_test_preview.html:13
+msgid "preview"
+msgstr "náhľad"
+
+#: core/templates/core/document_test_preview.html:27
+#: core/templates/core/partials/document_test.html:29
+msgid "Next"
+msgstr "Ďalšie"
+
+#: core/templates/core/document_test_score.html:15
+#: core/templates/core/try_document_test_score.html:18
+msgid "Your answer"
+msgstr "Vaša odpoveď"
+
+#: core/templates/core/document_test_score.html:21
+#: core/templates/core/try_document_test_score.html:24
+msgid "Skipped"
+msgstr "Preskočené"
+
+#: core/templates/core/document_test_score.html:26
+#: core/templates/core/try_document_test_score.html:29
+msgid "Correct answer"
+msgstr "Správna odpoveď"
+
+#: core/templates/core/document_test_scoring.html:6
+#: core/templates/core/try_document_test_scoring.html:6
+msgid "Your test result"
+msgstr "Výsledok vášho testu"
+
+#: core/templates/core/document_test_success_estimate.html:8
+#: core/templates/core/try_document_test_success_estimate.html:8
+msgid "Estimate your test success"
+msgstr "Odhadnite úspešnosť svojho testu"
+
+#: core/templates/core/document_test_success_estimate.html:30
+#: core/templates/core/try_document_test_success_estimate.html:30
+msgid "Submit test"
+msgstr "Odoslať test"
+
+#: core/templates/core/documents.html:8
+msgid "Documents"
+msgstr "Dokumenty"
+
+#: core/templates/core/index.html:13
+msgid ""
+"generates a test from a document you wrote yourself. Fill in the missing "
+"words and see how well the answers match your own writing."
+msgstr ""
+"vygeneruje test z dokumentu, ktorý ste sami napísali. Doplňte chýbajúce "
+"slová a uvidíte, ako dobre odpovede zodpovedajú vášmu vlastnému písaniu."
+
+#: core/templates/core/index.html:15
+msgid "Upload your document and test how well you know your own writing!"
+msgstr ""
+"Nahrajte svoj dokument a otestujte, ako dobre poznáte svoje vlastné písanie!"
+
+#: core/templates/core/index.html:18
+#: core/templates/core/partials/log-in-form.html:13
+#: core/templates/core/partials/sign-up-form.html:28
+#: core/templates/core/sign-up.html:7
+msgid "Sign up"
+msgstr "Zaregistrujte sa"
+
+#: core/templates/core/index.html:20
+msgid "Already have an account?"
+msgstr "Už máte účet?"
+
+#: core/templates/core/index.html:20 core/templates/core/log-in.html:6
+#: core/templates/core/partials/log-in-form.html:10
+#: core/templates/core/partials/sign-up-form.html:31
+msgid "Log in"
+msgstr "Prihlásiť sa"
+
+#: core/templates/core/language-proficiency.html:9
+#: core/templates/core/settings.html:32
+msgid "Your language skills"
+msgstr "Vaše jazykové zručnosti"
+
+#: core/templates/core/language-proficiency.html:11
+msgid "Please, add at least <strong>one language as your native</strong>."
+msgstr "Prosím, pridajte aspoň <strong>jeden jazyk ako váš rodný</strong>."
+
+#: core/templates/core/language-proficiency.html:17
+msgid "Continue"
+msgstr "Pokračovať"
+
+#: core/templates/core/layouts/layout_no_sidebar.html:7
+#: core/templates/core/layouts/layout_with_sidebar.html:7
+msgid "Skip to content"
+msgstr "Preskočiť na obsah"
+
+#: core/templates/core/layouts/layout_no_sidebar.html:75
+msgid ""
+"This project is co-financed with state support from the Technology Agency of "
+"the Czech Republic under the SIGMA Programme."
+msgstr ""
+"Tento projekt je spolufinancovaný so štátnou podporou Technologickej "
+"agentúry Českej republiky v rámci programu SIGMA."
+
+#: core/templates/core/layouts/layout_no_sidebar.html:79
+msgid "Information about the project"
+msgstr "Informácie o projekte"
+
+#: core/templates/core/layouts/layout_with_sidebar.html:11
+msgid "Open menu"
+msgstr "Otvoriť menu"
+
+#: core/templates/core/layouts/layout_with_sidebar.html:16
+msgid "Close menu"
+msgstr "Zatvoriť menu"
+
+#: core/templates/core/layouts/layout_with_sidebar.html:23
+msgid "Dashboard"
+msgstr "Prehľad"
+
+#: core/templates/core/layouts/layout_with_sidebar.html:27
+msgid "My documents"
+msgstr "Moje dokumenty"
+
+#: core/templates/core/layouts/layout_with_sidebar.html:35
+#: core/templates/core/settings.html:9
+msgid "Settings"
+msgstr "Nastavenia"
+
+#: core/templates/core/layouts/layout_with_sidebar.html:39
+msgid "Log out"
+msgstr "Odhlásiť sa"
+
+#: core/templates/core/partials/academic-fields-dialog.html:7
+#: core/templates/core/partials/password-change-dialog.html:7
+msgid "Close dialog"
+msgstr "Zatvoriť dialóg"
+
+#: core/templates/core/partials/academic-fields-dialog.html:9
+msgid "Edit academic fields"
+msgstr "Upraviť akademické odbory"
+
+#: core/templates/core/partials/academic-fields-infobox.html:4
+msgid "Academic fields"
+msgstr "Akademické odbory"
+
+#: core/templates/core/partials/academic-fields-infobox.html:9
+msgid "No fields set."
+msgstr "Neboli nastavené žiadne odbory."
+
+#: core/templates/core/partials/academic-fields-infobox.html:17
+#: core/templates/core/partials/language-proficiency-item.html:16
+msgid "Edit"
+msgstr "Upraviť"
+
+#: core/templates/core/partials/analysis-status-tag.html:7
+#: core/templates/core/partials/test_list.html:14
+msgid "Done"
+msgstr "Hotovo"
+
+#: core/templates/core/partials/analysis-status-tag.html:12
+#: core/templates/core/partials/test_list.html:16
+msgid "In progress"
+msgstr "Prebieha"
+
+#: core/templates/core/partials/analysis-status-tag.html:15
+msgid "takes approx."
+msgstr "trvá približne"
+
+#: core/templates/core/partials/analysis-status-tag.html:17
+msgid "2 min."
+msgstr "2 min."
+
+#: core/templates/core/partials/analysis-status-tag.html:19
+msgid "5 min."
+msgstr "5 min."
+
+#: core/templates/core/partials/analysis-status-tag.html:25
+msgid "Failed"
+msgstr "Zlyhanie"
+
+#: core/templates/core/partials/analysis-status-tag.html:27
+msgid "Delete the document and try uploading it again."
+msgstr "Dokument zmažte a skúste ho nahrať znova."
+
+#: core/templates/core/partials/authorship_chart.html:12
+msgid "Probability of authorship"
+msgstr "Pravdepodobnosť autorstva"
+
+#: core/templates/core/partials/authorship_chart.html:19
+#: core/templates/core/partials/authorship_chart.html:80
+msgid "Strong evidence of authorship"
+msgstr "Silný dôkaz autorstva"
+
+#: core/templates/core/partials/authorship_chart.html:21
+#: core/templates/core/partials/authorship_chart.html:81
+msgid "Probable author"
+msgstr "Pravdepodobný autor"
+
+#: core/templates/core/partials/authorship_chart.html:23
+#: core/templates/core/partials/authorship_chart.html:83
+msgid "Probable non-author"
+msgstr "Pravdepodobný ne-autor"
+
+#: core/templates/core/partials/authorship_chart.html:25
+#: core/templates/core/partials/authorship_chart.html:84
+msgid "Strong evidence of non-authorship"
+msgstr "Silný dôkaz neautorstva"
+
+#: core/templates/core/partials/authorship_chart.html:27
+#: core/templates/core/partials/authorship_chart.html:82
+msgid "Inconclusive"
+msgstr "Nejednoznačné"
+
+#: core/templates/core/partials/authorship_chart.html:31
+#, python-format
+msgid "%(score)s of %(n)s answers correct"
+msgstr "%(score)s z %(n)s odpovedí správne"
+
+#: core/templates/core/partials/authorship_chart.html:33
+#, python-format
+msgid "%(count)s skipped item counted as incorrect"
+msgid_plural "%(count)s skipped items counted as incorrect"
+msgstr[0] "%(count)s preskočená položka započítaná ako nesprávna"
+msgstr[1] "%(count)s preskočené položky započítané ako nesprávne"
+msgstr[2] "%(count)s preskočených položiek započítaných ako nesprávnych"
+msgstr[3] "%(count)s preskočených položiek započítaných ako nesprávnych"
+
+#: core/templates/core/partials/authorship_chart.html:40
+msgid "Prior P(non-author)"
+msgstr "Apriórne P(ne-autor)"
+
+#: core/templates/core/partials/authorship_chart.html:50
+msgid "Reflect prior probability of authorship in chart"
+msgstr "Zohľadniť apriórnu pravdepodobnosť autorstva v grafe"
+
+#: core/templates/core/partials/authorship_chart.html:52
+msgid "yes"
+msgstr "áno"
+
+#: core/templates/core/partials/authorship_chart.html:53
+msgid "no"
+msgstr "nie"
+
+#: core/templates/core/partials/authorship_chart.html:57
+msgid "Y-axis"
+msgstr "Os Y"
+
+#: core/templates/core/partials/authorship_chart.html:59
+msgid "log"
+msgstr "log"
+
+#: core/templates/core/partials/authorship_chart.html:60
+msgid "linear"
+msgstr "lineárne"
+
+#: core/templates/core/partials/authorship_chart.html:66
+msgid ""
+"Probability distribution of test score under author and non-author hypotheses"
+msgstr ""
+"Pravdepodobnostné rozdelenie skóre testu pri hypotézach autorstva a "
+"neautorstva"
+
+#: core/templates/core/partials/authorship_chart.html:73
+msgid "author"
+msgstr "autor"
+
+#: core/templates/core/partials/authorship_chart.html:74
+msgid "non-author"
+msgstr "ne-autor"
+
+#: core/templates/core/partials/authorship_chart.html:75
+msgid "score (items correct)"
+msgstr "skóre (správne odpovede)"
+
+#: core/templates/core/partials/authorship_chart.html:76
+msgid "probability"
+msgstr "pravdepodobnosť"
+
+#: core/templates/core/partials/authorship_chart.html:77
+msgid "probability (log)"
+msgstr "pravdepodobnosť (log)"
+
+#: core/templates/core/partials/authorship_chart.html:78
+msgid "score = "
+msgstr "skóre = "
+
+#: core/templates/core/partials/authorship_chart.html:79
+msgid "Your score"
+msgstr "Vaše skóre"
+
+#: core/templates/core/partials/authorship_chart.html:89
+msgid "Not enough answers to compute a result."
+msgstr "Nedostatok odpovedí na výpočet výsledku."
+
+# --- Cards: documents and tests ---
+#: core/templates/core/partials/document-meta.html:8
+msgid "Uploaded"
+msgstr "Nahrané"
+
+#: core/templates/core/partials/document-meta.html:18
+msgid "Published"
+msgstr "Vydané"
+
+#: core/templates/core/partials/document-meta.html:30
+#: core/templates/core/partials/test_list.html:64
+msgid "Fields"
+msgstr "Odbory"
+
+#: core/templates/core/partials/document-meta.html:38
+#: core/templates/core/partials/test_list.html:72
+msgid "more"
+msgstr "viac"
+
+#: core/templates/core/partials/document-upload-form.html:36
+#: core/templates/core/partials/sign-up-form.html:16
+#: core/templates/core/partials/update-academic-fields-form.html:15
+#: core/templates/core/update_academic_fields.html:21
+msgid "Search"
+msgstr "Hľadať"
+
+#: core/templates/core/partials/document-upload-form.html:42
+msgid ""
+"By clicking Add document, you consent to the processing of this document for "
+"the purpose of generating your tests."
+msgstr ""
+"Kliknutím na Pridať dokument súhlasíte so spracovaním tohto dokumentu za "
+"účelom generovania vašich testov."
+
+#: core/templates/core/partials/document_list.html:14
+#: core/templates/core/test_select.html:47
+#: core/templates/core/test_select.html:56
+#: core/templates/core/try_document_select.html:36
+msgid "Start test"
+msgstr "Spustiť test"
+
+#: core/templates/core/partials/document_list.html:21
+msgid "Delete document"
+msgstr "Zmazať dokument"
+
+#: core/templates/core/partials/document_test.html:11
+msgid "paragraphs"
+msgstr "odsekov"
+
+#: core/templates/core/partials/document_test.html:26
+msgid "Skip"
+msgstr "Preskočiť"
+
+#: core/templates/core/partials/language-proficiency-edit.html:14
+#: core/templates/core/partials/update-academic-fields-form.html:23
+#: core/templates/core/update_academic_fields.html:30
+msgid "Update"
+msgstr "Aktualizovať"
+
+#: core/templates/core/partials/language-proficiency-edit.html:19
+msgid "Remove"
+msgstr "Odstrániť"
+
+#: core/templates/core/partials/language-proficiency-edit.html:24
+#: core/templates/core/partials/password-change-form.html:14
+#: core/templates/core/partials/update-academic-fields-form.html:22
+msgid "Cancel"
+msgstr "Zrušiť"
+
+#: core/templates/core/partials/language-proficiency-form.html:9
+msgid "Add language"
+msgstr "Pridať jazyk"
+
+#: core/templates/core/partials/language-proficiency-form.html:12
+msgid "Add"
+msgstr "Pridať"
+
+#: core/templates/core/partials/log-in-form.html:13
+msgid "Don't have an account? "
+msgstr "Nemáte účet? "
+
+#: core/templates/core/partials/password-change-form.html:15
+msgid "Update password"
+msgstr "Aktualizovať heslo"
+
+#: core/templates/core/partials/password-infobox.html:8
+msgid "Updated just now"
+msgstr "Práve aktualizované"
+
+#: core/templates/core/partials/password-infobox.html:16
+msgid "Change"
+msgstr "Zmeniť"
+
+#: core/templates/core/partials/score_pending.html:16
+msgid "Evaluating your answers…"
+msgstr "Vyhodnocujeme vaše odpovede…"
+
+#: core/templates/core/partials/score_pending.html:18
+msgid ""
+"We're comparing the meaning of your answers — not just the spelling — to the "
+"original text. This should only take a few seconds."
+msgstr ""
+"Porovnávame význam vašich odpovedí — nielen pravopis — s pôvodným textom. "
+"Malo by to trvať len niekoľko sekúnd."
+
+#: core/templates/core/partials/service-status-list.html:6
+msgid "No services configured."
+msgstr "Nie sú nakonfigurované žiadne služby."
+
+#: core/templates/core/partials/service-status-list.html:21
+msgid "Up"
+msgstr "Funguje"
+
+#: core/templates/core/partials/service-status-list.html:23
+msgid "Down"
+msgstr "Nefunguje"
+
+#: core/templates/core/partials/sign-up-form.html:31
+msgid " Already have an account?"
+msgstr " Už máte účet?"
+
+#: core/templates/core/partials/test_list.html:6
+msgid "Start new test"
+msgstr "Spustiť nový test"
+
+#: core/templates/core/partials/test_list.html:40
+#: core/templates/core/partials/test_summary.html:43
+msgid "Taken on"
+msgstr "Vykonané"
+
+#: core/templates/core/partials/test_list.html:42
+msgid "Started"
+msgstr "Začaté"
+
+#: core/templates/core/partials/test_list.html:53
+#: core/templates/core/partials/test_summary.html:35
+msgid "Test type"
+msgstr "Typ testu"
+
+#: core/templates/core/partials/test_list.html:83
+msgid "View score"
+msgstr "Zobraziť výsledok"
+
+#: core/templates/core/partials/test_list.html:87
+msgid "Enter test"
+msgstr "Pokračovať v teste"
+
+# --- Score page: test summary + authorship chart ---
+#: core/templates/core/partials/test_summary.html:8
+msgid "Test result"
+msgstr "Výsledok testu"
+
+#: core/templates/core/partials/test_summary.html:52
+msgid "Duration"
+msgstr "Trvanie"
+
+#: core/templates/core/partials/test_summary.html:60
+msgid "Answered"
+msgstr "Zodpovedané"
+
+#: core/templates/core/partials/test_summary.html:67
+msgid "Correct"
+msgstr "Správne"
+
+#: core/templates/core/partials/test_summary.html:75
+msgid "Your estimate"
+msgstr "Váš odhad"
+
+#: core/templates/core/partials/theme-toggle.html:6
+#: core/templates/core/partials/theme-toggle.html:7
+msgid "Toggle theme"
+msgstr "Prepnúť vzhľad"
+
+#: core/templates/core/partials/update-academic-fields-form.html:17
+msgid "No matches for your search."
+msgstr "Žiadne výsledky vyhľadávania."
+
+#: core/templates/core/settings.html:16
+msgid "User"
+msgstr "Užívateľ"
+
+#: core/templates/core/settings.html:42
+msgid "External services"
+msgstr "Externé služby"
+
+#: core/templates/core/settings.html:47
+msgid ""
+"Check whether configured external services are reachable from the server."
+msgstr ""
+"Skontrolujte, či sú nakonfigurované externé služby dostupné zo servera."
+
+#: core/templates/core/settings.html:50
+msgid ""
+"Click the button to probe each service. Results show latency and HTTP status."
+msgstr ""
+"Kliknite na tlačidlo pre otestovanie každej služby. Výsledky zobrazia "
+"latenciu a HTTP stav."
+
+#: core/templates/core/settings.html:60
+msgid "Check services"
+msgstr "Skontrolovať služby"
+
+#: core/templates/core/settings.html:64
+msgid "Checking…"
+msgstr "Kontrolujem…"
+
+#: core/templates/core/settings.html:100
+msgid "Database Export"
+msgstr "Export databázy"
+
+#: core/templates/core/settings.html:105
+msgid "Download the current application data for analysis and backup purposes."
+msgstr "Stiahnuť aktuálne údaje aplikácie na analýzu a zálohu."
+
+#: core/templates/core/settings.html:108
+msgid ""
+"Leave date fields empty to export all data. Use date filters to export data "
+"from specific time periods."
+msgstr ""
+"Pre export všetkých dát nechajte polia s dátumami prázdne. Pomocou filtrov "
+"môžete exportovať dáta z konkrétneho časového obdobia."
+
+#: core/templates/core/settings.html:113
+msgid "Date range filter"
+msgstr "Filter časového rozmedzia"
+
+#: core/templates/core/settings.html:113
+msgid "(optional)"
+msgstr "(voliteľné)"
+
+#: core/templates/core/settings.html:117
+msgid "From date:"
+msgstr "Od dátumu:"
+
+#: core/templates/core/settings.html:121
+msgid "To date:"
+msgstr "Do dátumu:"
+
+#: core/templates/core/settings.html:124
+msgid "Clear dates"
+msgstr "Vymazať dátumy"
+
+#: core/templates/core/settings.html:132
+msgid "Download JSON"
+msgstr "Stiahnuť JSON"
+
+#: core/templates/core/test_select.html:8
+msgid "Select test variant"
+msgstr "Vyberte variant testu"
+
+#: core/templates/core/test_select.html:10
+msgid ""
+"Tests are generated from documents you uploaded yourself. Pick a document "
+"and the test variant you want."
+msgstr ""
+"Testy sa generujú z dokumentov, ktoré ste sami nahrali. Vyberte dokument a "
+"variant testu."
+
+#: core/templates/core/test_select.html:23
+msgid "Generate from a specific document (admin only)"
+msgstr "Generovať z konkrétneho dokumentu (iba pre administrátorov)"
+
+#: core/templates/core/test_select.html:25
+msgid "Select your document"
+msgstr "Vyberte svoj dokument"
+
+#: core/templates/core/test_select.html:29
+msgid "Automatic"
+msgstr "Automaticky"
+
+#: core/templates/core/test_select.html:44
+msgid ""
+"You will be shown full paragraphs from the document to read and prepare. "
+"Once you’re ready, you will start the cloze test."
+msgstr ""
+"Budú vám zobrazené celé odseky z dokumentu na prečítanie a prípravu. Keď "
+"budete pripravení, začnete test doplňovania."
+
+#: core/templates/core/test_select.html:54
+msgid ""
+"You will go straight into the cloze test without seeing the document "
+"paragraphs in advance."
+msgstr ""
+"Pôjdete priamo na test doplňovania bez toho, aby ste si vopred pozreli "
+"odseky dokumentu."
+
+#: core/templates/core/tests.html:8
+msgid "Tests"
+msgstr "Testy"
+
+#: core/templates/core/try_document_select.html:5
+msgid "Select a document for testing"
+msgstr "Vyberte dokument na testovanie"
+
+#: core/templates/core/try_document_test_score.html:10
+msgid "Try new document"
+msgstr "Vyskúšať nový dokument"
+
+#: core/templates/core/update_academic_fields.html:8
+msgid "Your academic fields"
+msgstr "Vaše akademické odbory"
+
+#: core/templates/core/update_academic_fields.html:29
+msgid "Back"
+msgstr "Späť"
+
+#: core/templatetags/cloze_extras.py:58 core/templatetags/cloze_extras.py:65
+msgid "Type here"
+msgstr "Sem napíšte"
+
+#: core/validators.py:27
+#, python-format
+msgid "File is too large (%(size)s MB). The limit is %(limit)s MB."
+msgstr "Súbor je príliš veľký (%(size)s MB). Limit je %(limit)s MB."
+
+#: core/validators.py:46 core/validators.py:52
+#, python-format
+msgid "The password must have at least %(min_length)d characters."
+msgstr "Heslo musí mať aspoň %(min_length)d znakov."
+
+#: core/validators.py:71
+#, python-format
+msgid ""
+"Unsupported file type '%(label)s'. Only PDF, DOCX, or TXT files are allowed."
+msgstr ""
+"Nepodporovaný typ súboru '%(label)s'. Povolené sú iba súbory PDF, DOCX alebo "
+"TXT."
+
+#: core/views/cloze.py:61
+msgid "That document is not available for test generation."
+msgstr "Tento dokument nie je k dispozícii na generovanie testu."
+
+#: core/views/cloze.py:71
+msgid ""
+"You have no analyzed document yet. Upload a document and wait for its "
+"analysis to finish."
+msgstr ""
+"Zatiaľ nemáte žiadny zanalyzovaný dokument. Nahrajte dokument a počkajte, "
+"kým sa analýza dokončí."
+
+#: core/views/cloze.py:81 core/views/cloze.py:128
+msgid "There are no new words available for a test on this document."
+msgstr "Pre tento dokument nie sú k dispozícii žiadne nové slová pre test."
+
+#: core/views/cloze.py:118
+msgid "This document is still being analyzed. Please try again in a moment."
+msgstr "Tento dokument sa stále analyzuje. Skúste to prosím o chvíľu."
+
+#: core/views/documents.py:77
+msgid ""
+"The language of the document could not be recognized. Supported languages "
+"are Czech, Slovak and English."
+msgstr ""
+"Jazyk dokumentu sa nepodarilo rozpoznať. Podporované sú čeština, slovenčina "
+"a angličtina."
+
+#: core/views/documents.py:88
+#, python-format
+msgid ""
+"The PDF has %(pages)s pages; the limit is %(limit)s. Split it into parts or "
+"upload a shorter text."
+msgstr ""
+"PDF má %(pages)s strán; limit je %(limit)s. Rozdeľte ho na časti alebo "
+"nahrajte kratší text."
+
+#: core/views/documents.py:100
+msgid ""
+"The document content is not usable for this application. Try a longer "
+"document or a different file."
+msgstr ""
+"Obsah dokumentu nie je pre túto aplikáciu použiteľný. Skúste dlhší dokument "
+"alebo iný súbor."
+
+#: core/views/documents.py:109
+msgid "Your document was successfully added and is now being analyzed."
+msgstr "Váš dokument bol úspešne pridaný a teraz je analyzovaný."
+
+#: core/views/pages.py:148
+msgid "Forbidden — admin only."
+msgstr "Zakázané — iba pre správcu."
+
+#: core/views/pages.py:193
+msgid "You don't have permission to access this resource."
+msgstr "Nemáte oprávnenie na prístup k tomuto zdroju."
+
+#: core/views/pages.py:212
+msgid "Invalid from_date format. Use YYYY-MM-DD."
+msgstr "Neplatný formát from_date. Použite YYYY-MM-DD."
+
+#: core/views/pages.py:221
+msgid "Invalid to_date format. Use YYYY-MM-DD."
+msgstr "Neplatný formát to_date. Použite YYYY-MM-DD."
+
+#: core/views/pages.py:246
+msgid "Invalid format type. Use 'json' or 'csv'."
+msgstr "Neplatný typ formátu. Použite 'json' alebo 'csv'."

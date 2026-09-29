@@ -1,0 +1,178 @@
+{% extends "core/layouts/layout_with_sidebar.html" %}
+{% load i18n %}
+{% load lucide %}
+{% load static %}
+{% block content %}
+  <section>
+    <header class="SectionHeader">
+      <hgroup>
+        <h2>{% translate "Settings" %}</h2>
+      </hgroup>
+    </header>
+  </section>
+  <section class="SettingsSection">
+    <header class="SectionHeader">
+      <hgroup>
+        <h3>{% translate "User" %}</h3>
+      </hgroup>
+    </header>
+    <div class="SettingsSection-grid">
+      <div class="Card InfoBox InfoBox--card">
+        <p class="InfoBox-title">{% lucide 'mail' size='14' %} {% translate "E-mail" %}</p>
+        <p class="InfoBox-content InfoBox-content--email">{{ user.email }}</p>
+      </div>
+      {% include "core/partials/password-infobox.html" %}
+      {% include "core/partials/academic-fields-infobox.html" %}
+    </div>
+  </section>
+  {% with language_form as form %}
+    <section class="SettingsSection">
+      <header class="SectionHeader">
+        <hgroup>
+          <h3>{% translate "Your language skills" %}</h3>
+        </hgroup>
+      </header>
+      {% include "core/partials/language-proficiency-list.html" %}
+    </section>
+  {% endwith %}
+  {% if user.is_admin %}
+    <section class="SettingsSection">
+      <header class="SectionHeader">
+        <hgroup>
+          <h3>{% translate "External services" %}</h3>
+        </hgroup>
+      </header>
+      <div class="InfoBox">
+        <p class="InfoBox-content">
+          {% translate "Check whether configured external services are reachable from the server." %}
+        </p>
+        <p class="InfoBox-help">
+          {% translate "Click the button to probe each service. Results show latency and HTTP status." %}
+        </p>
+        <div class="ButtonGroup ButtonGroup--spaced">
+          <button type="button"
+                  class="Button Button--accent"
+                  hx-get="{% url 'service-status' %}"
+                  hx-target="#service-status-results"
+                  hx-swap="innerHTML"
+                  hx-indicator="#service-status-indicator, #service-status-skeleton"
+                  hx-on:htmx:response-error="document.getElementById('service-status-results').innerHTML = '<p class=&quot;ServiceStatus-error&quot;>Request failed: ' + event.detail.xhr.status + ' ' + event.detail.xhr.statusText + '</p>'">
+            {% lucide 'activity' size='16' %} {% translate "Check services" %}
+          </button>
+          <span id="service-status-indicator"
+                class="ServiceStatus-indicator htmx-indicator">
+            {% lucide 'loader-circle' size='16' class="animate-spin" %} {% translate "Checking…" %}
+          </span>
+        </div>
+        <div id="service-status-skeleton"
+             class="ServiceStatus-results htmx-indicator">
+          <ul class="ServiceStatus-list">
+            <li class="ServiceStatus-item">
+              <div class="ServiceStatus-info">
+                <span class="Skeleton Skeleton--dot"></span>
+                <div class="SkeletonStack ServiceStatus-skeletonText">
+                  <span class="Skeleton Skeleton--line Skeleton--lineShort"></span>
+                  <span class="Skeleton Skeleton--line Skeleton--lineMid"></span>
+                </div>
+              </div>
+              <span class="Skeleton Skeleton--badge"></span>
+            </li>
+            <li class="ServiceStatus-item">
+              <div class="ServiceStatus-info">
+                <span class="Skeleton Skeleton--dot"></span>
+                <div class="SkeletonStack ServiceStatus-skeletonText">
+                  <span class="Skeleton Skeleton--line Skeleton--lineMid"></span>
+                  <span class="Skeleton Skeleton--line Skeleton--lineLong"></span>
+                </div>
+              </div>
+              <span class="Skeleton Skeleton--badge"></span>
+            </li>
+          </ul>
+        </div>
+        <div id="service-status-results" class="ServiceStatus-results"></div>
+      </div>
+    </section>
+  {% endif %}
+  {% if user.can_export_data %}
+    <section class="SettingsSection">
+      <header class="SectionHeader">
+        <hgroup>
+          <h3>{% translate "Database Export" %}</h3>
+        </hgroup>
+      </header>
+      <div class="InfoBox">
+        <p class="InfoBox-content">
+          {% translate "Download the current application data for analysis and backup purposes." %}
+        </p>
+        <p class="InfoBox-help">
+          {% translate "Leave date fields empty to export all data. Use date filters to export data from specific time periods." %}
+        </p>
+        <form id="export-form" class="ExportForm">
+          <fieldset class="ExportForm-fieldset">
+            <legend class="ExportForm-legend">
+              {% translate "Date range filter" %} <span class="ExportForm-optional">{% translate "(optional)" %}</span>
+            </legend>
+            <div class="ExportForm-dateRange">
+              <div class="ExportForm-field">
+                <label for="from_date" class="ExportForm-label">{% translate "From date:" %}</label>
+                <input type="date" id="from_date" name="from_date" class="ExportForm-input" />
+              </div>
+              <div class="ExportForm-field">
+                <label for="to_date" class="ExportForm-label">{% translate "To date:" %}</label>
+                <input type="date" id="to_date" name="to_date" class="ExportForm-input" />
+              </div>
+              <button type="button" onclick="clearDates()" class="ExportForm-clearButton">{% translate "Clear dates" %}</button>
+            </div>
+          </fieldset>
+        </form>
+        <div class="ButtonGroup">
+          <button type="button"
+                  onclick="exportData('json')"
+                  class="Button Button--accent">
+            {% lucide 'download' size='16' %} {% translate "Download JSON" %}
+          </button>
+          <button type="button"
+                  onclick="exportData('csv')"
+                  class="Button Button--ghost">
+            {% lucide 'download' size='16' %} {% translate "Download CSV" %}
+          </button>
+        </div>
+      </div>
+      <script>
+      function exportData(format) {
+        const fromDate = document.getElementById('from_date').value;
+        const toDate = document.getElementById('to_date').value;
+        
+        let url = "{% url 'database-export' format_type='FORMAT_PLACEHOLDER' %}".replace('FORMAT_PLACEHOLDER', format);
+        
+        const params = new URLSearchParams();
+        if (fromDate) params.append('from_date', fromDate);
+        if (toDate) params.append('to_date', toDate);
+        
+        if (params.toString()) {
+          url += '?' + params.toString();
+        }
+        
+        window.location.href = url;
+      }
+      
+      function clearDates() {
+        document.getElementById('from_date').value = '';
+        document.getElementById('to_date').value = '';
+      }
+      </script>
+    </section>
+  {% endif %}
+{% endblock content %}
+{% block scripts %}
+  <script src="{% static 'core/js/dialog.js' %}"></script>
+  <script src="{% static 'core/js/multiselect-search.js' %}"></script>
+  <script>
+    document.body.addEventListener("closeAcademicFieldsDialog", () => {
+      if (typeof removeDialog === "function") removeDialog();
+    });
+    document.body.addEventListener("closePasswordDialog", () => {
+      if (typeof removeDialog === "function") removeDialog();
+    });
+  </script>
+{% endblock scripts %}

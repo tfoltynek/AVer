@@ -1,0 +1,28 @@
+{% load i18n %}
+{% load lucide %}
+<form class="form"
+      id="lang-prof-{{ lang.pk }}"
+      hx-post="{% url 'user-language-update' lang.pk %}"
+      hx-target="this"
+      hx-swap="outerHTML">
+  {{ form.non_field_errors }}
+  <div class="form__field-group">
+    <p class="UserLanguage-codeIcon">{{ lang.language.code }}</p>
+    <h3>{{ lang.language }}</h3>
+    <div class="field-group__item">{{ form.proficiency.as_field_group }}</div>
+    <div class="UserLanguage-actions">
+      <button class="Button Button--primary" type="submit">{% lucide 'pen' size='16' %}{% translate "Update" %}</button>
+      <button type="button"
+              class="Button Button--danger"
+              hx-post="{% url 'user-language-delete' lang.pk %}"
+              hx-target="#user-languages"
+              hx-swap="outerHTML">{% lucide 'trash' size='16' %} {% translate "Remove" %}</button>
+      <button class="Button Button--ghost UserLanguage-cancelButton"
+              target="#lang-prof-{{ lang.pk }}"
+              hx-swap="outerHTML"
+              hx-get="{% url 'user-language-card' lang.pk %}">
+        {% lucide 'x' size='16' %} {% translate "Cancel" %}
+      </button>
+    </div>
+  </div>
+</form>

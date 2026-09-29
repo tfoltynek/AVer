@@ -1,0 +1,135 @@
+[
+  {
+    "model": "core.academicfield",
+    "pk": 1,
+    "fields": { "name": "anthropology" }
+  },
+  { "model": "core.academicfield", "pk": 2, "fields": { "name": "history" } },
+  {
+    "model": "core.academicfield",
+    "pk": 3,
+    "fields": { "name": "linguistic and languages" }
+  },
+  {
+    "model": "core.academicfield",
+    "pk": 4,
+    "fields": { "name": "philosophy" }
+  },
+  { "model": "core.academicfield", "pk": 5, "fields": { "name": "religion" } },
+  { "model": "core.academicfield", "pk": 6, "fields": { "name": "the arts" } },
+  { "model": "core.academicfield", "pk": 7, "fields": { "name": "economy" } },
+  { "model": "core.academicfield", "pk": 8, "fields": { "name": "geography" } },
+  {
+    "model": "core.academicfield",
+    "pk": 9,
+    "fields": { "name": "interdisciplinary studies" }
+  },
+  {
+    "model": "core.academicfield",
+    "pk": 10,
+    "fields": { "name": "political science" }
+  },
+  {
+    "model": "core.academicfield",
+    "pk": 11,
+    "fields": { "name": "psychology" }
+  },
+  {
+    "model": "core.academicfield",
+    "pk": 12,
+    "fields": { "name": "sociology" }
+  },
+  { "model": "core.academicfield", "pk": 13, "fields": { "name": "biology" } },
+  {
+    "model": "core.academicfield",
+    "pk": 14,
+    "fields": { "name": "chemistry" }
+  },
+  { "model": "core.academicfield", "pk": 15, "fields": { "name": "physics" } },
+  {
+    "model": "core.academicfield",
+    "pk": 16,
+    "fields": { "name": "computer sciences" }
+  },
+  { "model": "core.academicfield", "pk": 17, "fields": { "name": "logic" } },
+  {
+    "model": "core.academicfield",
+    "pk": 18,
+    "fields": { "name": "mathematics" }
+  },
+  {
+    "model": "core.academicfield",
+    "pk": 19,
+    "fields": { "name": "systems science" }
+  },
+  {
+    "model": "core.academicfield",
+    "pk": 20,
+    "fields": { "name": "agriculture" }
+  },
+  {
+    "model": "core.academicfield",
+    "pk": 21,
+    "fields": { "name": "architecture and design" }
+  },
+  { "model": "core.academicfield", "pk": 22, "fields": { "name": "business" } },
+  { "model": "core.academicfield", "pk": 23, "fields": { "name": "divinity" } },
+  {
+    "model": "core.academicfield",
+    "pk": 24,
+    "fields": { "name": "education" }
+  },
+  {
+    "model": "core.academicfield",
+    "pk": 25,
+    "fields": { "name": "engineering and technoloogy" }
+  },
+  {
+    "model": "core.academicfield",
+    "pk": 26,
+    "fields": { "name": "environmental studies and forestry" }
+  },
+  {
+    "model": "core.academicfield",
+    "pk": 27,
+    "fields": { "name": "family and consumer science" }
+  },
+  {
+    "model": "core.academicfield",
+    "pk": 28,
+    "fields": { "name": "human physical performance and recreation" }
+  },
+  {
+    "model": "core.academicfield",
+    "pk": 29,
+    "fields": { "name": "journalism media studies and communication" }
+  },
+  { "model": "core.academicfield", "pk": 30, "fields": { "name": "law" } },
+  {
+    "model": "core.academicfield",
+    "pk": 31,
+    "fields": { "name": "library and museum" }
+  },
+  { "model": "core.academicfield", "pk": 32, "fields": { "name": "medicine" } },
+  {
+    "model": "core.academicfield",
+    "pk": 33,
+    "fields": { "name": "military sciences" }
+  },
+  {
+    "model": "core.academicfield",
+    "pk": 34,
+    "fields": { "name": "public administration" }
+  },
+  {
+    "model": "core.academicfield",
+    "pk": 35,
+    "fields": { "name": "social work" }
+  },
+  {
+    "model": "core.academicfield",
+    "pk": 36,
+    "fields": { "name": "transportation" }
+  },
+  { "model": "core.academicfield", "pk": 37, "fields": { "name": "other" } }
+]

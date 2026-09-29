@@ -1,0 +1,40 @@
+{% extends "core/layouts/layout_no_sidebar.html" %}
+{% load i18n %}
+{% load static %}
+{% block content %}
+  <h2 class="title">{% translate "Select a document for testing" %}</h2>
+  <nav class="document-language-select">
+    {% get_current_language as LANGUAGE_CODE %}
+    {% get_available_languages as LANGUAGES %}
+    {% get_language_info_list for LANGUAGES as languages %}
+    {% for language in languages %}
+      <a class="{% if active_language == language.code %}active{% endif %}"
+         href="{% url 'try-document-select' language.code %}">
+        <img width="24"
+             height="auto"
+             src="{% static 'core/icons/flag-'|add:language.code|add:'.svg' %}"
+             alt="" />
+        <span>{{ language.name_translated }}</span>
+      </a>
+    {% endfor %}
+  </nav>
+  <ul role="list" class="document-list">
+    {% for document in document_list %}
+      <li role="listitem" class="document-list__item">
+        <hgroup>
+          <img width="300"
+               height="auto"
+               src="{% static document.cover_name %}"
+               alt="">
+          <h3>{{ document.title }}</h3>
+        </hgroup>
+        <div>
+          <p>{{ document.author }}</p>
+          <p class"release-date">{{ document.released_at }}</p>
+        </div>
+        <a class="Button Button--accent"
+           href="{% url 'create-try-document-test' document.pk %}">{% translate "Start test" %}</a>
+      </li>
+    {% endfor %}
+  </ul>
+{% endblock content %}

@@ -1,0 +1,25 @@
+{% load i18n %}
+{% load lucide %}
+{% load static %}
+<form id="languageSelectForm"
+      action="{% url 'set_language' %}"
+      method="post">
+  {% csrf_token %}
+  {% get_current_language as LANGUAGE_CODE %}
+  {% get_available_languages as LANGUAGES %}
+  {% get_language_info_list for LANGUAGES as languages %}
+  <input name="next" type="hidden" value="{{ redirect_to }}">
+  <label class="language-select" id="languageControl" for="languageSelect">
+    <img width="24"
+         height="auto"
+         src="{% static 'core/icons/flag-'|add:LANGUAGE_CODE|add:'.svg' %}"
+         alt="" />
+    <select name="language" id="languageSelect">
+      {% for language in languages %}
+        <option value="{{ language.code }}"
+                {% if language.code == LANGUAGE_CODE %}selected{% endif %}>{{ language.name_local }}</option>
+      {% endfor %}
+    </select>
+    {% lucide "chevron-down" size="16" %}
+  </label>
+</form>

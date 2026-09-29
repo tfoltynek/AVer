@@ -1,0 +1,22 @@
+{% load i18n %}
+{% load lucide %}
+<div class="DocumentCard-titleBlock">
+  <div class="DocumentCard-titleRow">
+    <h3 class="DocumentCard-title">{{ document.title }}</h3>
+    <div class="DocumentCard-status">{% include "core/partials/analysis-status-tag.html" %}</div>
+  </div>
+  <p class="DocumentCard-subtitle">
+    {% with document.extension as type %}
+      <span class="DocumentTypeIcon {% if type == 'pdf' %}DocumentTypeIcon--pdf{% elif type == 'txt' %}DocumentTypeIcon--txt{% elif type == 'docx' %}DocumentTypeIcon--docx{% elif type == 'md' %}DocumentTypeIcon--md{% else %}DocumentTypeIcon--unknown{% endif %}">{{ type|upper }}</span>
+    {% endwith %}
+    {% if document.author %}
+      <span class="DocumentCard-sep" aria-hidden="true">·</span>
+      {% lucide 'user' size='14' %}<span>{{ document.author }}</span>
+    {% endif %}
+    {% if document.language %}
+      <span class="DocumentCard-sep" aria-hidden="true">·</span>
+      {% lucide 'languages' size='14' %}<span>{{ document.language.name }}</span>
+    {% endif %}
+  </p>
+</div>
+{% include "core/partials/document-meta.html" %}

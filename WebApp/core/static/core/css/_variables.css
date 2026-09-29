@@ -1,0 +1,171 @@
+/*
+ * Tokens. Themable values (--text, --white, base accent colors) sit in :root
+ * and get overridden by :root[data-theme="dark"]. Derived tokens reference
+ * --surface-1 and --text in their color-mix calls so they auto-adapt without
+ * needing per-mode overrides.
+ *
+ * Note: --white is the *page background* token, not literally white. Rename
+ * is intentionally avoided — the name is referenced from many components.
+ */
+
+:root {
+  /* Tells the UA to render native widgets (scrollbars, calendar picker,
+     <option> menus) with the light system theme by default. */
+  color-scheme: light;
+
+  /* Themable base colors (light mode defaults) */
+  --text: hsl(45deg 100% 10%);
+  --white: #fdfcf8;
+  --primary: #4e6f92;
+  --secondary: hsl(46deg 73% 45%);
+  --accent: #7954e0;
+  --neutral: #8c8c8c;
+  --correct: rgb(76 176 67);
+  --incorrect: rgb(211 69 61);
+
+  /* Surfaces.
+     --surface-1/2 are the raw "page colour" + "slightly tinted" pair.
+     --surface-base / --surface-elevated are the *semantic* tokens used by
+     layout: the body chrome recedes (base), the content sheet sits on top
+     (elevated). Their direction flips between modes — in light the elevated
+     sheet is the brightest cream; in dark it's lifted out of the deepest umber. */
+  --surface-1: var(--white);
+  --surface-2: color-mix(in srgb, var(--white), var(--text) 5%);
+  --surface-base: var(--surface-2);
+  --surface-elevated: var(--surface-1);
+  --neutral-bg: var(--surface-2);
+
+  /* Color-tinted backgrounds & borders — mix with the page color (light or
+     dark) and with --text so contrast direction flips correctly in dark mode. */
+  --primary-background: color-mix(in srgb, var(--primary), var(--surface-1) 90%);
+  --primary-border: color-mix(in srgb, var(--primary), var(--text) 15%);
+  --secondary-background: color-mix(in srgb, var(--secondary), var(--surface-1) 90%);
+  --secondary-border: color-mix(in srgb, var(--secondary), var(--text) 15%);
+  --accent-background: color-mix(in srgb, var(--accent), var(--surface-1) 90%);
+  --accent-border: color-mix(in srgb, var(--accent), var(--text) 15%);
+  --neutral-background: color-mix(in srgb, var(--neutral), var(--surface-1) 90%);
+  --neutral-border: color-mix(in srgb, var(--neutral), var(--text) 15%);
+  --correct-background: color-mix(in srgb, var(--correct), var(--surface-1) 90%);
+  --correct-border: color-mix(in srgb, var(--correct), var(--text) 15%);
+  --incorrect-background: color-mix(in srgb, var(--incorrect), var(--surface-1) 90%);
+  --incorrect-border: color-mix(in srgb, var(--incorrect), var(--text) 15%);
+  --border: color-mix(in srgb, var(--text), var(--surface-1) 80%);
+
+  /* Decorative wave (bottom-right backdrop). Three stacked tones, palest at
+     the back to deepest in front. Tokenised so dark mode can swap the palette. */
+  --wave-1: rgb(255 240 197);
+  --wave-2: rgb(255 226 139);
+  --wave-3: rgb(255 212 97);
+
+  /* Custom <select> dropdown chevron. Data URI uses %23 for the # in the hex
+     fill so it's URL-safe. Dark mode swaps to a light fill so the arrow stays
+     visible on the dark surface. */
+  --select-arrow: url("data:image/svg+xml;utf8,<svg fill='%23332e1a' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/></svg>");
+
+  --mobile: 768px;
+  --tablet: 769px;
+  --desktop: 1024px;
+  --widescreen: 1216px;
+  --fullhd: 1408px;
+
+  /* Font families.
+     --font-sans    Body, UI, navigation. Inter for its UI-optimised metrics.
+     --font-display Editorial / brand moments only (hero, h1, score title).
+                    Playfair Display is a "display" cut — designed for ≥30px.
+     --font-numeric Tabular figures for counters and scores (Playfair has
+                    proportional figures by default; we opt into tabular). */
+  --font-sans: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-display: "Playfair Display", "Iowan Old Style", Georgia, serif;
+  --font-numeric: var(--font-display);
+  --font-feature-sans: "cv11", "ss01", "ss03";
+
+  /* Spacing scale (4px base) */
+  --space-0: 0;
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 3rem;
+  --space-8: 4rem;
+  --space-9: 6rem;
+
+  /* Font-size scale */
+  --font-size-1: 0.75rem;
+  --font-size-2: 0.875rem;
+  --font-size-3: 1rem;
+  --font-size-4: 1.125rem;
+  --font-size-5: 1.25rem;
+  --font-size-6: 1.5rem;
+  --font-size-7: 1.75rem;
+  --font-size-8: 2.25rem;
+  --font-size-9: 3rem;
+
+  /* Line height */
+  --leading-tight: 1.2;
+  --leading-snug: 1.4;
+  --leading-normal: 1.5;
+  --leading-relaxed: 1.65;
+
+  /* Radius aliases */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-pill: 999px;
+
+  /* Elevation. Single shadow token — only floating UI (Dialog, mobile drawer)
+     uses it. Anything inline relies on borders, not shadows. */
+  --shadow-lg: 0 10px 30px rgb(60 50 30 / 10%),
+    0 4px 12px rgb(60 50 30 / 8%);
+
+  /* Motion */
+  --duration-fast: 100ms;
+  --duration-base: 150ms;
+  --duration-slow: 300ms;
+  --ease-out: cubic-bezier(0.2, 0.7, 0.2, 1);
+  --ease-in-out: cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* Focus */
+  --focus-color: var(--accent);
+  --focus-ring: 0 0 0 3px color-mix(in srgb, var(--accent) 25%, transparent);
+  --focus-offset: 2px;
+}
+
+/* Dark mode — warm umber palette, paper under firelight. Reading-focused
+   (no pure black or pure white) but the accents stay saturated so the UI
+   doesn't go dull; the decorative wave warms the corner like a glow. */
+:root[data-theme="dark"] {
+  /* Native widgets follow dark system theme — flips date-picker calendar,
+     scrollbar colors, and the <option> dropdown background. */
+  color-scheme: dark;
+
+  --text: hsl(40deg 28% 88%);
+  --white: hsl(36deg 11% 13%);
+  --primary: hsl(208deg 55% 70%);
+  --secondary: hsl(42deg 80% 68%);
+  --accent: hsl(265deg 65% 75%);
+  --neutral: hsl(35deg 8% 60%);
+  --correct: hsl(108deg 45% 62%);
+  --incorrect: hsl(2deg 70% 68%);
+
+  /* Wave gradient — deep amber that reads as warm glow at the corner,
+     not a yellow-on-dark clash. Layers go palest → deepest like in light. */
+  --wave-1: hsl(32deg 22% 19%);
+  --wave-2: hsl(35deg 35% 24%);
+  --wave-3: hsl(40deg 50% 30%);
+
+  /* Light fill for the <select> chevron on the dark surface. */
+  --select-arrow: url("data:image/svg+xml;utf8,<svg fill='%23e3dccb' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/></svg>");
+
+  /* Flip surface roles for dark mode: --surface-1 is the deepest umber
+     (page chrome), --surface-2 sits lifted above it (content sheet). */
+  --surface-base: var(--surface-1);
+  --surface-elevated: var(--surface-2);
+
+  /* Floating-UI shadow needs to actually register on the dark bg. */
+  --shadow-lg: 0 10px 30px rgb(0 0 0 / 40%), 0 4px 12px rgb(0 0 0 / 30%);
+}
+
+body {
+  counter-reset: step;
+}

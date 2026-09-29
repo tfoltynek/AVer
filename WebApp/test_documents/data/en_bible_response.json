@@ -1,0 +1,1952 @@
+{
+  "document_id": "453e4567-181b-12d3-2456-136624174002",
+  "words": [
+    {
+      "paragraph_id": "457e4567-181b-12d3-2455-136614174015",
+      "index": 6,
+      "content": "waters",
+      "sentence_blanked": "And God said, Let the <<BLANK>> under the heaven be gathered together unto one place, and let the dry land appear: and it was so.",
+      "sentence_index": 0,
+      "predictions": [
+        {
+          "word": "mountains",
+          "probability": -0.8313989043235779
+        },
+        {
+          "word": "waters",
+          "probability": -0.8482764959335327
+        },
+        {
+          "word": "heavens",
+          "probability": -1.031571388244629
+        },
+        {
+          "word": "dust",
+          "probability": -1.1067391633987427
+        },
+        {
+          "word": "clouds",
+          "probability": -1.1954798698425293
+        },
+        {
+          "word": "earth",
+          "probability": -1.2310744524002075
+        },
+        {
+          "word": "hills",
+          "probability": -1.2856544256210327
+        },
+        {
+          "word": "skies",
+          "probability": -1.307260274887085
+        },
+        {
+          "word": "soil",
+          "probability": -1.416468620300293
+        },
+        {
+          "word": "rivers",
+          "probability": -1.4276304244995117
+        },
+        {
+          "word": "trees",
+          "probability": -1.438363790512085
+        },
+        {
+          "word": "nations",
+          "probability": -1.4649968147277832
+        },
+        {
+          "word": "heights",
+          "probability": -1.479556679725647
+        },
+        {
+          "word": "places",
+          "probability": -1.5057228803634644
+        },
+        {
+          "word": "cities",
+          "probability": -1.5247100591659546
+        },
+        {
+          "word": "streams",
+          "probability": -1.5533925294876099
+        },
+        {
+          "word": "floodwaters",
+          "probability": -1.5780348777770996
+        },
+        {
+          "word": "beasts",
+          "probability": -1.5825169086456299
+        },
+        {
+          "word": "vessels",
+          "probability": -1.5865470170974731
+        },
+        {
+          "word": "winds",
+          "probability": -1.5928505659103394
+        },
+        {
+          "word": "rains",
+          "probability": -1.5933103561401367
+        },
+        {
+          "word": "mountaineering",
+          "probability": -1.6231601238250732
+        },
+        {
+          "word": "bodies",
+          "probability": -1.6256235837936401
+        },
+        {
+          "word": "shrubs",
+          "probability": -1.6450563669204712
+        },
+        {
+          "word": "things",
+          "probability": -1.6612046957015991
+        },
+        {
+          "word": "sheep",
+          "probability": -1.6994390487670898
+        },
+        {
+          "word": "branches",
+          "probability": -1.7004225254058838
+        },
+        {
+          "word": "land",
+          "probability": -1.7033790349960327
+        },
+        {
+          "word": "forests",
+          "probability": -1.7088168859481812
+        },
+        {
+          "word": "snows",
+          "probability": -1.7139066457748413
+        },
+        {
+          "word": "floods",
+          "probability": -1.7221879959106445
+        },
+        {
+          "word": "oceans",
+          "probability": -1.725589394569397
+        },
+        {
+          "word": "sea",
+          "probability": -1.7257580757141113
+        },
+        {
+          "word": "flesh",
+          "probability": -1.7271842956542969
+        },
+        {
+          "word": "swamps",
+          "probability": -1.730430006980896
+        },
+        {
+          "word": "settlements",
+          "probability": -1.7565256357192993
+        },
+        {
+          "word": "grasses",
+          "probability": -1.7649022340774536
+        },
+        {
+          "word": "fields",
+          "probability": -1.7766239643096924
+        },
+        {
+          "word": "plants",
+          "probability": -1.7855753898620605
+        },
+        {
+          "word": "stones",
+          "probability": -1.806100845336914
+        },
+        {
+          "word": "heaven",
+          "probability": -1.8202258348464966
+        }
+      ],
+      "category": "unigrams_NOUN",
+      "additional_info": ""
+    },
+    {
+      "paragraph_id": "653e4567-181b-12d3-2356-136614174013",
+      "index": 9,
+      "content": "darkness",
+      "sentence_blanked": "And God called the light Day, and the <<BLANK>> he called Night.",
+      "sentence_index": 2,
+      "predictions": [
+        {
+          "word": "dark",
+          "probability": -0.38739144802093506
+        },
+        {
+          "word": "shadow",
+          "probability": -0.4097670316696167
+        },
+        {
+          "word": "darkness",
+          "probability": -0.4847172796726227
+        },
+        {
+          "word": "shadows",
+          "probability": -0.8259733319282532
+        },
+        {
+          "word": "dimness",
+          "probability": -1.0287747383117676
+        },
+        {
+          "word": "twilight",
+          "probability": -1.1063952445983887
+        },
+        {
+          "word": "darkness",
+          "probability": -1.1965138912200928
+        },
+        {
+          "word": "shade",
+          "probability": -1.2582805156707764
+        },
+        {
+          "word": "dim",
+          "probability": -1.3063864707946777
+        },
+        {
+          "word": "glare",
+          "probability": -1.3258633613586426
+        },
+        {
+          "word": "nocturnity",
+          "probability": -1.360334038734436
+        },
+        {
+          "word": "ashes",
+          "probability": -1.3745191097259521
+        },
+        {
+          "word": "fog",
+          "probability": -1.387901782989502
+        },
+        {
+          "word": "night",
+          "probability": -1.402882695198059
+        },
+        {
+          "word": "nightmare",
+          "probability": -1.4553841352462769
+        },
+        {
+          "word": "light",
+          "probability": -1.4580841064453125
+        },
+        {
+          "word": "blackness",
+          "probability": -1.4840874671936035
+        },
+        {
+          "word": "dimity",
+          "probability": -1.5148781538009644
+        },
+        {
+          "word": "evening",
+          "probability": -1.5194334983825684
+        },
+        {
+          "word": "dew",
+          "probability": -1.5302352905273438
+        },
+        {
+          "word": "shadowing",
+          "probability": -1.5333446264266968
+        },
+        {
+          "word": "tarkness",
+          "probability": -1.5515029430389404
+        },
+        {
+          "word": "dusk",
+          "probability": -1.5817906856536865
+        },
+        {
+          "word": "gloom",
+          "probability": -1.597116231918335
+        },
+        {
+          "word": "nocturne",
+          "probability": -1.6000925302505493
+        },
+        {
+          "word": "labyrinth",
+          "probability": -1.6179653406143188
+        },
+        {
+          "word": "lightning",
+          "probability": -1.6313050985336304
+        },
+        {
+          "word": "sorrow",
+          "probability": -1.6331546306610107
+        },
+        {
+          "word": "nocturnal",
+          "probability": -1.6540284156799316
+        },
+        {
+          "word": "shadowy",
+          "probability": -1.6566013097763062
+        },
+        {
+          "word": "midnight",
+          "probability": -1.6590884923934937
+        },
+        {
+          "word": "gray",
+          "probability": -1.6912617683410645
+        },
+        {
+          "word": "stillness",
+          "probability": -1.6942472457885742
+        },
+        {
+          "word": "breeze",
+          "probability": -1.694671869277954
+        },
+        {
+          "word": "darken",
+          "probability": -1.6987347602844238
+        },
+        {
+          "word": "obscure",
+          "probability": -1.7298181056976318
+        },
+        {
+          "word": "lonely",
+          "probability": -1.7431526184082031
+        },
+        {
+          "word": "Darkness",
+          "probability": -1.7463911771774292
+        },
+        {
+          "word": "glow",
+          "probability": -1.7569597959518433
+        },
+        {
+          "word": "darkning",
+          "probability": -1.773568868637085
+        },
+        {
+          "word": "dust",
+          "probability": -1.7861642837524414
+        }
+      ],
+      "category": "unigrams_NOUN",
+      "additional_info": ""
+    },
+    {
+      "paragraph_id": "457e4567-189b-12d3-2455-136614174015",
+      "index": 19,
+      "content": "fruit",
+      "sentence_blanked": "And the earth brought forth grass, and herb yielding seed after his kind, and the tree yielding <<BLANK>>, whose seed was in itself, after his kind: and God saw that it was good.",
+      "sentence_index": 1,
+      "predictions": [
+        {
+          "word": "seed",
+          "probability": -0.3149678409099579
+        },
+        {
+          "word": "fruit",
+          "probability": -0.9356510639190674
+        },
+        {
+          "word": "herb",
+          "probability": -1.0165858268737793
+        },
+        {
+          "word": "bread",
+          "probability": -1.1781346797943115
+        },
+        {
+          "word": "itself",
+          "probability": -1.2052456140518188
+        },
+        {
+          "word": "leaves",
+          "probability": -1.3022795915603638
+        },
+        {
+          "word": "blossoms",
+          "probability": -1.3862946033477783
+        },
+        {
+          "word": "seeds",
+          "probability": -1.4028680324554443
+        },
+        {
+          "word": "leaf",
+          "probability": -1.4037507772445679
+        },
+        {
+          "word": "grain",
+          "probability": -1.44893479347229
+        },
+        {
+          "word": "herb",
+          "probability": -1.4539711475372314
+        },
+        {
+          "word": "himself",
+          "probability": -1.4560019969940186
+        },
+        {
+          "word": "flowers",
+          "probability": -1.5020899772644043
+        },
+        {
+          "word": "blossom",
+          "probability": -1.55108642578125
+        },
+        {
+          "word": "plant",
+          "probability": -1.5980092287063599
+        },
+        {
+          "word": "vegetables",
+          "probability": -1.6285946369171143
+        },
+        {
+          "word": "shrub",
+          "probability": -1.6369367837905884
+        },
+        {
+          "word": "root",
+          "probability": -1.651490569114685
+        },
+        {
+          "word": "ashes",
+          "probability": -1.6673837900161743
+        },
+        {
+          "word": "grass",
+          "probability": -1.67095947265625
+        },
+        {
+          "word": "flower",
+          "probability": -1.690203070640564
+        },
+        {
+          "word": "yield",
+          "probability": -1.6928551197052002
+        },
+        {
+          "word": "herd",
+          "probability": -1.6984344720840454
+        },
+        {
+          "word": "crops",
+          "probability": -1.71286940574646
+        },
+        {
+          "word": "thorns",
+          "probability": -1.7167541980743408
+        },
+        {
+          "word": "fruits",
+          "probability": -1.7186696529388428
+        },
+        {
+          "word": "herbs",
+          "probability": -1.7205053567886353
+        },
+        {
+          "word": "weed",
+          "probability": -1.7520464658737183
+        },
+        {
+          "word": "shrubs",
+          "probability": -1.7536730766296387
+        },
+        {
+          "word": "straw",
+          "probability": -1.75634765625
+        },
+        {
+          "word": "wheat",
+          "probability": -1.7981038093566895
+        },
+        {
+          "word": "berry",
+          "probability": -1.798376441001892
+        },
+        {
+          "word": "branches",
+          "probability": -1.7989426851272583
+        },
+        {
+          "word": "grains",
+          "probability": -1.8255178928375244
+        },
+        {
+          "word": "soil",
+          "probability": -1.831284523010254
+        },
+        {
+          "word": "breadth",
+          "probability": -1.831621766090393
+        },
+        {
+          "word": "seaweed",
+          "probability": -1.8388477563858032
+        },
+        {
+          "word": "trees",
+          "probability": -1.8586134910583496
+        },
+        {
+          "word": "ash",
+          "probability": -1.8697741031646729
+        },
+        {
+          "word": "harvest",
+          "probability": -1.8838168382644653
+        },
+        {
+          "word": "forth",
+          "probability": -1.9127593040466309
+        }
+      ],
+      "category": "unigrams_NOUN",
+      "additional_info": ""
+    },
+    {
+      "paragraph_id": "553e4567-181b-12d3-2256-136614174010",
+      "index": 6,
+      "content": "heaven",
+      "sentence_blanked": "In the beginning God created the <<BLANK>> and the earth.",
+      "sentence_index": 0,
+      "predictions": [
+        {
+          "word": "heavens",
+          "probability": -0.21587157249450684
+        },
+        {
+          "word": "heaven",
+          "probability": -0.30927610397338867
+        },
+        {
+          "word": "sky",
+          "probability": -0.4966447353363037
+        },
+        {
+          "word": "skies",
+          "probability": -1.1337196826934814
+        },
+        {
+          "word": "mountains",
+          "probability": -1.4986803531646729
+        },
+        {
+          "word": "sea",
+          "probability": -1.6148598194122314
+        },
+        {
+          "word": "heavenly",
+          "probability": -1.6581729650497437
+        },
+        {
+          "word": "Heavens",
+          "probability": -1.665287971496582
+        },
+        {
+          "word": "sun",
+          "probability": -1.6905598640441895
+        },
+        {
+          "word": "heavenss",
+          "probability": -1.740135669708252
+        },
+        {
+          "word": "hemel",
+          "probability": -1.7420918941497803
+        },
+        {
+          "word": "world",
+          "probability": -1.7539863586425781
+        },
+        {
+          "word": "angels",
+          "probability": -1.7696805000305176
+        },
+        {
+          "word": "universe",
+          "probability": -1.7814874649047852
+        },
+        {
+          "word": "trees",
+          "probability": -1.8173255920410156
+        },
+        {
+          "word": "langit",
+          "probability": -1.8286892175674438
+        },
+        {
+          "word": "heavenls",
+          "probability": -1.8585991859436035
+        },
+        {
+          "word": "Heaven",
+          "probability": -1.9261480569839478
+        },
+        {
+          "word": "dust",
+          "probability": -1.9534028768539429
+        },
+        {
+          "word": "eons",
+          "probability": -1.9735740423202515
+        },
+        {
+          "word": "stars",
+          "probability": -1.9756437540054321
+        },
+        {
+          "word": "eond",
+          "probability": -1.9842547178268433
+        },
+        {
+          "word": "ice",
+          "probability": -1.984804391860962
+        },
+        {
+          "word": "heavensd",
+          "probability": -2.0141282081604004
+        },
+        {
+          "word": "heaveness",
+          "probability": -2.0289554595947266
+        },
+        {
+          "word": "atmosphere",
+          "probability": -2.0471460819244385
+        },
+        {
+          "word": "soil",
+          "probability": -2.0485525131225586
+        },
+        {
+          "word": "cosmos",
+          "probability": -2.0560431480407715
+        },
+        {
+          "word": "flesh",
+          "probability": -2.0615501403808594
+        },
+        {
+          "word": "waters",
+          "probability": -2.0620663166046143
+        },
+        {
+          "word": "hills",
+          "probability": -2.0695135593414307
+        },
+        {
+          "word": "heavensth",
+          "probability": -2.0751945972442627
+        },
+        {
+          "word": "heavenl",
+          "probability": -2.086740493774414
+        },
+        {
+          "word": "iceberg",
+          "probability": -2.0983474254608154
+        },
+        {
+          "word": "heavensa",
+          "probability": -2.1113221645355225
+        },
+        {
+          "word": "heavensr",
+          "probability": -2.1270267963409424
+        },
+        {
+          "word": "heavensn",
+          "probability": -2.16349720954895
+        },
+        {
+          "word": "langith",
+          "probability": -2.1665048599243164
+        },
+        {
+          "word": "earth",
+          "probability": -2.169968366622925
+        },
+        {
+          "word": "heavensl",
+          "probability": -2.1774473190307617
+        },
+        {
+          "word": "planets",
+          "probability": -2.180861711502075
+        }
+      ],
+      "category": "unigrams_NOUN",
+      "additional_info": ""
+    },
+    {
+      "paragraph_id": "653e4567-181b-12d3-2356-136614174013",
+      "index": 9,
+      "content": "good",
+      "sentence_blanked": "And God saw the light, that it was <<BLANK>>: and God divided the light from the darkness.",
+      "sentence_index": 1,
+      "predictions": [
+        {
+          "word": "darkness",
+          "probability": -0.8394193053245544
+        },
+        {
+          "word": "light",
+          "probability": -1.119795560836792
+        },
+        {
+          "word": "evil",
+          "probability": -1.140130639076233
+        },
+        {
+          "word": "dark",
+          "probability": -1.1486568450927734
+        },
+        {
+          "word": "bright",
+          "probability": -1.2327501773834229
+        },
+        {
+          "word": "good",
+          "probability": -1.3187335729599
+        },
+        {
+          "word": "hidden",
+          "probability": -1.3514018058776855
+        },
+        {
+          "word": "abundant",
+          "probability": -1.3667412996292114
+        },
+        {
+          "word": "beholden",
+          "probability": -1.3965688943862915
+        },
+        {
+          "word": "sufficient",
+          "probability": -1.445159673690796
+        },
+        {
+          "word": "great",
+          "probability": -1.4522095918655396
+        },
+        {
+          "word": "enough",
+          "probability": -1.4534410238265991
+        },
+        {
+          "word": "still",
+          "probability": -1.4754527807235718
+        },
+        {
+          "word": "shining",
+          "probability": -1.4982997179031372
+        },
+        {
+          "word": "certain",
+          "probability": -1.5740630626678467
+        },
+        {
+          "word": "there",
+          "probability": -1.5844221115112305
+        },
+        {
+          "word": "strange",
+          "probability": -1.6085823774337769
+        },
+        {
+          "word": "blind",
+          "probability": -1.6142702102661133
+        },
+        {
+          "word": "visible",
+          "probability": -1.6568948030471802
+        },
+        {
+          "word": "unclean",
+          "probability": -1.67176353931427
+        },
+        {
+          "word": "strong",
+          "probability": -1.6767749786376953
+        },
+        {
+          "word": "called",
+          "probability": -1.7482783794403076
+        },
+        {
+          "word": "worthily",
+          "probability": -1.7491241693496704
+        },
+        {
+          "word": "false",
+          "probability": -1.756898283958435
+        },
+        {
+          "word": "impossible",
+          "probability": -1.7584820985794067
+        },
+        {
+          "word": "necessary",
+          "probability": -1.7651808261871338
+        },
+        {
+          "word": "invisible",
+          "probability": -1.7665590047836304
+        },
+        {
+          "word": "plain",
+          "probability": -1.7751781940460205
+        },
+        {
+          "word": "nigh",
+          "probability": -1.788346767425537
+        },
+        {
+          "word": "gone",
+          "probability": -1.8072198629379272
+        },
+        {
+          "word": "alight",
+          "probability": -1.825338363647461
+        },
+        {
+          "word": "worthless",
+          "probability": -1.8342233896255493
+        },
+        {
+          "word": "written",
+          "probability": -1.8389841318130493
+        },
+        {
+          "word": "coming",
+          "probability": -1.854714274406433
+        },
+        {
+          "word": "possible",
+          "probability": -1.8640168905258179
+        },
+        {
+          "word": "certainly",
+          "probability": -1.865624189376831
+        },
+        {
+          "word": "weak",
+          "probability": -1.8718774318695068
+        },
+        {
+          "word": "God",
+          "probability": -1.8837019205093384
+        },
+        {
+          "word": "true",
+          "probability": -1.9300212860107422
+        },
+        {
+          "word": "speaking",
+          "probability": -1.9333157539367676
+        },
+        {
+          "word": "thy",
+          "probability": -1.98124098777771
+        }
+      ],
+      "category": "unigrams_ADJ",
+      "additional_info": ""
+    },
+    {
+      "paragraph_id": "653e4567-181b-12d3-2356-136614174013",
+      "index": 8,
+      "content": "first",
+      "sentence_blanked": "And the evening and the morning were the <<BLANK>> day.",
+      "sentence_index": 3,
+      "predictions": [
+        {
+          "word": "same",
+          "probability": -0.34163975715637207
+        },
+        {
+          "word": "third",
+          "probability": -1.7271389961242676
+        },
+        {
+          "word": "longest",
+          "probability": -1.7305214405059814
+        },
+        {
+          "word": "entire",
+          "probability": -1.744002342224121
+        },
+        {
+          "word": "second",
+          "probability": -1.833849310874939
+        },
+        {
+          "word": "following",
+          "probability": -1.8805900812149048
+        },
+        {
+          "word": "remaining",
+          "probability": -1.8969066143035889
+        },
+        {
+          "word": "first",
+          "probability": -1.9214363098144531
+        },
+        {
+          "word": "last",
+          "probability": -1.9513673782348633
+        },
+        {
+          "word": "sleeping",
+          "probability": -2.0075926780700684
+        },
+        {
+          "word": "y a",
+          "probability": -2.010464906692505
+        },
+        {
+          "word": "latter",
+          "probability": -2.072049140930176
+        },
+        {
+          "word": "next",
+          "probability": -2.0969467163085938
+        },
+        {
+          "word": "y the",
+          "probability": -2.143268346786499
+        },
+        {
+          "word": "equal",
+          "probability": -2.231980562210083
+        },
+        {
+          "word": "appointed",
+          "probability": -2.245394229888916
+        },
+        {
+          "word": "half",
+          "probability": -2.2508177757263184
+        },
+        {
+          "word": "y another",
+          "probability": -2.2780840396881104
+        },
+        {
+          "word": "opposite",
+          "probability": -2.288137912750244
+        },
+        {
+          "word": "y each",
+          "probability": -2.322803020477295
+        },
+        {
+          "word": "longer",
+          "probability": -2.3335628509521484
+        },
+        {
+          "word": "only",
+          "probability": -2.373335838317871
+        },
+        {
+          "word": "equals",
+          "probability": -2.374783754348755
+        },
+        {
+          "word": "double",
+          "probability": -2.4063503742218018
+        },
+        {
+          "word": "sama",
+          "probability": -2.4111359119415283
+        },
+        {
+          "word": "very",
+          "probability": -2.4163625240325928
+        },
+        {
+          "word": "remainderofthe",
+          "probability": -2.452815055847168
+        },
+        {
+          "word": "final",
+          "probability": -2.458005666732788
+        },
+        {
+          "word": "usual",
+          "probability": -2.48606014251709
+        },
+        {
+          "word": "y equally",
+          "probability": -2.4926624298095703
+        },
+        {
+          "word": "y called",
+          "probability": -2.5508437156677246
+        },
+        {
+          "word": "greatest",
+          "probability": -2.560283660888672
+        },
+        {
+          "word": "highest",
+          "probability": -2.59088134765625
+        },
+        {
+          "word": "remained",
+          "probability": -2.6059679985046387
+        },
+        {
+          "word": "y they",
+          "probability": -2.6071481704711914
+        },
+        {
+          "word": "y appointed",
+          "probability": -2.610997438430786
+        },
+        {
+          "word": "y equal",
+          "probability": -2.6419477462768555
+        },
+        {
+          "word": "remainder",
+          "probability": -2.654257297515869
+        },
+        {
+          "word": "remaindersofthe",
+          "probability": -2.7484915256500244
+        },
+        {
+          "word": "equivalentsofthe",
+          "probability": -2.7523415088653564
+        },
+        {
+          "word": "remaindersofthe",
+          "probability": -2.7625906467437744
+        }
+      ],
+      "category": "unigrams_ADJ",
+      "additional_info": ""
+    },
+    {
+      "paragraph_id": "753e4567-181b-42d3-2456-136614174014",
+      "index": 8,
+      "content": "second",
+      "sentence_blanked": "And the evening and the morning were the <<BLANK>> day.",
+      "sentence_index": 3,
+      "predictions": [
+        {
+          "word": "same",
+          "probability": -0.34163975715637207
+        },
+        {
+          "word": "third",
+          "probability": -1.7271389961242676
+        },
+        {
+          "word": "longest",
+          "probability": -1.7305214405059814
+        },
+        {
+          "word": "entire",
+          "probability": -1.744002342224121
+        },
+        {
+          "word": "second",
+          "probability": -1.833849310874939
+        },
+        {
+          "word": "following",
+          "probability": -1.8805900812149048
+        },
+        {
+          "word": "remaining",
+          "probability": -1.8969066143035889
+        },
+        {
+          "word": "first",
+          "probability": -1.9214363098144531
+        },
+        {
+          "word": "last",
+          "probability": -1.9513673782348633
+        },
+        {
+          "word": "sleeping",
+          "probability": -2.0075926780700684
+        },
+        {
+          "word": "y a",
+          "probability": -2.010464906692505
+        },
+        {
+          "word": "latter",
+          "probability": -2.072049140930176
+        },
+        {
+          "word": "next",
+          "probability": -2.0969467163085938
+        },
+        {
+          "word": "y the",
+          "probability": -2.143268346786499
+        },
+        {
+          "word": "equal",
+          "probability": -2.231980562210083
+        },
+        {
+          "word": "appointed",
+          "probability": -2.245394229888916
+        },
+        {
+          "word": "half",
+          "probability": -2.2508177757263184
+        },
+        {
+          "word": "y another",
+          "probability": -2.2780840396881104
+        },
+        {
+          "word": "opposite",
+          "probability": -2.288137912750244
+        },
+        {
+          "word": "y each",
+          "probability": -2.322803020477295
+        },
+        {
+          "word": "longer",
+          "probability": -2.3335628509521484
+        },
+        {
+          "word": "only",
+          "probability": -2.373335838317871
+        },
+        {
+          "word": "equals",
+          "probability": -2.374783754348755
+        },
+        {
+          "word": "double",
+          "probability": -2.4063503742218018
+        },
+        {
+          "word": "sama",
+          "probability": -2.4111359119415283
+        },
+        {
+          "word": "very",
+          "probability": -2.4163625240325928
+        },
+        {
+          "word": "remainderofthe",
+          "probability": -2.452815055847168
+        },
+        {
+          "word": "final",
+          "probability": -2.458005666732788
+        },
+        {
+          "word": "usual",
+          "probability": -2.48606014251709
+        },
+        {
+          "word": "y equally",
+          "probability": -2.4926624298095703
+        },
+        {
+          "word": "y called",
+          "probability": -2.5508437156677246
+        },
+        {
+          "word": "greatest",
+          "probability": -2.560283660888672
+        },
+        {
+          "word": "highest",
+          "probability": -2.59088134765625
+        },
+        {
+          "word": "remained",
+          "probability": -2.6059679985046387
+        },
+        {
+          "word": "y they",
+          "probability": -2.6071481704711914
+        },
+        {
+          "word": "y appointed",
+          "probability": -2.610997438430786
+        },
+        {
+          "word": "y equal",
+          "probability": -2.6419477462768555
+        },
+        {
+          "word": "remainder",
+          "probability": -2.654257297515869
+        },
+        {
+          "word": "remaindersofthe",
+          "probability": -2.7484915256500244
+        },
+        {
+          "word": "equivalentsofthe",
+          "probability": -2.7523415088653564
+        },
+        {
+          "word": "remaindersofthe",
+          "probability": -2.7625906467437744
+        }
+      ],
+      "category": "unigrams_ADJ",
+      "additional_info": ""
+    },
+    {
+      "paragraph_id": "457e4567-189b-12d3-2455-136614174015",
+      "index": 8,
+      "content": "third",
+      "sentence_blanked": "And the evening and the morning were the <<BLANK>> day.",
+      "sentence_index": 2,
+      "predictions": [
+        {
+          "word": "same",
+          "probability": -0.34163975715637207
+        },
+        {
+          "word": "third",
+          "probability": -1.7271389961242676
+        },
+        {
+          "word": "longest",
+          "probability": -1.7305214405059814
+        },
+        {
+          "word": "entire",
+          "probability": -1.744002342224121
+        },
+        {
+          "word": "second",
+          "probability": -1.833849310874939
+        },
+        {
+          "word": "following",
+          "probability": -1.8805900812149048
+        },
+        {
+          "word": "remaining",
+          "probability": -1.8969066143035889
+        },
+        {
+          "word": "first",
+          "probability": -1.9214363098144531
+        },
+        {
+          "word": "last",
+          "probability": -1.9513673782348633
+        },
+        {
+          "word": "sleeping",
+          "probability": -2.0075926780700684
+        },
+        {
+          "word": "y a",
+          "probability": -2.010464906692505
+        },
+        {
+          "word": "latter",
+          "probability": -2.072049140930176
+        },
+        {
+          "word": "next",
+          "probability": -2.0969467163085938
+        },
+        {
+          "word": "y the",
+          "probability": -2.143268346786499
+        },
+        {
+          "word": "equal",
+          "probability": -2.231980562210083
+        },
+        {
+          "word": "appointed",
+          "probability": -2.245394229888916
+        },
+        {
+          "word": "half",
+          "probability": -2.2508177757263184
+        },
+        {
+          "word": "y another",
+          "probability": -2.2780840396881104
+        },
+        {
+          "word": "opposite",
+          "probability": -2.288137912750244
+        },
+        {
+          "word": "y each",
+          "probability": -2.322803020477295
+        },
+        {
+          "word": "longer",
+          "probability": -2.3335628509521484
+        },
+        {
+          "word": "only",
+          "probability": -2.373335838317871
+        },
+        {
+          "word": "equals",
+          "probability": -2.374783754348755
+        },
+        {
+          "word": "double",
+          "probability": -2.4063503742218018
+        },
+        {
+          "word": "sama",
+          "probability": -2.4111359119415283
+        },
+        {
+          "word": "very",
+          "probability": -2.4163625240325928
+        },
+        {
+          "word": "remainderofthe",
+          "probability": -2.452815055847168
+        },
+        {
+          "word": "final",
+          "probability": -2.458005666732788
+        },
+        {
+          "word": "usual",
+          "probability": -2.48606014251709
+        },
+        {
+          "word": "y equally",
+          "probability": -2.4926624298095703
+        },
+        {
+          "word": "y called",
+          "probability": -2.5508437156677246
+        },
+        {
+          "word": "greatest",
+          "probability": -2.560283660888672
+        },
+        {
+          "word": "highest",
+          "probability": -2.59088134765625
+        },
+        {
+          "word": "remained",
+          "probability": -2.6059679985046387
+        },
+        {
+          "word": "y they",
+          "probability": -2.6071481704711914
+        },
+        {
+          "word": "y appointed",
+          "probability": -2.610997438430786
+        },
+        {
+          "word": "y equal",
+          "probability": -2.6419477462768555
+        },
+        {
+          "word": "remainder",
+          "probability": -2.654257297515869
+        },
+        {
+          "word": "remaindersofthe",
+          "probability": -2.7484915256500244
+        },
+        {
+          "word": "equivalentsofthe",
+          "probability": -2.7523415088653564
+        },
+        {
+          "word": "remaindersofthe",
+          "probability": -2.7625906467437744
+        }
+      ],
+      "category": "unigrams_ADJ",
+      "additional_info": ""
+    },
+    {
+      "paragraph_id": "553e4567-181b-12d3-2256-136614174010",
+      "index": 15,
+      "content": "face",
+      "sentence_blanked": "And the earth was without form, and void; and darkness was upon the <<BLANK>> of the deep.",
+      "sentence_index": 1,
+      "predictions": [
+        {
+          "word": "surface",
+          "probability": -0.8133545517921448
+        },
+        {
+          "word": "sides",
+          "probability": -0.8456118106842041
+        },
+        {
+          "word": "depths",
+          "probability": -0.8460529446601868
+        },
+        {
+          "word": "shore",
+          "probability": -0.9085444211959839
+        },
+        {
+          "word": "foundations",
+          "probability": -0.9492195248603821
+        },
+        {
+          "word": "face",
+          "probability": -0.9914710521697998
+        },
+        {
+          "word": "edge",
+          "probability": -1.074614405632019
+        },
+        {
+          "word": "bottom",
+          "probability": -1.1002388000488281
+        },
+        {
+          "word": "feet",
+          "probability": -1.1115838289260864
+        },
+        {
+          "word": "foundation",
+          "probability": -1.1503340005874634
+        },
+        {
+          "word": "bottoms",
+          "probability": -1.2081583738327026
+        },
+        {
+          "word": "tops",
+          "probability": -1.2106677293777466
+        },
+        {
+          "word": "coasts",
+          "probability": -1.2168233394622803
+        },
+        {
+          "word": "waters",
+          "probability": -1.2275476455688477
+        },
+        {
+          "word": "edges",
+          "probability": -1.2379205226898193
+        },
+        {
+          "word": "wings",
+          "probability": -1.2413431406021118
+        },
+        {
+          "word": "shores",
+          "probability": -1.257237434387207
+        },
+        {
+          "word": "shadows",
+          "probability": -1.2581151723861694
+        },
+        {
+          "word": "faces",
+          "probability": -1.2752861976623535
+        },
+        {
+          "word": "borders",
+          "probability": -1.2800984382629395
+        },
+        {
+          "word": "vessels",
+          "probability": -1.2847521305084229
+        },
+        {
+          "word": "clouds",
+          "probability": -1.2851414680480957
+        },
+        {
+          "word": "horizon",
+          "probability": -1.2993806600570679
+        },
+        {
+          "word": "pillars",
+          "probability": -1.313711166381836
+        },
+        {
+          "word": "roofs",
+          "probability": -1.326127290725708
+        },
+        {
+          "word": "plains",
+          "probability": -1.3307121992111206
+        },
+        {
+          "word": "margins",
+          "probability": -1.3310730457305908
+        },
+        {
+          "word": "depth",
+          "probability": -1.3335635662078857
+        },
+        {
+          "word": "walls",
+          "probability": -1.3343639373779297
+        },
+        {
+          "word": "corners",
+          "probability": -1.3678380250930786
+        },
+        {
+          "word": "eons",
+          "probability": -1.3970550298690796
+        },
+        {
+          "word": "summits",
+          "probability": -1.4273477792739868
+        },
+        {
+          "word": "darkness",
+          "probability": -1.430206298828125
+        },
+        {
+          "word": "heights",
+          "probability": -1.4493974447250366
+        },
+        {
+          "word": "heavens",
+          "probability": -1.480825424194336
+        },
+        {
+          "word": "ends",
+          "probability": -1.48737370967865
+        },
+        {
+          "word": "branches",
+          "probability": -1.510239839553833
+        },
+        {
+          "word": "rocks",
+          "probability": -1.51767897605896
+        },
+        {
+          "word": "roof",
+          "probability": -1.519892692565918
+        },
+        {
+          "word": "bounders",
+          "probability": -1.5293116569519043
+        },
+        {
+          "word": "sea",
+          "probability": -1.5414483547210693
+        }
+      ],
+      "category": "unigrams_NOUN",
+      "additional_info": ""
+    },
+    {
+      "paragraph_id": "457e4567-189b-12d3-2455-136614174015",
+      "index": 9,
+      "content": "grass",
+      "sentence_blanked": "And God said, Let the earth bring forth <<BLANK>>, the herb yielding seed, and the fruit tree yielding fruit after his kind, whose seed is in itself, upon the earth: and it was so.",
+      "sentence_index": 0,
+      "predictions": [
+        {
+          "word": "seed",
+          "probability": -0.6889070868492126
+        },
+        {
+          "word": "grain",
+          "probability": -1.1518181562423706
+        },
+        {
+          "word": "fruit",
+          "probability": -1.1666842699050903
+        },
+        {
+          "word": "herds",
+          "probability": -1.2026182413101196
+        },
+        {
+          "word": "crops",
+          "probability": -1.2476487159729004
+        },
+        {
+          "word": "herbs",
+          "probability": -1.2757068872451782
+        },
+        {
+          "word": "bread",
+          "probability": -1.3494913578033447
+        },
+        {
+          "word": "vegetables",
+          "probability": -1.3739643096923828
+        },
+        {
+          "word": "blossoms",
+          "probability": -1.3960516452789307
+        },
+        {
+          "word": "flowers",
+          "probability": -1.461319923400879
+        },
+        {
+          "word": "seeds",
+          "probability": -1.467805027961731
+        },
+        {
+          "word": "herd",
+          "probability": -1.4934275150299072
+        },
+        {
+          "word": "plants",
+          "probability": -1.4971649646759033
+        },
+        {
+          "word": "grains",
+          "probability": -1.536775827407837
+        },
+        {
+          "word": "harvest",
+          "probability": -1.5489531755447388
+        },
+        {
+          "word": "breadth",
+          "probability": -1.6197398900985718
+        },
+        {
+          "word": "herb",
+          "probability": -1.620592713356018
+        },
+        {
+          "word": "food",
+          "probability": -1.6283258199691772
+        },
+        {
+          "word": "growth",
+          "probability": -1.6559035778045654
+        },
+        {
+          "word": "herbage",
+          "probability": -1.6581852436065674
+        },
+        {
+          "word": "soil",
+          "probability": -1.675567388534546
+        },
+        {
+          "word": "wheat",
+          "probability": -1.7471678256988525
+        },
+        {
+          "word": "plant",
+          "probability": -1.76327383518219
+        },
+        {
+          "word": "itself",
+          "probability": -1.8254084587097168
+        },
+        {
+          "word": "fruits",
+          "probability": -1.8257139921188354
+        },
+        {
+          "word": "blossom",
+          "probability": -1.8421647548675537
+        },
+        {
+          "word": "mankind",
+          "probability": -1.8535103797912598
+        },
+        {
+          "word": "milk",
+          "probability": -1.8831466436386108
+        },
+        {
+          "word": "agriculture",
+          "probability": -1.893084168434143
+        },
+        {
+          "word": "germs",
+          "probability": -1.9061775207519531
+        },
+        {
+          "word": "yesteryear",
+          "probability": -1.9311332702636719
+        },
+        {
+          "word": "cattle",
+          "probability": -1.9371715784072876
+        },
+        {
+          "word": "rains",
+          "probability": -1.9392942190170288
+        },
+        {
+          "word": "fertility",
+          "probability": -1.9436795711517334
+        },
+        {
+          "word": "water",
+          "probability": -1.9495817422866821
+        },
+        {
+          "word": "flower",
+          "probability": -1.9501813650131226
+        },
+        {
+          "word": "dust",
+          "probability": -1.951558232307434
+        },
+        {
+          "word": "deer",
+          "probability": -1.9658622741699219
+        },
+        {
+          "word": "forth",
+          "probability": -1.9830427169799805
+        },
+        {
+          "word": "grass",
+          "probability": -1.984878659248352
+        },
+        {
+          "word": "pollen",
+          "probability": -1.9858359098434448
+        }
+      ],
+      "category": "unigrams_NOUN",
+      "additional_info": ""
+    },
+    {
+      "paragraph_id": "457e4567-181b-12d3-2455-136614174015",
+      "index": 10,
+      "content": "gathering",
+      "sentence_blanked": "And God called the dry land Earth; and the <<BLANK>> together of the waters called he Seas: and God saw that it was good.",
+      "sentence_index": 1,
+      "predictions": [
+        {
+          "word": "gathered",
+          "probability": -0.7064651250839233
+        },
+        {
+          "word": "mixed",
+          "probability": -0.9791990518569946
+        },
+        {
+          "word": "gathering",
+          "probability": -0.9900290369987488
+        },
+        {
+          "word": "mixing",
+          "probability": -1.0376797914505005
+        },
+        {
+          "word": "holding",
+          "probability": -1.1018638610839844
+        },
+        {
+          "word": "joined",
+          "probability": -1.1413365602493286
+        },
+        {
+          "word": "coming",
+          "probability": -1.1433696746826172
+        },
+        {
+          "word": "bound",
+          "probability": -1.1670689582824707
+        },
+        {
+          "word": "spreading",
+          "probability": -1.1845428943634033
+        },
+        {
+          "word": "sprinkled",
+          "probability": -1.232547402381897
+        },
+        {
+          "word": "swirling",
+          "probability": -1.2479710578918457
+        },
+        {
+          "word": "catching",
+          "probability": -1.2530349493026733
+        },
+        {
+          "word": "bursting",
+          "probability": -1.2534849643707275
+        },
+        {
+          "word": "waters",
+          "probability": -1.282895803451538
+        },
+        {
+          "word": "moving",
+          "probability": -1.3175814151763916
+        },
+        {
+          "word": "spread",
+          "probability": -1.3286995887756348
+        },
+        {
+          "word": "mixture",
+          "probability": -1.3304522037506104
+        },
+        {
+          "word": "rising",
+          "probability": -1.3345435857772827
+        },
+        {
+          "word": "growing",
+          "probability": -1.3355151414871216
+        },
+        {
+          "word": "bringing",
+          "probability": -1.3451611995697021
+        },
+        {
+          "word": "set",
+          "probability": -1.3455907106399536
+        },
+        {
+          "word": "flowing",
+          "probability": -1.3474713563919067
+        },
+        {
+          "word": "swelling",
+          "probability": -1.3546929359436035
+        },
+        {
+          "word": "flocked",
+          "probability": -1.375148892402649
+        },
+        {
+          "word": "merge",
+          "probability": -1.3776029348373413
+        },
+        {
+          "word": "pooled",
+          "probability": -1.3891408443450928
+        },
+        {
+          "word": "merging",
+          "probability": -1.3935250043869019
+        },
+        {
+          "word": "flock",
+          "probability": -1.3964091539382935
+        },
+        {
+          "word": "drawing",
+          "probability": -1.408115029335022
+        },
+        {
+          "word": "grouping",
+          "probability": -1.4102791547775269
+        },
+        {
+          "word": "pools",
+          "probability": -1.4117989540100098
+        },
+        {
+          "word": "falling",
+          "probability": -1.4291224479675293
+        },
+        {
+          "word": "sumting",
+          "probability": -1.4331759214401245
+        },
+        {
+          "word": "breaking",
+          "probability": -1.4390239715576172
+        },
+        {
+          "word": "sum",
+          "probability": -1.441945195198059
+        },
+        {
+          "word": "banded",
+          "probability": -1.4674973487854004
+        },
+        {
+          "word": "grouped",
+          "probability": -1.473680853843689
+        },
+        {
+          "word": "crowded",
+          "probability": -1.4855858087539673
+        },
+        {
+          "word": "bodies",
+          "probability": -1.4882184267044067
+        },
+        {
+          "word": "sheltered",
+          "probability": -1.492697834968567
+        },
+        {
+          "word": "going",
+          "probability": -1.495916485786438
+        }
+      ],
+      "category": "unigrams_NOUN",
+      "additional_info": ""
+    },
+    {
+      "paragraph_id": "753e4567-181b-42d3-2456-136614174014",
+      "index": 11,
+      "content": "midst",
+      "sentence_blanked": "And God said, Let there be a firmament in the <<BLANK>> of the waters, and let it divide the waters from the waters.",
+      "sentence_index": 0,
+      "predictions": null,
+      "category": "random",
+      "additional_info": "",
+      "origin_category": "unigrams_NOUN"
+    },
+    {
+      "paragraph_id": "553e4567-181b-12d3-2256-136614174010",
+      "index": 2,
+      "content": "Spirit",
+      "sentence_blanked": "And the <<BLANK>> of God moved upon the face of the waters.",
+      "sentence_index": 2,
+      "predictions": null,
+      "category": "random",
+      "additional_info": "",
+      "origin_category": "unigrams_NOUN"
+    }
+  ]
+}

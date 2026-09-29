@@ -1,0 +1,16 @@
+{% extends "core/layouts/layout_with_sidebar.html" %}
+{% load static %}
+{% load i18n %}
+{% load lucide %}
+{% block content %}
+  <section>
+    <header class="SectionHeader SectionHeader--center">
+      <h2>{% translate "Add document" %}</h2>
+    </header>
+    {% include "core/partials/document-upload-form.html" %}
+  </section>
+{% endblock content %}
+{% block scripts %}
+  <script src="{% static 'core/js/multiselect-search.js' %}"></script>
+  <script src="{% static 'core/js/percentage-input.js' %}"></script>
+{% endblock scripts %}

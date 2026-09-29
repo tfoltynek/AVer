@@ -1,0 +1,19 @@
+{% load i18n %}
+{% load lucide %}
+<div class="form" id="lang-prof-{{ lang.pk }}">
+  <div class="form__field-group">
+    <p class="UserLanguage-codeIcon">{{ lang.language.code }}</p>
+    <h3>{{ lang.language }}</h3>
+    <div class="field-group__item">
+      <p>{% translate "Proficiency" %}</p>
+      <p data-proficiency="{{ lang.proficiency }}"
+         class="UserLanguage-proficiency">{{ lang.get_proficiency_display }}</p>
+    </div>
+    <div class="UserLanguage-actions">
+      <button hx-get="{% url 'user-language-update' lang.pk %}"
+              hx-target="#lang-prof-{{ lang.pk }}"
+              hx-swap="outerHTML"
+              class="Button Button--primary">{% lucide 'pen' size='16' %}{% translate "Edit" %}</button>
+    </div>
+  </div>
+</div>

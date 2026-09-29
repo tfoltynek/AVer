@@ -1,0 +1,37 @@
+/* Theme toggle — sun/moon pill button shown in the sidebar nav and the
+   no-sidebar header. Shows the icon for the mode the click would switch TO,
+   so users always see "where they'll go", not "where they are". */
+
+.ThemeToggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  padding: 0;
+  color: var(--neutral);
+  background-color: transparent;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-pill);
+  cursor: pointer;
+  transition:
+    color var(--duration-base) var(--ease-out),
+    border-color var(--duration-base) var(--ease-out),
+    background-color var(--duration-base) var(--ease-out);
+}
+
+.ThemeToggle:hover,
+.ThemeToggle:focus-visible {
+  color: var(--text);
+  background-color: var(--surface-2);
+  border-color: color-mix(in srgb, var(--border), var(--text) 20%);
+}
+
+.ThemeToggle-iconSun,
+.ThemeToggle-iconMoon {
+  display: inline-flex;
+  line-height: 0;
+}
+
+:root[data-theme="light"] .ThemeToggle-iconSun { display: none; }
+:root[data-theme="dark"] .ThemeToggle-iconMoon { display: none; }

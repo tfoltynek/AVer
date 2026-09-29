@@ -1,0 +1,16 @@
+{
+  "document_id": "123e4567-e89b-12d3-a456-426624174002",
+  "words": [
+    {
+      "paragraph_id": "223e4567-e89b-12d3-a256-426614174010",
+      "index": 1,
+      "content": "jarabý",
+      "sentence_blanked": "Kohútik <<BLANK>>, nechoď do záhrady, polámeš ľaliu, potom ťa zabijú.",
+      "sentence_index": 0,
+      "predictions": null,
+      "category": "random",
+      "additional_info": "",
+      "origin_category": "unigrams_ADJ"
+    }
+  ]
+}

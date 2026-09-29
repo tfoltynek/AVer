@@ -1,0 +1,760 @@
+{
+  "document_id": "223e4567-e89b-12d3-a456-426614174001",
+  "words": [
+    {
+      "paragraph_id": "123e4567-e89b-12d3-a456-426614174000",
+      "index": 19,
+      "content": "Dunaj",
+      "sentence_blanked": "Zleteli orly z Tatry, tiahnu na podolia, ponad vysoké hory, ponad rovné polia; preleteli cez <<BLANK>>, cez tú šíru vodu, sadli tam za pomedzím slovenského rodu.",
+      "sentence_index": 0,
+      "predictions": [
+        {
+          "word": "rieky",
+          "probability": -0.9548581838607788
+        },
+        {
+          "word": "Dunaj",
+          "probability": -1.1494334936141968
+        },
+        {
+          "word": "rieku",
+          "probability": -1.1776628494262695
+        },
+        {
+          "word": "údolia",
+          "probability": -1.1930742263793945
+        },
+        {
+          "word": "nížiny",
+          "probability": -1.2106702327728271
+        },
+        {
+          "word": "nížinu",
+          "probability": -1.2159407138824463
+        },
+        {
+          "word": "rybníky",
+          "probability": -1.2863726615905762
+        },
+        {
+          "word": "lesy",
+          "probability": -1.395007848739624
+        },
+        {
+          "word": "hory",
+          "probability": -1.4428690671920776
+        },
+        {
+          "word": "brehy",
+          "probability": -1.4699527025222778
+        },
+        {
+          "word": "cestu",
+          "probability": -1.4783828258514404
+        },
+        {
+          "word": "kopce",
+          "probability": -1.5122584104537964
+        },
+        {
+          "word": "ľady",
+          "probability": -1.513969898223877
+        },
+        {
+          "word": "ľad",
+          "probability": -1.5374548435211182
+        },
+        {
+          "word": "blato",
+          "probability": -1.5666191577911377
+        },
+        {
+          "word": "vodu",
+          "probability": -1.5781011581420898
+        },
+        {
+          "word": "hladinu",
+          "probability": -1.5789905786514282
+        },
+        {
+          "word": "tiesne",
+          "probability": -1.5957939624786377
+        },
+        {
+          "word": "úbočia",
+          "probability": -1.5965797901153564
+        },
+        {
+          "word": "rybník",
+          "probability": -1.5982249975204468
+        },
+        {
+          "word": "hradby",
+          "probability": -1.59885573387146
+        },
+        {
+          "word": "potok",
+          "probability": -1.6080222129821777
+        },
+        {
+          "word": "svahu",
+          "probability": -1.6213443279266357
+        },
+        {
+          "word": "ľadu",
+          "probability": -1.6377067565917969
+        },
+        {
+          "word": "ľadovce",
+          "probability": -1.6504360437393188
+        },
+        {
+          "word": "zálivy",
+          "probability": -1.6779701709747314
+        },
+        {
+          "word": "úbočie",
+          "probability": -1.699925422668457
+        },
+        {
+          "word": "múry",
+          "probability": -1.7215156555175781
+        },
+        {
+          "word": "úbočí",
+          "probability": -1.724421501159668
+        },
+        {
+          "word": "šíry",
+          "probability": -1.7546195983886719
+        },
+        {
+          "word": "úbočiny",
+          "probability": -1.7586051225662231
+        },
+        {
+          "word": "ľadovec",
+          "probability": -1.7627822160720825
+        },
+        {
+          "word": "ľadovňu",
+          "probability": -1.7723714113235474
+        },
+        {
+          "word": "horu",
+          "probability": -1.7877036333084106
+        },
+        {
+          "word": "koryto",
+          "probability": -1.7881908416748047
+        },
+        {
+          "word": "ľadovce",
+          "probability": -1.7899807691574097
+        },
+        {
+          "word": "ľadov",
+          "probability": -1.7901033163070679
+        },
+        {
+          "word": "ľadovú",
+          "probability": -1.8136621713638306
+        },
+        {
+          "word": "les",
+          "probability": -1.8360233306884766
+        },
+        {
+          "word": "záliv",
+          "probability": -1.837875247001648
+        },
+        {
+          "word": "úziele",
+          "probability": -1.8495378494262695
+        }
+      ],
+      "category": "unigrams_NOUN",
+      "additional_info": ""
+    },
+    {
+      "paragraph_id": "423e4567-e89b-12d3-a456-426614174004",
+      "index": 11,
+      "content": "stráž",
+      "sentence_blanked": "Pokraj táboru sedí cár na zlatom stolci; okol neho cárska <<BLANK>>, tuhí to paholci; a pred cárom družina neveliká stojí: sú to cudzí víťazi, každý v jasnej zbroji.",
+      "sentence_index": 0,
+      "predictions": [
+        {
+          "word": "družina",
+          "probability": -0.8857963681221008
+        },
+        {
+          "word": "hliadka",
+          "probability": -1.2565709352493286
+        },
+        {
+          "word": "garnitúra",
+          "probability": -1.3874194622039795
+        },
+        {
+          "word": "rodina",
+          "probability": -1.3921568393707275
+        },
+        {
+          "word": "stráž",
+          "probability": -1.4083105325698853
+        },
+        {
+          "word": "spoločnosť",
+          "probability": -1.4113409519195557
+        },
+        {
+          "word": "mládež",
+          "probability": -1.4331307411193848
+        },
+        {
+          "word": "jazda",
+          "probability": -1.4536113739013672
+        },
+        {
+          "word": "šľachta",
+          "probability": -1.4673423767089844
+        },
+        {
+          "word": "rošáda",
+          "probability": -1.4727879762649536
+        },
+        {
+          "word": "skupina",
+          "probability": -1.493941307067871
+        },
+        {
+          "word": "armáda",
+          "probability": -1.501516342163086
+        },
+        {
+          "word": "svadba",
+          "probability": -1.5312952995300293
+        },
+        {
+          "word": "trieda",
+          "probability": -1.5451128482818604
+        },
+        {
+          "word": "garnizóna",
+          "probability": -1.5485401153564453
+        },
+        {
+          "word": "posádka",
+          "probability": -1.5580623149871826
+        },
+        {
+          "word": "dáma",
+          "probability": -1.559918761253357
+        },
+        {
+          "word": "čata",
+          "probability": -1.5643260478973389
+        },
+        {
+          "word": "strážnica",
+          "probability": -1.5655133724212646
+        },
+        {
+          "word": "väčšina",
+          "probability": -1.6082407236099243
+        },
+        {
+          "word": "garda",
+          "probability": -1.619706153869629
+        },
+        {
+          "word": "šľapka",
+          "probability": -1.6321544647216797
+        },
+        {
+          "word": "veža",
+          "probability": -1.6367578506469727
+        },
+        {
+          "word": "jazdí",
+          "probability": -1.6711804866790771
+        },
+        {
+          "word": "obec",
+          "probability": -1.681733250617981
+        },
+        {
+          "word": "mládeži",
+          "probability": -1.694250464439392
+        },
+        {
+          "word": "sľubuje",
+          "probability": -1.7091094255447388
+        },
+        {
+          "word": "ľudia",
+          "probability": -1.7144019603729248
+        },
+        {
+          "word": "zbrojí",
+          "probability": -1.7404741048812866
+        },
+        {
+          "word": "sľuba",
+          "probability": -1.7446832656860352
+        },
+        {
+          "word": "komora",
+          "probability": -1.7660467624664307
+        },
+        {
+          "word": "sľubujú",
+          "probability": -1.7758437395095825
+        },
+        {
+          "word": "slujňa",
+          "probability": -1.7793407440185547
+        },
+        {
+          "word": "šľapa",
+          "probability": -1.8062692880630493
+        },
+        {
+          "word": "partia",
+          "probability": -1.812983751296997
+        },
+        {
+          "word": "hliada",
+          "probability": -1.8240562677383423
+        },
+        {
+          "word": "radosť",
+          "probability": -1.8295007944107056
+        },
+        {
+          "word": "ľudnosť",
+          "probability": -1.849289894104004
+        },
+        {
+          "word": "kancelária",
+          "probability": -1.8549785614013672
+        },
+        {
+          "word": "dvojica",
+          "probability": -1.8777551651000977
+        },
+        {
+          "word": "slúžia",
+          "probability": -1.8874496221542358
+        }
+      ],
+      "category": "unigrams_NOUN",
+      "additional_info": ""
+    },
+    {
+      "paragraph_id": "423e4567-e89b-12d3-a456-426614174006",
+      "index": 6,
+      "content": "rukou",
+      "sentence_blanked": "detvo môjho rodu, kto kradmou <<BLANK>> siahne na tvoju slobodu: a čo i tam dušu dáš v tom boji divokom: Mor ty len, a voľ nebyť, ako byť otrokom.",
+      "sentence_index": 2,
+      "predictions": [
+        {
+          "word": "zbraňou",
+          "probability": -0.6874540448188782
+        },
+        {
+          "word": "rukou",
+          "probability": -0.7243177890777588
+        },
+        {
+          "word": "silou",
+          "probability": -0.7701837420463562
+        },
+        {
+          "word": "mocou",
+          "probability": -0.8457976579666138
+        },
+        {
+          "word": "vôľou",
+          "probability": -0.8982670903205872
+        },
+        {
+          "word": "spravodlivosťou",
+          "probability": -0.9071232080459595
+        },
+        {
+          "word": "mysľou",
+          "probability": -0.9156718850135803
+        },
+        {
+          "word": "nohou",
+          "probability": -0.9230965375900269
+        },
+        {
+          "word": "dušou",
+          "probability": -0.9732311367988586
+        },
+        {
+          "word": "rečou",
+          "probability": -1.0150915384292603
+        },
+        {
+          "word": "spravodlivosťou",
+          "probability": -1.019736886024475
+        },
+        {
+          "word": "cestou",
+          "probability": -1.028975009918213
+        },
+        {
+          "word": "zbrojou",
+          "probability": -1.0790717601776123
+        },
+        {
+          "word": "loďou",
+          "probability": -1.1031416654586792
+        },
+        {
+          "word": "dlaňou",
+          "probability": -1.1276283264160156
+        },
+        {
+          "word": "krvou",
+          "probability": -1.155646800994873
+        },
+        {
+          "word": "zbranou",
+          "probability": -1.1564669609069824
+        },
+        {
+          "word": "hrou",
+          "probability": -1.1574962139129639
+        },
+        {
+          "word": "láskou",
+          "probability": -1.1641501188278198
+        },
+        {
+          "word": "svadbou",
+          "probability": -1.167892336845398
+        },
+        {
+          "word": "slobodou",
+          "probability": -1.1691174507141113
+        },
+        {
+          "word": "tvárou",
+          "probability": -1.1699473857879639
+        },
+        {
+          "word": "strážou",
+          "probability": -1.179205298423767
+        },
+        {
+          "word": "vôlou",
+          "probability": -1.19389009475708
+        },
+        {
+          "word": "sľubou",
+          "probability": -1.198838472366333
+        },
+        {
+          "word": "sekerou",
+          "probability": -1.2134803533554077
+        },
+        {
+          "word": "slávou",
+          "probability": -1.2336459159851074
+        },
+        {
+          "word": "sĺzňou",
+          "probability": -1.238304853439331
+        },
+        {
+          "word": "rúškou",
+          "probability": -1.240979790687561
+        },
+        {
+          "word": "hlavou",
+          "probability": -1.2704970836639404
+        },
+        {
+          "word": "vojnou",
+          "probability": -1.273386001586914
+        },
+        {
+          "word": "srsťou",
+          "probability": -1.276399850845337
+        },
+        {
+          "word": "smrtou",
+          "probability": -1.2790449857711792
+        },
+        {
+          "word": "sieťou",
+          "probability": -1.3319947719573975
+        },
+        {
+          "word": "strelou",
+          "probability": -1.3399755954742432
+        },
+        {
+          "word": "mierou",
+          "probability": -1.3729532957077026
+        },
+        {
+          "word": "zbraňou",
+          "probability": -1.3798702955245972
+        },
+        {
+          "word": "spravodlivosť",
+          "probability": -1.3888940811157227
+        },
+        {
+          "word": "spravodlivou",
+          "probability": -1.3931907415390015
+        },
+        {
+          "word": "dobou",
+          "probability": -1.4013454914093018
+        },
+        {
+          "word": "náhodou",
+          "probability": -1.4013983011245728
+        }
+      ],
+      "category": "unigrams_NOUN",
+      "additional_info": ""
+    },
+    {
+      "paragraph_id": "423e4567-e89b-12d3-a456-426614174004",
+      "index": 6,
+      "content": "modré",
+      "sentence_blanked": "Pobelavé kaderie šije im obtáča, <<BLANK>> ich oči bystro v okolo si páča.",
+      "sentence_index": 1,
+      "predictions": [
+        {
+          "word": "a",
+          "probability": -0.5565180778503418
+        },
+        {
+          "word": "ale",
+          "probability": -1.181930422782898
+        },
+        {
+          "word": "tmavé",
+          "probability": -1.2407019138336182
+        },
+        {
+          "word": "modré",
+          "probability": -1.2552810907363892
+        },
+        {
+          "word": "čierne",
+          "probability": -1.2675154209136963
+        },
+        {
+          "word": "lesklé",
+          "probability": -1.285951852798462
+        },
+        {
+          "word": "ktoré",
+          "probability": -1.3237087726593018
+        },
+        {
+          "word": "i",
+          "probability": -1.3404914140701294
+        },
+        {
+          "word": "nechápavé",
+          "probability": -1.346995234489441
+        },
+        {
+          "word": "odrážajúce",
+          "probability": -1.3629975318908691
+        },
+        {
+          "word": "žhavé",
+          "probability": -1.3870989084243774
+        },
+        {
+          "word": "keď",
+          "probability": -1.3999813795089722
+        },
+        {
+          "word": "odráža",
+          "probability": -1.401128888130188
+        },
+        {
+          "word": "skláňajú",
+          "probability": -1.4126704931259155
+        },
+        {
+          "word": "hnedé",
+          "probability": -1.4197685718536377
+        },
+        {
+          "word": "radostné",
+          "probability": -1.427485704421997
+        },
+        {
+          "word": "na",
+          "probability": -1.4282865524291992
+        },
+        {
+          "word": "odrážajú",
+          "probability": -1.4487618207931519
+        },
+        {
+          "word": "ružové",
+          "probability": -1.4754388332366943
+        },
+        {
+          "word": "mládež",
+          "probability": -1.4762611389160156
+        },
+        {
+          "word": "až",
+          "probability": -1.476363182067871
+        },
+        {
+          "word": "když",
+          "probability": -1.4864486455917358
+        },
+        {
+          "word": "biele",
+          "probability": -1.4875625371932983
+        },
+        {
+          "word": "krásne",
+          "probability": -1.494231939315796
+        },
+        {
+          "word": "kde",
+          "probability": -1.5060384273529053
+        },
+        {
+          "word": "tmavozelené",
+          "probability": -1.5088478326797485
+        },
+        {
+          "word": "skláňajúc",
+          "probability": -1.5131571292877197
+        },
+        {
+          "word": "mláďatá",
+          "probability": -1.5155104398727417
+        },
+        {
+          "word": "červené",
+          "probability": -1.5214605331420898
+        },
+        {
+          "word": "skláňajúce",
+          "probability": -1.521475076675415
+        },
+        {
+          "word": "žiariace",
+          "probability": -1.5448838472366333
+        },
+        {
+          "word": "slečny",
+          "probability": -1.5477102994918823
+        },
+        {
+          "word": "sväté",
+          "probability": -1.5505887269973755
+        },
+        {
+          "word": "smaragdovlásky",
+          "probability": -1.5578949451446533
+        },
+        {
+          "word": "bledé",
+          "probability": -1.5590155124664307
+        },
+        {
+          "word": "modrozelené",
+          "probability": -1.569787621498108
+        },
+        {
+          "word": "mládeži",
+          "probability": -1.5723885297775269
+        },
+        {
+          "word": "smaragdové",
+          "probability": -1.5764341354370117
+        },
+        {
+          "word": "ako",
+          "probability": -1.5942192077636719
+        },
+        {
+          "word": "oholené",
+          "probability": -1.595329761505127
+        },
+        {
+          "word": "smaragdovozelené",
+          "probability": -1.600285530090332
+        }
+      ],
+      "category": "unigrams_ADJ",
+      "additional_info": ""
+    },
+    {
+      "paragraph_id": "423e4567-e89b-12d3-a456-426614174005",
+      "index": 32,
+      "content": "deti",
+      "sentence_blanked": "Zasurmili surmity, volajú do zbroje: povstal tábor, do šíkov zvíjajú sa voje; a voj za vojom divým útokom ta letí, kde boj na cára bijú tie slovänské <<BLANK>>.",
+      "sentence_index": 0,
+      "predictions": null,
+      "category": "random",
+      "additional_info": "",
+      "origin_category": "unigrams_NOUN"
+    },
+    {
+      "paragraph_id": "423e4567-e89b-12d3-a456-426614174003",
+      "index": 12,
+      "content": "pevný",
+      "sentence_blanked": "Duní Dunaj a luna za lunou sa valí: nad ním svieti <<BLANK>> hrad na vysokom bralí.",
+      "sentence_index": 0,
+      "predictions": null,
+      "category": "random",
+      "additional_info": "",
+      "origin_category": "unigrams_ADJ"
+    },
+    {
+      "paragraph_id": "423e4567-e89b-12d3-a456-426614174004",
+      "index": 17,
+      "content": "mater",
+      "sentence_blanked": "Rastom sú ako jedle, pevní ako skala, zdalo by sa ti, že ich jedna <<BLANK>> mala.",
+      "sentence_index": 2,
+      "predictions": null,
+      "category": "random",
+      "additional_info": "",
+      "origin_category": "unigrams_NOUN"
+    },
+    {
+      "paragraph_id": "423e4567-e89b-12d3-a456-426614174006",
+      "index": 1,
+      "content": "mečov",
+      "sentence_blanked": "Sto <<BLANK>> sa každému nado hlavou blyští, lež Slovän nečítava vrahov na bojišti, ale morí.",
+      "sentence_index": 0,
+      "predictions": null,
+      "category": "random",
+      "additional_info": "",
+      "origin_category": "unigrams_NOUN"
+    },
+    {
+      "paragraph_id": "423e4567-e89b-12d3-a456-426614174003",
+      "index": 13,
+      "content": "priestorom",
+      "sentence_blanked": "Pod tým hradom Riman—cár zastal si táborom: belia sa rady šiatrov ďalekým <<BLANK>>.",
+      "sentence_index": 1,
+      "predictions": null,
+      "category": "random",
+      "additional_info": "",
+      "origin_category": "unigrams_NOUN"
+    }
+  ]
+}

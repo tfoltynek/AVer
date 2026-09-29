@@ -1,0 +1,705 @@
+{
+  "document_id": "223e4567-e89b-12d3-a456-426624174002",
+  "words": [
+    {
+      "paragraph_id": "423e4567-e89b-12d3-a356-426614174013",
+      "index": 11,
+      "content": "zmluvy",
+      "sentence_blanked": "Slovenská republika uznáva a dodržiava všeobecné pravidlá medzinárodného práva, medzinárodné <<BLANK>>, ktorými je viazaná, a svoje ďalšie medzinárodné záväzky.",
+      "sentence_index": 0,
+      "predictions": [
+        {
+          "word": "dohody",
+          "probability": -0.28621262311935425
+        },
+        {
+          "word": "zmluvy",
+          "probability": -0.2879915237426758
+        },
+        {
+          "word": "dohovory",
+          "probability": -0.7490650415420532
+        },
+        {
+          "word": "úmluvy",
+          "probability": -0.775033712387085
+        },
+        {
+          "word": "dokumenty",
+          "probability": -0.7822546362876892
+        },
+        {
+          "word": "dohody",
+          "probability": -0.8149484395980835
+        },
+        {
+          "word": "vzťahy",
+          "probability": -0.8317554593086243
+        },
+        {
+          "word": "záväzky",
+          "probability": -0.900908350944519
+        },
+        {
+          "word": "dohôdky",
+          "probability": -0.9255450367927551
+        },
+        {
+          "word": "organizácie",
+          "probability": -1.0112262964248657
+        },
+        {
+          "word": "vyhlásenia",
+          "probability": -1.110041856765747
+        },
+        {
+          "word": "dohôd",
+          "probability": -1.1597959995269775
+        },
+        {
+          "word": "normy",
+          "probability": -1.1703720092773438
+        },
+        {
+          "word": "pravidlá",
+          "probability": -1.181219458580017
+        },
+        {
+          "word": "listiny",
+          "probability": -1.1958638429641724
+        },
+        {
+          "word": "doktríny",
+          "probability": -1.2133080959320068
+        },
+        {
+          "word": "dohôdy",
+          "probability": -1.236031413078308
+        },
+        {
+          "word": "nariadenia",
+          "probability": -1.2542641162872314
+        },
+        {
+          "word": "predpisy",
+          "probability": -1.275243878364563
+        },
+        {
+          "word": "smlouvy",
+          "probability": -1.2835845947265625
+        },
+        {
+          "word": "dojednania",
+          "probability": -1.3629553318023682
+        },
+        {
+          "word": "sľuby",
+          "probability": -1.3710417747497559
+        },
+        {
+          "word": "protokoly",
+          "probability": -1.3776849508285522
+        },
+        {
+          "word": "normatívy",
+          "probability": -1.3816001415252686
+        },
+        {
+          "word": "zákony",
+          "probability": -1.3853904008865356
+        },
+        {
+          "word": "konania",
+          "probability": -1.3862868547439575
+        },
+        {
+          "word": "sankcie",
+          "probability": -1.408292531967163
+        },
+        {
+          "word": "deklarácie",
+          "probability": -1.415787935256958
+        },
+        {
+          "word": "smluvy",
+          "probability": -1.4336190223693848
+        },
+        {
+          "word": "úvery",
+          "probability": -1.4338299036026
+        },
+        {
+          "word": "práva",
+          "probability": -1.43631911277771
+        },
+        {
+          "word": "schémata",
+          "probability": -1.533263087272644
+        },
+        {
+          "word": "konanie",
+          "probability": -1.5484070777893066
+        },
+        {
+          "word": "akty",
+          "probability": -1.555430293083191
+        },
+        {
+          "word": "ústavy",
+          "probability": -1.5890719890594482
+        },
+        {
+          "word": "smernice",
+          "probability": -1.602049469947815
+        },
+        {
+          "word": "konvencie",
+          "probability": -1.6024243831634521
+        },
+        {
+          "word": "dokumentácie",
+          "probability": -1.6129497289657593
+        },
+        {
+          "word": "úkony",
+          "probability": -1.6224167346954346
+        },
+        {
+          "word": "úpravy",
+          "probability": -1.6307226419448853
+        },
+        {
+          "word": "zásady",
+          "probability": -1.6376228332519531
+        }
+      ],
+      "category": "unigrams_NOUN",
+      "additional_info": ""
+    },
+    {
+      "paragraph_id": "423e4567-e89b-42d3-a456-426614174014",
+      "index": 4,
+      "content": "občanov",
+      "sentence_blanked": "Štátna moc pochádza od <<BLANK>>, ktorí ju vykonávajú prostredníctvom svojich volených zástupcov alebo priamo.",
+      "sentence_index": 0,
+      "predictions": [
+        {
+          "word": "ľudí",
+          "probability": -0.35607296228408813
+        },
+        {
+          "word": "občanov",
+          "probability": -0.5195604562759399
+        },
+        {
+          "word": "občanmi",
+          "probability": -0.7460697293281555
+        },
+        {
+          "word": "obyvateľov",
+          "probability": -0.7750601768493652
+        },
+        {
+          "word": "občana",
+          "probability": -0.8758516311645508
+        },
+        {
+          "word": "volených",
+          "probability": -0.9012013673782349
+        },
+        {
+          "word": "voliteľov",
+          "probability": -0.9375249743461609
+        },
+        {
+          "word": "obywatelov",
+          "probability": -0.9528518319129944
+        },
+        {
+          "word": "voličov",
+          "probability": -0.998776376247406
+        },
+        {
+          "word": "občanov",
+          "probability": -1.0100712776184082
+        },
+        {
+          "word": "ľudu",
+          "probability": -1.0338385105133057
+        },
+        {
+          "word": "občanom",
+          "probability": -1.069638729095459
+        },
+        {
+          "word": "zákonodarcov",
+          "probability": -1.1222867965698242
+        },
+        {
+          "word": "občánkov",
+          "probability": -1.12320876121521
+        },
+        {
+          "word": "občánov",
+          "probability": -1.1297833919525146
+        },
+        {
+          "word": "ľuďov",
+          "probability": -1.1386932134628296
+        },
+        {
+          "word": "obyvateľstva",
+          "probability": -1.1397939920425415
+        },
+        {
+          "word": "voličom",
+          "probability": -1.2044609785079956
+        },
+        {
+          "word": "ľuďom",
+          "probability": -1.247321605682373
+        },
+        {
+          "word": "obyvatelstva",
+          "probability": -1.2476425170898438
+        },
+        {
+          "word": "občanů",
+          "probability": -1.250478744506836
+        },
+        {
+          "word": "vládcov",
+          "probability": -1.273284673690796
+        },
+        {
+          "word": "ľudstva",
+          "probability": -1.333687663078308
+        },
+        {
+          "word": "štátotvorcov",
+          "probability": -1.378965973854065
+        },
+        {
+          "word": "ľudia",
+          "probability": -1.3831077814102173
+        },
+        {
+          "word": "občanov",
+          "probability": -1.3984581232070923
+        },
+        {
+          "word": "obyvateľstva",
+          "probability": -1.4001784324645996
+        },
+        {
+          "word": "občanstva",
+          "probability": -1.4009284973144531
+        },
+        {
+          "word": "národovcov",
+          "probability": -1.4038467407226562
+        },
+        {
+          "word": "ľuďmi",
+          "probability": -1.4247713088989258
+        },
+        {
+          "word": "občianstiev",
+          "probability": -1.4664719104766846
+        },
+        {
+          "word": "občiankov",
+          "probability": -1.4668247699737549
+        },
+        {
+          "word": "tých",
+          "probability": -1.4954901933670044
+        },
+        {
+          "word": "obywateli",
+          "probability": -1.500667691230774
+        },
+        {
+          "word": "obyvatelia",
+          "probability": -1.501702070236206
+        },
+        {
+          "word": "predstavených",
+          "probability": -1.56004798412323
+        },
+        {
+          "word": "občancov",
+          "probability": -1.5636870861053467
+        },
+        {
+          "word": "obywatela",
+          "probability": -1.5717240571975708
+        },
+        {
+          "word": "občian",
+          "probability": -1.577585220336914
+        },
+        {
+          "word": "zákonodarníkov",
+          "probability": -1.6094708442687988
+        },
+        {
+          "word": "ľudov",
+          "probability": -1.6131341457366943
+        }
+      ],
+      "category": "unigrams_NOUN",
+      "additional_info": ""
+    },
+    {
+      "paragraph_id": "423e4567-e89b-12d3-a455-426614174015",
+      "index": 11,
+      "content": "medziach",
+      "sentence_blanked": "Štátne orgány môžu konať iba na základe ústavy, v jej <<BLANK>> a v rozsahu a spôsobom, ktorý ustanoví zákon.",
+      "sentence_index": 0,
+      "predictions": [
+        {
+          "word": "znení",
+          "probability": -0.1557791829109192
+        },
+        {
+          "word": "zmysle",
+          "probability": -0.506100058555603
+        },
+        {
+          "word": "nadväznosti",
+          "probability": -0.9117597341537476
+        },
+        {
+          "word": "mene",
+          "probability": -0.9432652592658997
+        },
+        {
+          "word": "prílohe",
+          "probability": -0.9826412796974182
+        },
+        {
+          "word": "príslušnosti",
+          "probability": -1.0389671325683594
+        },
+        {
+          "word": "medziach",
+          "probability": -1.1486968994140625
+        },
+        {
+          "word": "pôsobnosti",
+          "probability": -1.151462435722351
+        },
+        {
+          "word": "dodržiavaní",
+          "probability": -1.2010875940322876
+        },
+        {
+          "word": "rámci",
+          "probability": -1.2125474214553833
+        },
+        {
+          "word": "úzadoch",
+          "probability": -1.2201400995254517
+        },
+        {
+          "word": "priebehu",
+          "probability": -1.2678947448730469
+        },
+        {
+          "word": "súlade",
+          "probability": -1.2691409587860107
+        },
+        {
+          "word": "bode",
+          "probability": -1.2958061695098877
+        },
+        {
+          "word": "záujme",
+          "probability": -1.3297487497329712
+        },
+        {
+          "word": "obrysoch",
+          "probability": -1.348953366279602
+        },
+        {
+          "word": "zmluvách",
+          "probability": -1.3722225427627563
+        },
+        {
+          "word": "rozsahu",
+          "probability": -1.3739147186279297
+        },
+        {
+          "word": "prípadoch",
+          "probability": -1.375067114830017
+        },
+        {
+          "word": "úzadí",
+          "probability": -1.4196761846542358
+        },
+        {
+          "word": "úzavnosti",
+          "probability": -1.4472349882125854
+        },
+        {
+          "word": "priečinku",
+          "probability": -1.4532759189605713
+        },
+        {
+          "word": "dôsledku",
+          "probability": -1.4558489322662354
+        },
+        {
+          "word": "obdobách",
+          "probability": -1.4851213693618774
+        },
+        {
+          "word": "obryse",
+          "probability": -1.5010629892349243
+        },
+        {
+          "word": "odvetí",
+          "probability": -1.5117634534835815
+        },
+        {
+          "word": "príslove",
+          "probability": -1.5208603143692017
+        },
+        {
+          "word": "zmluve",
+          "probability": -1.5245084762573242
+        },
+        {
+          "word": "prípade",
+          "probability": -1.5390241146087646
+        },
+        {
+          "word": "úzadiánoch",
+          "probability": -1.5524250268936157
+        },
+        {
+          "word": "úzanosti",
+          "probability": -1.5661734342575073
+        },
+        {
+          "word": "príslušenstve",
+          "probability": -1.571851372718811
+        },
+        {
+          "word": "duchu",
+          "probability": -1.577728509902954
+        },
+        {
+          "word": "zložení",
+          "probability": -1.5841022729873657
+        },
+        {
+          "word": "úzadiánstve",
+          "probability": -1.5917565822601318
+        },
+        {
+          "word": "úzadiaľ",
+          "probability": -1.5958892107009888
+        },
+        {
+          "word": "úzadníctve",
+          "probability": -1.599697232246399
+        },
+        {
+          "word": "nezmene",
+          "probability": -1.6317129135131836
+        },
+        {
+          "word": "úzadníctvaní",
+          "probability": -1.6514822244644165
+        },
+        {
+          "word": "úzastí",
+          "probability": -1.671183705329895
+        },
+        {
+          "word": "úzadní",
+          "probability": -1.6773080825805664
+        }
+      ],
+      "category": "unigrams_NOUN",
+      "additional_info": ""
+    },
+    {
+      "paragraph_id": "123e4567-e89b-12d3-a256-426614174010",
+      "index": 5,
+      "content": "demokratický",
+      "sentence_blanked": "Slovenská republika je zvrchovaný, <<BLANK>> a právny štát.",
+      "sentence_index": 0,
+      "predictions": [
+        {
+          "word": "nezávislý",
+          "probability": -0.3687856197357178
+        },
+        {
+          "word": "demokratický",
+          "probability": -0.40456831455230713
+        },
+        {
+          "word": "suverénny",
+          "probability": -0.41509810090065
+        },
+        {
+          "word": "slobodný",
+          "probability": -0.6744287014007568
+        },
+        {
+          "word": "samostatný",
+          "probability": -0.8168538808822632
+        },
+        {
+          "word": "spravodlivý",
+          "probability": -0.8734840750694275
+        },
+        {
+          "word": "právny",
+          "probability": -0.9565796852111816
+        },
+        {
+          "word": "demokratický",
+          "probability": -0.9578680992126465
+        },
+        {
+          "word": "ľudský",
+          "probability": -0.9838611483573914
+        },
+        {
+          "word": "ústavnoprávny",
+          "probability": -1.016698956489563
+        },
+        {
+          "word": "zákonodarný",
+          "probability": -1.0563268661499023
+        },
+        {
+          "word": "samosprávny",
+          "probability": -1.066511869430542
+        },
+        {
+          "word": "jednotný",
+          "probability": -1.072155237197876
+        },
+        {
+          "word": "ústavný",
+          "probability": -1.1181970834732056
+        },
+        {
+          "word": "ústavodarný",
+          "probability": -1.17253839969635
+        },
+        {
+          "word": "ľudskoprávny",
+          "probability": -1.173182725906372
+        },
+        {
+          "word": "nábožensky",
+          "probability": -1.1858471632003784
+        },
+        {
+          "word": "ústavný",
+          "probability": -1.1901830434799194
+        },
+        {
+          "word": "ústavaný",
+          "probability": -1.2002922296524048
+        },
+        {
+          "word": "štátny",
+          "probability": -1.2063101530075073
+        },
+        {
+          "word": "otvorený",
+          "probability": -1.226621389389038
+        },
+        {
+          "word": "ústavný",
+          "probability": -1.2356575727462769
+        },
+        {
+          "word": "mocný",
+          "probability": -1.2463234663009644
+        },
+        {
+          "word": "ľudovodemokratický",
+          "probability": -1.251104712486267
+        },
+        {
+          "word": "nedefinovaný",
+          "probability": -1.2661199569702148
+        },
+        {
+          "word": "zákonitý",
+          "probability": -1.2760937213897705
+        },
+        {
+          "word": "nedeštruktívny",
+          "probability": -1.301582932472229
+        },
+        {
+          "word": "sobášny",
+          "probability": -1.3117626905441284
+        },
+        {
+          "word": "demokratickejší",
+          "probability": -1.312678337097168
+        },
+        {
+          "word": "súdny",
+          "probability": -1.3127073049545288
+        },
+        {
+          "word": "vyvážený",
+          "probability": -1.313165545463562
+        },
+        {
+          "word": "zvrchovanosť",
+          "probability": -1.3216103315353394
+        },
+        {
+          "word": "ústavuschopný",
+          "probability": -1.324783444404602
+        },
+        {
+          "word": "čestný",
+          "probability": -1.335978388786316
+        },
+        {
+          "word": "demokracia",
+          "probability": -1.3460664749145508
+        },
+        {
+          "word": "štátotvorný",
+          "probability": -1.3474632501602173
+        },
+        {
+          "word": "ústavodárny",
+          "probability": -1.351620078086853
+        },
+        {
+          "word": "ústavulný",
+          "probability": -1.3681033849716187
+        },
+        {
+          "word": "ústavopredný",
+          "probability": -1.3710371255874634
+        },
+        {
+          "word": "ľudový",
+          "probability": -1.3725117444992065
+        },
+        {
+          "word": "mocenský",
+          "probability": -1.3848572969436646
+        }
+      ],
+      "category": "unigrams_ADJ",
+      "additional_info": ""
+    }
+  ]
+}

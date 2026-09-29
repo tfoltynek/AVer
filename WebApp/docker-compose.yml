@@ -1,0 +1,68 @@
+services:
+  aver:
+    image: aver_app
+    platform: linux/amd64
+    command: dotenvx run -- uv run gunicorn --bind 0.0.0.0:8080 aver.wsgi
+    container_name: "aver_service"
+    volumes:
+      # For development, mount source for live reload, but be aware of permissions with non-root user
+      - db_data:/app/db
+      - static-collected:/app/static-collected
+      - media:/app/media
+      # Stanza POS models — image bakes them at build, this volume keeps
+      # any runtime auto-downloads persistent across restarts.
+      - stanza_resources:/app/.stanza_resources
+    ports:
+      - "8080:8080"
+    env_file:
+      - .env
+
+  redis:
+    image: "redis:7.4-alpine"
+    container_name: "aver_redis"
+    volumes:
+      - redis_data:/data
+    restart: always
+  
+  celery:
+    image: aver_app
+    platform: linux/amd64
+    command: dotenvx run -- uv run celery -A aver worker -l INFO
+    container_name: "aver_celery"
+    volumes:
+      - db_data:/app/db
+      - media:/app/media
+      # Share the stanza model cache with the web service so the celery
+      # worker (which actually does ingestion) sees the same models.
+      - stanza_resources:/app/.stanza_resources
+    depends_on:
+      - redis
+      - aver
+    env_file:
+      - .env
+
+  caddy:
+    image: caddy:2.11-alpine
+    container_name: aver_caddy
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+      - "443:443/udp"
+    volumes:
+      - ./caddy:/etc/caddy
+      - static-collected:/app/static-collected
+      - caddy_data:/data
+      - caddy_config:/config
+    depends_on:
+      - aver
+      
+
+volumes:
+  redis_data:
+  db_data:
+  media:
+  static-collected:
+  caddy_data:
+  caddy_config:
+  stanza_resources:

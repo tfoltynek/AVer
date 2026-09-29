@@ -1,0 +1,25 @@
+{ 
+  "language": "sk",
+  "document_id": "223e4567-e89b-12d3-a456-426624174002",
+  "paragraphs": [ {
+    "id": "123e4567-e89b-12d3-a256-426614174010",
+    "content": "Slovenská republika je zvrchovaný, demokratický a právny štát. Neviaže sa na nijakú ideológiu ani náboženstvo."
+    },
+    { 
+    "id": "423e4567-e89b-12d3-a356-426614174013",
+    "content": "Slovenská republika uznáva a dodržiava všeobecné pravidlá medzinárodného práva, medzinárodné zmluvy, ktorými je viazaná, a svoje ďalšie medzinárodné záväzky."
+    },
+    {
+      "id": "423e4567-e89b-42d3-a456-426614174014",
+      "content": "Štátna moc pochádza od občanov, ktorí ju vykonávajú prostredníctvom svojich volených zástupcov alebo priamo." 
+    },
+    {
+      "id": "423e4567-e89b-12d3-a455-426614174015",
+      "content": "Štátne orgány môžu konať iba na základe ústavy, v jej medziach a v rozsahu a spôsobom, ktorý ustanoví zákon."
+    },
+    {
+      "id": "423e4567-e89b-12d3-a446-426614174016",
+      "content": "Každý môže konať, čo nie je zákonom zakázané, a nikoho nemožno nútiť, aby konal niečo, čo zákon neukladá." 
+    }
+    ]
+}

@@ -1,0 +1,9 @@
+{% extends "core/layouts/layout_no_sidebar.html" %}
+{% load i18n %}
+{% load lucide %}
+{% block content %}
+  <section class="sign-up-wrapper">
+    <h2>{% translate "Log in" %}</h2>
+    {% include "core/partials/log-in-form.html" %}
+  </section>
+{% endblock content %}

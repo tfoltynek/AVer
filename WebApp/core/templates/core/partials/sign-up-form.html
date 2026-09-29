@@ -1,0 +1,33 @@
+{% load i18n %}
+<form class="form"
+      hx-post="{% url 'sign-up' %}"
+      hx-target="this"
+      hx-swap="outerHTML">
+  {{ form.non_field_errors }}
+  <div class="form__field-group">
+    <div class="field-group__item">{{ form.education.as_field_group }}</div>
+    <div class="field-group__item">{{ form.gender.as_field_group }}</div>
+    <div class="field-group__item multiselect">
+      {{ form.academic_fields.label_tag }}
+      {{ form.academic_fields.errors }}
+      <div class="multiselect-list">
+        <input class="multiselect-list__search"
+               type="text"
+               placeholder="{% translate 'Search' %}" />
+        {{ form.academic_fields }}
+      </div>
+    </div>
+    <div class="field-group__item">{{ form.email.as_field_group }}</div>
+    <div class="field-group__item">
+      {{ form.password.errors }}
+      {{ form.password.label_tag }}
+      <p>{% translate "Must have at least 10 characters." %}</p>
+      {{ form.password }}
+    </div>
+    <div class="field-group__item">{{ form.password_confirm.as_field_group }}</div>
+    <button class="Button Button--accent" type="submit">{% translate "Sign up" %}</button>
+  </div>
+  <p class="account-callout">
+    {% translate " Already have an account?" %} <a href="{% url 'log-in' %}">{% translate "Log in" %}</a>
+  </p>
+</form>

@@ -1,0 +1,1241 @@
+{
+  "document_id": "453e4567-181b-12d3-2456-426624174002",
+  "words": [
+    {
+      "paragraph_id": "553e4567-181b-12d3-2256-426614174010",
+      "index": 63,
+      "content": "mankind",
+      "sentence_blanked": "When in the Course of human events, it becomes necessary for one people to dissolve the political bands which have connected them with another, and to assume among the powers of the earth, the separate and equal station to which the Laws of Nature and of Nature’s God entitle them, a decent respect to the opinions of <<BLANK>> requires that they should declare the causes which impel them to the separation.",
+      "sentence_index": 0,
+      "predictions": [
+        {
+          "word": "each",
+          "probability": -1.1251258850097656
+        },
+        {
+          "word": "others",
+          "probability": -1.242355227470398
+        },
+        {
+          "word": "both",
+          "probability": -1.255095362663269
+        },
+        {
+          "word": "all",
+          "probability": -1.3006269931793213
+        },
+        {
+          "word": "them",
+          "probability": -1.3125933408737183
+        },
+        {
+          "word": "which",
+          "probability": -1.361886978149414
+        },
+        {
+          "word": "equals",
+          "probability": -1.4900333881378174
+        },
+        {
+          "word": "these",
+          "probability": -1.5355547666549683
+        },
+        {
+          "word": "everybody",
+          "probability": -1.5733113288879395
+        },
+        {
+          "word": "mankind",
+          "probability": -1.5934407711029053
+        },
+        {
+          "word": "individuals",
+          "probability": -1.6084400415420532
+        },
+        {
+          "word": "peoples",
+          "probability": -1.6892452239990234
+        },
+        {
+          "word": "humans",
+          "probability": -1.721666693687439
+        },
+        {
+          "word": "humanity",
+          "probability": -1.7232873439788818
+        },
+        {
+          "word": "another",
+          "probability": -1.7324355840682983
+        },
+        {
+          "word": "anyone",
+          "probability": -1.7417634725570679
+        },
+        {
+          "word": "themselves",
+          "probability": -1.7490901947021484
+        },
+        {
+          "word": "people",
+          "probability": -1.768853783607483
+        },
+        {
+          "word": "citizens",
+          "probability": -1.7828563451766968
+        },
+        {
+          "word": "theirselves",
+          "probability": -1.7851603031158447
+        },
+        {
+          "word": "men",
+          "probability": -1.8278536796569824
+        },
+        {
+          "word": "foreigners",
+          "probability": -1.8801552057266235
+        },
+        {
+          "word": "those",
+          "probability": -1.9183015823364258
+        },
+        {
+          "word": "society",
+          "probability": -1.9204107522964478
+        },
+        {
+          "word": "nations",
+          "probability": -1.9281336069107056
+        },
+        {
+          "word": "stakeholders",
+          "probability": -1.9644957780838013
+        },
+        {
+          "word": "sundry",
+          "probability": -1.96860671043396
+        },
+        {
+          "word": "whomever",
+          "probability": -1.9747161865234375
+        },
+        {
+          "word": "theirs",
+          "probability": -1.9893817901611328
+        },
+        {
+          "word": "either",
+          "probability": -2.004302978515625
+        },
+        {
+          "word": "whatever",
+          "probability": -2.024538993835449
+        },
+        {
+          "word": "persons",
+          "probability": -2.031435489654541
+        },
+        {
+          "word": "therefore",
+          "probability": -2.0445055961608887
+        },
+        {
+          "word": "attorneys",
+          "probability": -2.050442695617676
+        },
+        {
+          "word": "Parliaments",
+          "probability": -2.050515651702881
+        },
+        {
+          "word": "separation",
+          "probability": -2.067657947540283
+        },
+        {
+          "word": "beings",
+          "probability": -2.0706098079681396
+        },
+        {
+          "word": "nature",
+          "probability": -2.0783326625823975
+        },
+        {
+          "word": "authority",
+          "probability": -2.1433897018432617
+        },
+        {
+          "word": "Parliament",
+          "probability": -2.1635005474090576
+        },
+        {
+          "word": "whom",
+          "probability": -2.168581962585449
+        }
+      ],
+      "category": "unigrams_NOUN",
+      "additional_info": ""
+    },
+    {
+      "paragraph_id": "653e4567-181b-12d3-2356-426614174013",
+      "index": 83,
+      "content": "Happiness",
+      "sentence_blanked": "— That to secure these rights, Governments are instituted among Men, deriving their just powers from the consent of the governed, — That whenever any Form of Government becomes destructive of these ends, it is the Right of the People to alter or to abolish it, and to institute new Government, laying its foundation on such principles and organizing its powers in such form, as to them shall seem most likely to effect their Safety and <<BLANK>>.",
+      "sentence_index": 1,
+      "predictions": [
+        {
+          "word": "Welfare",
+          "probability": -0.8889918327331543
+        },
+        {
+          "word": "Prosperity",
+          "probability": -0.9025920629501343
+        },
+        {
+          "word": "prosperity",
+          "probability": -0.9563512802124023
+        },
+        {
+          "word": "happiness",
+          "probability": -1.0590509176254272
+        },
+        {
+          "word": "Satisfaction",
+          "probability": -1.06058931350708
+        },
+        {
+          "word": "Livelihood",
+          "probability": -1.0859137773513794
+        },
+        {
+          "word": "Pleasure",
+          "probability": -1.1219658851623535
+        },
+        {
+          "word": "Progress",
+          "probability": -1.1792317628860474
+        },
+        {
+          "word": "Happiness",
+          "probability": -1.1808764934539795
+        },
+        {
+          "word": "Wealth",
+          "probability": -1.2156610488891602
+        },
+        {
+          "word": "Peace",
+          "probability": -1.2880617380142212
+        },
+        {
+          "word": "Security",
+          "probability": -1.3242727518081665
+        },
+        {
+          "word": "welfare",
+          "probability": -1.3982386589050293
+        },
+        {
+          "word": "Independence",
+          "probability": -1.404939889907837
+        },
+        {
+          "word": "Relief",
+          "probability": -1.4206223487854004
+        },
+        {
+          "word": "Freedom",
+          "probability": -1.425233006477356
+        },
+        {
+          "word": "Convenience",
+          "probability": -1.476664423942566
+        },
+        {
+          "word": "liberty",
+          "probability": -1.480557918548584
+        },
+        {
+          "word": "Protection",
+          "probability": -1.4806114435195923
+        },
+        {
+          "word": "Victory",
+          "probability": -1.4819483757019043
+        },
+        {
+          "word": "Health",
+          "probability": -1.4835996627807617
+        },
+        {
+          "word": "freedom",
+          "probability": -1.5100244283676147
+        },
+        {
+          "word": "Equity",
+          "probability": -1.5336954593658447
+        },
+        {
+          "word": "Settlement",
+          "probability": -1.535344123840332
+        },
+        {
+          "word": "Good",
+          "probability": -1.5386629104614258
+        },
+        {
+          "word": "Liberation",
+          "probability": -1.5506786108016968
+        },
+        {
+          "word": "Wellbeing",
+          "probability": -1.5534371137619019
+        },
+        {
+          "word": "Justice",
+          "probability": -1.5714106559753418
+        },
+        {
+          "word": "Improvement",
+          "probability": -1.5754923820495605
+        },
+        {
+          "word": "peace",
+          "probability": -1.576758861541748
+        },
+        {
+          "word": "Efficiency",
+          "probability": -1.6085344552993774
+        },
+        {
+          "word": "Productivity",
+          "probability": -1.6109379529953003
+        },
+        {
+          "word": "Pleasures",
+          "probability": -1.6177622079849243
+        },
+        {
+          "word": "Bounty",
+          "probability": -1.6357574462890625
+        },
+        {
+          "word": "Defence",
+          "probability": -1.6586954593658447
+        },
+        {
+          "word": "Growth",
+          "probability": -1.6679980754852295
+        },
+        {
+          "word": "Goodwill",
+          "probability": -1.671515703201294
+        },
+        {
+          "word": "Liberty",
+          "probability": -1.6776933670043945
+        },
+        {
+          "word": "Development",
+          "probability": -1.7098006010055542
+        },
+        {
+          "word": "Preservation",
+          "probability": -1.7121970653533936
+        },
+        {
+          "word": "Goodness",
+          "probability": -1.7140259742736816
+        }
+      ],
+      "category": "unigrams_NOUN",
+      "additional_info": ""
+    },
+    {
+      "paragraph_id": "653e4567-181b-12d3-2356-426614174013",
+      "index": 31,
+      "content": "Life",
+      "sentence_blanked": "We hold these truths to be self-evident, that all men are created equal, that they are endowed by their Creator with certain unalienable Rights, that among these are <<BLANK>>, Liberty and the pursuit of Happiness.",
+      "sentence_index": 0,
+      "predictions": [
+        {
+          "word": "Freedom",
+          "probability": -0.6996159553527832
+        },
+        {
+          "word": "freedom",
+          "probability": -0.9953014254570007
+        },
+        {
+          "word": "Truth",
+          "probability": -1.1604292392730713
+        },
+        {
+          "word": "Righteousness",
+          "probability": -1.2048776149749756
+        },
+        {
+          "word": "Happiness",
+          "probability": -1.209954857826233
+        },
+        {
+          "word": "Virtue",
+          "probability": -1.2129065990447998
+        },
+        {
+          "word": "righteousness",
+          "probability": -1.2505218982696533
+        },
+        {
+          "word": "Peace",
+          "probability": -1.2574604749679565
+        },
+        {
+          "word": "Life",
+          "probability": -1.2794569730758667
+        },
+        {
+          "word": "Justice",
+          "probability": -1.2835208177566528
+        },
+        {
+          "word": "Equality",
+          "probability": -1.2835975885391235
+        },
+        {
+          "word": "Honour",
+          "probability": -1.2854622602462769
+        },
+        {
+          "word": "Independence",
+          "probability": -1.2962884902954102
+        },
+        {
+          "word": "Liberty",
+          "probability": -1.3098902702331543
+        },
+        {
+          "word": "Autonomy",
+          "probability": -1.3112294673919678
+        },
+        {
+          "word": "Faith",
+          "probability": -1.3770020008087158
+        },
+        {
+          "word": "Love",
+          "probability": -1.4391597509384155
+        },
+        {
+          "word": "honour",
+          "probability": -1.4620144367218018
+        },
+        {
+          "word": "equality",
+          "probability": -1.5090415477752686
+        },
+        {
+          "word": "Equals",
+          "probability": -1.537908911705017
+        },
+        {
+          "word": "Respect",
+          "probability": -1.556584119796753
+        },
+        {
+          "word": "Individuality",
+          "probability": -1.561967134475708
+        },
+        {
+          "word": "Liberties",
+          "probability": -1.5898481607437134
+        },
+        {
+          "word": "Wealth",
+          "probability": -1.6231423616409302
+        },
+        {
+          "word": "Equality",
+          "probability": -1.6545330286026
+        },
+        {
+          "word": "equals",
+          "probability": -1.6651132106781006
+        },
+        {
+          "word": "liberty",
+          "probability": -1.7079240083694458
+        },
+        {
+          "word": "Liberation",
+          "probability": -1.7172315120697021
+        },
+        {
+          "word": "Identity",
+          "probability": -1.7370327711105347
+        },
+        {
+          "word": "Health",
+          "probability": -1.7381129264831543
+        },
+        {
+          "word": "Unity",
+          "probability": -1.7525900602340698
+        },
+        {
+          "word": "Lives",
+          "probability": -1.756211757659912
+        },
+        {
+          "word": "Religion",
+          "probability": -1.7609996795654297
+        },
+        {
+          "word": "Desire",
+          "probability": -1.7625951766967773
+        },
+        {
+          "word": "happiness",
+          "probability": -1.77036714553833
+        },
+        {
+          "word": "ours",
+          "probability": -1.846299171447754
+        },
+        {
+          "word": "Marriage",
+          "probability": -1.8471840620040894
+        },
+        {
+          "word": "Virtues",
+          "probability": -1.8473663330078125
+        },
+        {
+          "word": "Equal",
+          "probability": -1.8534214496612549
+        },
+        {
+          "word": "Right",
+          "probability": -1.8960752487182617
+        },
+        {
+          "word": "Equalities",
+          "probability": -1.9296181201934814
+        }
+      ],
+      "category": "unigrams_NOUN",
+      "additional_info": ""
+    },
+    {
+      "paragraph_id": "753e4567-181b-42d3-2456-426614174014",
+      "index": 23,
+      "content": "experience",
+      "sentence_blanked": "Prudence, indeed, will dictate that Governments long established should not be changed for light and transient causes; and accordingly all <<BLANK>> hath shewn, that mankind are more disposed to suffer, while evils are sufferable, than to right themselves by abolishing the forms to which they are accustomed.",
+      "sentence_index": 0,
+      "predictions": [
+        {
+          "word": "Prudence",
+          "probability": -0.8629224896430969
+        },
+        {
+          "word": "evidence",
+          "probability": -0.9940118789672852
+        },
+        {
+          "word": "this",
+          "probability": -1.0937973260879517
+        },
+        {
+          "word": "it",
+          "probability": -1.2103654146194458
+        },
+        {
+          "word": "proof",
+          "probability": -1.2927873134613037
+        },
+        {
+          "word": "Providence",
+          "probability": -1.3575661182403564
+        },
+        {
+          "word": "understanding",
+          "probability": -1.4146045446395874
+        },
+        {
+          "word": "judgment",
+          "probability": -1.4400441646575928
+        },
+        {
+          "word": "humanity",
+          "probability": -1.4606952667236328
+        },
+        {
+          "word": "mankind",
+          "probability": -1.5051145553588867
+        },
+        {
+          "word": "society",
+          "probability": -1.5416815280914307
+        },
+        {
+          "word": "judgement",
+          "probability": -1.5500187873840332
+        },
+        {
+          "word": "historians",
+          "probability": -1.574599027633667
+        },
+        {
+          "word": "doubt",
+          "probability": -1.5890814065933228
+        },
+        {
+          "word": "else",
+          "probability": -1.601784110069275
+        },
+        {
+          "word": "that",
+          "probability": -1.608695149421692
+        },
+        {
+          "word": "anxiety",
+          "probability": -1.628149151802063
+        },
+        {
+          "word": "truth",
+          "probability": -1.6385115385055542
+        },
+        {
+          "word": "Judgement",
+          "probability": -1.670939564704895
+        },
+        {
+          "word": "eternity",
+          "probability": -1.683519721031189
+        },
+        {
+          "word": "Judge",
+          "probability": -1.6907579898834229
+        },
+        {
+          "word": "goodness",
+          "probability": -1.711334228515625
+        },
+        {
+          "word": "reason",
+          "probability": -1.7167115211486816
+        },
+        {
+          "word": "plainly",
+          "probability": -1.734901785850525
+        },
+        {
+          "word": "knowledge",
+          "probability": -1.7375003099441528
+        },
+        {
+          "word": "praise",
+          "probability": -1.748173475265503
+        },
+        {
+          "word": "enquiry",
+          "probability": -1.761948585510254
+        },
+        {
+          "word": "authority",
+          "probability": -1.7662612199783325
+        },
+        {
+          "word": "poverty",
+          "probability": -1.7676907777786255
+        },
+        {
+          "word": "everybody",
+          "probability": -1.782248854637146
+        },
+        {
+          "word": "time",
+          "probability": -1.782711148262024
+        },
+        {
+          "word": "experience",
+          "probability": -1.7952947616577148
+        },
+        {
+          "word": "evil",
+          "probability": -1.8091645240783691
+        },
+        {
+          "word": "historian",
+          "probability": -1.81369948387146
+        },
+        {
+          "word": "he",
+          "probability": -1.8200445175170898
+        },
+        {
+          "word": "ecstasy",
+          "probability": -1.8218051195144653
+        },
+        {
+          "word": "equity",
+          "probability": -1.8220529556274414
+        },
+        {
+          "word": "hope",
+          "probability": -1.8364108800888062
+        },
+        {
+          "word": "eccentricity",
+          "probability": -1.8366804122924805
+        },
+        {
+          "word": "history",
+          "probability": -1.8678522109985352
+        },
+        {
+          "word": "judgemnet",
+          "probability": -1.8710103034973145
+        }
+      ],
+      "category": "unigrams_NOUN",
+      "additional_info": ""
+    },
+    {
+      "paragraph_id": "457e4567-181b-12d3-2455-426614174015",
+      "index": 3,
+      "content": "long",
+      "sentence_blanked": "But when a <<BLANK>> train of abuses and usurpations, pursuing invariably the same Object evinces a design to reduce them under absolute Despotism, it is their right, it is their duty, to throw off such Government, and to provide new Guards for their future security.",
+      "sentence_index": 0,
+      "predictions": [
+        {
+          "word": "steady",
+          "probability": -0.6478091478347778
+        },
+        {
+          "word": "repeated",
+          "probability": -0.7108955383300781
+        },
+        {
+          "word": "continual",
+          "probability": -0.7676359415054321
+        },
+        {
+          "word": "continuing",
+          "probability": -0.7992275953292847
+        },
+        {
+          "word": "perpetual",
+          "probability": -0.8403144478797913
+        },
+        {
+          "word": "continuous",
+          "probability": -0.9005835056304932
+        },
+        {
+          "word": "constant",
+          "probability": -0.9328808188438416
+        },
+        {
+          "word": "long",
+          "probability": -1.0398746728897095
+        },
+        {
+          "word": "whole",
+          "probability": -1.0731487274169922
+        },
+        {
+          "word": "staggering",
+          "probability": -1.0922470092773438
+        },
+        {
+          "word": "strange",
+          "probability": -1.125629186630249
+        },
+        {
+          "word": "repeating",
+          "probability": -1.1520559787750244
+        },
+        {
+          "word": "relentless",
+          "probability": -1.1774762868881226
+        },
+        {
+          "word": "wicked",
+          "probability": -1.201730489730835
+        },
+        {
+          "word": "continued",
+          "probability": -1.2658854722976685
+        },
+        {
+          "word": "lengthy",
+          "probability": -1.2788059711456299
+        },
+        {
+          "word": "weekly",
+          "probability": -1.3021578788757324
+        },
+        {
+          "word": "nocturnal",
+          "probability": -1.3350863456726074
+        },
+        {
+          "word": "sudden",
+          "probability": -1.3361577987670898
+        },
+        {
+          "word": "dangerous",
+          "probability": -1.3431535959243774
+        },
+        {
+          "word": "typical",
+          "probability": -1.3533045053482056
+        },
+        {
+          "word": "chained",
+          "probability": -1.3547827005386353
+        },
+        {
+          "word": "triumphant",
+          "probability": -1.3648748397827148
+        },
+        {
+          "word": "disturbing",
+          "probability": -1.3759539127349854
+        },
+        {
+          "word": "terrible",
+          "probability": -1.4227811098098755
+        },
+        {
+          "word": "raging",
+          "probability": -1.4262579679489136
+        },
+        {
+          "word": "steadfast",
+          "probability": -1.4835599660873413
+        },
+        {
+          "word": "persistent",
+          "probability": -1.5053435564041138
+        },
+        {
+          "word": "staggered",
+          "probability": -1.518479824066162
+        },
+        {
+          "word": "thorough",
+          "probability": -1.5207668542861938
+        },
+        {
+          "word": "furious",
+          "probability": -1.5212960243225098
+        },
+        {
+          "word": "spiraling",
+          "probability": -1.5230252742767334
+        },
+        {
+          "word": "circular",
+          "probability": -1.5252782106399536
+        },
+        {
+          "word": "daily",
+          "probability": -1.5329456329345703
+        },
+        {
+          "word": "repetitive",
+          "probability": -1.5331834554672241
+        },
+        {
+          "word": "deliberate",
+          "probability": -1.5414249897003174
+        },
+        {
+          "word": "new",
+          "probability": -1.5533021688461304
+        },
+        {
+          "word": "narrow",
+          "probability": -1.554110050201416
+        },
+        {
+          "word": "continuous",
+          "probability": -1.559587001800537
+        },
+        {
+          "word": "sick",
+          "probability": -1.6082208156585693
+        },
+        {
+          "word": "destructive",
+          "probability": -1.6103296279907227
+        }
+      ],
+      "category": "unigrams_ADJ",
+      "additional_info": ""
+    },
+    {
+      "paragraph_id": "457e4567-189b-12d3-2455-486614174015",
+      "index": 22,
+      "content": "former",
+      "sentence_blanked": "Such has been the patient sufferance of these Colonies; and such is now the necessity which constrains them to alter their <<BLANK>> Systems of Government.",
+      "sentence_index": 0,
+      "predictions": [
+        {
+          "word": "existing",
+          "probability": -0.8307380080223083
+        },
+        {
+          "word": "own",
+          "probability": -0.8385779857635498
+        },
+        {
+          "word": "present",
+          "probability": -0.990095853805542
+        },
+        {
+          "word": "Own",
+          "probability": -1.0444765090942383
+        },
+        {
+          "word": "old",
+          "probability": -1.1057970523834229
+        },
+        {
+          "word": "Ancient",
+          "probability": -1.1568388938903809
+        },
+        {
+          "word": "former",
+          "probability": -1.2401152849197388
+        },
+        {
+          "word": "current",
+          "probability": -1.2484411001205444
+        },
+        {
+          "word": "Traditional",
+          "probability": -1.251932144165039
+        },
+        {
+          "word": "Constitutional",
+          "probability": -1.295820713043213
+        },
+        {
+          "word": "respective",
+          "probability": -1.3315656185150146
+        },
+        {
+          "word": "Colonial",
+          "probability": -1.3363802433013916
+        },
+        {
+          "word": "entire",
+          "probability": -1.3520671129226685
+        },
+        {
+          "word": "ancient",
+          "probability": -1.4245871305465698
+        },
+        {
+          "word": "Political",
+          "probability": -1.4355734586715698
+        },
+        {
+          "word": "earlier",
+          "probability": -1.4365967512130737
+        },
+        {
+          "word": "primitive",
+          "probability": -1.4489613771438599
+        },
+        {
+          "word": "Internal",
+          "probability": -1.4516862630844116
+        },
+        {
+          "word": "Current",
+          "probability": -1.4520119428634644
+        },
+        {
+          "word": "very",
+          "probability": -1.4608101844787598
+        },
+        {
+          "word": "Existing",
+          "probability": -1.4853712320327759
+        },
+        {
+          "word": "Old",
+          "probability": -1.4914674758911133
+        },
+        {
+          "word": "various",
+          "probability": -1.529049277305603
+        },
+        {
+          "word": "political",
+          "probability": -1.531156301498413
+        },
+        {
+          "word": "Established",
+          "probability": -1.5536844730377197
+        },
+        {
+          "word": "traditional",
+          "probability": -1.569806694984436
+        },
+        {
+          "word": "basic",
+          "probability": -1.6068171262741089
+        },
+        {
+          "word": "colonial",
+          "probability": -1.6245651245117188
+        },
+        {
+          "word": "Historical",
+          "probability": -1.642765998840332
+        },
+        {
+          "word": "Present",
+          "probability": -1.644838809967041
+        },
+        {
+          "word": "Institutional",
+          "probability": -1.673130750656128
+        },
+        {
+          "word": "Central",
+          "probability": -1.6768208742141724
+        },
+        {
+          "word": "contemporary",
+          "probability": -1.683260202407837
+        },
+        {
+          "word": "established",
+          "probability": -1.686799168586731
+        },
+        {
+          "word": "constitutional",
+          "probability": -1.6880261898040771
+        },
+        {
+          "word": "Provincial",
+          "probability": -1.6903538703918457
+        },
+        {
+          "word": "Colonial",
+          "probability": -1.7018845081329346
+        },
+        {
+          "word": "internal",
+          "probability": -1.70941960811615
+        },
+        {
+          "word": "historical",
+          "probability": -1.722114086151123
+        },
+        {
+          "word": "Colonic",
+          "probability": -1.7316335439682007
+        },
+        {
+          "word": "Colony",
+          "probability": -1.767244815826416
+        }
+      ],
+      "category": "unigrams_ADJ",
+      "additional_info": ""
+    },
+    {
+      "paragraph_id": "457e4567-189b-12d3-2455-486614174015",
+      "index": 4,
+      "content": "present",
+      "sentence_blanked": "The history of the <<BLANK>> King of Great Britain is a history of repeated injuries and usurpations, all having in direct object the establishment of an absolute Tyranny over these States.",
+      "sentence_index": 1,
+      "predictions": [
+        {
+          "word": "last",
+          "probability": -0.9431688189506531
+        },
+        {
+          "word": "former",
+          "probability": -1.1138532161712646
+        },
+        {
+          "word": "reigning",
+          "probability": -1.19122314453125
+        },
+        {
+          "word": "British",
+          "probability": -1.203762412071228
+        },
+        {
+          "word": "current",
+          "probability": -1.2101975679397583
+        },
+        {
+          "word": "English",
+          "probability": -1.2127413749694824
+        },
+        {
+          "word": "first",
+          "probability": -1.2725080251693726
+        },
+        {
+          "word": "present",
+          "probability": -1.2786279916763306
+        },
+        {
+          "word": "twelfth",
+          "probability": -1.3192460536956787
+        },
+        {
+          "word": "seventeenth",
+          "probability": -1.4204456806182861
+        },
+        {
+          "word": "Scottish",
+          "probability": -1.4768234491348267
+        },
+        {
+          "word": "twentieth",
+          "probability": -1.4829832315444946
+        },
+        {
+          "word": "Second",
+          "probability": -1.5366359949111938
+        },
+        {
+          "word": "second",
+          "probability": -1.537373661994934
+        },
+        {
+          "word": "seventh",
+          "probability": -1.5548163652420044
+        },
+        {
+          "word": "First",
+          "probability": -1.5735143423080444
+        },
+        {
+          "word": "Earl",
+          "probability": -1.5736619234085083
+        },
+        {
+          "word": "twelveth",
+          "probability": -1.5798476934432983
+        },
+        {
+          "word": "Elizabethan",
+          "probability": -1.6269689798355103
+        },
+        {
+          "word": "reigned",
+          "probability": -1.6290620565414429
+        },
+        {
+          "word": "Lord",
+          "probability": -1.64894437789917
+        },
+        {
+          "word": "third",
+          "probability": -1.6499443054199219
+        },
+        {
+          "word": "crowned",
+          "probability": -1.6501725912094116
+        },
+        {
+          "word": "Royal",
+          "probability": -1.6666555404663086
+        },
+        {
+          "word": "Eighteenth",
+          "probability": -1.6677887439727783
+        },
+        {
+          "word": "Constitutional",
+          "probability": -1.676525354385376
+        },
+        {
+          "word": "crown",
+          "probability": -1.7277649641036987
+        },
+        {
+          "word": "Roman",
+          "probability": -1.7624074220657349
+        },
+        {
+          "word": "latter",
+          "probability": -1.7720510959625244
+        },
+        {
+          "word": "crowning",
+          "probability": -1.807436227798462
+        },
+        {
+          "word": "recent",
+          "probability": -1.825014591217041
+        },
+        {
+          "word": "previous",
+          "probability": -1.835381031036377
+        },
+        {
+          "word": "Fifth",
+          "probability": -1.8390183448791504
+        },
+        {
+          "word": "Fellow",
+          "probability": -1.8406713008880615
+        },
+        {
+          "word": "Third",
+          "probability": -1.8475992679595947
+        },
+        {
+          "word": "Old",
+          "probability": -1.8669685125350952
+        },
+        {
+          "word": "Protestant",
+          "probability": -1.8973278999328613
+        },
+        {
+          "word": "Christian",
+          "probability": -1.9148058891296387
+        },
+        {
+          "word": "following",
+          "probability": -1.9270139932632446
+        },
+        {
+          "word": "actual",
+          "probability": -1.9276922941207886
+        },
+        {
+          "word": "late",
+          "probability": -1.9466737508773804
+        }
+      ],
+      "category": "unigrams_ADJ",
+      "additional_info": ""
+    },
+    {
+      "paragraph_id": "457e4567-189b-12d3-2455-486614174015",
+      "index": 5,
+      "content": "Facts",
+      "sentence_blanked": "To prove this, let <<BLANK>> be submitted to a candid world.",
+      "sentence_index": 2,
+      "predictions": null,
+      "category": "random",
+      "additional_info": "",
+      "origin_category": "unigrams_NOUN"
+    }
+  ]
+}

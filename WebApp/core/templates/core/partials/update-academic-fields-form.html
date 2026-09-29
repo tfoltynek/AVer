@@ -1,0 +1,25 @@
+{% load i18n %}
+<form id="update-academic-fields-form"
+      class="form UpdateAcademicFieldsForm"
+      hx-post="{% url 'update-academic-fields' %}"
+      hx-target="this"
+      hx-swap="outerHTML">
+  {{ form.non_field_errors }}
+  <div class="form__field-group">
+    <div class="field-group__item multiselect">
+      {{ form.academic_fields.label_tag }}
+      {{ form.academic_fields.errors }}
+      <div class="multiselect-list">
+        <input class="multiselect-list__search"
+               type="text"
+               placeholder="{% translate 'Search' %}" />
+        {{ form.academic_fields }}
+        <p class="multiselect-list__empty" hidden>{% translate "No matches for your search." %}</p>
+      </div>
+    </div>
+  </div>
+  <div class="Dialog-actions">
+    <button type="button" class="Button Button--ghost" data-dialog-close>{% translate "Cancel" %}</button>
+    <button class="Button Button--accent" type="submit">{% translate "Update" %}</button>
+  </div>
+</form>
